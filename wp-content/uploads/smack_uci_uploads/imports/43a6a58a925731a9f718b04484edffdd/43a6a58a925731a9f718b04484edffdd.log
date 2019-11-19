@@ -1,0 +1,9 @@
+ File has been used for this event: test - Sheet1.csv
+ Type of the imported file: csv
+ Revision of the which is used: 1
+ Mode of event: Insert
+ Total no of records: 2
+ Rows handled on each iterations (Based on your server configuration): 1
+ File used to import data into: therapist (therapist)
+[2018-12-14 05:17:54] Message: Inserted therapist ID: 1234,  Status: publish therapy:  Tarot Card Reading, Bach Flower remedies, Spiritual Healing, Meditation   Click here to verify - Web View | Admin View 
+[2018-12-14 05:17:54] Message: Inserted therapist ID: 1235,  Status: publish therapy:  Bach Flower Remedies, Mindfulness, Inner Child Healing , Spiritual Healing , Tarot Card Reading   Click here to verify - Web View | Admin View 

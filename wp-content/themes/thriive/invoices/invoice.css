@@ -1,0 +1,200 @@
+/* Main Body */
+@page {
+	margin-top: 1cm;
+	margin-bottom: 1cm;
+	margin-left: 1cm;
+	margin-right: 1cm;
+}
+* {
+	box-sizing: border-box;
+}
+body {
+	background: #fff;
+	color: #000;
+	margin: 0cm;
+	font-family: 'Open Sans', sans-serif;
+	/* want to use custom fonts? http://docs.wpovernight.com/woocommerce-pdf-invoices-packing-slips/using-custom-fonts/ */
+	font-size: 10pt;
+	line-height: 100%; /* fixes inherit dompdf bug */
+}
+
+h1, h2, h3, h4 {
+	font-weight: bold;
+	margin: 0;
+}
+
+h1 {
+	font-size: 16pt;
+	margin: 5mm 0;
+}
+
+h2 {
+	font-size: 14pt;
+}
+
+h3, h4 {
+	font-size: 9pt;
+}
+
+
+ol,
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li,
+ul {
+	margin-bottom: 0.75em;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+p + p {
+	margin-top: 1.25em;
+}
+
+a { 
+	border-bottom: 1px solid; 
+	text-decoration: none; 
+}
+
+/* Basic Table Styling */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	page-break-inside: always;
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+th, td {
+	vertical-align: top;
+	text-align: left;
+}
+
+table.container {
+	width:100%;
+	border: 0;
+}
+
+table.invoice {
+/* 	background: green; */
+}
+
+table.invoice td.logo {
+	vertical-align: top;
+/* 	width: 15%; */
+/* 	background: black; */
+}
+
+table.invoice td.address-details {
+	width: 50%;
+	vertical-align: top;
+	font-size: 12px;
+/* 	line-height: 1.5; */
+}
+
+table.invoice td.invoice-details {
+	width: 33%;
+	vertical-align: top;
+	font-size: 12px;
+}
+
+table.customer-details {
+	width: 100%;
+}
+
+.title {
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: 10px;
+}
+
+table.customer-details td.customer-details-inner {
+/* 	width: 50%; */
+	background: green;
+}
+
+table.customer-details td {
+	font-size: 12px;
+	padding-bottom: 12px;
+}
+
+table.customer-details .head {
+	width: 17%;
+	font-weight: bold;
+/* 	background: green; */
+}
+
+table.customer-details .body {
+	width: 33%;
+	padding-right: 12px;
+/* 	background: blue; */
+}
+
+table.product-details {
+	width: 100%;
+	border: 1px solid black;
+}
+
+table.product-details th {
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;	
+}
+
+table.product-details td {
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	padding: 5px;
+}
+
+table.product-details .content {
+	padding-bottom: 220px;
+	border-bottom: 0;
+}
+
+table.product-details .tax {
+	border-bottom: 0;
+}
+
+table.product-details .round {
+	padding-right: 51px;
+}
+
+table.product-details .text-right {
+	text-align: right;
+}
+
+table.product-details .description {
+	width: 60%;
+}
+
+table.product-details .product-title {
+	width: 13%;
+}
+
+table.product-details .footer td {
+	border: 0;
+}
+
+table.product-details .content .msg {
+	padding: 15px;
+	background-color: yellow;
+}
+
+.paragraph {
+	line-height: 1.5;
+}
+
+img.image {
+	width: 100px;
+}

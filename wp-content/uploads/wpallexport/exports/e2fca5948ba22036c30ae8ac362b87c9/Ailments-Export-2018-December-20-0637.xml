@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<node>
+		<termid><![CDATA[5]]></termid>
+		<termname><![CDATA[Migrane]]></termname>
+		<termslug><![CDATA[migrane]]></termslug>
+	</node>
+	<node>
+		<termid><![CDATA[6]]></termid>
+		<termname><![CDATA[Nightmares]]></termname>
+		<termslug><![CDATA[nightmares]]></termslug>
+	</node>
+	<node>
+		<termid><![CDATA[277]]></termid>
+		<termname><![CDATA[Cough]]></termname>
+		<termslug><![CDATA[cough]]></termslug>
+	</node>
+</data>

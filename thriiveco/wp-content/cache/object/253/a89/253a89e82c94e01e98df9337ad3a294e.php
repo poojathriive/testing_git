@@ -1,0 +1,1 @@
+"KÂ]<?php exit; ?>a:1:{s:7:"content";s:160:"Welcome,<br/>Your data to login in this site is:<br/><ul><li>URL to login: **loginurl**</li><li>Username= **username**</li><li>Password = **password**</li></ul>";}

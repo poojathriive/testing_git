@@ -1,0 +1,9 @@
+ff�]<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:2440;s:11:"post_author";s:3:"562";s:9:"post_date";s:19:"2019-01-24 05:07:33";s:13:"post_date_gmt";s:19:"2019-01-24 05:07:33";s:12:"post_content";s:1087:"Abhay Thakkar is an internationally certified NLP trainer and is the only one in India to provide NLP as well as New Code NLP which are internationally recognized and certified by co-creator of NLP and New Code NLP – John Grinder &amp; co-developers of New Code NLP – Carmen Bostic St Clair and Michael Carroll.
+
+Abhay Thakkar, has been working on a regular basis for over 5 years at 2 leading rehabilitation centres of India- Sunshine Wellness Rehab Centre and Dr Goel Hospital.
+
+He has conducted multiple workshops over the years for Educational Institutes such as DY Patil college - Dental department, SNDT college, Corporates such as Varmora, NGO's such as Khulla Asmaan, and also Mumbai Police.
+
+He has explored and used various healing modalities such as Hypnotherapy, Redikall Healing, EFT, Past Life Regression, Transpersonal Regression therapy, Family Constellation and Graphology on individuals and groups.
+
+His strength lies in applying the ‘power of words’ since he believes that healing done for people needed not be restricted in clinics and training rooms.";s:10:"post_title";s:13:"Abhay Thakkar";s:12:"post_excerpt";s:0:"";s:11:"post_status";s:7:"publish";s:14:"comment_status";s:4:"open";s:11:"ping_status";s:4:"open";s:13:"post_password";s:0:"";s:9:"post_name";s:13:"abhay-thakkar";s:7:"to_ping";s:0:"";s:6:"pinged";s:0:"";s:13:"post_modified";s:19:"2019-10-15 17:36:18";s:17:"post_modified_gmt";s:19:"2019-10-15 12:06:18";s:21:"post_content_filtered";s:0:"";s:11:"post_parent";i:0;s:4:"guid";s:59:"https://thriive-staging.noesis.tech/therapist/abhay-thakkar";s:10:"menu_order";i:0;s:9:"post_type";s:9:"therapist";s:14:"post_mime_type";s:0:"";s:13:"comment_count";s:1:"0";s:6:"filter";s:3:"raw";}}

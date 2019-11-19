@@ -1,0 +1,7 @@
+çgÂ]<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":9:{s:7:"term_id";s:4:"2956";s:4:"name";s:14:"Candle Therapy";s:4:"slug";s:14:"candle-therapy";s:10:"term_group";s:1:"0";s:16:"term_taxonomy_id";s:4:"2956";s:8:"taxonomy";s:7:"therapy";s:11:"description";s:1254:"There are two main types of candle therapy-
+
+Ear Candle Therapy- This was practiced by ancient Egyptians and many other cultures in different parts of the world. A hollow cone made up of beeswax reinforced cotton
+is gently inserted into the ear. The outer end of the cone is lit up and the heat produced gradually softens the wax inside the ear. As a result, when the wax is suctioned up into the cone, there is no pain and the ear canals get cleared. It is a highly sensitive procedure only to be performed by certified practitioners.
+
+Sensory Candle Therapy- The candleâ€™s flame is a metaphor for the soul. Sensory candle therapy involves merging your psychological energies with your spiritual framework by burning candles as a symbol of your deepest desires. Burning candles releases powerful energy and the aroma is said to have a healing effect. Different colors of candles are burnt for various purposes- white for peace, black to destroy negativity, green for money and luck, orange for emotional wellness, purple to overcome obstacles and magenta to enhance spiritual healing. Candle therapy helps with meditation, energy healing, chakra balancing (since different colors of the candles represent different chakras) and self improvement.
+";s:6:"parent";s:4:"1475";s:5:"count";s:1:"0";}}

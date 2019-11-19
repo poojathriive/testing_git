@@ -1,0 +1,24 @@
+[29-Sep-2019 07:54:51 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_current_user() in /home/thriiveco/public_html/wp-content/themes/thriive/seeker-login-form-modal-Lead.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/thriiveco/public_html/wp-content/themes/thriive/seeker-login-form-modal-Lead.php on line 2
+[29-Sep-2019 07:54:55 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_current_user() in /home/thriiveco/public_html/wp-content/themes/thriive/seeker-login-form-modal-Lead.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/thriiveco/public_html/wp-content/themes/thriive/seeker-login-form-modal-Lead.php on line 2
+[29-Sep-2019 07:55:35 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_current_user() in /home/thriiveco/public_html/wp-content/themes/thriive/seeker-login-form-modal-Lead.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/thriiveco/public_html/wp-content/themes/thriive/seeker-login-form-modal-Lead.php on line 2
+[29-Sep-2019 07:55:47 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_current_user() in /home/thriiveco/public_html/wp-content/themes/thriive/seeker-login-form-modal-Lead.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/thriiveco/public_html/wp-content/themes/thriive/seeker-login-form-modal-Lead.php on line 2
+[29-Sep-2019 07:56:20 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_current_user() in /home/thriiveco/public_html/wp-content/themes/thriive/seeker-login-form-modal-Lead.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/thriiveco/public_html/wp-content/themes/thriive/seeker-login-form-modal-Lead.php on line 2
+[29-Sep-2019 07:56:57 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_current_user() in /home/thriiveco/public_html/wp-content/themes/thriive/seeker-login-form-modal-Lead.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/thriiveco/public_html/wp-content/themes/thriive/seeker-login-form-modal-Lead.php on line 2

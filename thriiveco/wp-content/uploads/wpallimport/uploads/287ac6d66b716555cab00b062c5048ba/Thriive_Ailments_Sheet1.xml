@@ -1,0 +1,966 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<node>
+		<termname><![CDATA[Acid Reflux (Symptom)]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Crohn's Disease]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Constipation]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Amoebic Colitis]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Gastritis]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Gallstones and Cholecystitis]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Diverticulosis & diverticulitis]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Lactose Intolerance]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Indigestion]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Irritable bowel syndrome (IBS)]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Tropical Sprue]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Hepatitis A]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Hepatitis B]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Hepatitis C]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Cirrhosis]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Alcoholic Liver Disease]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Peptic Ulcer]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Duodenal Ulcer]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Solitary Rectal Ulcer]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Stomach ache]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Frequent Heartburn]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Piles / Hemorrhoids]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Amoebic Dysentery]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Acid Peptic Disease]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Ulcer – Stomach/ Duodenum]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Inflammatory Bowel Disorder]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Rectum Hemorrhages]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Bacillary DYSENTERY]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Stomach Hemorrhages]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Hernia]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Chronic Kidney disease]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Bladder control in children]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Bladder control in adult]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Nephrotic Syndrome]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Pyelonephritis]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Renal stone /calculi]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Acute Glomerulonephritis]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Chronic Renal Failure]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Diabetic Nephropathy]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Hypertensive Nephropathy]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Diabetes]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Hormonal imbalance]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Hyperthyroid]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Hypothyroid]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Graves disease]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Solitary Nodule of thyroid]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Goitre]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[DIABETES MELLITUS]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Hyperadrenalism]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Addison's disease]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Pituitary disorders]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Hypoparathyroidism]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Tetany]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[High blood pressure]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Arrhythmia]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Coronary artery disease]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Congenital heart disease]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Ischaemia (angina/infarct)]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Acute Coronary Syndrome]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Angina/Angina Pectoris]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Atrial Fibrillation (AF)]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Atrial Septal Defect (ASD)]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Bradycardia (Arrhythmia )]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Cardiogenic Shock]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Cardiomyopathy]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Carotid Artery Disease / Carotid Artery Stenosis]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Chest Pain ( Angina )]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Stroke]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Congestive Heart Failure (CHF)]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Coronary Artery Disease (CAD)]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Dilated Cardiomyopathy]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Endocarditis]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Heart Block]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Heart Murmur]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Heart Valve Disease]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[High Cholesterol]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Hypertrophic Cardiomyopathy]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Mitral Valve Prolapse]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Myocardial Infarction (MI)]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Peripheral Vascular Disease (PVD)]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Pulmonary Hypertension]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Rheumatic Heart Disease]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Sinus Tachycardia]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Arthritis]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Gout]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Osteoarthritis]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Osteoporosis]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Rheumatoid arthritis]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Rheumatic Disorders]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Frozen shoulder]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Joint pain]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Fractures]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Fibromyalgia]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Traumatic arthritis]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Reactive Arthritis]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Reiter's Syndrome]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Sjogren's Syndrome]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Prolapse Intervertebral Disc]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Chronic Fatigue Syndrome]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Lupus / SLE ( Systemic Lupus Erythematosus)]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Asthma]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Bronchitis]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[COPD]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Emphysema]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Smoking cessation]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Sarcoidosis]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Pulmonary Eosinophilia]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Interstitial Lung Disease ]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Bronchial Asthma]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Platelet problems]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Coagulation Disorders]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Erectile Dysfunction]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Sexual Dysfunction – Male]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Prostate problems]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Varicocele]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Hydrocoele]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Oligozoospermia and Azoospermia ( Low / No Sperm Count )]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Cancer]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Breast cancer]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Prostate cancer]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Melanoma ( skin cancer)]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Colon cancer]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Lung cancer]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Lymphoma Hodgkins And Non Hodgkins Lymphoma]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Leukemia ]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Bladder Cancer]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Pancreatic Cancer]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Thyroid Cancer]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Kidney Renal Cell Cancer]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Pituitary Tumor]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[PCOS]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[PCOD]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Sexual Dysfunction - Female]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Menstrual Pain/Menopause]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Dysmenorrhoea]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Menorrhagia]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Uterine Fibroids]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Endometriosis]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Ovarian Cysts]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[PREGNANCY & LABOUR DIFFICULTIES]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Endometriosis]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[DUB ( Dysfunctional Uterine Bleeding )]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Pre Menopausal Syndrome]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Post Menopausal Syndrome]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Cancers – Cervix , Endometrium]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Infertility ( Primary & Secondary )]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Dandruff]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Eczema]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Thinning hair / hair loss]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Dermatitis]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Acne]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Skin rashes]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Facial Rejuvenation]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Anti-aging]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Psoriasis]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Cysts]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Allergic Dermatitis]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Contact Dermatitis]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Keloids]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Lichen planus]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Moles/naevi]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Neurodermatitis]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Warts]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Vitiligo]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Urticaria]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Suppurations]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Scabies]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Fungal infection – Tinea Cruris]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Seborrhoeic Dermatitis]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Pompholyx Eczema]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Steven Johnson Syndrome]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Pemphigus]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Immune disorder]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Ulcerative Colitis]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Rheumatoid Arthritis]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Sinusitis]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Sleep Apnea]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Allergic Rhinitis]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Allergies]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Nose Hemorrhages (Epistaxis)]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Tonsilitis]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Pharyngitis]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Adenoids in children]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Polyps]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Tooth caries]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Dyslipidemia]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Nutrition – Malnutrition, Poor weight gain]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Obesity]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Muscular dystrophy]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Hypotonia]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Hyperactivity]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Conjunctivitis / Eye infections]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Cold]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Sore throat]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Stomach Flu]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Diarrhea]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Ear infections]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Dyslexia]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[CONGENITAL ABNORMALITIES]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Adenoids]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Measles]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Mumps]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Recurrent Infections]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Chicken Pox]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Enuresis]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Pneumonia]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Worms]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Malnutrition]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Otitis]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Injury]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Trauma]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Ankylosing Spondylosis]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Prolapsed Disc]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Cervical/ Lumbar Spondylosis]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Sciatica]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Back Pain]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Chronic Neck & Shoulder pain]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Accidents]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Burns]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Bites]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Contused Lacerated wounds]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Fractures]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Jaundice]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Swine flu]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Dengue]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Cough]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Malaria]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Typhoid]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Fever]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Infections]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Carbuncles]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Gangrenes]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Suppurations]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Influenza]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Tuberculosis]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Sexual desire disorders]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Sexual arousal disorders]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Premature ejaculation]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Orgasm disorders]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Sexual pain disorders]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Post-orgasmic diseases]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Pelvic Floor Dysfunction]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Female and Male Orgasmic Disorders]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Gender identity disorder]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[ADHD]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[AHD]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Alzheimer's Disease]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Epilepsy]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Multiple Sclerosis]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Parkinson's disease]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Autism]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Vertigo]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Nerve and muscle disorders]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Movement disorder - Cerebellar Ataxia]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Cerebral Palsy]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Headache Tension]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Headache Cluster]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Periodic Headaches]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Twitches – Intentional tremors]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Tics]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Jerks]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Convulsions ]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Migraines]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Anxiety Disorders ]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Clinical Depression]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Depression with Psychotic features]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Manic Depressive Psychosis ( MDP )]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Insomnia]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Substance Abuse ( Addictions)]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Fear & Belief in Destructive Dark Energies]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Fugue state]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Somatoform Disorder]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Hysteria]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Anger Management]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Birth Trauma]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Schizophrenia]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Dementia treatment]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Fear of Death/Disaster/Disease Post traumatic Stress Disorder PTSD]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Suicidal Tendencies/ Behavior (Cognitive disorder)]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Memory improvement]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Personality disorders (Schizoid,Schizotypal, Dependent personality)]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Family Issues]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Relationship Issues]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Legal problems with business partners]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Trauma of Sudden Death]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Trauma of Sexual abuse]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Postpartum depression]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Money issues]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Terminal Illness]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Being the caregiver for a disabled / terminally ill relative]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Mid-life crisis]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Divorce]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Career issues]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Break up]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Addiction Issues (Pan, Caffeine, Alcohol, Drugs, Tobacco chewing, Porn)]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Toxic work environment]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Litigation in work]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Serious accident]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Domestic violence]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Feelings of de-motivation]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Emotional Fatigue]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Birth Defects]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Chronic illnesses]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Grief]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Possessions]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Natural calamities]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Violent Abuse]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Organ Failure or Organ Damage or Organ Rejections post Transplant]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Black Magic]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Post Surgery]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[War related Issue]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Rape Trauma]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Ancestral Curses]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Trans-generational / Repetitive Pattern in Lineage]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Space Clearing]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Limiting Beliefs]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Wounded inner child]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Childhood trauma]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Separation from mother/father]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[Stress]]></termname>
+	</node>
+	<node>
+		<termname><![CDATA[General ill health & lethargy]]></termname>
+	</node>
+</data>

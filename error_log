@@ -1,0 +1,7 @@
+[09-Oct-2019 07:21:54 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/thriiveco/public_html/wp-content/themes/thriive/framework/core-functions.php on line 5216
+[09-Oct-2019 07:21:54 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/thriiveco/public_html/wp-content/themes/thriive/framework/core-functions.php on line 5216
+[09-Oct-2019 07:22:16 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/thriiveco/public_html/wp-content/themes/thriive/framework/core-functions.php on line 5216
+[09-Oct-2019 07:22:16 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/thriiveco/public_html/wp-content/themes/thriive/framework/core-functions.php on line 5216
+[09-Oct-2019 07:38:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/thriiveco/public_html/wp-content/themes/thriive/template-parts/content-detail-therapist-listing.php on line 34
+[09-Oct-2019 08:20:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/thriiveco/public_html/wp-content/themes/thriive/template-parts/content-detail-therapist-listing.php on line 34
+[09-Oct-2019 08:27:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/thriiveco/public_html/wp-content/themes/thriive/template-parts/content-detail-therapist-listing.php on line 34

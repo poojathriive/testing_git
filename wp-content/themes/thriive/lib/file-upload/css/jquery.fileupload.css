@@ -1,0 +1,112 @@
+@charset "UTF-8";
+/*
+ * jQuery File Upload Plugin CSS
+ * https://github.com/blueimp/jQuery-File-Upload
+ *
+ * Copyright 2013, Sebastian Tschan
+ * https://blueimp.net
+ *
+ * Licensed under the MIT license:
+ * https://opensource.org/licenses/MIT
+ */
+
+.fileinput-button {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.fileinput-button:hover .btn-upload 
+{
+    background: #fff;
+    border-color: #77787b;
+    color: #77787b;
+}
+
+.fileinput-button input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  opacity: 0;
+  -ms-filter: 'alpha(opacity=0)';
+  font-size: 200px !important;
+  direction: ltr;
+  cursor: pointer;
+}
+.preview_wrap 
+{
+    position: relative;
+    display: inline-block;
+    margin: 2px;
+}
+.preview_wrap .close:hover
+{
+  opacity: 0.8;
+}
+.preview_wrap .close 
+{
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    color: #fff;
+    background: #502175;
+    display: inline-block;
+    padding: 3px 9px 5px 9px;
+    line-height: 17px;
+    font-size: 14px;
+    border-radius: 50%;
+    z-index: 1;
+    opacity: 1;
+}
+.preview_wrap img 
+{
+    border: thin solid #eaeaea;
+}
+.imagePreview .fa 
+{
+    content: "\f110";
+    font-family: FontAwesome;
+    animation: rotate 2s infinite linear;
+    display: none;
+    font-size: 2em;
+    position: absolute;
+    top: 40%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+}
+.imagePreview.rfa_loader 
+{
+    position: relative;
+    opacity: 0.3;
+    pointer-events: none;
+}
+.imagePreview.rfa_loader .fa 
+{
+    display: inline-block;
+    z-index: 1;
+    color: #000;
+}
+
+@-webkit-keyframes rotate
+{
+    0%
+    {
+        -webkit-transform:rotate(0deg);
+        transform:rotate(0deg)
+    }
+    100%
+    {
+        -webkit-transform:rotate(360deg);
+        transform:rotate(360deg)
+    }
+}
+
+/* Fixes for IE < 8 */
+@media screen\9 {
+  .fileinput-button input {
+    filter: alpha(opacity=0);
+    font-size: 100%;
+    height: 100%;
+  }
+}

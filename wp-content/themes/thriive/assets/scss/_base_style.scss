@@ -1,0 +1,728 @@
+//Base colors
+
+$black:#4d4d4f;
+$primary-color:#4f0475;
+$scondary-color:#ffffff;
+$ascent-color: #ffb814;
+
+
+$family: unquote("Barlow:200,300,400,500,600,700,800|Merienda|Lato");
+ 
+@import url("https://fonts.googleapis.com/css?family=#{$family}");
+
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('./assets/fonts/icomoon2.eot?wjxq5e');
+  src:  url('./assets/fonts/icomoon2.eot?wjxq5e#iefix') format('embedded-opentype'),
+    url('./assets/fonts/icomoon2.ttf?wjxq5e') format('truetype'),
+    url('./assets/fonts/icomoon2.woff?wjxq5e') format('woff'),
+    url('./assets/fonts/icomoon2.svg?wjxq5e#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-guide-healing:before {
+  content: "\e907";
+}
+.icon-guide-medition:before {
+  content: "\e906";
+}
+.icon-circle:before {
+  content: "\e901";
+}
+.icon-healing:before {
+  content: "\e902";
+}
+.icon-reki:before {
+  content: "\e903";
+}
+.icon-cart:before {
+  content: "\e904";
+}
+.icon-singin:before {
+  content: "\e905";
+}
+.icon-search:before {
+  content: "\e900";
+}
+
+
+
+
+@font-face {
+  font-family: 'icomoon-new';
+  src:  url('./assets/fonts/icomoon-new.eot?54lewl');
+  src:  url('./assets/fonts/icomoon-new.eot?54lewl#iefix') format('embedded-opentype'),
+    url('./assets/fonts/icomoon-new.ttf?54lewl') format('truetype'),
+    url('./assets/fonts/icomoon-new.woff?54lewl') format('woff'),
+    url('./assets/fonts/icomoon-new.svg?54lewl#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-new-"], [class*=" icon-new-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon-new' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-new-user-icon:before {
+  content: "\e91d";
+}
+
+.icon-new-be-fit:before {
+  content: "\e91a";
+}
+.icon-new-inspire:before {
+  content: "\e91b";
+}
+.icon-new-meditation:before {
+  content: "\e91c";
+}
+.icon-new-connect:before {
+  content: "\e918";
+  color: #fff;
+}
+.icon-new-update_calender:before {
+  content: "\e919";
+  color: #fff;
+}
+.icon-new-alternative:before {
+  content: "\e912";
+}
+.icon-new-connection:before {
+  content: "\e913";
+}
+.icon-new-content-view:before {
+  content: "\e914";
+}
+.icon-new-empowering:before {
+  content: "\e915";
+}
+.icon-new-happy-face:before {
+  content: "\e916";
+}
+.icon-new-medicine:before {
+  content: "\e917";
+}
+.icon-new-cross-mark:before {
+  content: "\e911";
+}
+.icon-new-tick-mark:before {
+  content: "\e910";
+}
+.icon-new-comment:before {
+  content: "\e90b";
+}
+.icon-new-view-eye:before {
+  content: "\e90c";
+}
+.icon-new-cure:before {
+  content: "\e90d";
+}
+.icon-new-eat:before {
+  content: "\e90e";
+}
+.icon-new-heart:before {
+  content: "\e90f";
+}
+
+.icon-new-calender_1:before {
+  content: "\e907";
+}
+.icon-new-location:before {
+  content: "\e908";
+}
+.icon-new-percent:before {
+  content: "\e909";
+}
+.icon-new-rupees:before {
+  content: "\e90a";
+}
+
+.icon-new-share:before {
+  content: "\e905";
+}
+.icon-new-star-r:before {
+  content: "\e906";
+}
+
+.icon-new-workshops-listing:before {
+  content: "\e900";
+  color: #fff;
+}
+.icon-new-visibility:before {
+  content: "\e901";
+  color: #fff;
+}
+.icon-new-pramotion-event:before {
+  content: "\e902";
+  color: #fff;
+}
+.icon-new-zeero-comission:before {
+  content: "\e903";
+  color: #fff;
+}
+.icon-new-user-friendly:before {
+  content: "\e904";
+  color: #fff;
+}
+
+
+
+
+ // Define the breakpoints
+ $breakpoint-small: 600px;
+ $breakpoint-med-small: 767px;
+ $breakpoint-med: 1024px;
+ 
+
+
+// Setup the function in your functions or helpers files, wherever you keep these bits.
+@function headings($from:1, $to:6) {
+    @if $from == $to {
+        @return 'h#{$from}';
+    } @else {
+        @return 'h#{$from},' + headings($from+1, $to);
+    }
+}
+
+//@include transition(all,2s,ease-out); 
+@mixin transition($what: all, $time: 0.2s, $how: ease-in-out) {
+    -webkit-transition: $what $time $how;
+    -moz-transition:    $what $time $how;
+    -ms-transition:     $what $time $how;
+    -o-transition:      $what $time $how;
+    transition:         $what $time $how;
+}
+
+
+
+
+//use@include screen(large) {width: 20%;}
+@mixin screen($size, $type: max, $pixels: $breakpoint-small) {
+  @if $size == 'small' {
+    @media screen and ($type + -width: $breakpoint-small) {
+        @content;
+    }
+  }
+  @else if $size == 'med-small' {
+    @media screen and ($type + -width: $breakpoint-med-small) {
+        @content;
+    }
+  }
+  @else if $size == 'med' {
+    @media screen and ($type + -width: $breakpoint-med) {
+        @content;
+    }
+  }
+ @else if $size == 'large' {
+    @media screen and ($type + -width: $breakpoint-med) {
+        @content;
+    }
+  }
+  @else if $size == 'custom' {
+    @media screen and ($type + -width: $pixels + px) {
+     @content;
+    }
+  }
+  @else {
+    @content;
+  }
+}
+
+// Define vertical, horizontal, or both position
+@mixin center($position) {
+  position: absolute;
+  
+  @if $position == 'vertical' {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  @else if $position == 'horizontal' {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translate(-50%);
+  }
+  @else if $position == 'both' {
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+}
+
+
+//ratina images user: @include image-2x("logo2x.png", 100px, 25px);
+@mixin image-2x($image, $width, $height) {
+  @media (min--moz-device-pixel-ratio: 1.3),
+         (-o-min-device-pixel-ratio: 2.6/2),
+         (-webkit-min-device-pixel-ratio: 1.3),
+         (min-device-pixel-ratio: 1.3),
+         (min-resolution: 1.3dppx) {
+    background-image: url($image);
+    background-size: $width $height;
+  }
+}
+
+//$start-color, $end-color, $orientation - vertical/horizontal/radial @include background-gradient(red, black, 'vertical');
+@mixin background-gradient($start-color, $end-color, $orientation) { 
+    background: $start-color;
+
+    @if $orientation == 'vertical' {
+      background: -webkit-linear-gradient(top, $start-color, $end-color);
+      background: linear-gradient(to bottom, $start-color, $end-color);
+    } @else if $orientation == 'horizontal' {
+      background: -webkit-linear-gradient(left, $start-color, $end-color);
+      background: linear-gradient(to right, $start-color, $end-color);
+    } @else {
+      background: -webkit-radial-gradient(center, ellipse cover, $start-color, $end-color);
+      background: radial-gradient(ellipse at center, $start-color, $end-color);
+    }
+}
+
+//Padding mixin 
+@mixin padding($top, $right, $bottom, $left) {
+  padding-top: $top;
+  padding-right: $right;
+  padding-bottom: $bottom;
+  padding-left: $left;
+}
+//Margin mixin @include padding(top, right, bottom, left);
+@mixin margin($top, $right, $bottom, $left) {
+  margin-top: $top;
+  margin-right: $right;
+  margin-bottom: $bottom;
+  margin-left: $left;
+}
+
+// opecity @include opacity(0.8);
+@mixin opacity($opacity) {
+  opacity: $opacity;
+  $opacity-ie: $opacity * 100;
+  filter: alpha(opacity=$opacity-ie); //IE8
+}
+
+
+
+
+//base styles 
+body {
+  font-family: 'Barlow', sans-serif;
+  font-size: 16px;
+//   font-size: 18px;
+  line-height: 1.56;
+  text-align: left;
+  color: $black;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+ul{
+	padding: 0;
+}
+a{
+	color:$black;
+	&:hover{
+		color:$black;
+		text-decoration: none;
+	}
+	&:focus{
+		color:$black;
+		text-decoration: none;
+	} 
+}
+
+
+#{headings(1,6)} {
+  font-family: 'Merienda', cursive;
+  color: $primary-color;
+  a {
+	color: $primary-color;  
+  }
+  a:hover{
+    color: $primary-color;
+  }
+}
+
+p{
+  //font-weight: 300;
+  color: #404041;
+  font-weight: 400;
+}
+ 
+h1 {
+  font-size: 35px;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 21px;
+  font-weight: 400;
+}
+
+h5 {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+h6 {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.btn{
+  border-radius: 0;
+}
+
+
+@mixin tooltip(
+  $tooltip-background-color: #fff,
+  $tooltip-arrow-base: 2em,
+  $tooltip-arrow-length: 1em,
+  $tooltip-border-width: 0,
+  $tooltip-border-color: transparent,
+  $tooltip-transition-out-duration: .3s
+) {
+// Sizing and positioning
+box-sizing: border-box;
+position: absolute;
+left: 50%;
+bottom: 100%; // displayed on top
+box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16);
+font-size: 14px;
+font-weight: 300;
+width: 234px;
+height: auto;
+border-radius: 5px;
+margin-bottom: $tooltip-arrow-length;
+
+// Text and color properties.
+background-color: $tooltip-background-color;
+text-align: center;
+
+// Animated properties.
+visibility: hidden;
+opacity: 0;
+transform: translate(-50%, $tooltip-arrow-length);
+transition:
+  visibility 0s linear $tooltip-transition-out-duration,
+  opacity $tooltip-transition-out-duration ease-in 0s,
+  transform $tooltip-transition-out-duration ease-in 0s;
+
+// Disable events.
+pointer-events: none;
+
+&::after {
+  content: "";
+  position: absolute;
+  top: 100%; left: 50%;
+  width: 0; height: 0;
+  // Draw a triangle.
+  border-top: ($tooltip-arrow-length - $tooltip-border-width) solid $tooltip-background-color;
+  border-left: ($tooltip-arrow-base / 2 - $tooltip-border-width) solid transparent;
+  border-right: ($tooltip-arrow-base / 2 - $tooltip-border-width) solid transparent;
+  // Center the triangle.
+  margin-left: ($tooltip-border-width - $tooltip-arrow-base / 2);
+}
+
+// Specific styles when the tooltip has a border
+@if $tooltip-border-width {
+  border: $tooltip-border-width solid $tooltip-border-color;
+
+  &::before {
+      content: "";
+      position: absolute;
+      top: 100%; left: 50%;
+      width: 0; height: 0;
+      // Draw another triangle to simulate a border.
+      border-top: $tooltip-arrow-length solid $tooltip-border-color;
+      border-left: ($tooltip-arrow-base / 2) solid transparent;
+      border-right: ($tooltip-arrow-base / 2) solid transparent;
+      // Center the triangle.
+      margin-left: ($tooltip-arrow-base / -2);
+  }
+}
+}
+
+@mixin has-tooltip($tooltip-transition-in-duration: .3s) {
+position: relative;
+// Prevent the tooltip from being clipped by its container.
+overflow: visible;
+
+// Display the tooltip on hover and on focus.
+&:hover, &:focus {
+  .tooltip {
+      visibility: visible;
+      opacity: 1;
+      transform: translate(-50%, 0); // horizontally centered
+      transition:
+          visibility 0s linear 0s,
+          opacity $tooltip-transition-in-duration ease-out 0s,
+          transform $tooltip-transition-in-duration ease-out 0s;
+  }
+}
+}
+
+.has-tooltip {
+  @include has-tooltip($tooltip-transition-in-duration: .3s);
+}
+
+.tooltip {
+  font-family: 'Roboto';
+  text-align: center;
+  font-size: 14px;
+  min-width: 10em;
+  @include padding(10px,10px,10px,10px);
+  box-shadow: 0 .05em .15em rgba($primary-color, .1);
+}
+
+.tooltip-with-border {
+  @include tooltip(
+      $tooltip-background-color: white,
+      $tooltip-arrow-base: 1.5em,
+      $tooltip-arrow-length: .75em,
+      $tooltip-border-width: .05em,
+      $tooltip-border-color: #999,
+      $tooltip-transition-out-duration: .2s
+  );
+  color: #333;
+}
+
+.tooltip-without-border {
+  @include tooltip(
+      $tooltip-background-color:#fff,
+      $tooltip-arrow-base: 1em,
+      $tooltip-arrow-length: .5em,
+      $tooltip-transition-out-duration: .2s
+  );
+  color:$primary-color;
+}
+
+.btn-primary{
+	background: $primary-color;
+	border: 0px;
+	border-radius: 10px;
+	border: 1px solid $primary-color;
+	padding: 4px 10px;
+	&:hover{
+		border: 1px solid $primary-color;
+		color: $primary-color;
+		background: transparent;
+	}
+}
+.secondary-btn{
+	background: $scondary-color;
+	border: 1px solid $black;
+	border-radius: 10px;
+	padding: 4px 10px;
+	&.big{
+		display: block;
+		margin: 0 auto
+	}
+	&.transperent{
+		background: transparent;
+		color: $scondary-color;
+		border: 1px solid $scondary-color;
+	}
+}
+
+// always use even numbers for size (or else you will get half pixel for height). Without 'px'. Only works with pixels
+/**
+ * Jagged Border
+ *
+ * $location - [top, bottom, left, right]
+ * $type - [fill, border]
+ * $side - [inside, outside]
+ *
+ * @param {Object} data - xhr
+ */
+ 
+ @mixin jagged($color: 000, $size: 16, $location: bottom, $type: fill, $side: outside, $animate: false) {
+  @if str-index(unquote(#{$color}), '#') {
+    $color: str-slice(#{$color}, 2);
+  }
+
+  $width: $size;
+  $height: $width / 2;
+  $scale: $width / 16;
+  $rotate: '0';
+  $pseudo: if($location == top or $location == left, before, after);
+
+  @if $side == inside {
+    @if $location == bottom {
+      $rotate: '180 8 4';
+    } @else if $location == left {
+      $height: $size;
+      $rotate: '270 8 8';
+      $width: $size / 2;
+    } @else if $location == right {
+      $height: $size;
+      $rotate: '90 4 4';
+      $width: $size / 2;
+    }
+  }
+  @else {
+    @if $location == top {
+      $rotate: '180 8 4';
+    } @else if $location == right {
+      $rotate: '270 8 8';
+      $height: $size;
+      $width: $size / 2;
+    } @else if $location == left {
+      $rotate: '90 4 4';
+      $height: $size;
+      $width: $size / 2;
+    }
+  }
+  $arrow: "data:image/svg+xml,%3Csvg%20width%3D%22#{$width}px%22%20height%3D%22#{$height}px%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpolygon%20points%3D%220%2C%200%208%2C%208%2016%2C0%22%20fill%3D%22%23#{$color}%22%20transform%3D%22scale%28#{$scale}%29%20rotate%28#{$rotate}%29%22%3E%3C%2Fpolygon%3E%3C%2Fsvg%3E";
+  $wave: "data:image/svg+xml,%3Csvg%20width%3D%22#{$width}px%22%20height%3D%22#{$height}px%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M8.00025863%2C0%20L0%2C6.59417725%20L0%2C8%20L8.00025885%2C1.40509033%20L16%2C8%20L16%2C6.59417725%20L8.00025863%2C0%20Z%22%20fill%3D%22%23#{$color}%22%20transform%3D%22scale%28#{$scale}%29%20rotate%28#{$rotate}%29%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E";
+  position: relative;
+
+  &:#{$pseudo} {
+    background-repeat: if($location == bottom or $location == top, repeat-x, repeat-y);
+    content: '';
+    position: absolute;
+    z-index: 10;
+
+    @if $animate {
+      animation-duration: $animate;
+      animation-iteration-count: 1;
+      animation-name: if($location == bottom or $location == top, slide-hoz, slide-vet);
+    }
+
+    @if $location == top {
+      height: #{$height}px;
+      left: 0;
+      right: 0;
+
+      @if $side == inside {
+        top: 0;
+      } @else {
+        top: -#{$height}px;
+      }
+    }
+    @else if $location == right {
+      bottom: 0;
+      top: 0;
+      width: #{$width}px;
+
+      @if $side == inside {
+        right: 0;
+      } @else {
+        right: -#{$width}px;
+      }
+    }
+    @else if $location == bottom {
+      height: #{$height}px;
+      left: 0;
+      right: 0;
+
+      @if $side == inside {
+        bottom: 0;
+      } @else {
+        bottom: -#{$height}px;
+      }
+    }
+    @else if $location == left {
+      bottom: 0;
+      top: 0;
+      width: #{$width}px;
+
+      @if $side == inside {
+        left: 0;
+      } @else {
+        left: -#{$width}px;
+      }
+    }
+
+    @if $location == top {
+      @if $side == inside {
+        background-image: url($arrow);
+      } @else {
+        @if $type == fill {
+          background-image: url($arrow);
+        } @else {
+          background-image: url($wave);
+        }
+      }
+
+    }
+    @else {
+      @if $side == inside {
+        background-image: url($arrow);
+      } @else {
+        @if $type == fill {
+          background-image: url($arrow);
+        } @else {
+          background-image: url($wave);
+        }
+      }
+    }
+  }
+
+  @keyframes slide-hoz {
+    from {
+      width: 0;
+    }
+
+    to {
+      width: 100%;
+    }
+  }
+
+  @keyframes slide-vet {
+    from {
+      height: 0;
+    }
+
+    to {
+      height: 100%;
+    }
+  }
+}
+.btn-secondary{
+	color: #4f0475;
+	background: #ffb814;
+	border-radius: 5px;
+	&:hover{
+		color: #ffb814;
+		background: #4f0475;
+		border: 1px solid #ffb814;
+	}
+}

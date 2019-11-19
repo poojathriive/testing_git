@@ -1,0 +1,8 @@
+“fÂ]<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:11478;s:11:"post_author";s:4:"3718";s:9:"post_date";s:19:"2019-06-26 11:32:25";s:13:"post_date_gmt";s:19:"2019-06-26 06:02:25";s:12:"post_content";s:689:"I am Rajesh Vishwakarma from mumbai I have completed my H.S.C from mumbai university at Chetna college Bandra and also i have completed my Therapist course from Dhanwantri Kerala Ayurveda Instituite. I have 7 years of experience in Ayurvedic, spa and Reflexology massage therapist. Benefites for getting your regular Massage besides feeling young. Regular massage keeps the body working at optimal levels. It keeps people well-physically and emotionally.
+1. It Is Relaxing
+2. It Reduces Stress
+3. It Can Help Lower Blood Pressure
+4. It Promotes Muscle Relaxation
+5. It Can Help Improve Circulation
+6. It Can Help Improve Posture
+7. It Can Help Strengthen the Bodyâ€™s Immune System.";s:10:"post_title";s:18:"rajesh.vishwakar09";s:12:"post_excerpt";s:0:"";s:11:"post_status";s:7:"publish";s:14:"comment_status";s:4:"open";s:11:"ping_status";s:6:"closed";s:13:"post_password";s:0:"";s:9:"post_name";s:18:"rajesh-vishwakar09";s:7:"to_ping";s:0:"";s:6:"pinged";s:0:"";s:13:"post_modified";s:19:"2019-06-27 20:22:10";s:17:"post_modified_gmt";s:19:"2019-06-27 14:52:10";s:21:"post_content_filtered";s:0:"";s:11:"post_parent";i:0;s:4:"guid";s:78:"https://www.thriive.in/?p=11478&#038;post_type=therapist&#038;preview_id=11478";s:10:"menu_order";i:0;s:9:"post_type";s:9:"therapist";s:14:"post_mime_type";s:0:"";s:13:"comment_count";s:1:"0";s:6:"filter";s:3:"raw";}}

@@ -1,0 +1,11 @@
+User-agent: * 
+Disallow: /
+Allow: /wp-admin/admin-ajax.php
+Sitemap: https://www.thriive.in/post-sitemap.xml
+Sitemap: https://www.thriive.in/therapist-sitemap.xml
+Sitemap: https://www.thriive.in/event-sitemap.xml
+Sitemap: https://www.thriive.in/category-sitemap.xml
+Sitemap: https://www.thriive.in/post_tag-sitemap.xml
+Sitemap: https://www.thriive.in/therapy-sitemap.xml
+Sitemap: https://www.thriive.in/ailment-sitemap.xml
+Sitemap: https://www.thriive.in/sitemap_index.xml

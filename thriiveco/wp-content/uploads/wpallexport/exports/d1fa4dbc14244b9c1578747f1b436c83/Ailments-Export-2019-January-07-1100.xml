@@ -1,0 +1,2929 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<node>
+		<termid><![CDATA[5]]></termid>
+		<termname><![CDATA[Migrane]]></termname>
+		<termslug><![CDATA[migrane]]></termslug>
+		<therapies><![CDATA[Accupressure|Pranayama|Rebirthing|Reiki|Meditation|Homeopathy|Crystal Bowl]]></therapies>
+		<therapies_2><![CDATA[a:7:{i:0;s:2:"91";i:1;s:3:"125";i:2;s:3:"124";i:3;s:1:"8";i:4;s:3:"117";i:5;s:2:"86";i:6;s:4:"1177";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[6]]></termid>
+		<termname><![CDATA[Nightmares]]></termname>
+		<termslug><![CDATA[nightmares]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[277]]></termid>
+		<termname><![CDATA[Cough]]></termname>
+		<termslug><![CDATA[cough]]></termslug>
+		<therapies><![CDATA[Pranic Healing|Pranic Healing]]></therapies>
+		<therapies_2><![CDATA[a:2:{i:0;i:7;i:1;i:7;}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[298]]></termid>
+		<termname><![CDATA[Acid Reflux (Symptom)]]></termname>
+		<termslug><![CDATA[acid-reflux-symptom]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[299]]></termid>
+		<termname><![CDATA[Crohn's Disease]]></termname>
+		<termslug><![CDATA[crohns-disease]]></termslug>
+		<therapies><![CDATA[Silver Pulser]]></therapies>
+		<therapies_2><![CDATA[a:1:{i:0;i:1008;}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[300]]></termid>
+		<termname><![CDATA[Constipation]]></termname>
+		<termslug><![CDATA[constipation]]></termslug>
+		<therapies><![CDATA[Silver Pulser|Silver Pulser]]></therapies>
+		<therapies_2><![CDATA[a:2:{i:0;i:1008;i:1;i:1008;}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[301]]></termid>
+		<termname><![CDATA[Amoebic Colitis]]></termname>
+		<termslug><![CDATA[amoebic-colitis]]></termslug>
+		<therapies><![CDATA[Silver Pulser]]></therapies>
+		<therapies_2><![CDATA[a:1:{i:0;i:1008;}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[302]]></termid>
+		<termname><![CDATA[Gastritis]]></termname>
+		<termslug><![CDATA[gastritis]]></termslug>
+		<therapies><![CDATA[Child2|Child2]]></therapies>
+		<therapies_2><![CDATA[a:2:{i:0;i:1171;i:1;i:1171;}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[303]]></termid>
+		<termname><![CDATA[Gallstones and Cholecystitis]]></termname>
+		<termslug><![CDATA[gallstones-and-cholecystitis]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[304]]></termid>
+		<termname><![CDATA[Diverticulosis &amp; diverticulitis]]></termname>
+		<termslug><![CDATA[diverticulosis-diverticulitis]]></termslug>
+		<therapies><![CDATA[Silver Pulser|ELECTRO REFLEX ENERGIZER|Foot De-tox|FA Infra Sauna|I - float|Bio Tuner|Hatha Yoga|Vinyasa Yoga|Ashtanga Yoga|Iyengar Yoga|Homeopathy|Angel Reading|Naturopathy|Meditation|Rebirthing|Conscious Parenting Counselor|Theta Healing]]></therapies>
+		<therapies_2><![CDATA[a:17:{i:0;s:4:"1008";i:1;s:3:"163";i:2;s:4:"1009";i:3;s:4:"1010";i:4;s:3:"166";i:5;s:3:"167";i:6;s:2:"27";i:7;s:2:"10";i:8;s:2:"28";i:9;s:2:"29";i:10;s:2:"86";i:11;s:2:"36";i:12;s:2:"84";i:13;s:2:"60";i:14;s:3:"124";i:15;s:3:"144";i:16;s:2:"12";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[305]]></termid>
+		<termname><![CDATA[Lactose Intolerance]]></termname>
+		<termslug><![CDATA[lactose-intolerance]]></termslug>
+		<therapies><![CDATA[ELECTRO REFLEX ENERGIZER|Foot De-tox|FA Infra Sauna|I - float|Bio Tuner|Naturopathy|Silver Pulser|Homeopathy|Angel Reading|Naturopathy|Meditation|Rebirthing|Conscious Parenting Counselor|Theta Healing]]></therapies>
+		<therapies_2><![CDATA[a:14:{i:0;s:3:"163";i:1;s:4:"1009";i:2;s:4:"1010";i:3;s:3:"166";i:4;s:3:"167";i:5;s:2:"84";i:6;s:4:"1008";i:7;s:2:"86";i:8;s:2:"36";i:9;s:2:"84";i:10;s:2:"60";i:11;s:3:"124";i:12;s:3:"144";i:13;s:2:"12";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[306]]></termid>
+		<termname><![CDATA[Indigestion]]></termname>
+		<termslug><![CDATA[indigestion]]></termslug>
+		<therapies><![CDATA[Silver Pulser|Acupressure|Reflexology|ELECTRO REFLEX ENERGIZER|Foot De-tox|FA Infra Sauna|I - float|Bio Tuner|Inner Child Healing|Ayurveda|Past life Regression|Homeopathy|Angel Reading|Naturopathy|Meditation|Rebirthing|Conscious Parenting Counselor|Reiki|Theta Healing|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:20:{i:0;s:4:"1008";i:1;s:3:"942";i:2;s:3:"100";i:3;s:3:"163";i:4;s:4:"1009";i:5;s:4:"1010";i:6;s:3:"166";i:7;s:3:"167";i:8;s:3:"134";i:9;s:2:"85";i:10;s:2:"75";i:11;s:2:"86";i:12;s:2:"36";i:13;s:2:"84";i:14;s:2:"60";i:15;s:3:"124";i:16;s:3:"144";i:17;s:1:"8";i:18;s:2:"12";i:19;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[307]]></termid>
+		<termname><![CDATA[Irritable bowel syndrome (IBS)]]></termname>
+		<termslug><![CDATA[irritable-bowel-syndrome-ibs]]></termslug>
+		<therapies><![CDATA[Silver Pulser|Nambudripad's Allergy Elimination Technique|ELECTRO REFLEX ENERGIZER|Foot De-tox|FA Infra Sauna|I - float|Bio Tuner|Bowen Therapy|Heal your life Program by Louise Hay|Family Constellation|Inner Child Healing|Ayurveda|Hypnotherapy|Past life Regression|Homeopathy|Angel Reading|Naturopathy|Meditation|Rebirthing|Conscious Parenting Counselor|Reiki|Theta Healing]]></therapies>
+		<therapies_2><![CDATA[a:22:{i:0;s:4:"1008";i:1;s:4:"1050";i:2;s:3:"163";i:3;s:4:"1009";i:4;s:4:"1010";i:5;s:3:"166";i:6;s:3:"167";i:7;s:3:"102";i:8;i:1173;i:9;i:1174;i:10;s:3:"134";i:11;s:2:"85";i:12;s:2:"54";i:13;s:2:"75";i:14;s:2:"86";i:15;s:2:"36";i:16;s:2:"84";i:17;s:2:"60";i:18;s:3:"124";i:19;s:3:"144";i:20;s:1:"8";i:21;s:2:"12";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[308]]></termid>
+		<termname><![CDATA[Tropical Sprue]]></termname>
+		<termslug><![CDATA[tropical-sprue]]></termslug>
+		<therapies><![CDATA[Theta Healing|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:2:{i:0;s:2:"12";i:1;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[309]]></termid>
+		<termname><![CDATA[Hepatitis A]]></termname>
+		<termslug><![CDATA[hepatitis-a]]></termslug>
+		<therapies><![CDATA[Child2]]></therapies>
+		<therapies_2><![CDATA[a:1:{i:0;i:1171;}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[310]]></termid>
+		<termname><![CDATA[Hepatitis B]]></termname>
+		<termslug><![CDATA[hepatitis-b]]></termslug>
+		<therapies><![CDATA[Child2]]></therapies>
+		<therapies_2><![CDATA[a:1:{i:0;i:1171;}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[311]]></termid>
+		<termname><![CDATA[Hepatitis C]]></termname>
+		<termslug><![CDATA[hepatitis-c]]></termslug>
+		<therapies><![CDATA[Past life Regression|Inner Child Healing|Theta Healing|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:4:{i:0;s:2:"75";i:1;s:3:"134";i:2;s:2:"12";i:3;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[312]]></termid>
+		<termname><![CDATA[Cirrhosis]]></termname>
+		<termslug><![CDATA[cirrhosis]]></termslug>
+		<therapies><![CDATA[Past life Regression|Inner Child Healing|Reiki|Theta Healing|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:5:{i:0;s:2:"75";i:1;s:3:"134";i:2;s:1:"8";i:3;s:2:"12";i:4;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[313]]></termid>
+		<termname><![CDATA[Alcoholic Liver Disease]]></termname>
+		<termslug><![CDATA[alcoholic-liver-disease]]></termslug>
+		<therapies><![CDATA[Silver Pulser|Silver Pulser|Silver Pulser|Silver Pulser]]></therapies>
+		<therapies_2><![CDATA[a:4:{i:0;i:1008;i:1;i:1008;i:2;i:1008;i:3;i:1008;}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[314]]></termid>
+		<termname><![CDATA[Peptic Ulcer]]></termname>
+		<termslug><![CDATA[peptic-ulcer]]></termslug>
+		<therapies><![CDATA[ELECTRO REFLEX ENERGIZER|Foot De-tox|FA Infra Sauna|I - float|Bio Tuner|Naturopathy|Ayurveda|Homeopathy|Angel Reading|Naturopathy|Meditation|Rebirthing|Conscious Parenting Counselor|Theta Healing]]></therapies>
+		<therapies_2><![CDATA[a:14:{i:0;s:3:"163";i:1;s:4:"1009";i:2;s:4:"1010";i:3;s:3:"166";i:4;s:3:"167";i:5;s:2:"84";i:6;s:2:"85";i:7;s:2:"86";i:8;s:2:"36";i:9;s:2:"84";i:10;s:2:"60";i:11;s:3:"124";i:12;s:3:"144";i:13;s:2:"12";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[315]]></termid>
+		<termname><![CDATA[Duodenal Ulcer]]></termname>
+		<termslug><![CDATA[duodenal-ulcer]]></termslug>
+		<therapies><![CDATA[Theta Healing|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:2:{i:0;s:2:"12";i:1;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[316]]></termid>
+		<termname><![CDATA[Solitary Rectal Ulcer]]></termname>
+		<termslug><![CDATA[solitary-rectal-ulcer]]></termslug>
+		<therapies><![CDATA[Theta Healing|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:2:{i:0;s:2:"12";i:1;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[317]]></termid>
+		<termname><![CDATA[Stomach ache]]></termname>
+		<termslug><![CDATA[stomach-ache]]></termslug>
+		<therapies><![CDATA[Silver Pulser|Rebirthing|Inner Child Healing|Past life Regression|Homeopathy|Angel Reading|Naturopathy|Meditation|Rebirthing|Conscious Parenting Counselor|Reiki|Theta Healing]]></therapies>
+		<therapies_2><![CDATA[a:12:{i:0;s:4:"1008";i:1;s:3:"124";i:2;s:3:"134";i:3;s:2:"75";i:4;s:2:"86";i:5;s:2:"36";i:6;s:2:"84";i:7;s:2:"60";i:8;s:3:"124";i:9;s:3:"144";i:10;s:1:"8";i:11;s:2:"12";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[318]]></termid>
+		<termname><![CDATA[Frequent Heartburn]]></termname>
+		<termslug><![CDATA[frequent-heartburn]]></termslug>
+		<therapies><![CDATA[Silver Pulser|ELECTRO REFLEX ENERGIZER|Foot De-tox|FA Infra Sauna|I - float|Bio Tuner|NLP2|Naturopathy|Ayurveda|Past life Regression|Homeopathy|Angel Reading|Naturopathy|Meditation|Rebirthing|Conscious Parenting Counselor|Reiki|Theta Healing]]></therapies>
+		<therapies_2><![CDATA[a:18:{i:0;s:4:"1008";i:1;s:3:"163";i:2;s:4:"1009";i:3;s:4:"1010";i:4;s:3:"166";i:5;s:3:"167";i:6;i:1176;i:7;s:2:"84";i:8;s:2:"85";i:9;s:2:"75";i:10;s:2:"86";i:11;s:2:"36";i:12;s:2:"84";i:13;s:2:"60";i:14;s:3:"124";i:15;s:3:"144";i:16;s:1:"8";i:17;s:2:"12";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[319]]></termid>
+		<termname><![CDATA[Piles / Hemorrhoids]]></termname>
+		<termslug><![CDATA[piles-hemorrhoids]]></termslug>
+		<therapies><![CDATA[Silver Pulser|ELECTRO REFLEX ENERGIZER|Foot De-tox|FA Infra Sauna|I - float|Bio Tuner|Heal your life Program by Louise Hay|Ayurveda|Homeopathy|Angel Reading|Naturopathy|Meditation|Rebirthing|Conscious Parenting Counselor|Theta Healing]]></therapies>
+		<therapies_2><![CDATA[a:15:{i:0;s:4:"1008";i:1;s:3:"163";i:2;s:4:"1009";i:3;s:4:"1010";i:4;s:3:"166";i:5;s:3:"167";i:6;s:4:"1173";i:7;s:2:"85";i:8;s:2:"86";i:9;s:2:"36";i:10;s:2:"84";i:11;s:2:"60";i:12;s:3:"124";i:13;s:3:"144";i:14;s:2:"12";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[320]]></termid>
+		<termname><![CDATA[Amoebic Dysentery]]></termname>
+		<termslug><![CDATA[amoebic-dysentery]]></termslug>
+		<therapies><![CDATA[Theta Healing|Theta Healing|Theta Healing|Theta Healing|Theta Healing]]></therapies>
+		<therapies_2><![CDATA[a:5:{i:0;i:12;i:1;i:12;i:2;i:12;i:3;i:12;i:4;i:12;}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[321]]></termid>
+		<termname><![CDATA[Acid Peptic Disease]]></termname>
+		<termslug><![CDATA[acid-peptic-disease]]></termslug>
+		<therapies><![CDATA[Theta Healing]]></therapies>
+		<therapies_2><![CDATA[a:1:{i:0;s:2:"12";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[322]]></termid>
+		<termname><![CDATA[Ulcer – Stomach/ Duodenum]]></termname>
+		<termslug><![CDATA[ulcer-stomach-duodenum]]></termslug>
+		<therapies><![CDATA[ELECTRO REFLEX ENERGIZER|Foot De-tox|FA Infra Sauna|I - float|Bio Tuner|Silver Pulser|Past life Regression|Inner Child Healing|Homeopathy|Angel Reading|Naturopathy|Meditation|Rebirthing|Conscious Parenting Counselor|Reiki|Theta Healing]]></therapies>
+		<therapies_2><![CDATA[a:16:{i:0;s:3:"163";i:1;s:4:"1009";i:2;s:4:"1010";i:3;s:3:"166";i:4;s:3:"167";i:5;s:4:"1008";i:6;s:2:"75";i:7;s:3:"134";i:8;s:2:"86";i:9;s:2:"36";i:10;s:2:"84";i:11;s:2:"60";i:12;s:3:"124";i:13;s:3:"144";i:14;s:1:"8";i:15;s:2:"12";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[323]]></termid>
+		<termname><![CDATA[Inflammatory Bowel Disorder]]></termname>
+		<termslug><![CDATA[inflammatory-bowel-disorder]]></termslug>
+		<therapies><![CDATA[Past life Regression|Inner Child Healing|Reiki|Theta Healing|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:5:{i:0;s:2:"75";i:1;s:3:"134";i:2;s:1:"8";i:3;s:2:"12";i:4;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[324]]></termid>
+		<termname><![CDATA[Rectum Hemorrhages]]></termname>
+		<termslug><![CDATA[rectum-hemorrhages]]></termslug>
+		<therapies><![CDATA[Past life Regression|Inner Child Healing|Theta Healing|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:4:{i:0;s:2:"75";i:1;s:3:"134";i:2;s:2:"12";i:3;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[325]]></termid>
+		<termname><![CDATA[Bacillary DYSENTERY]]></termname>
+		<termslug><![CDATA[bacillary-dysentery]]></termslug>
+		<therapies><![CDATA[Reiki|Theta Healing|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:3:{i:0;s:1:"8";i:1;s:2:"12";i:2;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[326]]></termid>
+		<termname><![CDATA[Stomach Hemorrhages]]></termname>
+		<termslug><![CDATA[stomach-hemorrhages]]></termslug>
+		<therapies><![CDATA[Past life Regression|Inner Child Healing|Theta Healing|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:4:{i:0;s:2:"75";i:1;s:3:"134";i:2;s:2:"12";i:3;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[327]]></termid>
+		<termname><![CDATA[Hernia]]></termname>
+		<termslug><![CDATA[hernia]]></termslug>
+		<therapies><![CDATA[Past life Regression|Inner Child Healing|Theta Healing|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:4:{i:0;s:2:"75";i:1;s:3:"134";i:2;s:2:"12";i:3;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[328]]></termid>
+		<termname><![CDATA[Chronic Kidney disease]]></termname>
+		<termslug><![CDATA[chronic-kidney-disease]]></termslug>
+		<therapies><![CDATA[Rebirthing|Preeti Siddhi|Past life Regression|Homeopathy|Reiki|Theta Healing]]></therapies>
+		<therapies_2><![CDATA[a:6:{i:0;s:3:"124";i:1;s:2:"26";i:2;s:2:"75";i:3;s:2:"86";i:4;s:1:"8";i:5;s:2:"12";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[329]]></termid>
+		<termname><![CDATA[Bladder control in children]]></termname>
+		<termslug><![CDATA[bladder-control-in-children]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[330]]></termid>
+		<termname><![CDATA[Bladder control in adult]]></termname>
+		<termslug><![CDATA[bladder-control-in-adult]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[331]]></termid>
+		<termname><![CDATA[Nephrotic Syndrome]]></termname>
+		<termslug><![CDATA[nephrotic-syndrome]]></termslug>
+		<therapies><![CDATA[Past life Regression|Inner Child Healing|Theta Healing|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:4:{i:0;s:2:"75";i:1;s:3:"134";i:2;s:2:"12";i:3;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[332]]></termid>
+		<termname><![CDATA[Pyelonephritis]]></termname>
+		<termslug><![CDATA[pyelonephritis]]></termslug>
+		<therapies><![CDATA[Past life Regression|Inner Child Healing|Theta Healing|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:4:{i:0;s:2:"75";i:1;s:3:"134";i:2;s:2:"12";i:3;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[333]]></termid>
+		<termname><![CDATA[Renal stone /calculi]]></termname>
+		<termslug><![CDATA[renal-stone-calculi]]></termslug>
+		<therapies><![CDATA[Reiki|Past life Regression|Theta Healing|Homeopathy|Ayurveda]]></therapies>
+		<therapies_2><![CDATA[a:5:{i:0;s:1:"8";i:1;s:2:"75";i:2;s:2:"12";i:3;s:2:"86";i:4;s:2:"85";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[334]]></termid>
+		<termname><![CDATA[Acute Glomerulonephritis]]></termname>
+		<termslug><![CDATA[acute-glomerulonephritis]]></termslug>
+		<therapies><![CDATA[Theta Healing|Theta Healing|Theta Healing|Theta Healing|Theta Healing|Theta Healing|Theta Healing]]></therapies>
+		<therapies_2><![CDATA[a:7:{i:0;i:12;i:1;i:12;i:2;i:12;i:3;i:12;i:4;i:12;i:5;i:12;i:6;i:12;}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[335]]></termid>
+		<termname><![CDATA[Chronic Renal Failure]]></termname>
+		<termslug><![CDATA[chronic-renal-failure]]></termslug>
+		<therapies><![CDATA[Past life Regression|Theta Healing|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:3:{i:0;s:2:"75";i:1;s:2:"12";i:2;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[336]]></termid>
+		<termname><![CDATA[Diabetic Nephropathy]]></termname>
+		<termslug><![CDATA[diabetic-nephropathy]]></termslug>
+		<therapies><![CDATA[Reiki|Past life Regression|Theta Healing|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:4:{i:0;s:1:"8";i:1;s:2:"75";i:2;s:2:"12";i:3;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[337]]></termid>
+		<termname><![CDATA[Hypertensive Nephropathy]]></termname>
+		<termslug><![CDATA[hypertensive-nephropathy]]></termslug>
+		<therapies><![CDATA[Past life Regression|Theta Healing|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:3:{i:0;s:2:"75";i:1;s:2:"12";i:2;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[338]]></termid>
+		<termname><![CDATA[Diabetes]]></termname>
+		<termslug><![CDATA[diabetes]]></termslug>
+		<therapies><![CDATA[DNA Activation|Preeti Siddhi|Family Constellation|Inner Child Healing|Ayurveda|Homeopathy|Nutritionist|Reiki|Past life Regression|Theta Healing]]></therapies>
+		<therapies_2><![CDATA[a:10:{i:0;s:2:"18";i:1;s:2:"26";i:2;s:4:"1174";i:3;s:3:"134";i:4;s:2:"85";i:5;s:2:"86";i:6;s:3:"148";i:7;s:1:"8";i:8;s:2:"75";i:9;s:2:"12";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[339]]></termid>
+		<termname><![CDATA[Hormonal imbalance]]></termname>
+		<termslug><![CDATA[hormonal-imbalance]]></termslug>
+		<therapies><![CDATA[Pranic Healing|ELECTRO REFLEX ENERGIZER|Foot De-tox|Kundalini Activation|EFT|Rebirthing|Hatha Yoga|Vinyasa Yoga|Ashtanga Yoga|Iyengar Yoga|Inner Child Healing|Past life Regression|Homeopathy|Reiki|Theta Healing]]></therapies>
+		<therapies_2><![CDATA[a:15:{i:0;s:1:"7";i:1;s:3:"163";i:2;s:4:"1009";i:3;s:2:"17";i:4;s:3:"989";i:5;s:3:"124";i:6;s:2:"27";i:7;s:2:"10";i:8;s:2:"28";i:9;s:2:"29";i:10;s:3:"134";i:11;s:2:"75";i:12;s:2:"86";i:13;s:1:"8";i:14;s:2:"12";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[340]]></termid>
+		<termname><![CDATA[Hyperthyroid]]></termname>
+		<termslug><![CDATA[hyperthyroid]]></termslug>
+		<therapies><![CDATA[Acupressure|Reflexology|Meditation|Rebirthing|Hatha Yoga|Vinyasa Yoga|Ashtanga Yoga|Iyengar Yoga|Crystal Bowl|Ayurveda|Past life Regression|Reiki|Kundalini Activation|Preeti Siddhi|Past life Regression|Inner Child Healing|Homeopathy|Reiki|Theta Healing]]></therapies>
+		<therapies_2><![CDATA[a:19:{i:0;s:3:"942";i:1;s:3:"100";i:2;s:2:"60";i:3;s:3:"124";i:4;s:2:"27";i:5;s:2:"10";i:6;s:2:"28";i:7;s:2:"29";i:8;i:1177;i:9;s:2:"85";i:10;s:2:"75";i:11;s:1:"8";i:12;s:2:"17";i:13;s:2:"26";i:14;s:2:"75";i:15;s:3:"134";i:16;s:2:"86";i:17;s:1:"8";i:18;s:2:"12";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[341]]></termid>
+		<termname><![CDATA[Hypothyroid]]></termname>
+		<termslug><![CDATA[hypothyroid]]></termslug>
+		<therapies><![CDATA[Acupressure|Reflexology|Meditation|Rebirthing|Hatha Yoga|Vinyasa Yoga|Ashtanga Yoga|Iyengar Yoga|Crystal Bowl|Ayurveda|Past life Regression|Reiki|Kundalini Activation|Preeti Siddhi|Past life Regression|Inner Child Healing|Homeopathy|Reiki|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:19:{i:0;s:3:"942";i:1;s:3:"100";i:2;s:2:"60";i:3;s:3:"124";i:4;s:2:"27";i:5;s:2:"10";i:6;s:2:"28";i:7;s:2:"29";i:8;s:4:"1177";i:9;s:2:"85";i:10;s:2:"75";i:11;s:1:"8";i:12;s:2:"17";i:13;s:2:"26";i:14;s:2:"75";i:15;s:3:"134";i:16;s:2:"86";i:17;s:1:"8";i:18;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[342]]></termid>
+		<termname><![CDATA[Graves disease]]></termname>
+		<termslug><![CDATA[graves-disease]]></termslug>
+		<therapies><![CDATA[Past life Regression|Theta Healing|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:3:{i:0;s:2:"75";i:1;s:2:"12";i:2;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[343]]></termid>
+		<termname><![CDATA[Solitary Nodule of thyroid]]></termname>
+		<termslug><![CDATA[solitary-nodule-of-thyroid]]></termslug>
+		<therapies><![CDATA[Reiki|Past life Regression|Theta Healing|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:4:{i:0;s:1:"8";i:1;s:2:"75";i:2;s:2:"12";i:3;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[344]]></termid>
+		<termname><![CDATA[Goitre]]></termname>
+		<termslug><![CDATA[goitre]]></termslug>
+		<therapies><![CDATA[Past life Regression|Theta Healing|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:3:{i:0;s:2:"75";i:1;s:2:"12";i:2;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[345]]></termid>
+		<termname><![CDATA[DIABETES MELLITUS]]></termname>
+		<termslug><![CDATA[diabetes-mellitus]]></termslug>
+		<therapies><![CDATA[Past life Regression|Inner Child Healing|Theta Healing|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:4:{i:0;s:2:"75";i:1;s:3:"134";i:2;s:2:"12";i:3;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[346]]></termid>
+		<termname><![CDATA[Hyperadrenalism]]></termname>
+		<termslug><![CDATA[hyperadrenalism]]></termslug>
+		<therapies><![CDATA[Reiki|Past life Regression|Theta Healing|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:4:{i:0;s:1:"8";i:1;s:2:"75";i:2;s:2:"12";i:3;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[347]]></termid>
+		<termname><![CDATA[Addison's disease]]></termname>
+		<termslug><![CDATA[addisons-disease]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[348]]></termid>
+		<termname><![CDATA[Pituitary disorders]]></termname>
+		<termslug><![CDATA[pituitary-disorders]]></termslug>
+		<therapies><![CDATA[Past life Regression|Inner Child Healing|Reiki|Theta Healing|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:5:{i:0;s:2:"75";i:1;s:3:"134";i:2;s:1:"8";i:3;s:2:"12";i:4;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[349]]></termid>
+		<termname><![CDATA[Hypoparathyroidism]]></termname>
+		<termslug><![CDATA[hypoparathyroidism]]></termslug>
+		<therapies><![CDATA[Kundalini Activation|Past life Regression|Theta Healing|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:4:{i:0;s:2:"17";i:1;s:2:"75";i:2;s:2:"12";i:3;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[350]]></termid>
+		<termname><![CDATA[Tetany]]></termname>
+		<termslug><![CDATA[tetany]]></termslug>
+		<therapies><![CDATA[Past life Regression|Inner Child Healing|Theta Healing|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:4:{i:0;s:2:"75";i:1;s:3:"134";i:2;s:2:"12";i:3;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[351]]></termid>
+		<termname><![CDATA[High blood pressure]]></termname>
+		<termslug><![CDATA[high-blood-pressure]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[352]]></termid>
+		<termname><![CDATA[Arrhythmia]]></termname>
+		<termslug><![CDATA[arrhythmia]]></termslug>
+		<therapies><![CDATA[Child 4|Child 4|Child 4]]></therapies>
+		<therapies_2><![CDATA[a:3:{i:0;i:1183;i:1;i:1183;i:2;i:1183;}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[353]]></termid>
+		<termname><![CDATA[Coronary artery disease]]></termname>
+		<termslug><![CDATA[coronary-artery-disease]]></termslug>
+		<therapies><![CDATA[Child2|Child2|Child2|Child2|Child2|Child2|Child2|Child2|Child2|Child2]]></therapies>
+		<therapies_2><![CDATA[a:10:{i:0;i:1171;i:1;i:1171;i:2;i:1171;i:3;i:1171;i:4;i:1171;i:5;i:1171;i:6;i:1171;i:7;i:1171;i:8;i:1171;i:9;i:1171;}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[354]]></termid>
+		<termname><![CDATA[Congenital heart disease]]></termname>
+		<termslug><![CDATA[congenital-heart-disease]]></termslug>
+		<therapies><![CDATA[Past life Regression|Inner Child Healing|Theta Healing|Homeopathy|Family Constellation]]></therapies>
+		<therapies_2><![CDATA[a:5:{i:0;s:2:"75";i:1;s:3:"134";i:2;s:2:"12";i:3;s:2:"86";i:4;s:4:"1174";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[355]]></termid>
+		<termname><![CDATA[Ischaemia (angina/infarct)]]></termname>
+		<termslug><![CDATA[ischaemia-angina-infarct]]></termslug>
+		<therapies><![CDATA[Past life Regression|Inner Child Healing|Theta Healing|Homeopathy|Family Constellation]]></therapies>
+		<therapies_2><![CDATA[a:5:{i:0;s:2:"75";i:1;s:3:"134";i:2;s:2:"12";i:3;s:2:"86";i:4;s:4:"1174";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[356]]></termid>
+		<termname><![CDATA[Acute Coronary Syndrome]]></termname>
+		<termslug><![CDATA[acute-coronary-syndrome]]></termslug>
+		<therapies><![CDATA[Theta Healing]]></therapies>
+		<therapies_2><![CDATA[a:1:{i:0;s:2:"12";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[357]]></termid>
+		<termname><![CDATA[Angina/Angina Pectoris]]></termname>
+		<termslug><![CDATA[angina-angina-pectoris]]></termslug>
+		<therapies><![CDATA[Homeopathy|Meditation|Reiki|Past life Regression|Theta Healing|Family Constellation]]></therapies>
+		<therapies_2><![CDATA[a:6:{i:0;s:2:"86";i:1;s:2:"60";i:2;s:1:"8";i:3;s:2:"75";i:4;s:2:"12";i:5;s:4:"1174";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[358]]></termid>
+		<termname><![CDATA[Atrial Fibrillation (AF)]]></termname>
+		<termslug><![CDATA[atrial-fibrillation-af]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[359]]></termid>
+		<termname><![CDATA[Atrial Septal Defect (ASD)]]></termname>
+		<termslug><![CDATA[atrial-septal-defect-asd]]></termslug>
+		<therapies><![CDATA[Past life Regression|Theta Healing|Homeopathy|Family Constellation]]></therapies>
+		<therapies_2><![CDATA[a:4:{i:0;s:2:"75";i:1;s:2:"12";i:2;s:2:"86";i:3;s:4:"1174";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[360]]></termid>
+		<termname><![CDATA[Bradycardia (Arrhythmia )]]></termname>
+		<termslug><![CDATA[bradycardia-arrhythmia]]></termslug>
+		<therapies><![CDATA[Reiki]]></therapies>
+		<therapies_2><![CDATA[a:1:{i:0;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[361]]></termid>
+		<termname><![CDATA[Cardiogenic Shock]]></termname>
+		<termslug><![CDATA[cardiogenic-shock]]></termslug>
+		<therapies><![CDATA[Past life Regression|Theta Healing|Homeopathy|Family Constellation]]></therapies>
+		<therapies_2><![CDATA[a:4:{i:0;s:2:"75";i:1;s:2:"12";i:2;s:2:"86";i:3;s:4:"1174";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[362]]></termid>
+		<termname><![CDATA[Cardiomyopathy]]></termname>
+		<termslug><![CDATA[cardiomyopathy]]></termslug>
+		<therapies><![CDATA[Past life Regression|Theta Healing|Homeopathy|Family Constellation]]></therapies>
+		<therapies_2><![CDATA[a:4:{i:0;s:2:"75";i:1;s:2:"12";i:2;s:2:"86";i:3;s:4:"1174";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[363]]></termid>
+		<termname><![CDATA[Carotid Artery Disease / Carotid Artery Stenosis]]></termname>
+		<termslug><![CDATA[carotid-artery-disease-carotid-artery-stenosis]]></termslug>
+		<therapies><![CDATA[Reiki]]></therapies>
+		<therapies_2><![CDATA[a:1:{i:0;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[364]]></termid>
+		<termname><![CDATA[Chest Pain ( Angina )]]></termname>
+		<termslug><![CDATA[chest-pain-angina]]></termslug>
+		<therapies><![CDATA[Homeopathy|Meditation]]></therapies>
+		<therapies_2><![CDATA[a:2:{i:0;s:2:"86";i:1;s:2:"60";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[365]]></termid>
+		<termname><![CDATA[Stroke]]></termname>
+		<termslug><![CDATA[stroke]]></termslug>
+		<therapies><![CDATA[Past life Regression|Theta Healing|Homeopathy|Family Constellation]]></therapies>
+		<therapies_2><![CDATA[a:4:{i:0;s:2:"75";i:1;s:2:"12";i:2;s:2:"86";i:3;s:4:"1174";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[366]]></termid>
+		<termname><![CDATA[Congestive Heart Failure (CHF)]]></termname>
+		<termslug><![CDATA[congestive-heart-failure-chf]]></termslug>
+		<therapies><![CDATA[Past life Regression|Theta Healing|Homeopathy|Family Constellation]]></therapies>
+		<therapies_2><![CDATA[a:4:{i:0;s:2:"75";i:1;s:2:"12";i:2;s:2:"86";i:3;s:4:"1174";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[367]]></termid>
+		<termname><![CDATA[Coronary Artery Disease (CAD)]]></termname>
+		<termslug><![CDATA[coronary-artery-disease-cad]]></termslug>
+		<therapies><![CDATA[Homeopathy|Meditation|Past life Regression|Theta Healing|Family Constellation]]></therapies>
+		<therapies_2><![CDATA[a:5:{i:0;s:2:"86";i:1;s:2:"60";i:2;s:2:"75";i:3;s:2:"12";i:4;s:4:"1174";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[368]]></termid>
+		<termname><![CDATA[Dilated Cardiomyopathy]]></termname>
+		<termslug><![CDATA[dilated-cardiomyopathy]]></termslug>
+		<therapies><![CDATA[Past life Regression|Theta Healing|Homeopathy|Family Constellation]]></therapies>
+		<therapies_2><![CDATA[a:4:{i:0;s:2:"75";i:1;s:2:"12";i:2;s:2:"86";i:3;s:4:"1174";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[369]]></termid>
+		<termname><![CDATA[Endocarditis]]></termname>
+		<termslug><![CDATA[endocarditis]]></termslug>
+		<therapies><![CDATA[Kundalini Activation|Past life Regression|Theta Healing|Homeopathy|Family Constellation]]></therapies>
+		<therapies_2><![CDATA[a:5:{i:0;s:2:"17";i:1;s:2:"75";i:2;s:2:"12";i:3;s:2:"86";i:4;s:4:"1174";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[370]]></termid>
+		<termname><![CDATA[Heart Block]]></termname>
+		<termslug><![CDATA[heart-block]]></termslug>
+		<therapies><![CDATA[Past life Regression|Theta Healing|Homeopathy|Family Constellation]]></therapies>
+		<therapies_2><![CDATA[a:4:{i:0;s:2:"75";i:1;s:2:"12";i:2;s:2:"86";i:3;s:4:"1174";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[371]]></termid>
+		<termname><![CDATA[Heart Murmur]]></termname>
+		<termslug><![CDATA[heart-murmur]]></termslug>
+		<therapies><![CDATA[Past life Regression|Theta Healing|Homeopathy|Family Constellation]]></therapies>
+		<therapies_2><![CDATA[a:4:{i:0;s:2:"75";i:1;s:2:"12";i:2;s:2:"86";i:3;s:4:"1174";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[372]]></termid>
+		<termname><![CDATA[Heart Valve Disease]]></termname>
+		<termslug><![CDATA[heart-valve-disease]]></termslug>
+		<therapies><![CDATA[Homeopathy|Meditation|Past life Regression|Theta Healing|Family Constellation]]></therapies>
+		<therapies_2><![CDATA[a:5:{i:0;s:2:"86";i:1;s:2:"60";i:2;s:2:"75";i:3;s:2:"12";i:4;s:4:"1174";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[373]]></termid>
+		<termname><![CDATA[High Cholesterol]]></termname>
+		<termslug><![CDATA[high-cholesterol]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[374]]></termid>
+		<termname><![CDATA[Hypertrophic Cardiomyopathy]]></termname>
+		<termslug><![CDATA[hypertrophic-cardiomyopathy]]></termslug>
+		<therapies><![CDATA[Past life Regression|Theta Healing|Homeopathy|Family Constellation]]></therapies>
+		<therapies_2><![CDATA[a:4:{i:0;s:2:"75";i:1;s:2:"12";i:2;s:2:"86";i:3;s:4:"1174";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[375]]></termid>
+		<termname><![CDATA[Mitral Valve Prolapse]]></termname>
+		<termslug><![CDATA[mitral-valve-prolapse]]></termslug>
+		<therapies><![CDATA[Past life Regression|Theta Healing|Homeopathy|Family Constellation]]></therapies>
+		<therapies_2><![CDATA[a:4:{i:0;s:2:"75";i:1;s:2:"12";i:2;s:2:"86";i:3;s:4:"1174";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[376]]></termid>
+		<termname><![CDATA[Myocardial Infarction (MI)]]></termname>
+		<termslug><![CDATA[myocardial-infarction-mi]]></termslug>
+		<therapies><![CDATA[Past life Regression|Theta Healing|Homeopathy|Family Constellation]]></therapies>
+		<therapies_2><![CDATA[a:4:{i:0;s:2:"75";i:1;s:2:"12";i:2;s:2:"86";i:3;s:4:"1174";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[377]]></termid>
+		<termname><![CDATA[Peripheral Vascular Disease (PVD)]]></termname>
+		<termslug><![CDATA[peripheral-vascular-disease-pvd]]></termslug>
+		<therapies><![CDATA[Past life Regression|Theta Healing|Homeopathy|Family Constellation]]></therapies>
+		<therapies_2><![CDATA[a:4:{i:0;s:2:"75";i:1;s:2:"12";i:2;s:2:"86";i:3;s:4:"1174";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[378]]></termid>
+		<termname><![CDATA[Pulmonary Hypertension]]></termname>
+		<termslug><![CDATA[pulmonary-hypertension]]></termslug>
+		<therapies><![CDATA[Reiki|Past life Regression|Theta Healing|Homeopathy|Family Constellation]]></therapies>
+		<therapies_2><![CDATA[a:5:{i:0;s:1:"8";i:1;s:2:"75";i:2;s:2:"12";i:3;s:2:"86";i:4;s:4:"1174";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[379]]></termid>
+		<termname><![CDATA[Rheumatic Heart Disease]]></termname>
+		<termslug><![CDATA[rheumatic-heart-disease]]></termslug>
+		<therapies><![CDATA[Reiki|Past life Regression|Theta Healing|Homeopathy|Family Constellation]]></therapies>
+		<therapies_2><![CDATA[a:5:{i:0;s:1:"8";i:1;s:2:"75";i:2;s:2:"12";i:3;s:2:"86";i:4;s:4:"1174";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[380]]></termid>
+		<termname><![CDATA[Sinus Tachycardia]]></termname>
+		<termslug><![CDATA[sinus-tachycardia]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[381]]></termid>
+		<termname><![CDATA[Arthritis]]></termname>
+		<termslug><![CDATA[arthritis]]></termslug>
+		<therapies><![CDATA[Reiki|Acupressure|Q LASER Q1000NG|Reflexology|Pranic Healing|ALFA HRV Analyzer|ES Complex|BIOFIELD READER|Resonant Field Imaging (RFI)|Quantum Resonance Magnetic Health Analyzer|EFT|Cranio Sacral Therapy|Preeti Siddhi|Hatha Yoga|Vinyasa Yoga|Ashtanga Yoga|Iyengar Yoga|Crystal Bowl|Physiotherapy|Dance Therapy|Reiki|Family Constellation|Theta Healing|Homeopathy|Q LASER Q1000NG]]></therapies>
+		<therapies_2><![CDATA[a:25:{i:0;s:1:"8";i:1;s:3:"942";i:2;s:3:"170";i:3;s:3:"100";i:4;s:1:"7";i:5;s:3:"152";i:6;s:3:"153";i:7;s:3:"154";i:8;s:3:"155";i:9;s:3:"976";i:10;s:3:"989";i:11;s:4:"1011";i:12;s:2:"26";i:13;s:2:"27";i:14;s:2:"10";i:15;s:2:"28";i:16;s:2:"29";i:17;s:4:"1177";i:18;s:3:"108";i:19;s:2:"68";i:20;s:1:"8";i:21;s:4:"1174";i:22;s:2:"12";i:23;s:2:"86";i:24;s:3:"170";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[382]]></termid>
+		<termname><![CDATA[Gout]]></termname>
+		<termslug><![CDATA[gout]]></termslug>
+		<therapies><![CDATA[Past life Regression|Inner Child Healing|Reiki|Family Constellation|Theta Healing|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:6:{i:0;s:2:"75";i:1;s:3:"134";i:2;s:1:"8";i:3;s:4:"1174";i:4;s:2:"12";i:5;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[383]]></termid>
+		<termname><![CDATA[Osteoarthritis]]></termname>
+		<termslug><![CDATA[osteoarthritis]]></termslug>
+		<therapies><![CDATA[ALFA HRV Analyzer|ES Complex|BIOFIELD READER|Resonant Field Imaging (RFI)|Quantum Resonance Magnetic Health Analyzer|Pranic Healing|ELECTRO REFLEX ENERGIZER|Foot De-tox|Hatha Yoga|Vinyasa Yoga|Ashtanga Yoga|Iyengar Yoga|Preeti Siddhi|Past life Regression|Inner Child Healing|Physiotherapy|Dance Therapy|Reiki|Family Constellation|Theta Healing|Homeopathy|Q LASER Q1000NG]]></therapies>
+		<therapies_2><![CDATA[a:22:{i:0;s:3:"152";i:1;s:3:"153";i:2;s:3:"154";i:3;s:3:"155";i:4;s:3:"976";i:5;s:1:"7";i:6;s:3:"163";i:7;s:4:"1009";i:8;s:2:"27";i:9;s:2:"10";i:10;s:2:"28";i:11;s:2:"29";i:12;s:2:"26";i:13;s:2:"75";i:14;s:3:"134";i:15;s:3:"108";i:16;s:2:"68";i:17;s:1:"8";i:18;s:4:"1174";i:19;s:2:"12";i:20;s:2:"86";i:21;s:3:"170";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[384]]></termid>
+		<termname><![CDATA[Osteoporosis]]></termname>
+		<termslug><![CDATA[osteoporosis]]></termslug>
+		<therapies><![CDATA[ALFA HRV Analyzer|ES Complex|BIOFIELD READER|Resonant Field Imaging (RFI)|Quantum Resonance Magnetic Health Analyzer|Hatha Yoga|Vinyasa Yoga|Ashtanga Yoga|Iyengar Yoga|Physiotherapy|Dance Therapy|Reiki|Family Constellation|Theta Healing|Homeopathy|Q LASER Q1000NG]]></therapies>
+		<therapies_2><![CDATA[a:16:{i:0;s:3:"152";i:1;s:3:"153";i:2;s:3:"154";i:3;s:3:"155";i:4;s:3:"976";i:5;s:2:"27";i:6;s:2:"10";i:7;s:2:"28";i:8;s:2:"29";i:9;s:3:"108";i:10;s:2:"68";i:11;s:1:"8";i:12;s:4:"1174";i:13;s:2:"12";i:14;s:2:"86";i:15;s:3:"170";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[385]]></termid>
+		<termname><![CDATA[Rheumatoid Arthritis]]></termname>
+		<termslug><![CDATA[rheumatoid-arthritis]]></termslug>
+		<therapies><![CDATA[Reiki]]></therapies>
+		<therapies_2><![CDATA[a:1:{i:0;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[386]]></termid>
+		<termname><![CDATA[Rheumatic Disorders]]></termname>
+		<termslug><![CDATA[rheumatic-disorders]]></termslug>
+		<therapies><![CDATA[Acupressure|ALFA HRV Analyzer|ES Complex|BIOFIELD READER|Resonant Field Imaging (RFI)|Quantum Resonance Magnetic Health Analyzer|EFT|Reiki|Pranic Healing|Preeti Siddhi|Physiotherapy|Dance Therapy|Reiki|Family Constellation|Theta Healing|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:16:{i:0;s:3:"942";i:1;s:3:"152";i:2;s:3:"153";i:3;s:3:"154";i:4;s:3:"155";i:5;s:3:"976";i:6;s:3:"989";i:7;s:1:"8";i:8;s:1:"7";i:9;s:2:"26";i:10;s:3:"108";i:11;s:2:"68";i:12;s:1:"8";i:13;s:4:"1174";i:14;s:2:"12";i:15;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[387]]></termid>
+		<termname><![CDATA[Frozen shoulder]]></termname>
+		<termslug><![CDATA[frozen-shoulder]]></termslug>
+		<therapies><![CDATA[Acupuncture|ALFA HRV Analyzer|ES Complex|BIOFIELD READER|Resonant Field Imaging (RFI)|Quantum Resonance Magnetic Health Analyzer|Angel Reading|Naturopathy|Past life Regression|Physiotherapy|Dance Therapy|Reiki|Family Constellation|Theta Healing|Homeopathy|Scenar Cosmodic Ex735Ag]]></therapies>
+		<therapies_2><![CDATA[a:16:{i:0;s:2:"92";i:1;s:3:"152";i:2;s:3:"153";i:3;s:3:"154";i:4;s:3:"155";i:5;s:3:"976";i:6;s:2:"36";i:7;s:2:"84";i:8;s:2:"75";i:9;s:3:"108";i:10;s:2:"68";i:11;s:1:"8";i:12;s:4:"1174";i:13;s:2:"12";i:14;s:2:"86";i:15;s:3:"169";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[388]]></termid>
+		<termname><![CDATA[Joint pain]]></termname>
+		<termslug><![CDATA[joint-pain]]></termslug>
+		<therapies><![CDATA[Scenar Cosmodic Ex735Ag|ALFA HRV Analyzer|ES Complex|BIOFIELD READER|Resonant Field Imaging (RFI)|Quantum Resonance Magnetic Health Analyzer|Q LASER Q1000NG|Access bars|Cranio Sacral Therapy|Angel Reading|Naturopathy|Ayurveda|Physiotherapy|Dance Therapy|Reiki|Family Constellation|Theta Healing|Homeopathy|Q LASER Q1000NG]]></therapies>
+		<therapies_2><![CDATA[a:19:{i:0;s:3:"169";i:1;s:3:"152";i:2;s:3:"153";i:3;s:3:"154";i:4;s:3:"155";i:5;s:3:"976";i:6;s:3:"170";i:7;s:2:"14";i:8;s:4:"1011";i:9;s:2:"36";i:10;s:2:"84";i:11;s:2:"85";i:12;s:3:"108";i:13;s:2:"68";i:14;s:1:"8";i:15;s:4:"1174";i:16;s:2:"12";i:17;s:2:"86";i:18;s:3:"170";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[389]]></termid>
+		<termname><![CDATA[Fractures]]></termname>
+		<termslug><![CDATA[fractures]]></termslug>
+		<therapies><![CDATA[Past life Regression|Inner Child Healing|Reiki]]></therapies>
+		<therapies_2><![CDATA[a:3:{i:0;s:2:"75";i:1;s:3:"134";i:2;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[390]]></termid>
+		<termname><![CDATA[Fibromyalgia]]></termname>
+		<termslug><![CDATA[fibromyalgia]]></termslug>
+		<therapies><![CDATA[ALFA HRV Analyzer|ES Complex|BIOFIELD READER|Resonant Field Imaging (RFI)|Quantum Resonance Magnetic Health Analyzer|Bowen Therapy|Cranio Sacral Therapy|Hatha Yoga|Vinyasa Yoga|Ashtanga Yoga|Iyengar Yoga|Angel Reading|Naturopathy|Family Constellation|Past life Regression|Physiotherapy|Dance Therapy|Reiki|Theta Healing|Homeopathy|Scenar Cosmodic Ex735Ag]]></therapies>
+		<therapies_2><![CDATA[a:21:{i:0;s:3:"152";i:1;s:3:"153";i:2;s:3:"154";i:3;s:3:"155";i:4;s:3:"976";i:5;s:3:"102";i:6;s:4:"1011";i:7;s:2:"27";i:8;s:2:"10";i:9;s:2:"28";i:10;s:2:"29";i:11;s:2:"36";i:12;s:2:"84";i:13;s:4:"1174";i:14;s:2:"75";i:15;s:3:"108";i:16;s:2:"68";i:17;s:1:"8";i:18;s:2:"12";i:19;s:2:"86";i:20;s:3:"169";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[391]]></termid>
+		<termname><![CDATA[Traumatic arthritis]]></termname>
+		<termslug><![CDATA[traumatic-arthritis]]></termslug>
+		<therapies><![CDATA[Reiki|Family Constellation|Theta Healing|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:4:{i:0;s:1:"8";i:1;s:4:"1174";i:2;s:2:"12";i:3;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[392]]></termid>
+		<termname><![CDATA[Reactive Arthritis]]></termname>
+		<termslug><![CDATA[reactive-arthritis]]></termslug>
+		<therapies><![CDATA[Reiki|Family Constellation|Theta Healing|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:4:{i:0;s:1:"8";i:1;s:4:"1174";i:2;s:2:"12";i:3;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[393]]></termid>
+		<termname><![CDATA[Reiter's Syndrome]]></termname>
+		<termslug><![CDATA[reiters-syndrome]]></termslug>
+		<therapies><![CDATA[Reiki|Family Constellation|Theta Healing|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:4:{i:0;s:1:"8";i:1;s:4:"1174";i:2;s:2:"12";i:3;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[394]]></termid>
+		<termname><![CDATA[Sjogren's Syndrome]]></termname>
+		<termslug><![CDATA[sjogrens-syndrome]]></termslug>
+		<therapies><![CDATA[Child 4|Child 4|Child 4]]></therapies>
+		<therapies_2><![CDATA[a:3:{i:0;i:1183;i:1;i:1183;i:2;i:1183;}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[395]]></termid>
+		<termname><![CDATA[Prolapse Intervertebral Disc]]></termname>
+		<termslug><![CDATA[prolapse-intervertebral-disc]]></termslug>
+		<therapies><![CDATA[Reiki|Family Constellation|Theta Healing|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:4:{i:0;s:1:"8";i:1;s:4:"1174";i:2;s:2:"12";i:3;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[396]]></termid>
+		<termname><![CDATA[Chronic Fatigue Syndrome]]></termname>
+		<termslug><![CDATA[chronic-fatigue-syndrome]]></termslug>
+		<therapies><![CDATA[Reiki|Family Constellation|Theta Healing|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:4:{i:0;s:1:"8";i:1;s:4:"1174";i:2;s:2:"12";i:3;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[397]]></termid>
+		<termname><![CDATA[Lupus / SLE ( Systemic Lupus Erythematosus)]]></termname>
+		<termslug><![CDATA[lupus-sle-systemic-lupus-erythematosus]]></termslug>
+		<therapies><![CDATA[Silver Pulser|ELECTRO REFLEX ENERGIZER|Foot De-tox|FA Infra Sauna|I - float|Bio Tuner|Past life Regression|Family Constellation|Theta Healing|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:10:{i:0;s:4:"1008";i:1;s:3:"163";i:2;s:4:"1009";i:3;s:4:"1010";i:4;s:3:"166";i:5;s:3:"167";i:6;s:2:"75";i:7;s:4:"1174";i:8;s:2:"12";i:9;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[398]]></termid>
+		<termname><![CDATA[Asthma]]></termname>
+		<termslug><![CDATA[asthma]]></termslug>
+		<therapies><![CDATA[Reiki|Acupressure|Nambudripad's Allergy Elimination Technique|Pranic Healing|EFT|Cranio Sacral Therapy|Preeti Siddhi|Pranayama|Hatha Yoga|Vinyasa Yoga|Ashtanga Yoga|Iyengar Yoga|Inner Child Healing|Past life Regression|Theta Healing|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:16:{i:0;s:1:"8";i:1;s:3:"942";i:2;s:4:"1050";i:3;s:1:"7";i:4;s:3:"989";i:5;s:4:"1011";i:6;s:2:"26";i:7;s:3:"125";i:8;s:2:"27";i:9;s:2:"10";i:10;s:2:"28";i:11;s:2:"29";i:12;s:3:"134";i:13;s:2:"75";i:14;s:2:"12";i:15;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[399]]></termid>
+		<termname><![CDATA[Bronchitis]]></termname>
+		<termslug><![CDATA[bronchitis]]></termslug>
+		<therapies><![CDATA[Acupressure|Reflexology|Cranio Sacral Therapy|Pranayama|Inner Child Healing|Past life Regression|EFT|Reiki|Theta Healing|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:10:{i:0;s:3:"942";i:1;s:3:"100";i:2;s:4:"1011";i:3;s:3:"125";i:4;s:3:"134";i:5;s:2:"75";i:6;s:3:"989";i:7;s:1:"8";i:8;s:2:"12";i:9;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[400]]></termid>
+		<termname><![CDATA[COPD]]></termname>
+		<termslug><![CDATA[copd]]></termslug>
+		<therapies><![CDATA[Child2|Child2|Child2|Child2|Child2|Child2|Child2|Child2|Child2]]></therapies>
+		<therapies_2><![CDATA[a:9:{i:0;i:1171;i:1;i:1171;i:2;i:1171;i:3;i:1171;i:4;i:1171;i:5;i:1171;i:6;i:1171;i:7;i:1171;i:8;i:1171;}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[401]]></termid>
+		<termname><![CDATA[Emphysema]]></termname>
+		<termslug><![CDATA[emphysema]]></termslug>
+		<therapies><![CDATA[Pranayama|EFT|Theta Healing|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:4:{i:0;s:3:"125";i:1;s:3:"989";i:2;s:2:"12";i:3;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[402]]></termid>
+		<termname><![CDATA[Smoking cessation]]></termname>
+		<termslug><![CDATA[smoking-cessation]]></termslug>
+		<therapies><![CDATA[DNA Activation|EFT|Pranayama|Hatha Yoga|Vinyasa Yoga|Ashtanga Yoga|Iyengar Yoga|Ayurveda|Hypnotherapy|Reiki|Theta Healing|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:12:{i:0;s:2:"18";i:1;s:3:"989";i:2;s:3:"125";i:3;s:2:"27";i:4;s:2:"10";i:5;s:2:"28";i:6;s:2:"29";i:7;s:2:"85";i:8;s:2:"54";i:9;s:1:"8";i:10;s:2:"12";i:11;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[403]]></termid>
+		<termname><![CDATA[Sarcoidosis]]></termname>
+		<termslug><![CDATA[sarcoidosis]]></termslug>
+		<therapies><![CDATA[Silver Pulser|ELECTRO REFLEX ENERGIZER|Foot De-tox|FA Infra Sauna|I - float|Bio Tuner|Ayurveda|Theta Healing|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:9:{i:0;s:4:"1008";i:1;s:3:"163";i:2;s:4:"1009";i:3;s:4:"1010";i:4;s:3:"166";i:5;s:3:"167";i:6;s:2:"85";i:7;s:2:"12";i:8;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[404]]></termid>
+		<termname><![CDATA[Pulmonary Eosinophilia]]></termname>
+		<termslug><![CDATA[pulmonary-eosinophilia]]></termslug>
+		<therapies><![CDATA[Theta Healing|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:2:{i:0;s:2:"12";i:1;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[405]]></termid>
+		<termname><![CDATA[Interstitial Lung Disease]]></termname>
+		<termslug><![CDATA[interstitial-lung-disease]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[406]]></termid>
+		<termname><![CDATA[Bronchial Asthma]]></termname>
+		<termslug><![CDATA[bronchial-asthma]]></termslug>
+		<therapies><![CDATA[Reiki|Theta Healing|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:3:{i:0;s:1:"8";i:1;s:2:"12";i:2;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[407]]></termid>
+		<termname><![CDATA[Platelet problems]]></termname>
+		<termslug><![CDATA[platelet-problems]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[408]]></termid>
+		<termname><![CDATA[Coagulation Disorders]]></termname>
+		<termslug><![CDATA[coagulation-disorders]]></termslug>
+		<therapies><![CDATA[Past life Regression|Inner Child Healing|Theta Healing|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:4:{i:0;s:2:"75";i:1;s:3:"134";i:2;s:2:"12";i:3;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[409]]></termid>
+		<termname><![CDATA[Erectile Dysfunction]]></termname>
+		<termslug><![CDATA[erectile-dysfunction]]></termslug>
+		<therapies><![CDATA[Pranic Healing|Ayurveda|Past life Regression|Hypnotherapy|Theta Healing|Homeopathy|Inner Child Healing|Past life Regression]]></therapies>
+		<therapies_2><![CDATA[a:8:{i:0;s:1:"7";i:1;s:2:"85";i:2;s:2:"75";i:3;s:2:"54";i:4;s:2:"12";i:5;s:2:"86";i:6;s:3:"134";i:7;s:2:"75";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[410]]></termid>
+		<termname><![CDATA[Sexual Dysfunction – Male]]></termname>
+		<termslug><![CDATA[sexual-dysfunction-male]]></termslug>
+		<therapies><![CDATA[Rebirthing|Inner Child Healing|Theta Healing|Homeopathy|Inner Child Healing|Past life Regression]]></therapies>
+		<therapies_2><![CDATA[a:6:{i:0;s:3:"124";i:1;s:3:"134";i:2;s:2:"12";i:3;s:2:"86";i:4;s:3:"134";i:5;s:2:"75";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[411]]></termid>
+		<termname><![CDATA[Prostate problems]]></termname>
+		<termslug><![CDATA[prostate-problems]]></termslug>
+		<therapies><![CDATA[Silver Pulser|ELECTRO REFLEX ENERGIZER|Foot De-tox|FA Infra Sauna|I - float|Bio Tuner|Past life Regression|Inner Child Healing|Homeopathy|Angel Reading|Naturopathy|Meditation|Rebirthing|Conscious Parenting Counselor|Theta Healing]]></therapies>
+		<therapies_2><![CDATA[a:15:{i:0;s:4:"1008";i:1;s:3:"163";i:2;s:4:"1009";i:3;s:4:"1010";i:4;s:3:"166";i:5;s:3:"167";i:6;s:2:"75";i:7;s:3:"134";i:8;s:2:"86";i:9;s:2:"36";i:10;s:2:"84";i:11;s:2:"60";i:12;s:3:"124";i:13;s:3:"144";i:14;s:2:"12";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[412]]></termid>
+		<termname><![CDATA[Varicocele]]></termname>
+		<termslug><![CDATA[varicocele]]></termslug>
+		<therapies><![CDATA[Theta Healing|Homeopathy|Inner Child Healing|Past life Regression]]></therapies>
+		<therapies_2><![CDATA[a:4:{i:0;s:2:"12";i:1;s:2:"86";i:2;s:3:"134";i:3;s:2:"75";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[413]]></termid>
+		<termname><![CDATA[Hydrocoele]]></termname>
+		<termslug><![CDATA[hydrocoele]]></termslug>
+		<therapies><![CDATA[Theta Healing|Homeopathy|Inner Child Healing|Past life Regression]]></therapies>
+		<therapies_2><![CDATA[a:4:{i:0;s:2:"12";i:1;s:2:"86";i:2;s:3:"134";i:3;s:2:"75";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[414]]></termid>
+		<termname><![CDATA[Oligozoospermia and Azoospermia ( Low / No Sperm Count )]]></termname>
+		<termslug><![CDATA[oligozoospermia-and-azoospermia-low-no-sperm-count]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[415]]></termid>
+		<termname><![CDATA[Cancer]]></termname>
+		<termslug><![CDATA[cancer]]></termslug>
+		<therapies><![CDATA[Biogenealogy|Rebirthing|Psychic Surgery|Preeti Siddhi|Dolphin Healing Network|Angel Reading|Naturopathy|Family Constellation|Inner Child Healing|Past life Regression|Homeopathy|Reiki|Life Between Lives]]></therapies>
+		<therapies_2><![CDATA[a:13:{i:0;s:2:"99";i:1;s:3:"124";i:2;s:2:"24";i:3;s:2:"26";i:4;s:3:"139";i:5;s:2:"36";i:6;s:2:"84";i:7;s:4:"1174";i:8;s:3:"134";i:9;s:2:"75";i:10;s:2:"86";i:11;s:1:"8";i:12;s:2:"79";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[416]]></termid>
+		<termname><![CDATA[Breast cancer]]></termname>
+		<termslug><![CDATA[breast-cancer]]></termslug>
+		<therapies><![CDATA[Angel Reading|Naturopathy|Homeopathy|Inner Child Healing|Reiki|Past life Regression|Family Constellation|Life Between Lives]]></therapies>
+		<therapies_2><![CDATA[a:8:{i:0;s:2:"36";i:1;s:2:"84";i:2;s:2:"86";i:3;s:3:"134";i:4;s:1:"8";i:5;s:2:"75";i:6;s:4:"1174";i:7;s:2:"79";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[417]]></termid>
+		<termname><![CDATA[Prostate cancer]]></termname>
+		<termslug><![CDATA[prostate-cancer]]></termslug>
+		<therapies><![CDATA[Angel Reading|Naturopathy|Homeopathy|Inner Child Healing|Reiki|Past life Regression|Family Constellation|Life Between Lives]]></therapies>
+		<therapies_2><![CDATA[a:8:{i:0;s:2:"36";i:1;s:2:"84";i:2;s:2:"86";i:3;s:3:"134";i:4;s:1:"8";i:5;s:2:"75";i:6;s:4:"1174";i:7;s:2:"79";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[418]]></termid>
+		<termname><![CDATA[Melanoma ( skin cancer)]]></termname>
+		<termslug><![CDATA[melanoma-skin-cancer]]></termslug>
+		<therapies><![CDATA[Child2|Child2]]></therapies>
+		<therapies_2><![CDATA[a:2:{i:0;i:1171;i:1;i:1171;}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[419]]></termid>
+		<termname><![CDATA[Colon cancer]]></termname>
+		<termslug><![CDATA[colon-cancer]]></termslug>
+		<therapies><![CDATA[Angel Reading|Naturopathy|Homeopathy|Inner Child Healing|Reiki|Past life Regression|Family Constellation|Life Between Lives]]></therapies>
+		<therapies_2><![CDATA[a:8:{i:0;s:2:"36";i:1;s:2:"84";i:2;s:2:"86";i:3;s:3:"134";i:4;s:1:"8";i:5;s:2:"75";i:6;s:4:"1174";i:7;s:2:"79";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[420]]></termid>
+		<termname><![CDATA[Lung cancer]]></termname>
+		<termslug><![CDATA[lung-cancer]]></termslug>
+		<therapies><![CDATA[Angel Reading|Naturopathy|Homeopathy|Inner Child Healing|Reiki|Past life Regression|Family Constellation|Life Between Lives]]></therapies>
+		<therapies_2><![CDATA[a:8:{i:0;s:2:"36";i:1;s:2:"84";i:2;s:2:"86";i:3;s:3:"134";i:4;s:1:"8";i:5;s:2:"75";i:6;s:4:"1174";i:7;s:2:"79";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[421]]></termid>
+		<termname><![CDATA[Lymphoma Hodgkins And Non Hodgkins Lymphoma]]></termname>
+		<termslug><![CDATA[lymphoma-hodgkins-and-non-hodgkins-lymphoma]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[422]]></termid>
+		<termname><![CDATA[Leukemia]]></termname>
+		<termslug><![CDATA[leukemia]]></termslug>
+		<therapies><![CDATA[Angel Reading|Naturopathy|Past life Regression|Inner Child Healing|Homeopathy|Reiki|Family Constellation|Life Between Lives]]></therapies>
+		<therapies_2><![CDATA[a:8:{i:0;s:2:"36";i:1;s:2:"84";i:2;s:2:"75";i:3;s:3:"134";i:4;s:2:"86";i:5;s:1:"8";i:6;s:4:"1174";i:7;s:2:"79";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[423]]></termid>
+		<termname><![CDATA[Bladder Cancer]]></termname>
+		<termslug><![CDATA[bladder-cancer]]></termslug>
+		<therapies><![CDATA[Angel Reading|Naturopathy|Past life Regression|Inner Child Healing|Homeopathy|Reiki|Family Constellation|Life Between Lives]]></therapies>
+		<therapies_2><![CDATA[a:8:{i:0;s:2:"36";i:1;s:2:"84";i:2;s:2:"75";i:3;s:3:"134";i:4;s:2:"86";i:5;s:1:"8";i:6;s:4:"1174";i:7;s:2:"79";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[424]]></termid>
+		<termname><![CDATA[Pancreatic Cancer]]></termname>
+		<termslug><![CDATA[pancreatic-cancer]]></termslug>
+		<therapies><![CDATA[Angel Reading|Naturopathy|Homeopathy|Inner Child Healing|Reiki|Past life Regression|Family Constellation|Life Between Lives]]></therapies>
+		<therapies_2><![CDATA[a:8:{i:0;s:2:"36";i:1;s:2:"84";i:2;s:2:"86";i:3;s:3:"134";i:4;s:1:"8";i:5;s:2:"75";i:6;s:4:"1174";i:7;s:2:"79";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[425]]></termid>
+		<termname><![CDATA[Thyroid Cancer]]></termname>
+		<termslug><![CDATA[thyroid-cancer]]></termslug>
+		<therapies><![CDATA[Angel Reading|Naturopathy|Homeopathy|Inner Child Healing|Reiki|Past life Regression|Family Constellation|Life Between Lives]]></therapies>
+		<therapies_2><![CDATA[a:8:{i:0;s:2:"36";i:1;s:2:"84";i:2;s:2:"86";i:3;s:3:"134";i:4;s:1:"8";i:5;s:2:"75";i:6;s:4:"1174";i:7;s:2:"79";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[426]]></termid>
+		<termname><![CDATA[Kidney Renal Cell Cancer]]></termname>
+		<termslug><![CDATA[kidney-renal-cell-cancer]]></termslug>
+		<therapies><![CDATA[Angel Reading|Naturopathy|Homeopathy|Inner Child Healing|Reiki|Past life Regression|Family Constellation|Life Between Lives]]></therapies>
+		<therapies_2><![CDATA[a:8:{i:0;s:2:"36";i:1;s:2:"84";i:2;s:2:"86";i:3;s:3:"134";i:4;s:1:"8";i:5;s:2:"75";i:6;s:4:"1174";i:7;s:2:"79";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[427]]></termid>
+		<termname><![CDATA[Pituitary Tumor]]></termname>
+		<termslug><![CDATA[pituitary-tumor]]></termslug>
+		<therapies><![CDATA[Reiki|Past life Regression|Family Constellation|Life Between Lives]]></therapies>
+		<therapies_2><![CDATA[a:4:{i:0;s:1:"8";i:1;s:2:"75";i:2;s:4:"1174";i:3;s:2:"79";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[428]]></termid>
+		<termname><![CDATA[PCOS]]></termname>
+		<termslug><![CDATA[pcos]]></termslug>
+		<therapies><![CDATA[Acupressure|Rebirthing|Hatha Yoga|Vinyasa Yoga|Ashtanga Yoga|Iyengar Yoga|Preeti Siddhi|Family Constellation|Inner Child Healing|Past life Regression|Hypnotherapy|NLP|Homeopathy|Theta Healing]]></therapies>
+		<therapies_2><![CDATA[a:14:{i:0;s:3:"942";i:1;s:3:"124";i:2;s:2:"27";i:3;s:2:"10";i:4;s:2:"28";i:5;s:2:"29";i:6;s:2:"26";i:7;s:4:"1174";i:8;s:3:"134";i:9;s:2:"75";i:10;s:2:"54";i:11;i:1178;i:12;s:2:"86";i:13;s:2:"12";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[429]]></termid>
+		<termname><![CDATA[PCOD]]></termname>
+		<termslug><![CDATA[pcod]]></termslug>
+		<therapies><![CDATA[Rebirthing|Family Constellation|Inner Child Healing|Ayurveda|Past life Regression|Hypnotherapy|NLP|Homeopathy|Theta Healing]]></therapies>
+		<therapies_2><![CDATA[a:9:{i:0;s:3:"124";i:1;s:4:"1174";i:2;s:3:"134";i:3;s:2:"85";i:4;s:2:"75";i:5;s:2:"54";i:6;s:4:"1178";i:7;s:2:"86";i:8;s:2:"12";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[430]]></termid>
+		<termname><![CDATA[Sexual Dysfunction - Female]]></termname>
+		<termslug><![CDATA[sexual-dysfunction-female]]></termslug>
+		<therapies><![CDATA[Rebirthing|Family Constellation|Inner Child Healing|Past life Regression|Hypnotherapy|NLP|Homeopathy|Theta Healing]]></therapies>
+		<therapies_2><![CDATA[a:8:{i:0;s:3:"124";i:1;s:4:"1174";i:2;s:3:"134";i:3;s:2:"75";i:4;s:2:"54";i:5;s:4:"1178";i:6;s:2:"86";i:7;s:2:"12";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[431]]></termid>
+		<termname><![CDATA[Menstrual Pain/Menopause]]></termname>
+		<termslug><![CDATA[menstrual-pain-menopause]]></termslug>
+		<therapies><![CDATA[Reiki|Acupressure|Pranic Healing|Bowen Therapy|EFT|Rebirthing|Family Constellation|Preeti Siddhi|Angel Reading|Naturopathy|Inner Child Healing|Ayurveda|Past life Regression|Hypnotherapy|NLP|Homeopathy|Theta Healing]]></therapies>
+		<therapies_2><![CDATA[a:17:{i:0;s:1:"8";i:1;s:3:"942";i:2;s:1:"7";i:3;s:3:"102";i:4;s:3:"989";i:5;s:3:"124";i:6;s:4:"1174";i:7;s:2:"26";i:8;s:2:"36";i:9;s:2:"84";i:10;s:3:"134";i:11;s:2:"85";i:12;s:2:"75";i:13;s:2:"54";i:14;s:4:"1178";i:15;s:2:"86";i:16;s:2:"12";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[432]]></termid>
+		<termname><![CDATA[Dysmenorrhoea]]></termname>
+		<termslug><![CDATA[dysmenorrhoea]]></termslug>
+		<therapies><![CDATA[Past life Regression|Inner Child Healing|Theta Healing|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:4:{i:0;s:2:"75";i:1;s:3:"134";i:2;s:2:"12";i:3;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[433]]></termid>
+		<termname><![CDATA[Menorrhagia]]></termname>
+		<termslug><![CDATA[menorrhagia]]></termslug>
+		<therapies><![CDATA[Past life Regression|Inner Child Healing|Theta Healing|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:4:{i:0;s:2:"75";i:1;s:3:"134";i:2;s:2:"12";i:3;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[434]]></termid>
+		<termname><![CDATA[Uterine Fibroids]]></termname>
+		<termslug><![CDATA[uterine-fibroids]]></termslug>
+		<therapies><![CDATA[Reiki|Theta Healing|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:3:{i:0;s:1:"8";i:1;s:2:"12";i:2;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[435]]></termid>
+		<termname><![CDATA[Endometriosis]]></termname>
+		<termslug><![CDATA[endometriosis]]></termslug>
+		<therapies><![CDATA[Theta Healing|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:2:{i:0;s:2:"12";i:1;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[436]]></termid>
+		<termname><![CDATA[Ovarian Cysts]]></termname>
+		<termslug><![CDATA[ovarian-cysts]]></termslug>
+		<therapies><![CDATA[Reiki|Theta Healing|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:3:{i:0;s:1:"8";i:1;s:2:"12";i:2;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[437]]></termid>
+		<termname><![CDATA[PREGNANCY &amp; LABOUR DIFFICULTIES]]></termname>
+		<termslug><![CDATA[pregnancy-labour-difficulties]]></termslug>
+		<therapies><![CDATA[Past life Regression|Inner Child Healing|Reiki|Theta Healing|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:5:{i:0;s:2:"75";i:1;s:3:"134";i:2;s:1:"8";i:3;s:2:"12";i:4;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[438]]></termid>
+		<termname><![CDATA[DUB ( Dysfunctional Uterine Bleeding )]]></termname>
+		<termslug><![CDATA[dub-dysfunctional-uterine-bleeding]]></termslug>
+		<therapies><![CDATA[Theta Healing|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:2:{i:0;s:2:"12";i:1;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[439]]></termid>
+		<termname><![CDATA[Pre Menopausal Syndrome]]></termname>
+		<termslug><![CDATA[pre-menopausal-syndrome]]></termslug>
+		<therapies><![CDATA[Reiki|Theta Healing|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:3:{i:0;s:1:"8";i:1;s:2:"12";i:2;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[440]]></termid>
+		<termname><![CDATA[Post Menopausal Syndrome]]></termname>
+		<termslug><![CDATA[post-menopausal-syndrome]]></termslug>
+		<therapies><![CDATA[Reiki|Theta Healing|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:3:{i:0;s:1:"8";i:1;s:2:"12";i:2;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[441]]></termid>
+		<termname><![CDATA[Cancers – Cervix , Endometrium]]></termname>
+		<termslug><![CDATA[cancers-cervix-endometrium]]></termslug>
+		<therapies><![CDATA[Reiki|Theta Healing|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:3:{i:0;s:1:"8";i:1;s:2:"12";i:2;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[442]]></termid>
+		<termname><![CDATA[Infertility ( Primary &amp; Secondary )]]></termname>
+		<termslug><![CDATA[infertility-primary-secondary]]></termslug>
+		<therapies><![CDATA[Access bars|Past life Regression|Hypnotherapy|Reiki|Theta Healing|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:6:{i:0;s:2:"14";i:1;s:2:"75";i:2;s:2:"54";i:3;s:1:"8";i:4;s:2:"12";i:5;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[443]]></termid>
+		<termname><![CDATA[Dandruff]]></termname>
+		<termslug><![CDATA[dandruff]]></termslug>
+		<therapies><![CDATA[Scenar Cosmodic Ex735Ag|Q LASER Q1000NG|Magnetic Pulsar|Ayurveda|Conscious Parenting Counselor|Theta Healing|Homeopathy|Past life Regression]]></therapies>
+		<therapies_2><![CDATA[a:8:{i:0;s:3:"169";i:1;s:3:"170";i:2;s:4:"1055";i:3;s:2:"85";i:4;s:3:"144";i:5;s:2:"12";i:6;s:2:"86";i:7;s:2:"75";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[444]]></termid>
+		<termname><![CDATA[Eczema]]></termname>
+		<termslug><![CDATA[eczema]]></termslug>
+		<therapies><![CDATA[Scenar Cosmodic Ex735Ag|Q LASER Q1000NG|Magnetic Pulsar|Past life Regression|Inner Child Healing|Conscious Parenting Counselor|Reiki|Theta Healing|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:9:{i:0;s:3:"169";i:1;s:3:"170";i:2;s:4:"1055";i:3;s:2:"75";i:4;s:3:"134";i:5;s:3:"144";i:6;s:1:"8";i:7;s:2:"12";i:8;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[445]]></termid>
+		<termname><![CDATA[Thinning hair / hair loss]]></termname>
+		<termslug><![CDATA[thinning-hair-hair-loss]]></termslug>
+		<therapies><![CDATA[Scenar Cosmodic Ex735Ag|Q LASER Q1000NG|Magnetic Pulsar|Conscious Parenting Counselor|Reiki|Theta Healing|Homeopathy|Past life Regression]]></therapies>
+		<therapies_2><![CDATA[a:8:{i:0;s:3:"169";i:1;s:3:"170";i:2;s:4:"1055";i:3;s:3:"144";i:4;s:1:"8";i:5;s:2:"12";i:6;s:2:"86";i:7;s:2:"75";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[446]]></termid>
+		<termname><![CDATA[Dermatitis]]></termname>
+		<termslug><![CDATA[dermatitis]]></termslug>
+		<therapies><![CDATA[Scenar Cosmodic Ex735Ag|Q LASER Q1000NG|Magnetic Pulsar|Nambudripad's Allergy Elimination Technique|Past life Regression|Inner Child Healing|Conscious Parenting Counselor|Theta Healing|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:9:{i:0;s:3:"169";i:1;s:3:"170";i:2;s:4:"1055";i:3;s:4:"1050";i:4;s:2:"75";i:5;s:3:"134";i:6;s:3:"144";i:7;s:2:"12";i:8;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[447]]></termid>
+		<termname><![CDATA[Acne]]></termname>
+		<termslug><![CDATA[acne]]></termslug>
+		<therapies><![CDATA[Theta Healing|Child2]]></therapies>
+		<therapies_2><![CDATA[a:2:{i:0;i:12;i:9;i:1171;}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[448]]></termid>
+		<termname><![CDATA[Skin rashes]]></termname>
+		<termslug><![CDATA[skin-rashes]]></termslug>
+		<therapies><![CDATA[Scenar Cosmodic Ex735Ag|Q LASER Q1000NG|Magnetic Pulsar|Access bars|Conscious Parenting Counselor|Reiki|Theta Healing|Homeopathy|Past life Regression]]></therapies>
+		<therapies_2><![CDATA[a:9:{i:0;s:3:"169";i:1;s:3:"170";i:2;s:4:"1055";i:3;s:2:"14";i:4;s:3:"144";i:5;s:1:"8";i:6;s:2:"12";i:7;s:2:"86";i:8;s:2:"75";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[449]]></termid>
+		<termname><![CDATA[Facial Rejuvenation]]></termname>
+		<termslug><![CDATA[facial-rejuvenation]]></termslug>
+		<therapies><![CDATA[Scenar Cosmodic Ex735Ag|Q LASER Q1000NG|Magnetic Pulsar|Rebirthing|Conscious Parenting Counselor|Theta Healing|Homeopathy|Past life Regression]]></therapies>
+		<therapies_2><![CDATA[a:8:{i:0;s:3:"169";i:1;s:3:"170";i:2;s:4:"1055";i:3;s:3:"124";i:4;s:3:"144";i:5;s:2:"12";i:6;s:2:"86";i:7;s:2:"75";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[450]]></termid>
+		<termname><![CDATA[Anti-aging]]></termname>
+		<termslug><![CDATA[anti-aging]]></termslug>
+		<therapies><![CDATA[Child 4]]></therapies>
+		<therapies_2><![CDATA[a:1:{i:0;i:1183;}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[451]]></termid>
+		<termname><![CDATA[Psoriasis]]></termname>
+		<termslug><![CDATA[psoriasis]]></termslug>
+		<therapies><![CDATA[Nambudripad's Allergy Elimination Technique|Rebirthing|Preeti Siddhi|Ayurveda|Past life Regression|Inner Child Healing|Conscious Parenting Counselor|Reiki|Theta Healing|Homeopathy|Past life Regression|Scenar Cosmodic Ex735Ag]]></therapies>
+		<therapies_2><![CDATA[a:12:{i:0;s:4:"1050";i:1;s:3:"124";i:2;s:2:"26";i:3;s:2:"85";i:4;s:2:"75";i:5;s:3:"134";i:6;s:3:"144";i:7;s:1:"8";i:8;s:2:"12";i:9;s:2:"86";i:10;s:2:"75";i:11;s:3:"169";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[452]]></termid>
+		<termname><![CDATA[Cysts]]></termname>
+		<termslug><![CDATA[cysts]]></termslug>
+		<therapies><![CDATA[Rebirthing|Inner Child Healing|Past life Regression|Reiki|Theta Healing|Homeopathy|Past life Regression]]></therapies>
+		<therapies_2><![CDATA[a:7:{i:0;s:3:"124";i:1;s:3:"134";i:2;s:2:"75";i:3;s:1:"8";i:4;s:2:"12";i:5;s:2:"86";i:6;s:2:"75";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[453]]></termid>
+		<termname><![CDATA[Allergic Dermatitis]]></termname>
+		<termslug><![CDATA[allergic-dermatitis]]></termslug>
+		<therapies><![CDATA[Theta Healing|Theta Healing|Theta Healing|Theta Healing|Theta Healing|Theta Healing|Theta Healing|Theta Healing|Theta Healing|Theta Healing]]></therapies>
+		<therapies_2><![CDATA[a:10:{i:0;i:12;i:1;i:12;i:2;i:12;i:3;i:12;i:4;i:12;i:5;i:12;i:6;i:12;i:7;i:12;i:8;i:12;i:9;i:12;}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[454]]></termid>
+		<termname><![CDATA[Contact Dermatitis]]></termname>
+		<termslug><![CDATA[contact-dermatitis]]></termslug>
+		<therapies><![CDATA[Past life Regression|Inner Child Healing|Reiki|Theta Healing|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:5:{i:0;s:2:"75";i:1;s:3:"134";i:2;s:1:"8";i:3;s:2:"12";i:4;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[455]]></termid>
+		<termname><![CDATA[Keloids]]></termname>
+		<termslug><![CDATA[keloids]]></termslug>
+		<therapies><![CDATA[Past life Regression|Inner Child Healing|Theta Healing|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:4:{i:0;s:2:"75";i:1;s:3:"134";i:2;s:2:"12";i:3;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[456]]></termid>
+		<termname><![CDATA[Lichen planus]]></termname>
+		<termslug><![CDATA[lichen-planus]]></termslug>
+		<therapies><![CDATA[Past life Regression|Inner Child Healing|Theta Healing|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:4:{i:0;s:2:"75";i:1;s:3:"134";i:2;s:2:"12";i:3;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[457]]></termid>
+		<termname><![CDATA[Moles/naevi]]></termname>
+		<termslug><![CDATA[moles-naevi]]></termslug>
+		<therapies><![CDATA[Past life Regression|Inner Child Healing|Theta Healing|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:4:{i:0;s:2:"75";i:1;s:3:"134";i:2;s:2:"12";i:3;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[458]]></termid>
+		<termname><![CDATA[Neurodermatitis]]></termname>
+		<termslug><![CDATA[neurodermatitis]]></termslug>
+		<therapies><![CDATA[Past life Regression|Inner Child Healing|Theta Healing|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:4:{i:0;s:2:"75";i:1;s:3:"134";i:2;s:2:"12";i:3;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[459]]></termid>
+		<termname><![CDATA[Warts]]></termname>
+		<termslug><![CDATA[warts]]></termslug>
+		<therapies><![CDATA[Child2]]></therapies>
+		<therapies_2><![CDATA[a:1:{i:0;i:1171;}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[460]]></termid>
+		<termname><![CDATA[Vitiligo]]></termname>
+		<termslug><![CDATA[vitiligo]]></termslug>
+		<therapies><![CDATA[Past life Regression|Inner Child Healing|Theta Healing|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:4:{i:0;s:2:"75";i:1;s:3:"134";i:2;s:2:"12";i:3;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[461]]></termid>
+		<termname><![CDATA[Urticaria]]></termname>
+		<termslug><![CDATA[urticaria]]></termslug>
+		<therapies><![CDATA[Past life Regression|Inner Child Healing|Reiki|Theta Healing|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:5:{i:0;s:2:"75";i:1;s:3:"134";i:2;s:1:"8";i:3;s:2:"12";i:4;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[462]]></termid>
+		<termname><![CDATA[Suppurations]]></termname>
+		<termslug><![CDATA[suppurations]]></termslug>
+		<therapies><![CDATA[Past life Regression|Inner Child Healing]]></therapies>
+		<therapies_2><![CDATA[a:2:{i:0;s:2:"75";i:1;s:3:"134";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[463]]></termid>
+		<termname><![CDATA[Scabies]]></termname>
+		<termslug><![CDATA[scabies]]></termslug>
+		<therapies><![CDATA[Past life Regression|Inner Child Healing|Theta Healing|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:4:{i:0;s:2:"75";i:1;s:3:"134";i:2;s:2:"12";i:3;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[464]]></termid>
+		<termname><![CDATA[Fungal infection – Tinea Cruris]]></termname>
+		<termslug><![CDATA[fungal-infection-tinea-cruris]]></termslug>
+		<therapies><![CDATA[Theta Healing|Homeopathy|Past life Regression]]></therapies>
+		<therapies_2><![CDATA[a:3:{i:0;s:2:"12";i:1;s:2:"86";i:2;s:2:"75";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[465]]></termid>
+		<termname><![CDATA[Seborrhoeic Dermatitis]]></termname>
+		<termslug><![CDATA[seborrhoeic-dermatitis]]></termslug>
+		<therapies><![CDATA[Theta Healing|Homeopathy|Past life Regression]]></therapies>
+		<therapies_2><![CDATA[a:3:{i:0;s:2:"12";i:1;s:2:"86";i:2;s:2:"75";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[466]]></termid>
+		<termname><![CDATA[Pompholyx Eczema]]></termname>
+		<termslug><![CDATA[pompholyx-eczema]]></termslug>
+		<therapies><![CDATA[Theta Healing|Homeopathy|Past life Regression]]></therapies>
+		<therapies_2><![CDATA[a:3:{i:0;s:2:"12";i:1;s:2:"86";i:2;s:2:"75";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[467]]></termid>
+		<termname><![CDATA[Steven Johnson Syndrome]]></termname>
+		<termslug><![CDATA[steven-johnson-syndrome]]></termslug>
+		<therapies><![CDATA[Theta Healing|Homeopathy|Past life Regression]]></therapies>
+		<therapies_2><![CDATA[a:3:{i:0;s:2:"12";i:1;s:2:"86";i:2;s:2:"75";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[468]]></termid>
+		<termname><![CDATA[Pemphigus]]></termname>
+		<termslug><![CDATA[pemphigus]]></termslug>
+		<therapies><![CDATA[Theta Healing|Homeopathy|Past life Regression]]></therapies>
+		<therapies_2><![CDATA[a:3:{i:0;s:2:"12";i:1;s:2:"86";i:2;s:2:"75";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[469]]></termid>
+		<termname><![CDATA[Immune disorder]]></termname>
+		<termslug><![CDATA[immune-disorder]]></termslug>
+		<therapies><![CDATA[Silver Pulser|ELECTRO REFLEX ENERGIZER|Foot De-tox|FA Infra Sauna|I - float|Bio Tuner|Rebirthing|Preeti Siddhi|Angel Reading|Naturopathy|Inner Child Healing|Past life Regression|Reiki|Q LASER Q1000NG]]></therapies>
+		<therapies_2><![CDATA[a:14:{i:0;s:4:"1008";i:1;s:3:"163";i:2;s:4:"1009";i:3;s:4:"1010";i:4;s:3:"166";i:5;s:3:"167";i:6;s:3:"124";i:7;s:2:"26";i:8;s:2:"36";i:9;s:2:"84";i:10;s:3:"134";i:11;s:2:"75";i:12;s:1:"8";i:13;s:3:"170";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[470]]></termid>
+		<termname><![CDATA[Ulcerative Colitis]]></termname>
+		<termslug><![CDATA[ulcerative-colitis]]></termslug>
+		<therapies><![CDATA[Reiki]]></therapies>
+		<therapies_2><![CDATA[a:1:{i:0;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[471]]></termid>
+		<termname><![CDATA[Sinusitis]]></termname>
+		<termslug><![CDATA[sinusitis]]></termslug>
+		<therapies><![CDATA[Cranio Sacral Therapy|Pranayama|Preeti Siddhi|Ayurveda|Past life Regression|Inner Child Healing|Reiki|Scenar Cosmodic Ex735Ag|Q LASER Q1000NG]]></therapies>
+		<therapies_2><![CDATA[a:9:{i:0;s:4:"1011";i:1;s:3:"125";i:2;s:2:"26";i:3;s:2:"85";i:4;s:2:"75";i:5;s:3:"134";i:6;s:1:"8";i:7;s:3:"169";i:8;s:3:"170";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[472]]></termid>
+		<termname><![CDATA[Sleep Apnea]]></termname>
+		<termslug><![CDATA[sleep-apnea]]></termslug>
+		<therapies><![CDATA[Child 4|Child 4|Child 4|Child 4]]></therapies>
+		<therapies_2><![CDATA[a:4:{i:0;i:1183;i:1;i:1183;i:2;i:1183;i:3;i:1183;}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[473]]></termid>
+		<termname><![CDATA[Allergic Rhinitis]]></termname>
+		<termslug><![CDATA[allergic-rhinitis]]></termslug>
+		<therapies><![CDATA[Pranic Healing]]></therapies>
+		<therapies_2><![CDATA[a:1:{i:0;i:7;}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[474]]></termid>
+		<termname><![CDATA[Allergies]]></termname>
+		<termslug><![CDATA[allergies]]></termslug>
+		<therapies><![CDATA[Nambudripad's Allergy Elimination Technique]]></therapies>
+		<therapies_2><![CDATA[a:1:{i:0;i:1050;}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[475]]></termid>
+		<termname><![CDATA[Nose Hemorrhages (Epistaxis)]]></termname>
+		<termslug><![CDATA[nose-hemorrhages-epistaxis]]></termslug>
+		<therapies><![CDATA[Past life Regression|Inner Child Healing|Reiki]]></therapies>
+		<therapies_2><![CDATA[a:3:{i:0;s:2:"75";i:1;s:3:"134";i:2;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[476]]></termid>
+		<termname><![CDATA[Tonsilitis]]></termname>
+		<termslug><![CDATA[tonsilitis]]></termslug>
+		<therapies><![CDATA[Past life Regression|Inner Child Healing|Reiki]]></therapies>
+		<therapies_2><![CDATA[a:3:{i:0;s:2:"75";i:1;s:3:"134";i:2;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[477]]></termid>
+		<termname><![CDATA[Pharyngitis]]></termname>
+		<termslug><![CDATA[pharyngitis]]></termslug>
+		<therapies><![CDATA[Reiki]]></therapies>
+		<therapies_2><![CDATA[a:1:{i:0;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[478]]></termid>
+		<termname><![CDATA[Adenoids in children]]></termname>
+		<termslug><![CDATA[adenoids-in-children]]></termslug>
+		<therapies><![CDATA[Reiki]]></therapies>
+		<therapies_2><![CDATA[a:1:{i:0;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[479]]></termid>
+		<termname><![CDATA[Polyps]]></termname>
+		<termslug><![CDATA[polyps]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[480]]></termid>
+		<termname><![CDATA[Tooth caries]]></termname>
+		<termslug><![CDATA[tooth-caries]]></termslug>
+		<therapies><![CDATA[Acupressure|Scenar Cosmodic Ex735Ag|Q LASER Q1000NG|Magnetic Pulsar|Angel Reading|Naturopathy|Hypnotherapy]]></therapies>
+		<therapies_2><![CDATA[a:7:{i:0;s:3:"942";i:1;s:3:"169";i:2;s:3:"170";i:3;s:4:"1055";i:4;s:2:"36";i:5;s:2:"84";i:6;s:2:"54";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[481]]></termid>
+		<termname><![CDATA[Dyslipidemia]]></termname>
+		<termslug><![CDATA[dyslipidemia]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[482]]></termid>
+		<termname><![CDATA[Nutrition – Malnutrition, Poor weight gain]]></termname>
+		<termslug><![CDATA[nutrition-malnutrition-poor-weight-gain]]></termslug>
+		<therapies><![CDATA[A Test therapy|A Test therapy|A Test therapy]]></therapies>
+		<therapies_2><![CDATA[a:3:{i:0;i:1169;i:1;i:1169;i:2;i:1169;}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[483]]></termid>
+		<termname><![CDATA[Obesity]]></termname>
+		<termslug><![CDATA[obesity]]></termslug>
+		<therapies><![CDATA[Access bars|Rebirthing|Hatha Yoga|Vinyasa Yoga|Ashtanga Yoga|Iyengar Yoga|Inner Child Healing|Ayurveda|Past life Regression|Hypnotherapy|Family Constellation|Reiki]]></therapies>
+		<therapies_2><![CDATA[a:12:{i:0;s:2:"14";i:1;s:3:"124";i:2;s:2:"27";i:3;s:2:"10";i:4;s:2:"28";i:5;s:2:"29";i:6;s:3:"134";i:7;s:2:"85";i:8;s:2:"75";i:9;s:2:"54";i:10;s:4:"1174";i:11;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[484]]></termid>
+		<termname><![CDATA[Muscular dystrophy]]></termname>
+		<termslug><![CDATA[muscular-dystrophy]]></termslug>
+		<therapies><![CDATA[Preeti Siddhi|Hatha Yoga|Vinyasa Yoga|Ashtanga Yoga|Iyengar Yoga|Homeopathy|Reiki]]></therapies>
+		<therapies_2><![CDATA[a:7:{i:0;s:2:"26";i:1;s:2:"27";i:2;s:2:"10";i:3;s:2:"28";i:4;s:2:"29";i:5;s:2:"86";i:6;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[485]]></termid>
+		<termname><![CDATA[Hypotonia]]></termname>
+		<termslug><![CDATA[hypotonia]]></termslug>
+		<therapies><![CDATA[Cranio Sacral Therapy|Homeopathy|Reiki]]></therapies>
+		<therapies_2><![CDATA[a:3:{i:0;s:4:"1011";i:1;s:2:"86";i:2;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[486]]></termid>
+		<termname><![CDATA[Hyperactivity]]></termname>
+		<termslug><![CDATA[hyperactivity]]></termslug>
+		<therapies><![CDATA[Cranio Sacral Therapy|Homeopathy|Reiki]]></therapies>
+		<therapies_2><![CDATA[a:3:{i:0;s:4:"1011";i:1;s:2:"86";i:2;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[487]]></termid>
+		<termname><![CDATA[Conjunctivitis / Eye infections]]></termname>
+		<termslug><![CDATA[conjunctivitis-eye-infections]]></termslug>
+		<therapies><![CDATA[Silver Pulser|Angel Reading|Naturopathy|Homeopathy|Reiki]]></therapies>
+		<therapies_2><![CDATA[a:5:{i:0;s:4:"1008";i:1;s:2:"36";i:2;s:2:"84";i:3;s:2:"86";i:4;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[488]]></termid>
+		<termname><![CDATA[Cold]]></termname>
+		<termslug><![CDATA[cold]]></termslug>
+		<therapies><![CDATA[Pranic Healing|Access bars|Homeopathy|Reiki]]></therapies>
+		<therapies_2><![CDATA[a:4:{i:0;s:1:"7";i:1;s:2:"14";i:2;s:2:"86";i:3;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[489]]></termid>
+		<termname><![CDATA[Sore throat]]></termname>
+		<termslug><![CDATA[sore-throat]]></termslug>
+		<therapies><![CDATA[Ayurveda|Homeopathy|Reiki]]></therapies>
+		<therapies_2><![CDATA[a:3:{i:0;s:2:"85";i:1;s:2:"86";i:2;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[490]]></termid>
+		<termname><![CDATA[Stomach Flu]]></termname>
+		<termslug><![CDATA[stomach-flu]]></termslug>
+		<therapies><![CDATA[Angel Reading|Naturopathy|Homeopathy|Reiki]]></therapies>
+		<therapies_2><![CDATA[a:4:{i:0;s:2:"36";i:1;s:2:"84";i:2;s:2:"86";i:3;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[491]]></termid>
+		<termname><![CDATA[Diarrhea]]></termname>
+		<termslug><![CDATA[diarrhea]]></termslug>
+		<therapies><![CDATA[Ayurveda|Homeopathy|Reiki]]></therapies>
+		<therapies_2><![CDATA[a:3:{i:0;s:2:"85";i:1;s:2:"86";i:2;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[492]]></termid>
+		<termname><![CDATA[Ear infections]]></termname>
+		<termslug><![CDATA[ear-infections]]></termslug>
+		<therapies><![CDATA[Homeopathy|Reiki]]></therapies>
+		<therapies_2><![CDATA[a:2:{i:0;s:2:"86";i:1;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[493]]></termid>
+		<termname><![CDATA[Dyslexia]]></termname>
+		<termslug><![CDATA[dyslexia]]></termslug>
+		<therapies><![CDATA[Pranic Healing|Access bars|Homeopathy|Reiki]]></therapies>
+		<therapies_2><![CDATA[a:4:{i:0;s:1:"7";i:1;s:2:"14";i:2;s:2:"86";i:3;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[494]]></termid>
+		<termname><![CDATA[CONGENITAL ABNORMALITIES]]></termname>
+		<termslug><![CDATA[congenital-abnormalities]]></termslug>
+		<therapies><![CDATA[Past life Regression|Inner Child Healing|Reiki]]></therapies>
+		<therapies_2><![CDATA[a:3:{i:0;s:2:"75";i:1;s:3:"134";i:2;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[495]]></termid>
+		<termname><![CDATA[Adenoids]]></termname>
+		<termslug><![CDATA[adenoids]]></termslug>
+		<therapies><![CDATA[|Theta Healing|Child2|Accupressure|Dance Therapy|Physiotherapy|Nutritionist|Family Constellation|Somatic Experience|Cranio Sacral Therapy|Rebirthing|Mind mapping|Crystal Healing|Inner Child Healing|Reiki|Past life Regression|Hypnotherapy]]></therapies>
+		<therapies_2><![CDATA[a:17:{i:0;N;i:1;i:12;i:2;i:1171;i:3;i:91;i:4;i:68;i:5;i:108;i:6;i:148;i:7;i:1174;i:8;i:107;i:9;i:1011;i:10;i:124;i:11;i:72;i:12;i:13;i:13;i:134;i:14;i:8;i:15;i:75;i:16;i:54;}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[496]]></termid>
+		<termname><![CDATA[Measles]]></termname>
+		<termslug><![CDATA[measles]]></termslug>
+		<therapies><![CDATA[Past life Regression|Inner Child Healing|Reiki]]></therapies>
+		<therapies_2><![CDATA[a:3:{i:0;s:2:"75";i:1;s:3:"134";i:2;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[497]]></termid>
+		<termname><![CDATA[Mumps]]></termname>
+		<termslug><![CDATA[mumps]]></termslug>
+		<therapies><![CDATA[Past life Regression|Inner Child Healing|Reiki]]></therapies>
+		<therapies_2><![CDATA[a:3:{i:0;s:2:"75";i:1;s:3:"134";i:2;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[498]]></termid>
+		<termname><![CDATA[Recurrent Infections]]></termname>
+		<termslug><![CDATA[recurrent-infections]]></termslug>
+		<therapies><![CDATA[Past life Regression|Inner Child Healing|Reiki]]></therapies>
+		<therapies_2><![CDATA[a:3:{i:0;s:2:"75";i:1;s:3:"134";i:2;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[499]]></termid>
+		<termname><![CDATA[Chicken Pox]]></termname>
+		<termslug><![CDATA[chicken-pox]]></termslug>
+		<therapies><![CDATA[Past life Regression|Inner Child Healing]]></therapies>
+		<therapies_2><![CDATA[a:2:{i:0;s:2:"75";i:1;s:3:"134";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[500]]></termid>
+		<termname><![CDATA[Enuresis]]></termname>
+		<termslug><![CDATA[enuresis]]></termslug>
+		<therapies><![CDATA[Past life Regression|Inner Child Healing]]></therapies>
+		<therapies_2><![CDATA[a:2:{i:0;s:2:"75";i:1;s:3:"134";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[501]]></termid>
+		<termname><![CDATA[Pneumonia]]></termname>
+		<termslug><![CDATA[pneumonia]]></termslug>
+		<therapies><![CDATA[Past life Regression|Inner Child Healing]]></therapies>
+		<therapies_2><![CDATA[a:2:{i:0;s:2:"75";i:1;s:3:"134";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[502]]></termid>
+		<termname><![CDATA[Worms]]></termname>
+		<termslug><![CDATA[worms]]></termslug>
+		<therapies><![CDATA[Child2|Child2]]></therapies>
+		<therapies_2><![CDATA[a:2:{i:0;i:1171;i:1;i:1171;}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[503]]></termid>
+		<termname><![CDATA[Malnutrition]]></termname>
+		<termslug><![CDATA[malnutrition]]></termslug>
+		<therapies><![CDATA[Past life Regression|Inner Child Healing]]></therapies>
+		<therapies_2><![CDATA[a:2:{i:0;s:2:"75";i:1;s:3:"134";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[504]]></termid>
+		<termname><![CDATA[Otitis]]></termname>
+		<termslug><![CDATA[otitis]]></termslug>
+		<therapies><![CDATA[Past life Regression|Inner Child Healing|Reiki]]></therapies>
+		<therapies_2><![CDATA[a:3:{i:0;s:2:"75";i:1;s:3:"134";i:2;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[505]]></termid>
+		<termname><![CDATA[Injury]]></termname>
+		<termslug><![CDATA[injury]]></termslug>
+		<therapies><![CDATA[Scenar Cosmodic Ex735Ag|Q LASER Q1000NG|Magnetic Pulsar|Bowen Therapy|Cranio Sacral Therapy|Homeopathy|Reiki]]></therapies>
+		<therapies_2><![CDATA[a:7:{i:0;s:3:"169";i:1;s:3:"170";i:2;s:4:"1055";i:3;s:3:"102";i:4;s:4:"1011";i:5;s:2:"86";i:6;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[506]]></termid>
+		<termname><![CDATA[Trauma]]></termname>
+		<termslug><![CDATA[trauma]]></termslug>
+		<therapies><![CDATA[Past life Regression|Inner Child Healing|Reiki]]></therapies>
+		<therapies_2><![CDATA[a:3:{i:0;s:2:"75";i:1;s:3:"134";i:2;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[507]]></termid>
+		<termname><![CDATA[Ankylosing Spondylosis]]></termname>
+		<termslug><![CDATA[ankylosing-spondylosis]]></termslug>
+		<therapies><![CDATA[Hatha Yoga|Vinyasa Yoga|Ashtanga Yoga|Iyengar Yoga|Reiki|Preeti Siddhi|Scenar Cosmodic Ex735Ag|Q LASER Q1000NG|Magnetic Pulsar|Past life Regression|Inner Child Healing|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:12:{i:0;s:2:"27";i:1;s:2:"10";i:2;s:2:"28";i:3;s:2:"29";i:4;s:1:"8";i:5;s:2:"26";i:6;s:3:"169";i:7;s:3:"170";i:8;s:4:"1055";i:9;s:2:"75";i:10;s:3:"134";i:11;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[508]]></termid>
+		<termname><![CDATA[Prolapsed Disc]]></termname>
+		<termslug><![CDATA[prolapsed-disc]]></termslug>
+		<therapies><![CDATA[Reiki]]></therapies>
+		<therapies_2><![CDATA[a:1:{i:0;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[509]]></termid>
+		<termname><![CDATA[Cervical/ Lumbar Spondylosis]]></termname>
+		<termslug><![CDATA[cervical-lumbar-spondylosis]]></termslug>
+		<therapies><![CDATA[Hatha Yoga|Vinyasa Yoga|Ashtanga Yoga|Iyengar Yoga|Reiki|Preeti Siddhi|Scenar Cosmodic Ex735Ag|Q LASER Q1000NG|Magnetic Pulsar|Past life Regression|Inner Child Healing|Reiki]]></therapies>
+		<therapies_2><![CDATA[a:12:{i:0;s:2:"27";i:1;s:2:"10";i:2;s:2:"28";i:3;s:2:"29";i:4;s:1:"8";i:5;s:2:"26";i:6;s:3:"169";i:7;s:3:"170";i:8;s:4:"1055";i:9;s:2:"75";i:10;s:3:"134";i:11;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[510]]></termid>
+		<termname><![CDATA[Sciatica]]></termname>
+		<termslug><![CDATA[sciatica]]></termslug>
+		<therapies><![CDATA[Acupressure|Bowen Therapy|EFT|Cranio Sacral Therapy|Reiki|Pranic Healing|Preeti Siddhi|Homeopathy|Dance Therapy|Reiki|Q LASER Q1000NG]]></therapies>
+		<therapies_2><![CDATA[a:11:{i:0;s:3:"942";i:1;s:3:"102";i:2;s:3:"989";i:3;s:4:"1011";i:4;s:1:"8";i:5;s:1:"7";i:6;s:2:"26";i:7;s:2:"86";i:8;s:2:"68";i:9;s:1:"8";i:10;s:3:"170";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[511]]></termid>
+		<termname><![CDATA[Back Pain]]></termname>
+		<termslug><![CDATA[back-pain]]></termslug>
+		<therapies><![CDATA[ELECTRO REFLEX ENERGIZER|ELECTRO REFLEX ENERGIZER|ELECTRO REFLEX ENERGIZER|ELECTRO REFLEX ENERGIZER|ELECTRO REFLEX ENERGIZER]]></therapies>
+		<therapies_2><![CDATA[a:5:{i:0;i:163;i:1;i:163;i:2;i:163;i:3;i:163;i:4;i:163;}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[512]]></termid>
+		<termname><![CDATA[Chronic Neck &amp; Shoulder pain]]></termname>
+		<termslug><![CDATA[chronic-neck-shoulder-pain]]></termslug>
+		<therapies><![CDATA[Acupressure|Reflexology|Cranio Sacral Therapy|Bowen Therapy|Hatha Yoga|Vinyasa Yoga|Ashtanga Yoga|Iyengar Yoga|Angel Reading|Naturopathy|Ayurveda|Preeti Siddhi|Past life Regression|Meditation|Reiki|Q LASER Q1000NG]]></therapies>
+		<therapies_2><![CDATA[a:16:{i:0;s:3:"942";i:1;s:3:"100";i:2;s:4:"1011";i:3;s:3:"102";i:4;s:2:"27";i:5;s:2:"10";i:6;s:2:"28";i:7;s:2:"29";i:8;s:2:"36";i:9;s:2:"84";i:10;s:2:"85";i:11;s:2:"26";i:12;s:2:"75";i:13;s:2:"60";i:14;s:1:"8";i:15;s:3:"170";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[513]]></termid>
+		<termname><![CDATA[Accidents]]></termname>
+		<termslug><![CDATA[accidents]]></termslug>
+		<therapies><![CDATA[Accupressure|Inner Child Healing|Reiki|Past life Regression|Bach Flower Remedies|Air Ion Counter|Neuro-Linguistic Programming Therapy (NLP)|Didgeridoo|Kriya yoga|Kundalini Yoga]]></therapies>
+		<therapies_2><![CDATA[a:10:{i:0;s:2:"91";i:1;s:3:"134";i:2;s:1:"8";i:3;s:2:"75";i:4;s:2:"87";i:5;s:3:"180";i:6;s:3:"129";i:7;s:2:"83";i:8;s:2:"33";i:9;s:2:"30";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[514]]></termid>
+		<termname><![CDATA[Burns]]></termname>
+		<termslug><![CDATA[burns]]></termslug>
+		<therapies><![CDATA[Past life Regression|Inner Child Healing|Reiki]]></therapies>
+		<therapies_2><![CDATA[a:3:{i:0;s:2:"75";i:1;s:3:"134";i:2;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[515]]></termid>
+		<termname><![CDATA[Bites]]></termname>
+		<termslug><![CDATA[bites]]></termslug>
+		<therapies><![CDATA[Child2|Child2|Child2|Child2|Child2|Child2|Child2]]></therapies>
+		<therapies_2><![CDATA[a:7:{i:0;i:1171;i:1;i:1171;i:2;i:1171;i:3;i:1171;i:4;i:1171;i:5;i:1171;i:6;i:1171;}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[516]]></termid>
+		<termname><![CDATA[Contused Lacerated wounds]]></termname>
+		<termslug><![CDATA[contused-lacerated-wounds]]></termslug>
+		<therapies><![CDATA[Past life Regression|Inner Child Healing|Reiki]]></therapies>
+		<therapies_2><![CDATA[a:3:{i:0;s:2:"75";i:1;s:3:"134";i:2;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[517]]></termid>
+		<termname><![CDATA[Jaundice]]></termname>
+		<termslug><![CDATA[jaundice]]></termslug>
+		<therapies><![CDATA[Homeopathy|Reiki]]></therapies>
+		<therapies_2><![CDATA[a:2:{i:0;s:2:"86";i:1;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[518]]></termid>
+		<termname><![CDATA[Swine flu]]></termname>
+		<termslug><![CDATA[swine-flu]]></termslug>
+		<therapies><![CDATA[Reiki|Acupressure|Pranic Healing|EFT|Preeti Siddhi|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:6:{i:0;s:1:"8";i:1;s:3:"942";i:2;s:1:"7";i:3;s:3:"989";i:4;s:2:"26";i:5;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[519]]></termid>
+		<termname><![CDATA[Dengue]]></termname>
+		<termslug><![CDATA[dengue]]></termslug>
+		<therapies><![CDATA[Pranic Healing|Access bars|Homeopathy|Reiki]]></therapies>
+		<therapies_2><![CDATA[a:4:{i:0;s:1:"7";i:1;s:2:"14";i:2;s:2:"86";i:3;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[520]]></termid>
+		<termname><![CDATA[Malaria]]></termname>
+		<termslug><![CDATA[malaria]]></termslug>
+		<therapies><![CDATA[Past life Regression|Inner Child Healing|Homeopathy|Reiki]]></therapies>
+		<therapies_2><![CDATA[a:4:{i:0;s:2:"75";i:1;s:3:"134";i:2;s:2:"86";i:3;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[521]]></termid>
+		<termname><![CDATA[Typhoid]]></termname>
+		<termslug><![CDATA[typhoid]]></termslug>
+		<therapies><![CDATA[Past life Regression|Inner Child Healing|Homeopathy|Reiki]]></therapies>
+		<therapies_2><![CDATA[a:4:{i:0;s:2:"75";i:1;s:3:"134";i:2;s:2:"86";i:3;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[522]]></termid>
+		<termname><![CDATA[Fever]]></termname>
+		<termslug><![CDATA[fever]]></termslug>
+		<therapies><![CDATA[Bowen Therapy|Cranio Sacral Therapy|Ayurveda|Homeopathy|Reiki]]></therapies>
+		<therapies_2><![CDATA[a:5:{i:0;s:3:"102";i:1;s:4:"1011";i:2;s:2:"85";i:3;s:2:"86";i:4;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[523]]></termid>
+		<termname><![CDATA[Infections]]></termname>
+		<termslug><![CDATA[infections]]></termslug>
+		<therapies><![CDATA[Homeopathy|Reiki]]></therapies>
+		<therapies_2><![CDATA[a:2:{i:0;s:2:"86";i:1;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[524]]></termid>
+		<termname><![CDATA[Carbuncles]]></termname>
+		<termslug><![CDATA[carbuncles]]></termslug>
+		<therapies><![CDATA[Silver Pulser|Past life Regression|Inner Child Healing]]></therapies>
+		<therapies_2><![CDATA[a:3:{i:0;s:4:"1008";i:1;s:2:"75";i:2;s:3:"134";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[525]]></termid>
+		<termname><![CDATA[Gangrenes]]></termname>
+		<termslug><![CDATA[gangrenes]]></termslug>
+		<therapies><![CDATA[Child2]]></therapies>
+		<therapies_2><![CDATA[a:1:{i:0;i:1171;}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[526]]></termid>
+		<termname><![CDATA[Influenza]]></termname>
+		<termslug><![CDATA[influenza]]></termslug>
+		<therapies><![CDATA[Past life Regression|Inner Child Healing|Reiki]]></therapies>
+		<therapies_2><![CDATA[a:3:{i:0;s:2:"75";i:1;s:3:"134";i:2;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[527]]></termid>
+		<termname><![CDATA[Tuberculosis]]></termname>
+		<termslug><![CDATA[tuberculosis]]></termslug>
+		<therapies><![CDATA[Past life Regression|Inner Child Healing|Reiki]]></therapies>
+		<therapies_2><![CDATA[a:3:{i:0;s:2:"75";i:1;s:3:"134";i:2;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[528]]></termid>
+		<termname><![CDATA[Sexual desire disorders]]></termname>
+		<termslug><![CDATA[sexual-desire-disorders]]></termslug>
+		<therapies><![CDATA[Past life Regression|Hypnobirthing]]></therapies>
+		<therapies_2><![CDATA[a:2:{i:0;s:2:"75";i:1;s:2:"76";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[529]]></termid>
+		<termname><![CDATA[Sexual arousal disorders]]></termname>
+		<termslug><![CDATA[sexual-arousal-disorders]]></termslug>
+		<therapies><![CDATA[Past life Regression|Hypnobirthing]]></therapies>
+		<therapies_2><![CDATA[a:2:{i:0;s:2:"75";i:1;s:2:"76";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[530]]></termid>
+		<termname><![CDATA[Premature ejaculation]]></termname>
+		<termslug><![CDATA[premature-ejaculation]]></termslug>
+		<therapies><![CDATA[Past life Regression|Hypnobirthing]]></therapies>
+		<therapies_2><![CDATA[a:2:{i:0;s:2:"75";i:1;s:2:"76";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[531]]></termid>
+		<termname><![CDATA[Orgasm disorders]]></termname>
+		<termslug><![CDATA[orgasm-disorders]]></termslug>
+		<therapies><![CDATA[Past life Regression|Hypnobirthing]]></therapies>
+		<therapies_2><![CDATA[a:2:{i:0;s:2:"75";i:1;s:2:"76";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[532]]></termid>
+		<termname><![CDATA[Sexual pain disorders]]></termname>
+		<termslug><![CDATA[sexual-pain-disorders]]></termslug>
+		<therapies><![CDATA[Past life Regression|Hypnobirthing]]></therapies>
+		<therapies_2><![CDATA[a:2:{i:0;s:2:"75";i:1;s:2:"76";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[533]]></termid>
+		<termname><![CDATA[Post-orgasmic diseases]]></termname>
+		<termslug><![CDATA[post-orgasmic-diseases]]></termslug>
+		<therapies><![CDATA[Past life Regression|Hypnobirthing]]></therapies>
+		<therapies_2><![CDATA[a:2:{i:0;s:2:"75";i:1;s:2:"76";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[534]]></termid>
+		<termname><![CDATA[Pelvic Floor Dysfunction]]></termname>
+		<termslug><![CDATA[pelvic-floor-dysfunction]]></termslug>
+		<therapies><![CDATA[Past life Regression|Hypnobirthing]]></therapies>
+		<therapies_2><![CDATA[a:2:{i:0;s:2:"75";i:1;s:2:"76";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[535]]></termid>
+		<termname><![CDATA[Female and Male Orgasmic Disorders]]></termname>
+		<termslug><![CDATA[female-and-male-orgasmic-disorders]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[536]]></termid>
+		<termname><![CDATA[Gender identity disorder]]></termname>
+		<termslug><![CDATA[gender-identity-disorder]]></termslug>
+		<therapies><![CDATA[DNA Activation|Past life Regression|Hypnobirthing]]></therapies>
+		<therapies_2><![CDATA[a:3:{i:0;s:2:"18";i:1;s:2:"75";i:2;s:2:"76";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[537]]></termid>
+		<termname><![CDATA[ADHD]]></termname>
+		<termslug><![CDATA[adhd]]></termslug>
+		<therapies><![CDATA[Reflexology|Reflexology|Reflexology]]></therapies>
+		<therapies_2><![CDATA[a:3:{i:0;i:100;i:1;i:100;i:2;i:100;}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[538]]></termid>
+		<termname><![CDATA[AHD]]></termname>
+		<termslug><![CDATA[ahd]]></termslug>
+		<therapies><![CDATA[Dance Therapy|Dance Therapy]]></therapies>
+		<therapies_2><![CDATA[a:2:{i:0;i:68;i:1;i:68;}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[539]]></termid>
+		<termname><![CDATA[Alzheimer's Disease]]></termname>
+		<termslug><![CDATA[alzheimers-disease]]></termslug>
+		<therapies><![CDATA[|Theta Healing|Child2|Accupressure|Dance Therapy|Physiotherapy|Nutritionist|Family Constellation|Somatic Experience|Cranio Sacral Therapy|Rebirthing|Mind mapping|Crystal Healing|Inner Child Healing|Reiki|Past life Regression|Chanting|Energy Healing|Hypnotherapy]]></therapies>
+		<therapies_2><![CDATA[a:19:{i:0;N;i:1;i:12;i:2;i:1171;i:3;i:91;i:4;i:68;i:5;i:108;i:6;i:148;i:7;i:1174;i:8;i:107;i:9;i:1011;i:10;i:124;i:11;i:72;i:12;i:13;i:13;i:134;i:14;i:8;i:15;i:75;i:16;i:62;i:17;i:4;i:18;i:54;}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[540]]></termid>
+		<termname><![CDATA[Epilepsy]]></termname>
+		<termslug><![CDATA[epilepsy]]></termslug>
+		<therapies><![CDATA[Reiki|Acupressure|Pranic Healing|EFT|Hatha Yoga|Vinyasa Yoga|Ashtanga Yoga|Iyengar Yoga|Preeti Siddhi|Past life Regression|Inner Child Healing|Homeopathy|Dance Therapy|Reiki]]></therapies>
+		<therapies_2><![CDATA[a:14:{i:0;s:1:"8";i:1;s:3:"942";i:2;s:1:"7";i:3;s:3:"989";i:4;s:2:"27";i:5;s:2:"10";i:6;s:2:"28";i:7;s:2:"29";i:8;s:2:"26";i:9;s:2:"75";i:10;s:3:"134";i:11;s:2:"86";i:12;s:2:"68";i:13;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[541]]></termid>
+		<termname><![CDATA[Multiple Sclerosis]]></termname>
+		<termslug><![CDATA[multiple-sclerosis]]></termslug>
+		<therapies><![CDATA[Preeti Siddhi|Homeopathy|Dance Therapy|Reiki]]></therapies>
+		<therapies_2><![CDATA[a:4:{i:0;s:2:"26";i:1;s:2:"86";i:2;s:2:"68";i:3;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[542]]></termid>
+		<termname><![CDATA[Parkinson's disease]]></termname>
+		<termslug><![CDATA[parkinsons-disease]]></termslug>
+		<therapies><![CDATA[DNA Activation|Preeti Siddhi|Homeopathy|Dance Therapy|Reiki]]></therapies>
+		<therapies_2><![CDATA[a:5:{i:0;s:2:"18";i:1;s:2:"26";i:2;s:2:"86";i:3;s:2:"68";i:4;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[543]]></termid>
+		<termname><![CDATA[Autism]]></termname>
+		<termslug><![CDATA[autism]]></termslug>
+		<therapies><![CDATA[Cranio Sacral Therapy|Crystal Bowl|Homeopathy|Dance Therapy]]></therapies>
+		<therapies_2><![CDATA[a:4:{i:0;s:4:"1011";i:1;s:4:"1177";i:2;s:2:"86";i:3;s:2:"68";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[544]]></termid>
+		<termname><![CDATA[Vertigo]]></termname>
+		<termslug><![CDATA[vertigo]]></termslug>
+		<therapies><![CDATA[Pranayama|Ayurveda|Homeopathy|Dance Therapy|Reiki]]></therapies>
+		<therapies_2><![CDATA[a:5:{i:0;s:3:"125";i:1;s:2:"85";i:2;s:2:"86";i:3;s:2:"68";i:4;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[545]]></termid>
+		<termname><![CDATA[Nerve and muscle disorders]]></termname>
+		<termslug><![CDATA[nerve-and-muscle-disorders]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[546]]></termid>
+		<termname><![CDATA[Movement disorder - Cerebellar Ataxia]]></termname>
+		<termslug><![CDATA[movement-disorder-cerebellar-ataxia]]></termslug>
+		<therapies><![CDATA[Homeopathy|Dance Therapy]]></therapies>
+		<therapies_2><![CDATA[a:2:{i:0;s:2:"86";i:1;s:2:"68";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[547]]></termid>
+		<termname><![CDATA[Cerebral Palsy]]></termname>
+		<termslug><![CDATA[cerebral-palsy]]></termslug>
+		<therapies><![CDATA[Accupressure|Dance Therapy|Cranio Sacral Therapy|Somatic Experience|Rebirthing|Nutritionist|Hypnotherapy|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:8:{i:0;i:91;i:1;i:68;i:2;i:1011;i:3;i:107;i:4;i:124;i:5;i:148;i:6;i:54;i:7;i:86;}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[548]]></termid>
+		<termname><![CDATA[Headache Tension]]></termname>
+		<termslug><![CDATA[headache-tension]]></termslug>
+		<therapies><![CDATA[Past life Regression|Inner Child Healing|Reiki]]></therapies>
+		<therapies_2><![CDATA[a:3:{i:0;s:2:"75";i:1;s:3:"134";i:2;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[549]]></termid>
+		<termname><![CDATA[Headache Cluster]]></termname>
+		<termslug><![CDATA[headache-cluster]]></termslug>
+		<therapies><![CDATA[Past life Regression|Inner Child Healing]]></therapies>
+		<therapies_2><![CDATA[a:2:{i:0;s:2:"75";i:1;s:3:"134";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[550]]></termid>
+		<termname><![CDATA[Periodic Headaches]]></termname>
+		<termslug><![CDATA[periodic-headaches]]></termslug>
+		<therapies><![CDATA[Acupressure|Reflexology|Bowen Therapy|EFT|Cranio Sacral Therapy|Reiki|Preeti Siddhi|Past life Regression|Hypnotherapy|NeuroSky MindWave &amp; Mind Workstation|Inner Child Healing|Heartmath emWave Pro|BrainTap Mind Machine|EMOTIV Epoc+|Mindfold Relaxation Mask|Pranayama|Conscious Parenting Counselor]]></therapies>
+		<therapies_2><![CDATA[a:17:{i:0;s:3:"942";i:1;s:3:"100";i:2;s:3:"102";i:3;s:3:"989";i:4;s:4:"1011";i:5;s:1:"8";i:6;s:2:"26";i:7;s:2:"75";i:8;s:2:"54";i:9;i:1179;i:10;s:3:"134";i:11;s:3:"173";i:12;s:3:"174";i:13;s:3:"175";i:14;s:3:"176";i:15;s:3:"125";i:16;s:3:"144";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[551]]></termid>
+		<termname><![CDATA[Twitches – Intentional tremors]]></termname>
+		<termslug><![CDATA[twitches-intentional-tremors]]></termslug>
+		<therapies><![CDATA[Past life Regression|Inner Child Healing|Reiki]]></therapies>
+		<therapies_2><![CDATA[a:3:{i:0;s:2:"75";i:1;s:3:"134";i:2;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[552]]></termid>
+		<termname><![CDATA[Tics]]></termname>
+		<termslug><![CDATA[tics]]></termslug>
+		<therapies><![CDATA[Past life Regression|Inner Child Healing|Reiki]]></therapies>
+		<therapies_2><![CDATA[a:3:{i:0;s:2:"75";i:1;s:3:"134";i:2;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[553]]></termid>
+		<termname><![CDATA[Jerks]]></termname>
+		<termslug><![CDATA[jerks]]></termslug>
+		<therapies><![CDATA[Past life Regression|Inner Child Healing|Reiki]]></therapies>
+		<therapies_2><![CDATA[a:3:{i:0;s:2:"75";i:1;s:3:"134";i:2;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[554]]></termid>
+		<termname><![CDATA[Convulsions]]></termname>
+		<termslug><![CDATA[convulsions]]></termslug>
+		<therapies><![CDATA[Past life Regression|Inner Child Healing]]></therapies>
+		<therapies_2><![CDATA[a:2:{i:0;s:2:"75";i:1;s:3:"134";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[555]]></termid>
+		<termname><![CDATA[Migraines]]></termname>
+		<termslug><![CDATA[migraines]]></termslug>
+		<therapies><![CDATA[Meditation|Meditation|Meditation|Meditation|Meditation|Meditation|Meditation|Meditation|Meditation|Meditation|Meditation]]></therapies>
+		<therapies_2><![CDATA[a:11:{i:0;i:60;i:1;i:60;i:2;i:60;i:3;i:60;i:4;i:60;i:5;i:60;i:6;i:60;i:7;i:60;i:8;i:60;i:9;i:60;i:10;i:60;}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[556]]></termid>
+		<termname><![CDATA[Anxiety Disorders]]></termname>
+		<termslug><![CDATA[anxiety-disorders]]></termslug>
+		<therapies><![CDATA[ELECTRO REFLEX ENERGIZER|ELECTRO REFLEX ENERGIZER|ELECTRO REFLEX ENERGIZER|ELECTRO REFLEX ENERGIZER|ELECTRO REFLEX ENERGIZER|ELECTRO REFLEX ENERGIZER]]></therapies>
+		<therapies_2><![CDATA[a:6:{i:0;i:163;i:1;i:163;i:2;i:163;i:3;i:163;i:4;i:163;i:5;i:163;}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[557]]></termid>
+		<termname><![CDATA[Clinical Depression]]></termname>
+		<termslug><![CDATA[clinical-depression]]></termslug>
+		<therapies><![CDATA[ELECTRO REFLEX ENERGIZER|ELECTRO REFLEX ENERGIZER|ELECTRO REFLEX ENERGIZER|ELECTRO REFLEX ENERGIZER|ELECTRO REFLEX ENERGIZER|ELECTRO REFLEX ENERGIZER|ELECTRO REFLEX ENERGIZER]]></therapies>
+		<therapies_2><![CDATA[a:7:{i:0;i:163;i:1;i:163;i:2;i:163;i:3;i:163;i:4;i:163;i:5;i:163;i:6;i:163;}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[558]]></termid>
+		<termname><![CDATA[Depression with Psychotic features]]></termname>
+		<termslug><![CDATA[depression-with-psychotic-features]]></termslug>
+		<therapies><![CDATA[ELECTRO REFLEX ENERGIZER|ELECTRO REFLEX ENERGIZER|ELECTRO REFLEX ENERGIZER|ELECTRO REFLEX ENERGIZER|ELECTRO REFLEX ENERGIZER|ELECTRO REFLEX ENERGIZER|ELECTRO REFLEX ENERGIZER|ELECTRO REFLEX ENERGIZER]]></therapies>
+		<therapies_2><![CDATA[a:8:{i:0;i:163;i:1;i:163;i:2;i:163;i:3;i:163;i:4;i:163;i:5;i:163;i:6;i:163;i:7;i:163;}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[559]]></termid>
+		<termname><![CDATA[Manic Depressive Psychosis ( MDP )]]></termname>
+		<termslug><![CDATA[manic-depressive-psychosis-mdp]]></termslug>
+		<therapies><![CDATA[Past life Regression|Inner Child Healing]]></therapies>
+		<therapies_2><![CDATA[a:2:{i:0;s:2:"75";i:1;s:3:"134";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[560]]></termid>
+		<termname><![CDATA[Insomnia]]></termname>
+		<termslug><![CDATA[insomnia]]></termslug>
+		<therapies><![CDATA[ELECTRO REFLEX ENERGIZER|ELECTRO REFLEX ENERGIZER|ELECTRO REFLEX ENERGIZER|ELECTRO REFLEX ENERGIZER|ELECTRO REFLEX ENERGIZER|ELECTRO REFLEX ENERGIZER|ELECTRO REFLEX ENERGIZER|ELECTRO REFLEX ENERGIZER|ELECTRO REFLEX ENERGIZER]]></therapies>
+		<therapies_2><![CDATA[a:9:{i:0;i:163;i:1;i:163;i:2;i:163;i:3;i:163;i:4;i:163;i:5;i:163;i:6;i:163;i:7;i:163;i:8;i:163;}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[561]]></termid>
+		<termname><![CDATA[Substance Abuse ( Addictions)]]></termname>
+		<termslug><![CDATA[substance-abuse-addictions]]></termslug>
+		<therapies><![CDATA[NeuroSky MindWave &amp; Mind Workstation|Heartmath emWave Pro|BrainTap Mind Machine|EMOTIV Epoc+|Mindfold Relaxation Mask|EFT|Hatha Yoga|Vinyasa Yoga|Ashtanga Yoga|Iyengar Yoga|Pranayama|Preeti Siddhi|Reiki|Q LASER Q1000NG]]></therapies>
+		<therapies_2><![CDATA[a:14:{i:0;s:4:"1179";i:1;s:3:"173";i:2;s:3:"174";i:3;s:3:"175";i:4;s:3:"176";i:5;s:3:"989";i:6;s:2:"27";i:7;s:2:"10";i:8;s:2:"28";i:9;s:2:"29";i:10;s:3:"125";i:11;s:2:"26";i:12;s:1:"8";i:13;s:3:"170";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[562]]></termid>
+		<termname><![CDATA[Fear &amp; Belief in Destructive Dark Energies]]></termname>
+		<termslug><![CDATA[fear-belief-in-destructive-dark-energies]]></termslug>
+		<therapies><![CDATA[Acupressure|NeuroSky MindWave &amp; Mind Workstation|Heartmath emWave Pro|BrainTap Mind Machine|EMOTIV Epoc+|Mindfold Relaxation Mask|EFT|Family Constellation|Preeti Siddhi|Inner Child Healing|Past life Regression|Homeopathy|Reiki]]></therapies>
+		<therapies_2><![CDATA[a:13:{i:0;s:3:"942";i:1;s:4:"1179";i:2;s:3:"173";i:3;s:3:"174";i:4;s:3:"175";i:5;s:3:"176";i:6;s:3:"989";i:7;s:4:"1174";i:8;s:2:"26";i:9;s:3:"134";i:10;s:2:"75";i:11;s:2:"86";i:12;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[563]]></termid>
+		<termname><![CDATA[Fugue state]]></termname>
+		<termslug><![CDATA[fugue-state]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[564]]></termid>
+		<termname><![CDATA[Somatoform Disorder]]></termname>
+		<termslug><![CDATA[somatoform-disorder]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[565]]></termid>
+		<termname><![CDATA[Hysteria]]></termname>
+		<termslug><![CDATA[hysteria]]></termslug>
+		<therapies><![CDATA[SE -5 1000 Scalar Energy]]></therapies>
+		<therapies_2><![CDATA[a:1:{i:0;s:4:"1058";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[566]]></termid>
+		<termname><![CDATA[Anger Management]]></termname>
+		<termslug><![CDATA[anger-management]]></termslug>
+		<therapies><![CDATA[NeuroSky MindWave &amp; Mind Workstation|Heartmath emWave Pro|BrainTap Mind Machine|EMOTIV Epoc+|Mindfold Relaxation Mask|Sudarshan Kriya|NLHeal your life Program by Louise Hay|P9|Inner Child Healing|Past life Regression|Homeopathy|SE -5 1000 Scalar Energy|Bach Flower Remedies]]></therapies>
+		<therapies_2><![CDATA[a:13:{i:0;s:4:"1179";i:1;s:3:"173";i:2;s:3:"174";i:3;s:3:"175";i:4;s:3:"176";i:5;s:3:"126";i:6;i:1180;i:7;i:1181;i:8;s:3:"134";i:9;s:2:"75";i:10;s:2:"86";i:11;s:4:"1058";i:12;s:2:"87";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[567]]></termid>
+		<termname><![CDATA[Birth Trauma]]></termname>
+		<termslug><![CDATA[birth-trauma]]></termslug>
+		<therapies><![CDATA[Acupressure|NeuroSky MindWave &amp; Mind Workstation|Heartmath emWave Pro|BrainTap Mind Machine|EMOTIV Epoc+|Mindfold Relaxation Mask|Rebirthing|Inner Child Healing|Past life Regression|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:10:{i:0;s:3:"942";i:1;s:4:"1179";i:2;s:3:"173";i:3;s:3:"174";i:4;s:3:"175";i:5;s:3:"176";i:6;s:3:"124";i:7;s:3:"134";i:8;s:2:"75";i:9;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[568]]></termid>
+		<termname><![CDATA[Schizophrenia]]></termname>
+		<termslug><![CDATA[schizophrenia]]></termslug>
+		<therapies><![CDATA[NeuroSky MindWave &amp; Mind Workstation|Heartmath emWave Pro|BrainTap Mind Machine|EMOTIV Epoc+|Mindfold Relaxation Mask|Dream Analysis|Angel Reading|Naturopathy|Reiki]]></therapies>
+		<therapies_2><![CDATA[a:9:{i:0;s:4:"1179";i:1;s:3:"173";i:2;s:3:"174";i:3;s:3:"175";i:4;s:3:"176";i:5;s:2:"42";i:6;s:2:"36";i:7;s:2:"84";i:8;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[569]]></termid>
+		<termname><![CDATA[Dementia treatment]]></termname>
+		<termslug><![CDATA[dementia-treatment]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[570]]></termid>
+		<termname><![CDATA[Fear of Death/Disaster/Disease Post traumatic Stress Disorder PTSD]]></termname>
+		<termslug><![CDATA[fear-of-death-disaster-disease-post-traumatic-stress-disorder-ptsd]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[571]]></termid>
+		<termname><![CDATA[Suicidal Tendencies/ Behavior (Cognitive disorder)]]></termname>
+		<termslug><![CDATA[suicidal-tendencies-behavior-cognitive-disorder]]></termslug>
+		<therapies><![CDATA[Acupressure|NeuroSky MindWave &amp; Mind Workstation|Heartmath emWave Pro|BrainTap Mind Machine|EMOTIV Epoc+|Mindfold Relaxation Mask|EFT|Reiki|Pranic Healing|Preeti Siddhi|Reiki|Bach Flower Remedies]]></therapies>
+		<therapies_2><![CDATA[a:12:{i:0;s:3:"942";i:1;s:4:"1179";i:2;s:3:"173";i:3;s:3:"174";i:4;s:3:"175";i:5;s:3:"176";i:6;s:3:"989";i:7;s:1:"8";i:8;s:1:"7";i:9;s:2:"26";i:10;s:1:"8";i:11;s:2:"87";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[572]]></termid>
+		<termname><![CDATA[Memory improvement]]></termname>
+		<termslug><![CDATA[memory-improvement]]></termslug>
+		<therapies><![CDATA[NeuroSky MindWave &amp; Mind Workstation|Heartmath emWave Pro|BrainTap Mind Machine|EMOTIV Epoc+|Mindfold Relaxation Mask|Ayurveda|Hypnotherapy|Reiki]]></therapies>
+		<therapies_2><![CDATA[a:8:{i:0;s:4:"1179";i:1;s:3:"173";i:2;s:3:"174";i:3;s:3:"175";i:4;s:3:"176";i:5;s:2:"85";i:6;s:2:"54";i:7;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[573]]></termid>
+		<termname><![CDATA[Personality disorders (Schizoid,Schizotypal, Dependent personality)]]></termname>
+		<termslug><![CDATA[personality-disorders-schizoidschizotypal-dependent-personality]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[574]]></termid>
+		<termname><![CDATA[Family Issues]]></termname>
+		<termslug><![CDATA[family-issues]]></termslug>
+		<therapies><![CDATA[Child2|Child2|Child2|Child2|Child2|Child2|Child2|Child2|Child2|Child2|Child2|Child2|Child2]]></therapies>
+		<therapies_2><![CDATA[a:13:{i:0;i:1171;i:1;i:1171;i:2;i:1171;i:3;i:1171;i:4;i:1171;i:5;i:1171;i:6;i:1171;i:7;i:1171;i:8;i:1171;i:9;i:1171;i:10;i:1171;i:11;i:1171;i:12;i:1171;}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[575]]></termid>
+		<termname><![CDATA[Relationship Issues]]></termname>
+		<termslug><![CDATA[relationship-issues]]></termslug>
+		<therapies><![CDATA[Access bars|SE -5 1000 Scalar Energy|Rebirthing|Heal your life Program by Louise Hay|P9|Family Constellation|Inner Child Healing|Past life Regression|Reiki|Bach Flower Remedies]]></therapies>
+		<therapies_2><![CDATA[a:10:{i:0;s:2:"14";i:1;s:4:"1058";i:2;s:3:"124";i:3;s:4:"1173";i:4;s:4:"1181";i:5;s:4:"1174";i:6;s:3:"134";i:7;s:2:"75";i:8;s:1:"8";i:9;s:2:"87";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[576]]></termid>
+		<termname><![CDATA[Legal problems with business partners]]></termname>
+		<termslug><![CDATA[legal-problems-with-business-partners]]></termslug>
+		<therapies><![CDATA[SE -5 1000 Scalar Energy|Reiki]]></therapies>
+		<therapies_2><![CDATA[a:2:{i:0;s:4:"1058";i:1;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[577]]></termid>
+		<termname><![CDATA[Trauma of Sudden Death]]></termname>
+		<termslug><![CDATA[trauma-of-sudden-death]]></termslug>
+		<therapies><![CDATA[SE -5 1000 Scalar Energy|Rebirthing|Family Constellation|Angel Reading|Naturopathy|Inner Child Healing|Past life Regression|Reiki|Bach Flower Remedies]]></therapies>
+		<therapies_2><![CDATA[a:9:{i:0;s:4:"1058";i:1;s:3:"124";i:2;s:4:"1174";i:3;s:2:"36";i:4;s:2:"84";i:5;s:3:"134";i:6;s:2:"75";i:7;s:1:"8";i:8;s:2:"87";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[578]]></termid>
+		<termname><![CDATA[Trauma of Sexual abuse]]></termname>
+		<termslug><![CDATA[trauma-of-sexual-abuse]]></termslug>
+		<therapies><![CDATA[SE -5 1000 Scalar Energy|Angel Reading|Naturopathy|Reiki|Bach Flower Remedies]]></therapies>
+		<therapies_2><![CDATA[a:5:{i:0;s:4:"1058";i:1;s:2:"36";i:2;s:2:"84";i:3;s:1:"8";i:4;s:2:"87";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[579]]></termid>
+		<termname><![CDATA[Postpartum depression]]></termname>
+		<termslug><![CDATA[postpartum-depression]]></termslug>
+		<therapies><![CDATA[SE -5 1000 Scalar Energy|Reiki|Bach Flower Remedies]]></therapies>
+		<therapies_2><![CDATA[a:3:{i:0;s:4:"1058";i:1;s:1:"8";i:2;s:2:"87";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[580]]></termid>
+		<termname><![CDATA[Money issues]]></termname>
+		<termslug><![CDATA[money-issues]]></termslug>
+		<therapies><![CDATA[Access bars|SE -5 1000 Scalar Energy|Rebirthing|Family Constellation|Past life Regression|Reiki]]></therapies>
+		<therapies_2><![CDATA[a:6:{i:0;s:2:"14";i:1;s:4:"1058";i:2;s:3:"124";i:3;s:4:"1174";i:4;s:2:"75";i:5;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[581]]></termid>
+		<termname><![CDATA[Terminal Illness]]></termname>
+		<termslug><![CDATA[terminal-illness]]></termslug>
+		<therapies><![CDATA[SE -5 1000 Scalar Energy|Reiki]]></therapies>
+		<therapies_2><![CDATA[a:2:{i:0;s:4:"1058";i:1;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[582]]></termid>
+		<termname><![CDATA[Being the caregiver for a disabled / terminally ill relative]]></termname>
+		<termslug><![CDATA[being-the-caregiver-for-a-disabled-terminally-ill-relative]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[583]]></termid>
+		<termname><![CDATA[Mid-life crisis]]></termname>
+		<termslug><![CDATA[mid-life-crisis]]></termslug>
+		<therapies><![CDATA[SE -5 1000 Scalar Energy|Reiki]]></therapies>
+		<therapies_2><![CDATA[a:2:{i:0;s:4:"1058";i:1;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[584]]></termid>
+		<termname><![CDATA[Divorce]]></termname>
+		<termslug><![CDATA[divorce]]></termslug>
+		<therapies><![CDATA[Child2|Child2|Child2|Child2|Child2|Child2|Child2|Child2|Child2|Child2|Child2]]></therapies>
+		<therapies_2><![CDATA[a:11:{i:0;i:1171;i:1;i:1171;i:2;i:1171;i:3;i:1171;i:4;i:1171;i:5;i:1171;i:6;i:1171;i:7;i:1171;i:8;i:1171;i:9;i:1171;i:10;i:1171;}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[585]]></termid>
+		<termname><![CDATA[Career issues]]></termname>
+		<termslug><![CDATA[career-issues]]></termslug>
+		<therapies><![CDATA[SE -5 1000 Scalar Energy|Family Constellation|Inner Child Healing|Past life Regression|Reiki]]></therapies>
+		<therapies_2><![CDATA[a:5:{i:0;s:4:"1058";i:1;s:4:"1174";i:2;s:3:"134";i:3;s:2:"75";i:4;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[586]]></termid>
+		<termname><![CDATA[Break up]]></termname>
+		<termslug><![CDATA[break-up]]></termslug>
+		<therapies><![CDATA[SE -5 1000 Scalar Energy|Past life Regression|Reiki|Bach Flower Remedies]]></therapies>
+		<therapies_2><![CDATA[a:4:{i:0;s:4:"1058";i:1;s:2:"75";i:2;s:1:"8";i:3;s:2:"87";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[587]]></termid>
+		<termname><![CDATA[Addiction Issues (Pan, Caffeine, Alcohol, Drugs, Tobacco chewing, Porn)]]></termname>
+		<termslug><![CDATA[addiction-issues-pan-caffeine-alcohol-drugs-tobacco-chewing-porn]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[588]]></termid>
+		<termname><![CDATA[Toxic work environment]]></termname>
+		<termslug><![CDATA[toxic-work-environment]]></termslug>
+		<therapies><![CDATA[SE -5 1000 Scalar Energy|Reiki]]></therapies>
+		<therapies_2><![CDATA[a:2:{i:0;s:4:"1058";i:1;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[589]]></termid>
+		<termname><![CDATA[Litigation in work]]></termname>
+		<termslug><![CDATA[litigation-in-work]]></termslug>
+		<therapies><![CDATA[SE -5 1000 Scalar Energy|Family Constellation|Past life Regression|Reiki]]></therapies>
+		<therapies_2><![CDATA[a:4:{i:0;s:4:"1058";i:1;s:4:"1174";i:2;s:2:"75";i:3;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[590]]></termid>
+		<termname><![CDATA[Serious accident]]></termname>
+		<termslug><![CDATA[serious-accident]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[591]]></termid>
+		<termname><![CDATA[Domestic violence]]></termname>
+		<termslug><![CDATA[domestic-violence]]></termslug>
+		<therapies><![CDATA[SE -5 1000 Scalar Energy|Meditation|Homeopathy|Reiki|Bach Flower Remedies]]></therapies>
+		<therapies_2><![CDATA[a:5:{i:0;s:4:"1058";i:1;s:2:"60";i:2;s:2:"86";i:3;s:1:"8";i:4;s:2:"87";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[592]]></termid>
+		<termname><![CDATA[Feelings of de-motivation]]></termname>
+		<termslug><![CDATA[feelings-of-de-motivation]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[593]]></termid>
+		<termname><![CDATA[Emotional Fatigue]]></termname>
+		<termslug><![CDATA[emotional-fatigue]]></termslug>
+		<therapies><![CDATA[SE -5 1000 Scalar Energy|Cranio Sacral Therapy|Rebirthing|Family Constellation|Inner Child Healing|Past life Regression|Hypnotherapy|Meditation|Homeopathy|Reiki]]></therapies>
+		<therapies_2><![CDATA[a:10:{i:0;s:4:"1058";i:1;s:4:"1011";i:2;s:3:"124";i:3;s:4:"1174";i:4;s:3:"134";i:5;s:2:"75";i:6;s:2:"54";i:7;s:2:"60";i:8;s:2:"86";i:9;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[594]]></termid>
+		<termname><![CDATA[Birth Defects]]></termname>
+		<termslug><![CDATA[birth-defects]]></termslug>
+		<therapies><![CDATA[SE -5 1000 Scalar Energy|Meditation|Homeopathy|Reiki]]></therapies>
+		<therapies_2><![CDATA[a:4:{i:0;s:4:"1058";i:1;s:2:"60";i:2;s:2:"86";i:3;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[595]]></termid>
+		<termname><![CDATA[Chronic illnesses]]></termname>
+		<termslug><![CDATA[chronic-illnesses]]></termslug>
+		<therapies><![CDATA[Theta Healing|SE -5 1000 Scalar Energy|Meditation|Homeopathy|Reiki|Bach Flower Remedies]]></therapies>
+		<therapies_2><![CDATA[a:6:{i:0;s:2:"12";i:1;s:4:"1058";i:2;s:2:"60";i:3;s:2:"86";i:4;s:1:"8";i:5;s:2:"87";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[596]]></termid>
+		<termname><![CDATA[Grief]]></termname>
+		<termslug><![CDATA[grief]]></termslug>
+		<therapies><![CDATA[Angel Reading|Naturopathy|Past life Regression|Meditation|Homeopathy|Reiki|SE -5 1000 Scalar Energy|Bach Flower Remedies]]></therapies>
+		<therapies_2><![CDATA[a:8:{i:0;s:2:"36";i:1;s:2:"84";i:2;s:2:"75";i:3;s:2:"60";i:4;s:2:"86";i:5;s:1:"8";i:6;s:4:"1058";i:7;s:2:"87";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[597]]></termid>
+		<termname><![CDATA[Possessions]]></termname>
+		<termslug><![CDATA[possessions]]></termslug>
+		<therapies><![CDATA[Angel Reading|Naturopathy|Meditation|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:4:{i:0;s:2:"36";i:1;s:2:"84";i:2;s:2:"60";i:3;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[598]]></termid>
+		<termname><![CDATA[Natural calamities]]></termname>
+		<termslug><![CDATA[natural-calamities]]></termslug>
+		<therapies><![CDATA[Angel Reading|Naturopathy|Meditation|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:4:{i:0;s:2:"36";i:1;s:2:"84";i:2;s:2:"60";i:3;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[599]]></termid>
+		<termname><![CDATA[Violent Abuse]]></termname>
+		<termslug><![CDATA[violent-abuse]]></termslug>
+		<therapies><![CDATA[Angel Reading|Naturopathy|Meditation|Homeopathy|Reiki]]></therapies>
+		<therapies_2><![CDATA[a:5:{i:0;s:2:"36";i:1;s:2:"84";i:2;s:2:"60";i:3;s:2:"86";i:4;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[600]]></termid>
+		<termname><![CDATA[Organ Failure or Organ Damage or Organ Rejections post Transplant]]></termname>
+		<termslug><![CDATA[organ-failure-or-organ-damage-or-organ-rejections-post-transplant]]></termslug>
+		<therapies><![CDATA[Angel Reading|Naturopathy|Meditation|Homeopathy|Reiki|SE -5 1000 Scalar Energy]]></therapies>
+		<therapies_2><![CDATA[a:6:{i:0;s:2:"36";i:1;s:2:"84";i:2;s:2:"60";i:3;s:2:"86";i:4;s:1:"8";i:5;s:4:"1058";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[601]]></termid>
+		<termname><![CDATA[Black Magic]]></termname>
+		<termslug><![CDATA[black-magic]]></termslug>
+		<therapies><![CDATA[Child2|Child2|Child2|Child2|Child2|Child2|Child2|Child2]]></therapies>
+		<therapies_2><![CDATA[a:8:{i:0;i:1171;i:1;i:1171;i:2;i:1171;i:3;i:1171;i:4;i:1171;i:5;i:1171;i:6;i:1171;i:7;i:1171;}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[602]]></termid>
+		<termname><![CDATA[Post Surgery]]></termname>
+		<termslug><![CDATA[post-surgery]]></termslug>
+		<therapies><![CDATA[Angel Reading|Naturopathy|Meditation|Homeopathy|Reiki|Bach Flower Remedies]]></therapies>
+		<therapies_2><![CDATA[a:6:{i:0;s:2:"36";i:1;s:2:"84";i:2;s:2:"60";i:3;s:2:"86";i:4;s:1:"8";i:5;s:2:"87";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[603]]></termid>
+		<termname><![CDATA[War related Issue]]></termname>
+		<termslug><![CDATA[war-related-issue]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[604]]></termid>
+		<termname><![CDATA[Rape Trauma]]></termname>
+		<termslug><![CDATA[rape-trauma]]></termslug>
+		<therapies><![CDATA[Angel Reading|Naturopathy|Meditation|Homeopathy|Reiki]]></therapies>
+		<therapies_2><![CDATA[a:5:{i:0;s:2:"36";i:1;s:2:"84";i:2;s:2:"60";i:3;s:2:"86";i:4;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[605]]></termid>
+		<termname><![CDATA[Ancestral Curses]]></termname>
+		<termslug><![CDATA[ancestral-curses]]></termslug>
+		<therapies><![CDATA[Angel Reading|Naturopathy|Meditation|Homeopathy|Reiki]]></therapies>
+		<therapies_2><![CDATA[a:5:{i:0;s:2:"36";i:1;s:2:"84";i:2;s:2:"60";i:3;s:2:"86";i:4;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[606]]></termid>
+		<termname><![CDATA[Trans-generational / Repetitive Pattern in Lineage]]></termname>
+		<termslug><![CDATA[trans-generational-repetitive-pattern-in-lineage]]></termslug>
+		<therapies><![CDATA[Family Constellation|Meditation|Homeopathy|Reiki]]></therapies>
+		<therapies_2><![CDATA[a:4:{i:0;s:4:"1174";i:1;s:2:"60";i:2;s:2:"86";i:3;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[607]]></termid>
+		<termname><![CDATA[Space Clearing]]></termname>
+		<termslug><![CDATA[space-clearing]]></termslug>
+		<therapies><![CDATA[Meditation|Homeopathy|Reiki|SE -5 1000 Scalar Energy]]></therapies>
+		<therapies_2><![CDATA[a:4:{i:0;s:2:"60";i:1;s:2:"86";i:2;s:1:"8";i:3;s:4:"1058";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[608]]></termid>
+		<termname><![CDATA[Limiting Beliefs]]></termname>
+		<termslug><![CDATA[limiting-beliefs]]></termslug>
+		<therapies><![CDATA[Access bars|Meditation|Homeopathy|Reiki|SE -5 1000 Scalar Energy]]></therapies>
+		<therapies_2><![CDATA[a:5:{i:0;s:2:"14";i:1;s:2:"60";i:2;s:2:"86";i:3;s:1:"8";i:4;s:4:"1058";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[609]]></termid>
+		<termname><![CDATA[Wounded inner child]]></termname>
+		<termslug><![CDATA[wounded-inner-child]]></termslug>
+		<therapies><![CDATA[Meditation|Homeopathy|Reiki|SE -5 1000 Scalar Energy]]></therapies>
+		<therapies_2><![CDATA[a:4:{i:0;s:2:"60";i:1;s:2:"86";i:2;s:1:"8";i:3;s:4:"1058";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[610]]></termid>
+		<termname><![CDATA[Childhood trauma]]></termname>
+		<termslug><![CDATA[childhood-trauma]]></termslug>
+		<therapies><![CDATA[Meditation|Homeopathy|Reiki]]></therapies>
+		<therapies_2><![CDATA[a:3:{i:0;s:2:"60";i:1;s:2:"86";i:2;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[611]]></termid>
+		<termname><![CDATA[Separation from mother/father]]></termname>
+		<termslug><![CDATA[separation-from-mother-father]]></termslug>
+		<therapies><![CDATA[Cranio Sacral Therapy|Meditation|Homeopathy|Reiki|SE -5 1000 Scalar Energy]]></therapies>
+		<therapies_2><![CDATA[a:5:{i:0;s:4:"1011";i:1;s:2:"60";i:2;s:2:"86";i:3;s:1:"8";i:4;s:4:"1058";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[612]]></termid>
+		<termname><![CDATA[Stress]]></termname>
+		<termslug><![CDATA[stress]]></termslug>
+		<therapies><![CDATA[Acupressure|ELECTRO REFLEX ENERGIZER|Foot De-tox|EFT|Hatha Yoga|Vinyasa Yoga|Ashtanga Yoga|Iyengar Yoga|Reiki|Inner Child Healing|Access bars|Preeti Siddhi|Pranic Healing|NeuroSky MindWave &amp; Mind Workstation|Heartmath emWave Pro|BrainTap Mind Machine|EMOTIV Epoc+|Mindfold Relaxation Mask|Rebirthing|Pranayama|Conscious Parenting Counselor|Reiki|SE -5 1000 Scalar Energy|Bach Flower Remedies]]></therapies>
+		<therapies_2><![CDATA[a:24:{i:0;s:3:"942";i:1;s:3:"163";i:2;s:4:"1009";i:3;s:3:"989";i:4;s:2:"27";i:5;s:2:"10";i:6;s:2:"28";i:7;s:2:"29";i:8;s:1:"8";i:9;s:3:"134";i:10;s:2:"14";i:11;s:2:"26";i:12;s:1:"7";i:13;s:4:"1179";i:14;s:3:"173";i:15;s:3:"174";i:16;s:3:"175";i:17;s:3:"176";i:18;s:3:"124";i:19;s:3:"125";i:20;s:3:"144";i:21;s:1:"8";i:22;s:4:"1058";i:23;s:2:"87";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[613]]></termid>
+		<termname><![CDATA[General ill health &amp; lethargy]]></termname>
+		<termslug><![CDATA[general-ill-health-lethargy]]></termslug>
+		<therapies><![CDATA[Acupressure|EFT|Preeti Siddhi|NeuroSky MindWave &amp; Mind Workstation|Heartmath emWave Pro|BrainTap Mind Machine|EMOTIV Epoc+|Mindfold Relaxation Mask|Homeopathy|Reiki|SE -5 1000 Scalar Energy|Bach Flower Remedies]]></therapies>
+		<therapies_2><![CDATA[a:12:{i:0;s:3:"942";i:1;s:3:"989";i:2;s:2:"26";i:3;s:4:"1179";i:4;s:3:"173";i:5;s:3:"174";i:6;s:3:"175";i:7;s:3:"176";i:8;s:2:"86";i:9;s:1:"8";i:10;s:4:"1058";i:11;s:2:"87";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[917]]></termid>
+		<termname><![CDATA[Silver Pulser]]></termname>
+		<termslug><![CDATA[silver-pulser]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[918]]></termid>
+		<termname><![CDATA[ELECTRO REFLEX ENERGIZER]]></termname>
+		<termslug><![CDATA[electro-reflex-energizer]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[919]]></termid>
+		<termname><![CDATA[Foot De-tox]]></termname>
+		<termslug><![CDATA[foot-de-tox]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[920]]></termid>
+		<termname><![CDATA[Rebirthing]]></termname>
+		<termslug><![CDATA[rebirthing]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[921]]></termid>
+		<termname><![CDATA[Inner Child Healing]]></termname>
+		<termslug><![CDATA[inner-child-healing]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[922]]></termid>
+		<termname><![CDATA[Past life Regression]]></termname>
+		<termslug><![CDATA[past-life-regression]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[923]]></termid>
+		<termname><![CDATA[Homeopathy]]></termname>
+		<termslug><![CDATA[homeopathy]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[924]]></termid>
+		<termname><![CDATA[Angel Reading]]></termname>
+		<termslug><![CDATA[angel-reading]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[925]]></termid>
+		<termname><![CDATA[Meditation]]></termname>
+		<termslug><![CDATA[meditation]]></termslug>
+		<therapies><![CDATA[Child2]]></therapies>
+		<therapies_2><![CDATA[a:1:{i:0;i:1171;}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[926]]></termid>
+		<termname><![CDATA[Conscious Parenting Counselor]]></termname>
+		<termslug><![CDATA[conscious-parenting-counselor]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[927]]></termid>
+		<termname><![CDATA[Reiki]]></termname>
+		<termslug><![CDATA[reiki]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[928]]></termid>
+		<termname><![CDATA[Theta Healing]]></termname>
+		<termslug><![CDATA[theta-healing]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[929]]></termid>
+		<termname><![CDATA[Ayurveda]]></termname>
+		<termslug><![CDATA[ayurveda]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[930]]></termid>
+		<termname><![CDATA[Panchkarma]]></termname>
+		<termslug><![CDATA[panchkarma]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[932]]></termid>
+		<termname><![CDATA[Reflexology]]></termname>
+		<termslug><![CDATA[reflexology]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[933]]></termid>
+		<termname><![CDATA[FA Infra Sauna]]></termname>
+		<termslug><![CDATA[fa-infra-sauna]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[934]]></termid>
+		<termname><![CDATA[I - float]]></termname>
+		<termslug><![CDATA[i-float]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[935]]></termid>
+		<termname><![CDATA[Bio Tuner]]></termname>
+		<termslug><![CDATA[bio-tuner]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[936]]></termid>
+		<termname><![CDATA[Cranio Sacral Therapy]]></termname>
+		<termslug><![CDATA[cranio-sacral-therapy]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[937]]></termid>
+		<termname><![CDATA[Hatha Yoga]]></termname>
+		<termslug><![CDATA[hatha-yoga]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[938]]></termid>
+		<termname><![CDATA[Vinyasa Yoga]]></termname>
+		<termslug><![CDATA[vinyasa-yoga]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[939]]></termid>
+		<termname><![CDATA[Ashtanga Yoga]]></termname>
+		<termslug><![CDATA[ashtanga-yoga]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[940]]></termid>
+		<termname><![CDATA[Iyengar Yoga]]></termname>
+		<termslug><![CDATA[iyengar-yoga]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1000]]></termid>
+		<termname><![CDATA[Test Migrane]]></termname>
+		<termslug><![CDATA[migrane-migraines]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1068]]></termid>
+		<termname><![CDATA[Naturopathy]]></termname>
+		<termslug><![CDATA[naturopathy]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1069]]></termid>
+		<termname><![CDATA[Nambudripad's Allergy Elimination Technique]]></termname>
+		<termslug><![CDATA[nambudripads-allergy-elimination-technique]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1070]]></termid>
+		<termname><![CDATA[Bowen Therapy]]></termname>
+		<termslug><![CDATA[bowen-therapy]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1071]]></termid>
+		<termname><![CDATA[Heal your life Program by Louise Hay]]></termname>
+		<termslug><![CDATA[heal-your-life-program-by-louise-hay]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1072]]></termid>
+		<termname><![CDATA[Family Constellation]]></termname>
+		<termslug><![CDATA[family-constellation]]></termslug>
+		<therapies><![CDATA[Child2|Child2|Child2|Child2|Child2|Child2|Child2|Child2|Child2|Child2|Child2|Child2]]></therapies>
+		<therapies_2><![CDATA[a:12:{i:0;i:1171;i:1;i:1171;i:2;i:1171;i:3;i:1171;i:4;i:1171;i:5;i:1171;i:6;i:1171;i:7;i:1171;i:8;i:1171;i:9;i:1171;i:10;i:1171;i:11;i:1171;}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1073]]></termid>
+		<termname><![CDATA[Hypnotherapy]]></termname>
+		<termslug><![CDATA[hypnotherapy]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1074]]></termid>
+		<termname><![CDATA[Affirmation &amp; Visualization Therapy]]></termname>
+		<termslug><![CDATA[affirmation-visualization-therapy]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1075]]></termid>
+		<termname><![CDATA[Pranic Healing]]></termname>
+		<termslug><![CDATA[pranic-healing]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1076]]></termid>
+		<termname><![CDATA[DNA Activation]]></termname>
+		<termslug><![CDATA[dna-activation]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1077]]></termid>
+		<termname><![CDATA[Nutritionist]]></termname>
+		<termslug><![CDATA[nutritionist]]></termslug>
+		<therapies><![CDATA[A Test therapy|A Test therapy|A Test therapy|A Test therapy]]></therapies>
+		<therapies_2><![CDATA[a:4:{i:0;i:1169;i:1;i:1169;i:2;i:1169;i:3;i:1169;}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1078]]></termid>
+		<termname><![CDATA[Kundalini Activation]]></termname>
+		<termslug><![CDATA[kundalini-activation]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1079]]></termid>
+		<termname><![CDATA[EFT]]></termname>
+		<termslug><![CDATA[eft]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1080]]></termid>
+		<termname><![CDATA[Crystal Bowl]]></termname>
+		<termslug><![CDATA[crystal-bowl]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1081]]></termid>
+		<termname><![CDATA[Pranayama]]></termname>
+		<termslug><![CDATA[pranayama]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1082]]></termid>
+		<termname><![CDATA[Bach Flower Remedies]]></termname>
+		<termslug><![CDATA[bach-flower-remedies]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1083]]></termid>
+		<termname><![CDATA[Q LASER Q1000NG]]></termname>
+		<termslug><![CDATA[q-laser-q1000ng]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1084]]></termid>
+		<termname><![CDATA[ALFA HRV Analyzer]]></termname>
+		<termslug><![CDATA[alfa-hrv-analyzer]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1085]]></termid>
+		<termname><![CDATA[ES Complex]]></termname>
+		<termslug><![CDATA[es-complex]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1086]]></termid>
+		<termname><![CDATA[BIOFIELD READER]]></termname>
+		<termslug><![CDATA[biofield-reader]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1087]]></termid>
+		<termname><![CDATA[Resonant Field Imaging (RFI)]]></termname>
+		<termslug><![CDATA[resonant-field-imaging-rfi]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1088]]></termid>
+		<termname><![CDATA[Quantum Resonance Magnetic Health Analyzer]]></termname>
+		<termslug><![CDATA[quantum-resonance-magnetic-health-analyzer]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1089]]></termid>
+		<termname><![CDATA[Physiotherapy]]></termname>
+		<termslug><![CDATA[physiotherapy]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1090]]></termid>
+		<termname><![CDATA[Dance Therapy]]></termname>
+		<termslug><![CDATA[dance-therapy]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1091]]></termid>
+		<termname><![CDATA[Acupuncture]]></termname>
+		<termslug><![CDATA[acupuncture]]></termslug>
+		<therapies><![CDATA[|Theta Healing|Child2|Accupressure|Dance Therapy|Physiotherapy|Nutritionist|Family Constellation|Somatic Experience|Cranio Sacral Therapy|Rebirthing|Hypnotherapy]]></therapies>
+		<therapies_2><![CDATA[a:12:{i:0;N;i:1;i:12;i:2;i:1171;i:3;i:91;i:4;i:68;i:5;i:108;i:6;i:148;i:7;i:1174;i:8;i:107;i:9;i:1011;i:10;i:124;i:11;i:54;}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1092]]></termid>
+		<termname><![CDATA[SCENAR-Cosmodic Ex735Ag]]></termname>
+		<termslug><![CDATA[scenar-cosmodic-ex735ag]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1093]]></termid>
+		<termname><![CDATA[Access bars]]></termname>
+		<termslug><![CDATA[access-bars]]></termslug>
+		<therapies><![CDATA[Accupressure|Dance Therapy]]></therapies>
+		<therapies_2><![CDATA[a:2:{i:0;i:91;i:1;i:68;}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1094]]></termid>
+		<termname><![CDATA[Biogenealogy]]></termname>
+		<termslug><![CDATA[biogenealogy]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1095]]></termid>
+		<termname><![CDATA[Psychic Surgery]]></termname>
+		<termslug><![CDATA[psychic-surgery]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1096]]></termid>
+		<termname><![CDATA[Dolphin Healing Network]]></termname>
+		<termslug><![CDATA[dolphin-healing-network]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1097]]></termid>
+		<termname><![CDATA[Life Between Lives]]></termname>
+		<termslug><![CDATA[life-between-lives]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1098]]></termid>
+		<termname><![CDATA[NLP]]></termname>
+		<termslug><![CDATA[nlp]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1099]]></termid>
+		<termname><![CDATA[ALFA HRV Analyzer5]]></termname>
+		<termslug><![CDATA[alfa-hrv-analyzer5]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1100]]></termid>
+		<termname><![CDATA[Hypnobirthing]]></termname>
+		<termslug><![CDATA[hypnobirthing]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1101]]></termid>
+		<termname><![CDATA[NeuroSky MindWave &amp; Mind Workstation]]></termname>
+		<termslug><![CDATA[neurosky-mindwave-mind-workstation]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1102]]></termid>
+		<termname><![CDATA[ALFA HRV Analyzer7]]></termname>
+		<termslug><![CDATA[alfa-hrv-analyzer7]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1103]]></termid>
+		<termname><![CDATA[Braintap-Mind Machine]]></termname>
+		<termslug><![CDATA[braintap-mind-machine]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1104]]></termid>
+		<termname><![CDATA[EMOTIV Epoc+]]></termname>
+		<termslug><![CDATA[emotiv-epoc]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1105]]></termid>
+		<termname><![CDATA[Mindfold Relaxation Mask]]></termname>
+		<termslug><![CDATA[mindfold-relaxation-mask]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1106]]></termid>
+		<termname><![CDATA[Heartmath emWave Pro]]></termname>
+		<termslug><![CDATA[heartmath-emwave-pro]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1107]]></termid>
+		<termname><![CDATA[SE -5 1000 Scalar Energy]]></termname>
+		<termslug><![CDATA[se-5-1000-scalar-energy]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1108]]></termid>
+		<termname><![CDATA[Sudarshan Kriya]]></termname>
+		<termslug><![CDATA[sudarshan-kriya]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1109]]></termid>
+		<termname><![CDATA[NLP4]]></termname>
+		<termslug><![CDATA[nlp4]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1110]]></termid>
+		<termname><![CDATA[P9]]></termname>
+		<termslug><![CDATA[p9]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1111]]></termid>
+		<termname><![CDATA[C7]]></termname>
+		<termslug><![CDATA[c7]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1137]]></termid>
+		<termname><![CDATA[Acid Reflux]]></termname>
+		<termslug><![CDATA[acid-reflux]]></termslug>
+		<therapies><![CDATA[Child2|Accupressure|Nambudripad's Allergy Elimination Technique|Nambudripad's Allergy Elimination Technique (NAET)]]></therapies>
+		<therapies_2><![CDATA[a:4:{i:0;i:1171;i:1;i:91;i:2;i:1050;i:3;i:97;}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1138]]></termid>
+		<termname><![CDATA[Gallstones &amp; Cholecystitis]]></termname>
+		<termslug><![CDATA[gallstones-cholecystitis]]></termslug>
+		<therapies><![CDATA[Silver Pulser|ELECTRO REFLEX ENERGIZER|Foot De-tox|FA Infra Sauna|I - float|Bio Tuner|Rebirthing|Past life Regression|Inner Child Healing|Homeopathy|Angel Reading|Naturopathy|Meditation|Conscious Parenting Counselor|Reiki|Theta Healing|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:17:{i:0;s:4:"1008";i:1;s:3:"163";i:2;s:4:"1009";i:3;s:4:"1010";i:4;s:3:"166";i:5;s:3:"167";i:6;s:3:"124";i:7;s:2:"75";i:8;s:3:"134";i:9;s:2:"86";i:10;s:2:"36";i:11;s:2:"84";i:12;s:2:"60";i:13;s:3:"144";i:14;s:1:"8";i:15;s:2:"12";i:16;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1139]]></termid>
+		<termname><![CDATA[Bed Wetting]]></termname>
+		<termslug><![CDATA[bed-wetting]]></termslug>
+		<therapies><![CDATA[Acupressure|Reflexology|Pranic Healing|Hatha Yoga|Vinyasa Yoga|Ashtanga Yoga|Iyengar Yoga|Ayurveda|Past life Regression|Inner Child Healing|Homeopathy|Reiki|Theta Healing]]></therapies>
+		<therapies_2><![CDATA[a:13:{i:0;s:3:"942";i:1;s:3:"100";i:2;s:1:"7";i:3;s:2:"27";i:4;s:2:"10";i:5;s:2:"28";i:6;s:2:"29";i:7;s:2:"85";i:8;s:2:"75";i:9;s:3:"134";i:10;s:2:"86";i:11;s:1:"8";i:12;s:2:"12";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1140]]></termid>
+		<termname><![CDATA[Bladder Control]]></termname>
+		<termslug><![CDATA[bladder-control]]></termslug>
+		<therapies><![CDATA[Acupressure|Reflexology|Pranic Healing|Hatha Yoga|Vinyasa Yoga|Ashtanga Yoga|Iyengar Yoga|Ayurveda|Past life Regression|Inner Child Healing|Homeopathy|Reiki|Theta Healing]]></therapies>
+		<therapies_2><![CDATA[a:13:{i:0;s:3:"942";i:1;s:3:"100";i:2;s:1:"7";i:3;s:2:"27";i:4;s:2:"10";i:5;s:2:"28";i:6;s:2:"29";i:7;s:2:"85";i:8;s:2:"75";i:9;s:3:"134";i:10;s:2:"86";i:11;s:1:"8";i:12;s:2:"12";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1141]]></termid>
+		<termname><![CDATA[Addison's Disease ( Adrenal gland )]]></termname>
+		<termslug><![CDATA[addisons-disease-adrenal-gland]]></termslug>
+		<therapies><![CDATA[Reiki|Past life Regression|Theta Healing|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:4:{i:0;s:1:"8";i:1;s:2:"75";i:2;s:2:"12";i:3;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1142]]></termid>
+		<termname><![CDATA[High Blood Pressure ( Hypertension )]]></termname>
+		<termslug><![CDATA[high-blood-pressure-hypertension]]></termslug>
+		<therapies><![CDATA[EFT|Rebirthing|Pranayama|Preeti Siddhi|Family Constellation|Ayurveda|Homeopathy|Meditation|Reiki|Past life Regression|Theta Healing|Bach Flower Remedies]]></therapies>
+		<therapies_2><![CDATA[a:12:{i:0;s:3:"989";i:1;s:3:"124";i:2;s:3:"125";i:3;s:2:"26";i:4;s:4:"1174";i:5;s:2:"85";i:6;s:2:"86";i:7;s:2:"60";i:8;s:1:"8";i:9;s:2:"75";i:10;s:2:"12";i:11;s:2:"87";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1143]]></termid>
+		<termname><![CDATA[Arrhythmia ( Irregular Heartbeat )]]></termname>
+		<termslug><![CDATA[arrhythmia-irregular-heartbeat]]></termslug>
+		<therapies><![CDATA[Past life Regression|Inner Child Healing|Reiki|Theta Healing|Homeopathy|Family Constellation]]></therapies>
+		<therapies_2><![CDATA[a:6:{i:0;s:2:"75";i:1;s:3:"134";i:2;s:1:"8";i:3;s:2:"12";i:4;s:2:"86";i:5;s:4:"1174";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1144]]></termid>
+		<termname><![CDATA[Coronary Artery Disease (Ischaemic Heart Disease )]]></termname>
+		<termslug><![CDATA[coronary-artery-disease-ischaemic-heart-disease]]></termslug>
+		<therapies><![CDATA[Homeopathy|Meditation|Reiki|Past life Regression|Theta Healing|Family Constellation]]></therapies>
+		<therapies_2><![CDATA[a:6:{i:0;s:2:"86";i:1;s:2:"60";i:2;s:1:"8";i:3;s:2:"75";i:4;s:2:"12";i:5;s:4:"1174";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1145]]></termid>
+		<termname><![CDATA[Atrial Fibrillation (AF) (Arrhythmia)]]></termname>
+		<termslug><![CDATA[atrial-fibrillation-af-arrhythmia]]></termslug>
+		<therapies><![CDATA[Reiki|Past life Regression|Theta Healing|Homeopathy|Family Constellation]]></therapies>
+		<therapies_2><![CDATA[a:5:{i:0;s:1:"8";i:1;s:2:"75";i:2;s:2:"12";i:3;s:2:"86";i:4;s:4:"1174";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1146]]></termid>
+		<termname><![CDATA[High Cholesterol ( Hyperlipidemia )]]></termname>
+		<termslug><![CDATA[high-cholesterol-hyperlipidemia]]></termslug>
+		<therapies><![CDATA[Rebirthing|Family Constellation|Inner Child Healing|Past life Regression|Hypnotherapy|Hatha Yoga|Vinyasa Yoga|Ashtanga Yoga|Iyengar Yoga|Ayurveda|Reiki|Theta Healing|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:13:{i:0;s:3:"124";i:1;s:4:"1174";i:2;s:3:"134";i:3;s:2:"75";i:4;s:2:"54";i:5;s:2:"27";i:6;s:2:"10";i:7;s:2:"28";i:8;s:2:"29";i:9;s:2:"85";i:10;s:1:"8";i:11;s:2:"12";i:12;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1147]]></termid>
+		<termname><![CDATA[Sinus Tachycardia (Arrhythmia)]]></termname>
+		<termslug><![CDATA[sinus-tachycardia-arrhythmia]]></termslug>
+		<therapies><![CDATA[Reiki|Past life Regression|Theta Healing|Homeopathy|Family Constellation]]></therapies>
+		<therapies_2><![CDATA[a:5:{i:0;s:1:"8";i:1;s:2:"75";i:2;s:2:"12";i:3;s:2:"86";i:4;s:4:"1174";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1148]]></termid>
+		<termname><![CDATA[Interstitial Lung Disease ( Pulmonary Fibrosis )]]></termname>
+		<termslug><![CDATA[interstitial-lung-disease-pulmonary-fibrosis]]></termslug>
+		<therapies><![CDATA[Theta Healing|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:2:{i:0;s:2:"12";i:1;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1149]]></termid>
+		<termname><![CDATA[Platelet problems (ITP Idiopathic Thrombocytopenic Purpura)]]></termname>
+		<termslug><![CDATA[platelet-problems-itp-idiopathic-thrombocytopenic-purpura]]></termslug>
+		<therapies><![CDATA[Past life Regression|Inner Child Healing|Reiki|Theta Healing|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:5:{i:0;s:2:"75";i:1;s:3:"134";i:2;s:1:"8";i:3;s:2:"12";i:4;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1150]]></termid>
+		<termname><![CDATA[Oligozoospermia &amp; Azoospermia ( Low / No Sperm Count )]]></termname>
+		<termslug><![CDATA[oligozoospermia-azoospermia-low-no-sperm-count]]></termslug>
+		<therapies><![CDATA[Theta Healing|Homeopathy|Inner Child Healing|Past life Regression]]></therapies>
+		<therapies_2><![CDATA[a:4:{i:0;s:2:"12";i:1;s:2:"86";i:2;s:3:"134";i:3;s:2:"75";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1151]]></termid>
+		<termname><![CDATA[Lymphoma Hodgkins]]></termname>
+		<termslug><![CDATA[lymphoma-hodgkins]]></termslug>
+		<therapies><![CDATA[Angel Reading|Naturopathy|Past life Regression|Inner Child Healing|Homeopathy|Reiki|Family Constellation|Life Between Lives]]></therapies>
+		<therapies_2><![CDATA[a:8:{i:0;s:2:"36";i:1;s:2:"84";i:2;s:2:"75";i:3;s:3:"134";i:4;s:2:"86";i:5;s:1:"8";i:6;s:4:"1174";i:7;s:2:"79";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1152]]></termid>
+		<termname><![CDATA[Female &amp; Male Orgasmic Disorders]]></termname>
+		<termslug><![CDATA[female-male-orgasmic-disorders]]></termslug>
+		<therapies><![CDATA[Past life Regression|Hypnobirthing]]></therapies>
+		<therapies_2><![CDATA[a:2:{i:0;s:2:"75";i:1;s:2:"76";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1153]]></termid>
+		<termname><![CDATA[Nerve &amp; Muscle Disorders]]></termname>
+		<termslug><![CDATA[nerve-muscle-disorders]]></termslug>
+		<therapies><![CDATA[Homeopathy|Dance Therapy|Reiki]]></therapies>
+		<therapies_2><![CDATA[a:3:{i:0;s:2:"86";i:1;s:2:"68";i:2;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1154]]></termid>
+		<termname><![CDATA[Panic Attacks]]></termname>
+		<termslug><![CDATA[panic-attacks]]></termslug>
+		<therapies><![CDATA[Reiki|Bach Flower Remedies|Acupressure|Pranic Healing|ELECTRO REFLEX ENERGIZER|Foot De-tox|NeuroSky MindWave &amp; Mind Workstation|Meditation|NeuroSky MindWave &amp; Mind Workstation|Heartmath emWave Pro|BrainTap Mind Machine|EMOTIV Epoc+|Mindfold Relaxation Mask|EFT|Cranio Sacral Therapy|Rebirthing|Preeti Siddhi|Hatha Yoga|Vinyasa Yoga|Ashtanga Yoga|Iyengar Yoga|Pranayama|Family Constellation|Preeti Siddhi|Inner Child Healing|Past life Regression|Hypnotherapy|Theta Healing|Inner Child Healing|Conscious Parenting Counselor|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:31:{i:0;s:1:"8";i:1;s:2:"87";i:2;s:3:"942";i:3;s:1:"7";i:4;s:3:"163";i:5;s:4:"1009";i:6;s:4:"1179";i:7;s:2:"60";i:8;s:4:"1179";i:9;s:3:"173";i:10;s:3:"174";i:11;s:3:"175";i:12;s:3:"176";i:13;s:3:"989";i:14;s:4:"1011";i:15;s:3:"124";i:16;s:2:"26";i:17;s:2:"27";i:18;s:2:"10";i:19;s:2:"28";i:20;s:2:"29";i:21;s:3:"125";i:22;s:4:"1174";i:23;s:2:"26";i:24;s:3:"134";i:25;s:2:"75";i:26;s:2:"54";i:27;s:2:"12";i:28;s:3:"134";i:29;s:3:"144";i:30;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1155]]></termid>
+		<termname><![CDATA[Phobia]]></termname>
+		<termslug><![CDATA[phobia]]></termslug>
+		<therapies><![CDATA[Reiki|Bach Flower Remedies|Acupressure|Pranic Healing|ELECTRO REFLEX ENERGIZER|Foot De-tox|NeuroSky MindWave &amp; Mind Workstation|Meditation|NeuroSky MindWave &amp; Mind Workstation|Heartmath emWave Pro|BrainTap Mind Machine|EMOTIV Epoc+|Mindfold Relaxation Mask|EFT|Cranio Sacral Therapy|Rebirthing|Preeti Siddhi|Hatha Yoga|Vinyasa Yoga|Ashtanga Yoga|Iyengar Yoga|Pranayama|Family Constellation|Preeti Siddhi|Inner Child Healing|Past life Regression|Hypnotherapy|Theta Healing|Inner Child Healing|Conscious Parenting Counselor|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:31:{i:0;s:1:"8";i:1;s:2:"87";i:2;s:3:"942";i:3;s:1:"7";i:4;s:3:"163";i:5;s:4:"1009";i:6;s:4:"1179";i:7;s:2:"60";i:8;s:4:"1179";i:9;s:3:"173";i:10;s:3:"174";i:11;s:3:"175";i:12;s:3:"176";i:13;s:3:"989";i:14;s:4:"1011";i:15;s:3:"124";i:16;s:2:"26";i:17;s:2:"27";i:18;s:2:"10";i:19;s:2:"28";i:20;s:2:"29";i:21;s:3:"125";i:22;s:4:"1174";i:23;s:2:"26";i:24;s:3:"134";i:25;s:2:"75";i:26;s:2:"54";i:27;s:2:"12";i:28;s:3:"134";i:29;s:3:"144";i:30;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1156]]></termid>
+		<termname><![CDATA[OCD]]></termname>
+		<termslug><![CDATA[ocd]]></termslug>
+		<therapies><![CDATA[Reiki|Bach Flower Remedies|Acupressure|Pranic Healing|ELECTRO REFLEX ENERGIZER|Foot De-tox|NeuroSky MindWave &amp; Mind Workstation|Meditation|NeuroSky MindWave &amp; Mind Workstation|Heartmath emWave Pro|BrainTap Mind Machine|EMOTIV Epoc+|Mindfold Relaxation Mask|EFT|Cranio Sacral Therapy|Rebirthing|Preeti Siddhi|Hatha Yoga|Vinyasa Yoga|Ashtanga Yoga|Iyengar Yoga|Pranayama|Family Constellation|Preeti Siddhi|Inner Child Healing|Past life Regression|Hypnotherapy|Theta Healing|Inner Child Healing|Conscious Parenting Counselor|Homeopathy]]></therapies>
+		<therapies_2><![CDATA[a:31:{i:0;s:1:"8";i:1;s:2:"87";i:2;s:3:"942";i:3;s:1:"7";i:4;s:3:"163";i:5;s:4:"1009";i:6;s:4:"1179";i:7;s:2:"60";i:8;s:4:"1179";i:9;s:3:"173";i:10;s:3:"174";i:11;s:3:"175";i:12;s:3:"176";i:13;s:3:"989";i:14;s:4:"1011";i:15;s:3:"124";i:16;s:2:"26";i:17;s:2:"27";i:18;s:2:"10";i:19;s:2:"28";i:20;s:2:"29";i:21;s:3:"125";i:22;s:4:"1174";i:23;s:2:"26";i:24;s:3:"134";i:25;s:2:"75";i:26;s:2:"54";i:27;s:2:"12";i:28;s:3:"134";i:29;s:3:"144";i:30;s:2:"86";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1157]]></termid>
+		<termname><![CDATA[Bipolar Mood Disorder]]></termname>
+		<termslug><![CDATA[bipolar-mood-disorder]]></termslug>
+		<therapies><![CDATA[Reiki|Acupressure|Pranic Healing|Reflexology|NeuroSky MindWave &amp; Mind Workstation|Meditation|Heartmath emWave Pro|BrainTap Mind Machine|EMOTIV Epoc+|Mindfold Relaxation Mask|EFT|Cranio Sacral Therapy|Hatha Yoga|Vinyasa Yoga|Ashtanga Yoga|Iyengar Yoga|Preeti Siddhi|Pranayama|Heal your life Program by Louise Hay|Angel Reading|Naturopathy|Past life Regression|Inner Child Healing|Conscious Parenting Counselor|Bach Flower Remedies]]></therapies>
+		<therapies_2><![CDATA[a:25:{i:0;s:1:"8";i:1;s:3:"942";i:2;s:1:"7";i:3;s:3:"100";i:4;s:4:"1179";i:5;s:2:"60";i:6;s:3:"173";i:7;s:3:"174";i:8;s:3:"175";i:9;s:3:"176";i:10;s:3:"989";i:11;s:4:"1011";i:12;s:2:"27";i:13;s:2:"10";i:14;s:2:"28";i:15;s:2:"29";i:16;s:2:"26";i:17;s:3:"125";i:18;s:4:"1173";i:19;s:2:"36";i:20;s:2:"84";i:21;s:2:"75";i:22;s:3:"134";i:23;s:3:"144";i:24;s:2:"87";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1158]]></termid>
+		<termname><![CDATA[Dementia]]></termname>
+		<termslug><![CDATA[dementia]]></termslug>
+		<therapies><![CDATA[NeuroSky MindWave &amp; Mind Workstation|Heartmath emWave Pro|BrainTap Mind Machine|EMOTIV Epoc+|Mindfold Relaxation Mask|Cranio Sacral Therapy|Reiki]]></therapies>
+		<therapies_2><![CDATA[a:7:{i:0;s:4:"1179";i:1;s:3:"173";i:2;s:3:"174";i:3;s:3:"175";i:4;s:3:"176";i:5;s:4:"1011";i:6;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1159]]></termid>
+		<termname><![CDATA[Post Traumatic Stress Disorder PTSD]]></termname>
+		<termslug><![CDATA[post-traumatic-stress-disorder-ptsd]]></termslug>
+		<therapies><![CDATA[Pranic Healing|NeuroSky MindWave &amp; Mind Workstation|Heartmath emWave Pro|BrainTap Mind Machine|EMOTIV Epoc+|Mindfold Relaxation Mask|EFT|Pranayama|Preeti Siddhi|Inner Child Healing|Past life Regression|Reiki]]></therapies>
+		<therapies_2><![CDATA[a:12:{i:0;s:1:"7";i:1;s:4:"1179";i:2;s:3:"173";i:3;s:3:"174";i:4;s:3:"175";i:5;s:3:"176";i:6;s:3:"989";i:7;s:3:"125";i:8;s:2:"26";i:9;s:3:"134";i:10;s:2:"75";i:11;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1160]]></termid>
+		<termname><![CDATA[Personality Disorders]]></termname>
+		<termslug><![CDATA[personality-disorders]]></termslug>
+		<therapies><![CDATA[Past life Regression|Inner Child Healing|Reiki]]></therapies>
+		<therapies_2><![CDATA[a:3:{i:0;s:2:"75";i:1;s:3:"134";i:2;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1161]]></termid>
+		<termname><![CDATA[Caregiver for a Disabled / Terminally Ill Relative]]></termname>
+		<termslug><![CDATA[caregiver-for-a-disabled-terminally-ill-relative]]></termslug>
+		<therapies><![CDATA[SE -5 1000 Scalar Energy|Reiki]]></therapies>
+		<therapies_2><![CDATA[a:2:{i:0;s:4:"1058";i:1;s:1:"8";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1162]]></termid>
+		<termname><![CDATA[Addiction Issues]]></termname>
+		<termslug><![CDATA[addiction-issues]]></termslug>
+		<therapies><![CDATA[SE -5 1000 Scalar Energy|Angel Reading|Naturopathy|Past life Regression|Inner Child Healing|Reiki|Q LASER Q1000NG]]></therapies>
+		<therapies_2><![CDATA[a:7:{i:0;s:4:"1058";i:1;s:2:"36";i:2;s:2:"84";i:3;s:2:"75";i:4;s:3:"134";i:5;s:1:"8";i:6;s:3:"170";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1163]]></termid>
+		<termname><![CDATA[Accident]]></termname>
+		<termslug><![CDATA[accident]]></termslug>
+		<therapies><![CDATA[Child2]]></therapies>
+		<therapies_2><![CDATA[a:1:{i:0;i:1171;}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1164]]></termid>
+		<termname><![CDATA[De-motivation]]></termname>
+		<termslug><![CDATA[de-motivation]]></termslug>
+		<therapies><![CDATA[SE -5 1000 Scalar Energy|Meditation|Homeopathy|Reiki|Bach Flower Remedies]]></therapies>
+		<therapies_2><![CDATA[a:5:{i:0;s:4:"1058";i:1;s:2:"60";i:2;s:2:"86";i:3;s:1:"8";i:4;s:2:"87";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1189]]></termid>
+		<termname><![CDATA[Ailment parent 1]]></termname>
+		<termslug><![CDATA[ailment-parent-1]]></termslug>
+		<therapies><![CDATA[Child1|A Test therapy|Child2]]></therapies>
+		<therapies_2><![CDATA[a:3:{i:0;s:4:"1170";i:1;i:1169;i:2;s:4:"1171";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1190]]></termid>
+		<termname><![CDATA[Ailment parent 2]]></termname>
+		<termslug><![CDATA[ailment-parent-2]]></termslug>
+		<therapies><![CDATA[Child 3|A Test therapy|Child 4]]></therapies>
+		<therapies_2><![CDATA[a:3:{i:0;s:4:"1182";i:1;i:1169;i:2;s:4:"1183";}]]></therapies_2>
+	</node>
+	<node>
+		<termid><![CDATA[1191]]></termid>
+		<termname><![CDATA[ailment p]]></termname>
+		<termslug><![CDATA[ailment-p]]></termslug>
+		<therapies><![CDATA[]]></therapies>
+		<therapies_2><![CDATA[]]></therapies_2>
+	</node>
+</data>

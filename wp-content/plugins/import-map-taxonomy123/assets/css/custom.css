@@ -1,0 +1,129 @@
+section.rfa_map_taxonomy 
+{
+    max-width: 98%;
+}
+.rfa_map_taxonomy .form_block 
+{
+    padding: 10px;
+    border: thin solid lightgray;
+    margin-top: 20px;
+    background: #fbfbfb;
+}
+.rfa_map_taxonomy .form-control 
+{
+    width: 100%;
+    border-radius: 0;
+    margin-bottom: 6px;
+    height: 34px;
+}
+.rfa_map_taxonomy .form-group 
+{
+    margin-bottom: 20px;
+}
+.rfa_map_taxonomy label 
+{
+    font-size: 15px;
+    margin-bottom: 7px;
+    display: block;
+}
+.rfa_map_taxonomy h5 
+{
+    font-size: 18px;
+    margin: 5px 0 15px 0;
+}
+.rfa_map_taxonomy .btn.btn-primary 
+{
+    color: #fff;
+    background: #0085ba;
+    padding: 7px 23px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.rfa_map_taxonomy .btn.btn-primary:hover
+{
+	opacity: 0.8;
+}
+
+.rfa_map_taxonomy .row 
+{
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -10px;
+    margin-left: -10px;
+}
+.rfa_map_taxonomy .row > div 
+{
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.rfa_map_taxonomy .row:after, .rfa_map_taxonomy .row:before 
+{
+    box-sizing: border-box;
+}
+
+
+@media only screen and (max-width:599px)
+{
+	.rfa_map_taxonomy .row > div
+	{
+		width: calc(100% - 20px);
+	}
+}
+@media only screen and (min-width:600px)
+{
+	.rfa_map_taxonomy .col-sm-3
+	{
+		width: calc(25% - 20px);
+	}
+	.rfa_map_taxonomy .col-sm-4
+	{
+		width: calc(33.33% - 20px);
+	}
+	.rfa_map_taxonomy .col-sm-6
+	{
+		width: calc(50% - 20px);
+	}
+	.rfa_map_taxonomy .col-sm-8
+	{
+		width: calc(66.66% - 20px);
+	}
+	.rfa_map_taxonomy .col-sm-9
+	{
+		width: calc(75% - 20px);
+	}
+	.rfa_map_taxonomy .col-sm-12
+	{
+		width: calc(100% - 20px);
+	}
+}
+@media only screen and (min-width:992px)
+{
+	.rfa_map_taxonomy .col-md-3
+	{
+		width: calc(25% - 20px);
+	}
+	.rfa_map_taxonomy .col-md-4
+	{
+		width: calc(33.33% - 20px);
+	}
+	.rfa_map_taxonomy .col-md-6
+	{
+		width: calc(50% - 20px);
+	}
+	.rfa_map_taxonomy .col-md-8
+	{
+		width: calc(66.66% - 20px);
+	}
+	.rfa_map_taxonomy .col-md-9
+	{
+		width: calc(75% - 20px);
+	}
+	.rfa_map_taxonomy .col-md-12
+	{
+		width: calc(100% - 20px);
+	}
+}

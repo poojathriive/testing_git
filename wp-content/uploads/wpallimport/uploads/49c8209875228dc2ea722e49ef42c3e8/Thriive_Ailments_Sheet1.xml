@@ -1,0 +1,963 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<node>
+		<acidrefluxsymptom><![CDATA[Crohn's Disease]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Constipation]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Amoebic Colitis]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Gastritis]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Gallstones and Cholecystitis]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Diverticulosis & diverticulitis]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Lactose Intolerance]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Indigestion]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Irritable bowel syndrome (IBS)]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Tropical Sprue]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Hepatitis A]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Hepatitis B]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Hepatitis C]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Cirrhosis]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Alcoholic Liver Disease]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Peptic Ulcer]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Duodenal Ulcer]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Solitary Rectal Ulcer]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Stomach ache]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Frequent Heartburn]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Piles / Hemorrhoids]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Amoebic Dysentery]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Acid Peptic Disease]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Ulcer – Stomach/ Duodenum]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Inflammatory Bowel Disorder]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Rectum Hemorrhages]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Bacillary DYSENTERY]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Stomach Hemorrhages]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Hernia]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Chronic Kidney disease]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Bladder control in children]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Bladder control in adult]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Nephrotic Syndrome]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Pyelonephritis]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Renal stone /calculi]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Acute Glomerulonephritis]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Chronic Renal Failure]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Diabetic Nephropathy]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Hypertensive Nephropathy]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Diabetes]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Hormonal imbalance]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Hyperthyroid]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Hypothyroid]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Graves disease]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Solitary Nodule of thyroid]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Goitre]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[DIABETES MELLITUS]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Hyperadrenalism]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Addison's disease]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Pituitary disorders]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Hypoparathyroidism]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Tetany]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[High blood pressure]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Arrhythmia]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Coronary artery disease]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Congenital heart disease]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Ischaemia (angina/infarct)]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Acute Coronary Syndrome]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Angina/Angina Pectoris]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Atrial Fibrillation (AF)]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Atrial Septal Defect (ASD)]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Bradycardia (Arrhythmia )]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Cardiogenic Shock]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Cardiomyopathy]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Carotid Artery Disease / Carotid Artery Stenosis]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Chest Pain ( Angina )]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Stroke]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Congestive Heart Failure (CHF)]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Coronary Artery Disease (CAD)]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Dilated Cardiomyopathy]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Endocarditis]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Heart Block]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Heart Murmur]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Heart Valve Disease]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[High Cholesterol]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Hypertrophic Cardiomyopathy]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Mitral Valve Prolapse]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Myocardial Infarction (MI)]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Peripheral Vascular Disease (PVD)]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Pulmonary Hypertension]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Rheumatic Heart Disease]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Sinus Tachycardia]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Arthritis]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Gout]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Osteoarthritis]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Osteoporosis]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Rheumatoid arthritis]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Rheumatic Disorders]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Frozen shoulder]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Joint pain]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Fractures]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Fibromyalgia]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Traumatic arthritis]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Reactive Arthritis]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Reiter's Syndrome]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Sjogren's Syndrome]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Prolapse Intervertebral Disc]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Chronic Fatigue Syndrome]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Lupus / SLE ( Systemic Lupus Erythematosus)]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Asthma]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Bronchitis]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[COPD]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Emphysema]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Smoking cessation]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Sarcoidosis]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Pulmonary Eosinophilia]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Interstitial Lung Disease ]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Bronchial Asthma]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Platelet problems]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Coagulation Disorders]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Erectile Dysfunction]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Sexual Dysfunction – Male]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Prostate problems]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Varicocele]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Hydrocoele]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Oligozoospermia and Azoospermia ( Low / No Sperm Count )]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Cancer]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Breast cancer]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Prostate cancer]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Melanoma ( skin cancer)]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Colon cancer]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Lung cancer]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Lymphoma Hodgkins And Non Hodgkins Lymphoma]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Leukemia ]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Bladder Cancer]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Pancreatic Cancer]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Thyroid Cancer]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Kidney Renal Cell Cancer]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Pituitary Tumor]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[PCOS]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[PCOD]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Sexual Dysfunction - Female]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Menstrual Pain/Menopause]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Dysmenorrhoea]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Menorrhagia]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Uterine Fibroids]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Endometriosis]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Ovarian Cysts]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[PREGNANCY & LABOUR DIFFICULTIES]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Endometriosis]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[DUB ( Dysfunctional Uterine Bleeding )]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Pre Menopausal Syndrome]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Post Menopausal Syndrome]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Cancers – Cervix , Endometrium]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Infertility ( Primary & Secondary )]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Dandruff]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Eczema]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Thinning hair / hair loss]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Dermatitis]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Acne]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Skin rashes]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Facial Rejuvenation]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Anti-aging]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Psoriasis]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Cysts]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Allergic Dermatitis]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Contact Dermatitis]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Keloids]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Lichen planus]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Moles/naevi]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Neurodermatitis]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Warts]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Vitiligo]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Urticaria]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Suppurations]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Scabies]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Fungal infection – Tinea Cruris]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Seborrhoeic Dermatitis]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Pompholyx Eczema]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Steven Johnson Syndrome]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Pemphigus]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Immune disorder]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Ulcerative Colitis]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Rheumatoid Arthritis]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Sinusitis]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Sleep Apnea]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Allergic Rhinitis]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Allergies]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Nose Hemorrhages (Epistaxis)]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Tonsilitis]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Pharyngitis]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Adenoids in children]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Polyps]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Tooth caries]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Dyslipidemia]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Nutrition – Malnutrition, Poor weight gain]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Obesity]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Muscular dystrophy]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Hypotonia]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Hyperactivity]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Conjunctivitis / Eye infections]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Cold]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Sore throat]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Stomach Flu]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Diarrhea]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Ear infections]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Dyslexia]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[CONGENITAL ABNORMALITIES]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Adenoids]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Measles]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Mumps]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Recurrent Infections]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Chicken Pox]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Enuresis]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Pneumonia]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Worms]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Malnutrition]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Otitis]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Injury]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Trauma]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Ankylosing Spondylosis]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Prolapsed Disc]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Cervical/ Lumbar Spondylosis]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Sciatica]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Back Pain]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Chronic Neck & Shoulder pain]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Accidents]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Burns]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Bites]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Contused Lacerated wounds]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Fractures]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Jaundice]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Swine flu]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Dengue]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Cough]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Malaria]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Typhoid]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Fever]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Infections]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Carbuncles]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Gangrenes]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Suppurations]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Influenza]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Tuberculosis]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Sexual desire disorders]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Sexual arousal disorders]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Premature ejaculation]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Orgasm disorders]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Sexual pain disorders]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Post-orgasmic diseases]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Pelvic Floor Dysfunction]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Female and Male Orgasmic Disorders]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Gender identity disorder]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[ADHD]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[AHD]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Alzheimer's Disease]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Epilepsy]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Multiple Sclerosis]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Parkinson's disease]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Autism]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Vertigo]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Nerve and muscle disorders]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Movement disorder - Cerebellar Ataxia]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Cerebral Palsy]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Headache Tension]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Headache Cluster]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Periodic Headaches]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Twitches – Intentional tremors]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Tics]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Jerks]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Convulsions ]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Migraines]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Anxiety Disorders ]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Clinical Depression]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Depression with Psychotic features]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Manic Depressive Psychosis ( MDP )]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Insomnia]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Substance Abuse ( Addictions)]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Fear & Belief in Destructive Dark Energies]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Fugue state]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Somatoform Disorder]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Hysteria]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Anger Management]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Birth Trauma]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Schizophrenia]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Dementia treatment]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Fear of Death/Disaster/Disease Post traumatic Stress Disorder PTSD]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Suicidal Tendencies/ Behavior (Cognitive disorder)]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Memory improvement]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Personality disorders (Schizoid,Schizotypal, Dependent personality)]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Family Issues]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Relationship Issues]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Legal problems with business partners]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Trauma of Sudden Death]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Trauma of Sexual abuse]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Postpartum depression]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Money issues]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Terminal Illness]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Being the caregiver for a disabled / terminally ill relative]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Mid-life crisis]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Divorce]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Career issues]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Break up]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Addiction Issues (Pan, Caffeine, Alcohol, Drugs, Tobacco chewing, Porn)]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Toxic work environment]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Litigation in work]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Serious accident]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Domestic violence]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Feelings of de-motivation]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Emotional Fatigue]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Birth Defects]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Chronic illnesses]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Grief]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Possessions]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Natural calamities]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Violent Abuse]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Organ Failure or Organ Damage or Organ Rejections post Transplant]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Black Magic]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Post Surgery]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[War related Issue]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Rape Trauma]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Ancestral Curses]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Trans-generational / Repetitive Pattern in Lineage]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Space Clearing]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Limiting Beliefs]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Wounded inner child]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Childhood trauma]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Separation from mother/father]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[Stress]]></acidrefluxsymptom>
+	</node>
+	<node>
+		<acidrefluxsymptom><![CDATA[General ill health & lethargy]]></acidrefluxsymptom>
+	</node>
+</data>

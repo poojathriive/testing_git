@@ -1,0 +1,586 @@
+body{
+    font-family: "muli", sans-serif !important;
+    background: #ebebeb !important;
+}
+
+#wrapper{
+    width: 100%;
+    height: auto;
+    margin:0;
+    padding:0;
+}
+.header{
+    width: 100%;
+    height: auto;
+    margin:0;
+    padding:0;    
+}
+.tableHdhold{
+    width: 100%;
+    height: auto;
+    margin:0;
+    padding:0;
+    display: inline-block;
+    border:0;
+    border-collapse: collapse;
+}
+.header1a{
+    width: 70%;
+    height: auto;
+    margin:0;
+    padding:0;
+    float: left;
+    border:0;
+    border-collapse: collapse;
+    table-layout:fixed;
+}
+.header1a table{
+    width: 100%;
+    height: auto;
+    margin:0;
+    padding:0;
+    float: left;
+   
+}
+/* .tab_Listing caption{
+    text-transform: uppercase;
+    background: #007dbf;
+    color:#fff;
+    padding:10px;
+    margin:0;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+} */
+.header1b{
+    width: 30%;
+    height: auto;
+    margin:0;
+    padding:0;
+    float: right;
+    vertical-align: top;
+}
+
+.header1b a{
+    width: 100%;
+    outline:none; 
+    float: right;
+    text-align:right;   
+}
+.header1b a .logoHd{
+    float: right;
+    text-align:right;
+}
+
+.sec01{
+    width: 100%;
+    height: auto;
+    margin:0;
+    padding:0;
+    display: inline-block;
+}
+.tab_Listing{
+    width: 100%;
+    table-layout:fixed;
+    height: auto;
+    margin:0;
+    padding:0;
+    list-style: none;
+    /* border-collapse: collapse; */
+    /* border-spacing: 0; */
+}
+.tab_Listing td.list{
+    /* background: #004078; */
+    margin: 0;
+    vertical-align: middle;
+    padding:0;
+}
+
+
+.wtclr{
+    color:#fff;
+}
+.picIcon{
+    width: 100%;
+    float: left; 
+}
+.anchList{
+    width: 100%;
+    float: left;
+    text-decoration:none;
+    color:#fff;
+    font-size: 14px;
+    line-height: 14px;
+    padding:0;
+    margin:0;
+}
+.sec01 .table{
+    width: 100%;   
+    border:0;
+    border-collapse: collapse;
+    table-layout:fixed;
+}
+.table-bordered {
+    border:0;
+}
+.table-bordered td{
+    border: 1px solid #000;
+    padding: 10px;
+}
+.table-striped tbody tr:nth-child(odd){
+    background: #dbdbdb;
+}
+.table2 th{
+    margin:0;
+    border:0;
+}
+.tableHead1{   
+    width: 100%; 
+    background: #1c4f70;
+    color:#fff;
+    text-align: left;
+    padding:5px 8px;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: bold;
+}
+.tablerow-head{    
+    background: #ebebeb;
+}
+.tablerow-head th{
+    text-align: left;
+    color:#000;
+    padding: 2px 8px;
+    font-size:14px;
+    line-height: 18px;
+    font-weight: normal;
+    vertical-align: top;    
+}
+.tablerow-body td{
+    text-align: left;
+    color:#000;
+    padding: 2px 8px;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: normal;
+}
+.tableHead2{    
+    text-align: left;
+    background: #2682ba;
+    color:#fff;
+    padding: 2px 8px 2px 8px;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: bold;
+}
+
+.resBlk td{
+    color: #fff;
+    background: #4fb0c9;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: bold;
+    padding: 2px 8px;
+}
+.groResBlk td{
+    color: #fff;
+    background: #596b6e;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: bold;
+    padding: 2px 8px;
+}
+.table2{
+    width:100%;
+    height: auto;
+    float: left;
+    padding:0;
+    margin:0;
+    border:0;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+.table2 td{
+    border: 0;
+    padding: 2px 5px;
+    margin:0;
+}
+
+.bgColr1 td{
+    background: #dbdbdb;
+}
+.bgColr2 td{
+    background: #ebebeb;
+}
+.tabTxtbgCol2{
+    width: 100%; 
+    background: #dbdbdb;
+    color:#000;
+    padding:10px 8px;
+    font-size: 10px;
+    line-height: 14px;
+    white-space: normal;
+}
+.tabTxtbgCol2 b{
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: bold;
+}
+.graph-blklt{
+    width: 70%;
+    height: auto;
+    float: left;
+    margin:10px 40px 0 0;
+    padding:0;
+}
+.graph-blkrt{
+    width: 24%;
+    height: auto;
+    float: right;
+    margin:10px 0 0 0;
+    padding:0;
+}
+.graph01{
+    width: 100%;
+    height: auto;
+    float: left;
+    background: #fff;
+    margin:10px 40px 30px 0;
+    padding:30px 20px;
+}
+.graph01 .table{
+    width:100%;
+    height: auto;
+    float: left;
+    padding:0;
+    margin:0;
+    border:0;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+.barGraphTable{
+    border:0;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+.barGraphTable .grtable01{
+    width:100%;
+    border:0;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+.barGraphTable .grtable02{
+    width:100%;
+    border:0;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+.barGraphTable .grtable03{
+    width:100%;
+    border:0;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+/* .graph02{
+    width: 18%;
+    height: auto;
+    float: right;
+    background: #fff;
+    margin:0 15px 30px 15px;
+    padding:25px 20px;
+}
+.graph02 .table{
+    width:100%;
+    height: auto;
+    float: left;
+    padding:0;
+    margin:0;
+    border:0;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+.graph02a{
+    width: 18%;
+    height: auto;
+    float: right;
+    background: #fff;
+    margin:0 0 30px 15px;
+    padding:25px 20px;
+}
+.graph02a .table{
+    width:100%;
+    height: auto;
+    float: left;
+    padding:0;
+    margin:0;
+    border:0;
+    border-collapse: collapse;
+    table-layout: fixed;
+} */
+.graph03{
+    width: 45%;
+    height: auto;
+    float: left;
+    background: #fff;
+    margin:0 15px 20px 0;
+    padding:15px 15px 0 15px;
+}
+.graph04{
+    width: 45%;
+    height: auto;
+    float: left;
+    background: #fff;
+    margin:0 0 20px 15px;
+    padding:15px 15px 0 15px;
+}
+.graph05{
+    width: 100%;
+    height: 300px;
+    float: right;
+    background: #fff;
+    margin:0 0 20px 30px;
+    padding:20px 15px 10px 15px;
+}
+.graph05 .table{
+    width:100%;
+    height: auto;
+    float: left;
+    padding:0;
+    margin:0;
+    border:0;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+.table3{
+    width:100%;
+    height: auto;
+    float: left;
+    padding:0;
+    margin:0;
+    border:0;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+.table3 th{
+    margin:0;
+    border:0;
+}
+.table3 td{
+    border: 0;
+    padding: 2px 5px;
+    margin:0;    
+}
+.empBlk2{
+    width: 100%;
+    padding:0;
+}
+.empBlk3{
+    width: 100%;
+    padding:15px;
+}
+.empBlk3a{
+    width: 100%;
+    padding:2px;
+}
+.ext-tabrow th{
+    width:33.33%;
+}
+.tableHead3{   
+    width: 100%; 
+    background: none;
+    color:#000;
+    text-align: left;
+    padding:2px 8px;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.table3b{
+    width: 100%;
+    height:auto;
+    border-collapse: collapse;
+    table-layout:fixed;
+}
+.boxShad{
+    box-shadow: 0 15px 30px 0 rgba(0,0,0,.11), 0 5px 15px 0 rgba(0,0,0,.08);
+}
+.profblk{
+    width: 100%;
+    height: auto;
+    float: left;
+    margin:0 0 30px 0;
+    padding:0;
+}
+
+.leftBlk{
+    width: 20%;
+    height: auto;
+    float: left;
+    margin:0;
+    padding:0;
+}
+.rightBlk{
+    width: 70%;
+    height: auto;
+    float: left;
+    margin:0;
+    padding:0px 20px 0 20px;
+}
+.rightBlk h4{
+    width:100%;
+    margin:0 0 10px 0;
+    padding:0;
+    font-size:22px;
+    line-height:28px;
+    font-weight: normal;
+    white-space: nowrap;
+}
+.contList{
+    width:100%;
+    height: auto;
+    padding:0;
+    margin:0;
+    display: inline-block;
+}
+.contList li{
+    list-style: none;
+    float: left;
+    margin:0 0 5px 0;
+    padding:0;
+}
+.contList li a{
+    float: left;
+    color:#000;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 18px;
+}
+.contList li a .profIcon{
+    float: left;
+    margin:5px 5px 0 0;
+}
+.contList li a span{
+    float: left;
+    margin:5px 0 0 5px;
+}
+
+/* new */
+/* table - 2 */
+.table-desgn2 .tableHead1{   
+    padding:5px 8px;
+    font-size: 10px;
+    line-height: 12px;
+}
+.table-desgn2 .tableHead2{   
+    padding:5px 8px;
+    font-size: 10px;
+    line-height: 12px;
+}
+.table-desgn2 .tablerow-head th{
+    padding: 2px 8px;
+    font-size:10px;
+    line-height: 12px;
+}
+.table-desgn2 .tablerow-body td{
+    padding: 2px 8px;
+    font-size: 10px;
+    line-height: 12px;
+}
+.table-desgn2 .resBlk td{
+    font-size: 10px;
+    line-height: 12px;
+    padding: 2px 8px;
+}
+.table-desgn2 .groResBlk td{
+    font-size: 10px;
+    line-height: 12px;
+    padding: 2px 8px;
+}
+/* table - 3 */
+.table-desgn3 .tableHead1{   
+    padding:5px 8px;
+    font-size: 10px;
+    line-height: 12px;
+}
+.table-desgn3 .tableHead2{   
+    padding:5px 8px;
+    font-size: 10px;
+    line-height: 12px;
+}
+.table-desgn3 .tablerow-head th{
+    padding: 2px 8px;
+    font-size:10x;
+    line-height: 12px;
+}
+.table-desgn3 .tablerow-body td{
+    padding: 2px 8px;
+    font-size: 10px;
+    line-height: 12px;
+}
+.table-desgn3 .resBlk td{
+    font-size: 10px;
+    line-height: 12px;
+    padding: 2px 8px;
+}
+.table-desgn3 .groResBlk td{
+    font-size: 10px;
+    line-height: 12px;
+    padding: 2px 8px;
+}
+
+/* table - 4 */
+.table-desgn4 .tableHead1{   
+    padding:5px 8px;
+    font-size: 10px;
+    line-height: 12px;
+}
+.table-desgn4 .tablerow-head th{
+    padding: 2px 8px;
+    font-size:10px;
+    line-height: 12px;
+}
+.table-desgn4 .tablerow-body td{
+    padding: 2px 8px;
+    font-size: 10px;
+    line-height: 12px;
+}
+
+/* table - 5 */
+.table-desgn5 .tableHead1{   
+    padding:5px 8px;
+    font-size: 10px;
+    line-height: 14px;
+}
+.table-desgn5 .tablerow-head th{
+    padding: 2px 8px;
+    font-size:10px;
+    line-height: 14px;
+}
+.table-desgn5 .tablerow-body td{
+    padding: 2px 8px;
+    font-size: 10px;
+    line-height: 14px;
+}
+
+/* table - 6 */
+.table-desgn6 .tableHead1{   
+    padding:5px 8px;
+    font-size: 10px;
+    line-height: 12px;
+}
+.table-desgn6 .tablerow-head th{
+    padding: 2px 8px;
+    font-size:10px;
+    line-height: 12px;
+}
+.table-desgn6 .tablerow-body td{
+    padding: 2px 8px;
+    font-size: 10px;
+    line-height: 12px;
+}
+.table-desgn6 .tableHead3{   
+    padding:5px 8px;
+    font-size: 10px;
+    line-height: 12px;
+}
+
