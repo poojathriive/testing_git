@@ -124,7 +124,7 @@
 				
 		//print_r($therapist_details);
 				$result = fetch_user_subscriber();
-				$output = '<table class="table table-bordered table-striped"><tr> <th widht="30%">User Name</th><th width="10%">Action</th></tr>';
+				$output = '<table class="table table-bordered table-striped"><tr> <th widht="30%">User Name</th><td widht="20%">Last Conversation (Date&Time)</td><th width="10%">Action</th></tr>';
 				
 				foreach($result as $row)
 				{
@@ -133,7 +133,7 @@
 			$current_user = wp_get_current_user();
 		     $seeker_email = $current_user->user_email;
 		 $seeker_name = $current_user->display_name;
-					
+					$last_coversation = last_login_chat($row->from_user_id,$row->to_user_id);
 		//echo $current_user->role;
 		$msg = $seeker_name ." was trying to contact,when you were offline" ;
 		 $seeker_id = $current_user->ID;
@@ -158,7 +158,7 @@
 				<?php 
 		$therapist_mobile = get_user_meta($therapist_id,'mobile');
 			$therapist_countrycde = get_user_meta($therapist_id,'countryCode');	
-					 $output .= '<tr><td>'.$therapist_details->data->display_name.'</td><td id="start_chat_button_'.$therapist_id.'"><button type="button" class="btn btn-info btn-xs start_chat" data-fromuserid = "'.$seeker_id.'" data-touserid="'.$therapist_id.'" data-tousername="'.$therapist_details->data->display_name.'" data-from_status = "'.$from_status.'" data-to_status = "'.$to_status.'" data-role ="'.$current_user->role.'" data-mobile="'.$therapist_countrycde[0].$therapist_mobile[0].'" data-msg="'.$msg.'" data-email="'.$therapist_email.'" >Start Chat</button></td>
+					 $output .= '<tr><td>'.$therapist_details->data->display_name.'</td><td>'.$last_coversation.'</td><td id="start_chat_button_'.$therapist_id.'"><button type="button" class="btn btn-info btn-xs start_chat" data-fromuserid = "'.$seeker_id.'" data-touserid="'.$therapist_id.'" data-tousername="'.$therapist_details->data->display_name.'" data-from_status = "'.$from_status.'" data-to_status = "'.$to_status.'" data-role ="'.$current_user->role.'" data-mobile="'.$therapist_countrycde[0].$therapist_mobile[0].'" data-msg="'.$msg.'" data-email="'.$therapist_email.'" >Start Chat</button></td>
  </tr>
  ';
 					

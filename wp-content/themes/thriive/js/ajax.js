@@ -9,7 +9,7 @@ function make_chat_dialog_box(to_user_id, to_user_name, from_user_id = '', user_
         modal_content += str;
     }
     modal_content += '</div><input type= "hidden" id="file_' + to_user_id + '_' + from_user_id + '" value="">';
-    modal_content += '<div class = "emoji_chat_box" ><div class="form-group emoji_textareaBox" onkeyup="runScript(event,' + to_user_id + ',' + from_user_id + ')">';
+    modal_content += '<div class = "emoji_chat_box" ><div class="form-group emoji_textareaBox" id="emoji_' + to_user_id + '_' + from_user_id + '" onkeyup="runScript(event,' + to_user_id + ',' + from_user_id + ')">';
     modal_content += '<textarea name="chat_message_' + to_user_id + '_' + from_user_id + '" id="chat_message_' + to_user_id + '_' + from_user_id + '" class="form-control chat_message" ></textarea>';
     modal_content += '</div><div class="form-group send_ContBox" align="right">';
     if (user_role == 'subscriber') {
@@ -32,12 +32,24 @@ function runScript(e,to_id,from_id) {
     //See notes about 'which' and 'key'
 console.log("key pressed=="+e.keyCode);
     if (e.keyCode == 13) {
+var myString = $('#emoji_'+to_id+'_'+from_id+' .emojionearea-editor').html();
 
-        insertData(to_id,from_id,msg = '');
-
+var str = myString.replace(/(<([^>]+)>)/ig,"");
+$('#chat_message_' + to_id + "_" + from_id).val(str);
+ insertData(to_id,from_id,msg = '');
+//console.log('okkk11=='+msg+'id=='+$('#chat_message_' + to_id + "_" + from_id).val());
+//console.log(str);
     }
 }
 
+
+
+// $("body").click(function() {
+   // if ($(".chat_dropdown_modal").is(":visible")) {
+        // $('.chat_dropdown_modal').fadeOut(2000);
+   // }
+ 
+// });
 
 var closed_box = 0;
 var opened_box = 0;
@@ -62,7 +74,7 @@ $(document).off().on('click', '.start_chat', function() {
         //alert(msg);
         //sendMSG("919873476520",msg);
         // sendMSG(to_mobile,msg);
-        alert('This therapist is offline now, we will send you a notification as soon as the therapist is available.');
+       // alert('This therapist is offline now, we will send you a notification as soon as the therapist is available.');
         insertNotification(to_user_id, from_user_id, msg, to_mobile, to_email, to_mobile, to_user_name);
 
 
@@ -148,7 +160,9 @@ function chat_dropDowns() {
     // $('.chat_dropdown_modal').html(modal_content);
     $('.chat_dropdown_modal').fadeToggle();
 
-
+$('.chat_dropdown_modal').on('mouseout', function(){
+    $(this).hide();
+});
 }
 
 
@@ -179,22 +193,21 @@ $(document).on('click', '.view_chat', function() {
     var from_role = $(this).attr('data-role');
     var to_user_name = $(this).data('tousername');
     var from_user_id = $(this).data('fromuserid');
-    // alert(to_user_id);
-    // alert(to_user_name);
-    // alert(from_user_id);
-    // alert(from_role);
-
+   
+  if (!$('[aria-describedby="user_dialog_' + to_user_id + '_' + from_user_id + '"]').is(":visible")) {
     make_chat_dialog_box1(to_user_id, to_user_name, from_user_id, from_role);
     $("#user_dialog_" + to_user_id + "_" + from_user_id).dialog({
         width: 400,
         close: function(event, ui) {
-            $("#user_dialog_" + to_user_id + "_" + from_user_id).dialog("destroy");
+              $("#user_dialog_" + to_user_id + "_" + from_user_id).dialog("close");
+                $("#user_dialog_" + to_user_id + "_" + from_user_id).dialog("destroy");
+                $("#user_dialog_" + to_user_id + "_" + from_user_id).hide();
         }
 
     });
 
     $('#user_dialog_' + to_user_id + "_" + from_user_id).dialog('open');
-
+}
 });
 
 function check_box_open() {
@@ -456,9 +469,9 @@ function fetch_user_chat_history(to_user_id, from_user_id) {
 
 }
 
-
+var inapropiateWord = ['Fuck','Fuck you','Shit','Piss off','Dick head','Crikey','Rubbish','Shag','Wanker','Fuck off','Bugger off','jerk','Asshole','Son of a bitch','Bastard','Bitch','Damn','Taking the piss','Twat','Root','Get Stuffed','Scoundrel','Piece of shit','Piece of crap','Bullshit','Cunt','Bollocks','Bugger','Bloody Hell','Choad','Bugger me','Prick','Ass','Arse','Balls','Crap','Shit face','Motherfucker'];
 function insertData(to_user_id, from_user_id, msg = '') {
-console.log('okkk11=='+msg+'id=='+$('#chat_message_' + to_user_id + "_" + from_user_id).val());
+
     if (msg == '') {
         var chat_message = $('#chat_message_' + to_user_id + "_" + from_user_id).val();
         var file_name = $('#file_' + to_user_id + "_" + from_user_id).val();
@@ -475,6 +488,23 @@ console.log('okkk11=='+msg+'id=='+$('#chat_message_' + to_user_id + "_" + from_u
     if (chat_message == '')
         return (false);
 
+chat_message = chat_message.replace(/(<([^>]+)>)/ig,"");
+var lwrMyValue = chat_message.toLowerCase();
+var lwrMyArr = inapropiateWord.map(function(ele) { return ele.toLowerCase(); });
+console.log( "msg="+lwrMyValue+'inapp=='+lwrMyArr );
+if($.inArray(lwrMyValue, lwrMyArr) !== -1)
+{
+alert('Use of abusive language is not permissible');
+ return (false);
+}
+	
+		var element = $('#chat_message_' + to_user_id + "_" + from_user_id).emojioneArea();
+            element[0].emojioneArea.setText('');
+            $('#msg').html('');
+            $('#selectFile').val('');
+            var dataId = $('#selectFile').attr("data-id");
+            $('#file_' + dataId).val('');
+
     $.ajax({
         url: "/wp-admin/admin-ajax.php",
         type: 'POST',
@@ -487,14 +517,14 @@ console.log('okkk11=='+msg+'id=='+$('#chat_message_' + to_user_id + "_" + from_u
         },
 
         success: function(data) {
-            var element = $('#chat_message_' + to_user_id + "_" + from_user_id).emojioneArea();
-            element[0].emojioneArea.setText('');
+           // var element = $('#chat_message_' + to_user_id + "_" + from_user_id).emojioneArea();
+           // element[0].emojioneArea.setText('');
             //$('#chat_history_'+to_user_id).html(data);
             update_chat_history_data_last();
-            $('#msg').html('');
-            $('#selectFile').val('');
-            var dataId = $('#selectFile').attr("data-id");
-            $('#file_' + dataId).val('');
+         //   $('#msg').html('');
+         //   $('#selectFile').val('');
+         //   var dataId = $('#selectFile').attr("data-id");
+        //   $('#file_' + dataId).val('');
 
 
             console.log( data );
@@ -659,9 +689,9 @@ function viewlogsuser() {
 }
 
 // delete message
-$(document).on('click', '#del1', function() {
-    var to_user = $("#del1").attr('data-to_user');
-    var from_user = $("#del1").attr('data-from_user');
+function delete_msggrp(e) {
+    var to_user = $(e).attr('data-to_user');
+    var from_user = $(e).attr('data-from_user');
     var x = confirm("This consultation will be deleted forever. Are you sure you want to delete this consultation?");
     if (x) {
         $.ajax({
@@ -684,7 +714,7 @@ $(document).on('click', '#del1', function() {
         return false;
     }
 
-});
+}
 
 
 

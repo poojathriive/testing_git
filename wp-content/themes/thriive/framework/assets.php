@@ -12,7 +12,7 @@ function thriive_scripts() {
 	wp_enqueue_style('select-2-css', get_template_directory_uri() . '/assets/css/select2.min.css', true);
 	wp_enqueue_style('thriive-timepicki', get_template_directory_uri() . '/assets/css/timepicki.css', true);
 	wp_enqueue_style('thriive-international-number-css', get_template_directory_uri() . '/build/css/intlTelInput.css', true);
-	wp_enqueue_style('common-css', get_template_directory_uri() . '/assets/css/common.css', true);
+	wp_enqueue_style('common-css', get_template_directory_uri() . '/assets/css/common.css', array(), '20191119', true);
 
 	wp_enqueue_style( 'thriive-style', get_stylesheet_uri(),array(), date('YmdHis') );
 	wp_enqueue_script('thriive-jquery', get_template_directory_uri() . '/assets/js/jquery.min.js', array(), '20151215', false);

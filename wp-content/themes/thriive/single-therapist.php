@@ -195,7 +195,10 @@ $output .= '</div>';
 						<?php
 					}else{
 						?>
-							 <?php echo $output?> 
+							<?php 	   if($role1 == 'subscriber' || $role1 =="")
+echo $output;
+
+?> 
 
 						<?php
 					}
@@ -889,7 +892,7 @@ if($instagram_link != "" || $facebook_link != "" || $tw_link != "" || $youtube !
 		$current_user = wp_get_current_user();
 		if(($current_user->is_mobile_verify) == 0)
 		{
-			echo '<script type="text/javascript">$("#mobile_verfication_modal").modal();</script>';
+			//echo '<script type="text/javascript">$("#mobile_verfication_modal").modal();</script>';
 			//echo $current_user->is_mobile_verify;
 		}	
 	}

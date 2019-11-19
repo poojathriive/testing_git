@@ -149,9 +149,10 @@ function fetch_user_chat_history(){
 	global $wpdb;
 		$current_user = wp_get_current_user();
 	$role =  $current_user->role; 
+$flag = 0;
 	$to_user_id = $_POST['to_user_id'];
 	$from_user_id = $_POST['from_user_id'];
-     $query = " SELECT * FROM chat_message_details  WHERE ((from_user_id = ".$from_user_id."  AND to_user_id = ".$to_user_id.") OR (from_user_id = ".$to_user_id." AND to_user_id = ".$from_user_id.")) and (delete_status = 0)  ORDER BY chat_message_id ASC ";
+      $query = " SELECT * FROM chat_message_details  WHERE ((from_user_id = ".$from_user_id."  AND to_user_id = ".$to_user_id.") OR (from_user_id = ".$to_user_id." AND to_user_id = ".$from_user_id.")) and (delete_status = 0)  ORDER BY chat_message_id ASC ";
 	$result = $wpdb->get_results($query);
 	//print_r($result);
 $therepist_data = get_userdata( $to_user_id);
@@ -184,13 +185,22 @@ elseif($extension == 'txt')
 {
 	 $chat_message = '<a href="'.site_url().'/'.$location.'" target="_blank"><img src="'.site_url().'/wp-content/uploads/imagesfile.jpg" height="100" width="100" /></a>';
 }
- else
+else if($extension == 'jpg' || $extension == 'jpeg' || $extension == 'png')
  {
- 	$chat_message = '<a href="'.site_url().'/'.$location.'" target="_blank" class="anch_linking"><img src="'.$location.'" height="100" width="100" /></a>';
+ 	$chat_message = '<a href="'.site_url().'/'.$location.'" target="_blank" class="anch_linking"><img src="'.site_url().'/'.$location.'" height="100" width="100" /></a>';
+$flag = 1;
  }
 		 
 	 }
   $user_name = '';
+if($flag == 1)
+{
+$image_holder = $chat_message.'<p></p>';
+}
+else
+{
+$image_holder = '<p>'.$chat_message.'</p>';
+}
 if($row->from_user_id == $from_user_id)
   {
 
@@ -199,7 +209,7 @@ if($row->from_user_id == $from_user_id)
 $output .= '<input type="checkbox" name = "msgid" value="'.$row->chat_message_id.'" style="opacity:1;position:relative;margin-right: 6px;float:left" class="checkSingle">';
 	 $output .= '<div class="chat_content">
 		 <div class= "chat_text">
-		 	<p>'.$chat_message.'</p>
+		 	'.$image_holder.'
 			<div class="chat_time">
 			'.format_date($row->chat_time).'
 			</div>
@@ -220,7 +230,7 @@ $output .= '<input type="checkbox" name = "msgid" value="'.$row->chat_message_id
  $output .= ' <li class="user_stats_rhs"  style="border-bottom:1px dotted #ccc;align:left">';
  $output .= '<div class="chat_content">
 		 <div class= "chat_text">
-		 <p>'.$chat_message.'</p>
+			'.$image_holder.'
 		 <div class="chat_time">
 		'.format_date($row->chat_time).'
 		</div>
@@ -258,6 +268,7 @@ function fetch_user_chat_history_last(){
 	 $role =  $current_user->role; 
 	$to_user_id = $_POST['to_user_id'];
 	$from_user_id = $_POST['from_user_id'];
+$flag = 0;
 	if($role == 'subscriber')
 	{
      $query = " SELECT * FROM chat_message_details  WHERE ((from_user_id = '".$from_user_id."'  AND to_user_id = '".$to_user_id."')  OR (from_user_id = '".$to_user_id."'  AND to_user_id = '".$from_user_id."')) and (user_status = 0) ORDER BY chat_time DESC limit 1 ";
@@ -289,7 +300,7 @@ $t_name = get_user_name($to_user_id);
 	 {
 		  $location = $row->chat_message;
 		  $extension = pathinfo($chat_message, PATHINFO_EXTENSION);
-		 if($extension == 'docs' || $extension == 'doc')
+		if($extension == 'docs' || $extension == 'doc' || $extension == 'docx')
 {
 	 $chat_message = '<a href="'.site_url().'/'.$location.'" target="_blank"><img src="'.site_url().'/wp-content/uploads/imagesword.png" height="100" width="100" /></a>';
 }
@@ -305,13 +316,22 @@ elseif($extension == 'txt')
 {
 	 $chat_message = '<a href="'.site_url().'/'.$location.'" target="_blank"><img src="'.site_url().'/wp-content/uploads/imagesfile.jpg" height="100" width="100" /></a>';
 }
- else
+ else if($extension == 'jpg' || $extension == 'jpeg' || $extension == 'png')
  {
- 	$chat_message = '<a href="'.site_url().'/'.$location.'" target="_blank" class="anch_linking"><img src="'.$location.'" height="100" width="100" /></a>';
+ 	$chat_message = '<a href="'.site_url().'/'.$location.'" target="_blank" class="anch_linking"><img src="'.site_url().'/'.$location.'" height="100" width="100" /></a>';
+$flag = 1;
  }
 		 
 	 }
   $user_name = '';
+if($flag == 1)
+{
+$image_holder = $chat_message.'<p></p>';
+}
+else
+{
+$image_holder = '<p>'.$chat_message.'</p>';
+}
   if($row->from_user_id == $from_user_id)
   {
 
@@ -320,7 +340,7 @@ elseif($extension == 'txt')
 $output .= '<input type="checkbox" name = "msgid" value="'.$row->chat_message_id.'" style="opacity:1;position:relative;margin-right: 6px;float:left" class="checkSingle">';
 	 $output .= '<div class="chat_content">
 		 <div class= "chat_text">
-		 <p>'.$chat_message.'</p>
+'.$image_holder.'
 		 <div class="chat_time">
 		'.format_date($row->chat_time).'
 		</div>
@@ -340,7 +360,7 @@ $output .= '<input type="checkbox" name = "msgid" value="'.$row->chat_message_id
  $output .= ' <li class="user_stats_rhs"  style="border-bottom:1px dotted #ccc;align:left">';
  $output .= '<div class="chat_content">
 		 <div class= "chat_text">
-		 <p>'.$chat_message.'</p>
+		'.$image_holder.'
 		 <div class="chat_time">
 		'.format_date($row->chat_time).'
 		</div>
@@ -705,7 +725,8 @@ function delete_message_group(){
 	$ids = $_POST['ids'];
 $from_user = $_POST['from_user'];
 $to_user = $_POST['to_user'];
- $query = " SELECT chat_message_id FROM chat_message_details  WHERE ((from_user_id = '".$from_user."'  AND to_user_id = '".$to_user."')  OR (from_user_id = '".$to_user."'  AND to_user_id = '".$from_user."')) and (delete_status = 0)  ORDER BY chat_message_id ASC ";	
+  $query = " SELECT chat_message_id FROM chat_message_details  WHERE ((from_user_id = '".$from_user."'  AND to_user_id = '".$to_user."')  OR (from_user_id = '".$to_user."'  AND to_user_id = '".$from_user."')) and (delete_status = 0)  ORDER BY chat_message_id ASC ";	
+
 $result = $wpdb->get_results($query); 
 foreach($result as $row)
  {
@@ -809,7 +830,7 @@ $name = $arr[0];
  }
 	$user_id = $from_user_id;  // Get current user Id
 
-$anchor = site_url()."/user-chat-history/?download_report=yes&to_user=".$user_id."&from_user=".$session_id;
+$anchor = site_url()."/therapist-chat-history/?to_user=".$user_id;
 $last_coversation = last_login($user_id);
  $output .= '<tr><td>'.$name.'</td><td>'.$last_coversation.'</td><td class="btns_group" id="start_chat_button_'.$to_user_id.'">
 <button type="button" class="btn btn-info btn_link1 view_chat btn btn-primary btn-big btn-transparent connect_with_btn_listing" data-fromuserid = "'.$session_id.'" data-touserid="'.$from_user_id.'" data-tousername="'.$name.'"  data-role="subscriber">View Chat</button>
@@ -872,11 +893,11 @@ foreach($terms as $term)
 $termname[] =  $term->name;
 }
 $anchor = site_url()."/user-chat-history/?to_user=".$user_id;
-$last_coversation = last_login($user_id);
+$last_coversation = last_login($user_id,$session_id);
  $output .= '<tr><td>'.$name.'</td><td>'.$termname[1].'</td><td>'.$termname[0].'</td><td>'.$last_coversation.'</td><td class="btns_group" id="start_chat_button_'.$to_user_id.'">
 <button type="button" class="btn btn-info btn_link1 view_chat btn btn-primary btn-big btn-transparent connect_with_btn_listing" data-fromuserid = "'.$session_id.'" data-touserid="'.$to_user_id.'" data-tousername="'.$name.'"  data-role="subscriber">View Chat</button>
 <a href = "'.$anchor.'" target = "_blank" class="anch_link1" javascript= "void()">Export</a>
-<button type="button" id = "del1" class="btn btn-info btn_link1 connect_with_btn_listing" data-to_user = "'.$user_id.'" data-from_user = "'.$session_id.'">Delete</button>
+<button type="button" id = "del1" class="btn btn-info btn_link1 connect_with_btn_listing" data-to_user = "'.$user_id.'" data-from_user = "'.$session_id.'" onclick="delete_msggrp(this)">Delete</button>
 </td></tr>';
 	 }
 $output .= '</table>';
@@ -890,6 +911,14 @@ function last_login($userId)
 {
 		global $wpdb;
 $query = "SELECT * FROM chat_message_details  WHERE (from_user_id = '".$userId."'  OR to_user_id = '".$userId."')  ORDER BY chat_time DESC limit 1 ";
+ 	$result = $wpdb->get_results($query);
+return(format_date($result[0]->chat_time));
+}
+add_action( 'init' , 'last_login_chat' );
+function last_login_chat($userId,$from_user)
+{
+		global $wpdb;
+$query = "SELECT * FROM chat_message_details  WHERE (from_user_id = '".$userId."'  AND to_user_id = '".$from_user."') or (from_user_id = '".$from_user."'  AND to_user_id = '".$userId."')  ORDER BY chat_time DESC limit 1 ";
  	$result = $wpdb->get_results($query);
 return(format_date($result[0]->chat_time));
 }
@@ -1038,7 +1067,7 @@ $arr1 = array();
 $arr2 = array();
 $arr = array();
 $html = '<div class="container">
-		<div class="row"><div class="col-lg-12 col-md 12 col-sm-12 col-12"><h4>Total Therapists</h4><table class="table table-bordered"><thead><tr><th>Name</th><th>Chat with Customers</th></tr></thead><tbody>';
+		<div class="row"><div class="col-lg-12 col-md 12 col-sm-12 col-12"><h4>Total Therapists</h4><table class="table table-bordered"><thead><tr><th>Name</th><th>Last Login</th><th>Chat with Customers</th></tr></thead><tbody>';
 if($from_date == '' && $to_date == '')
 $query = "SELECT to_user_id FROM chat_message_details group by to_user_id ";
 else
@@ -1055,6 +1084,7 @@ if($from_date == '' && $to_date == '')
 else
 $query1 = "SELECT from_user_id FROM chat_message_details  where (chat_time >= '".$from_date."'  AND chat_time <= '".$to_date."') and to_user_id = ".$row->to_user_id." group by from_user_id";
  	$result1 = $wpdb->get_results($query1);
+$last_login = last_login($row->to_user_id);
 foreach($result1 as $row1)
 {
 $name = get_user_name($row->to_user_id);
@@ -1063,7 +1093,7 @@ $arr1[]= '<a href="#" data-to = "'.$row->to_user_id .'" data-from = "'.$row1->fr
 
 }
 $str_from = implode(',',$arr1);
-$html .= '<tr><td>'.$name.'</td><td>'.$str_from.'</td></tr>';
+$html .= '<tr><td>'.$name.'</td><td>'.$last_login.'</td><td>'.$str_from.'</td></tr>';
 }
 
 }
@@ -1089,7 +1119,7 @@ $arr1 = array();
 $arr2 = array();
 $arr = array();
 $html = '<div class="container">
-		<div class="row"><div class="col-lg-12 col-md 12 col-sm-12 col-12"><h4>Total Customer</h4><table class="table table-bordered"><thead><tr><th>Name</th><th>Chat with Therapist</th></tr></thead><tbody>';
+		<div class="row"><div class="col-lg-12 col-md 12 col-sm-12 col-12"><h4>Total Customer</h4><table class="table table-bordered"><thead><tr><th>Name</th><th>Last Login</th><th>Chat with Therapist</th></tr></thead><tbody>';
 if($from_date == '' && $to_date == '')
 $query = "SELECT from_user_id FROM chat_message_details  group by from_user_id ";
 else
@@ -1099,6 +1129,7 @@ foreach($result as $row)
 {
 $arr1 = array();
 $roles_to = get_user_meta($row->from_user_id,'role');
+$last_login = last_login($row->from_user_id);
 if((in_array("subscriber",$roles_to ) ))
 {
 if($from_date == '' && $to_date == '')
@@ -1114,7 +1145,7 @@ $arr1[]= '<a href="#" data-to = "'.$row->from_user_id.'" data-from = "'.$row1->t
 
 }
 $str_from = implode(',',$arr1);
-$html .= '<tr><td>'.$name.'</td><td>'.$str_from.'</td></tr>';
+$html .= '<tr><td>'.$name.'</td><td>'.$last_login.'</td><td>'.$str_from.'</td></tr>';
 }
 
 }
@@ -1474,7 +1505,7 @@ function export_csv_single($to_user)
 $str = $_SERVER['REQUEST_URI'];
 
 
-if (strpos($str, 'user-chat-history/?to_user') !== false) {
+if (strpos($str, 'user-chat-history/?to_user') !== false || strpos($str, 'therapist-chat-history/?to_user') !== false) {
  $starr = explode('?',$str);
 $starr1 = explode('=',$starr[1]);
 $to_user = $starr1[1];
