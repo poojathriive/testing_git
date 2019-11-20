@@ -28,27 +28,28 @@ function make_chat_dialog_box(to_user_id, to_user_name, from_user_id = '', user_
     $('#user_model_details').html(modal_content);
 
 }
-function runScript(e,to_id,from_id) {
-    //See notes about 'which' and 'key'
-console.log("key pressed=="+e.keyCode);
-    if (e.keyCode == 13) {
-var myString = $('#emoji_'+to_id+'_'+from_id+' .emojionearea-editor').html();
 
-var str = myString.replace(/(<([^>]+)>)/ig,"");
-$('#chat_message_' + to_id + "_" + from_id).val(str);
- insertData(to_id,from_id,msg = '');
-//console.log('okkk11=='+msg+'id=='+$('#chat_message_' + to_id + "_" + from_id).val());
-//console.log(str);
+function runScript(e, to_id, from_id) {
+    //See notes about 'which' and 'key'
+    console.log("key pressed==" + e.keyCode);
+    if (e.keyCode == 13) {
+        var myString = $('#emoji_' + to_id + '_' + from_id + ' .emojionearea-editor').html();
+
+        var str = myString.replace(/(<([^>]+)>)/ig, "");
+        $('#chat_message_' + to_id + "_" + from_id).val(str);
+        insertData(to_id, from_id, msg = '');
+        //console.log('okkk11=='+msg+'id=='+$('#chat_message_' + to_id + "_" + from_id).val());
+        //console.log(str);
     }
 }
 
 
 
 // $("body").click(function() {
-   // if ($(".chat_dropdown_modal").is(":visible")) {
-        // $('.chat_dropdown_modal').fadeOut(2000);
-   // }
- 
+// if ($(".chat_dropdown_modal").is(":visible")) {
+// $('.chat_dropdown_modal').fadeOut(2000);
+// }
+
 // });
 
 var closed_box = 0;
@@ -74,7 +75,7 @@ $(document).off().on('click', '.start_chat', function() {
         //alert(msg);
         //sendMSG("919873476520",msg);
         // sendMSG(to_mobile,msg);
-       // alert('This therapist is offline now, we will send you a notification as soon as the therapist is available.');
+        // alert('This therapist is offline now, we will send you a notification as soon as the therapist is available.');
         insertNotification(to_user_id, from_user_id, msg, to_mobile, to_email, to_mobile, to_user_name);
 
 
@@ -92,7 +93,7 @@ $(document).off().on('click', '.start_chat', function() {
             autoOpen: false,
             modal: true,
             titleIsHtml: true,
-            title: "<div class='widget-header widget-header-small' style='padding-left: 21px;'>" + to_user_name + "<button type='button' class='dots_iconz1' onclick='chat_dropDowns();'><span class='dotsA1'></span><span class='dotsA1'></span><span class='dotsA1'></span></button><div class='chat_dropdown_modal' style='display:none;'><ul class='chatdropdwn_lists'><li><button type='button' id= 'del' class = 'title_anch' data-to = '" + to_user_id + "' data-from = '" + from_user_id + "' onclick = 'delete_msg(this)'>Delete</button></li><li><a href='http://35.232.100.164/faq/faq.html' class = 'title_anch' target='_blank' >FAQ</a></li></ul></div></div>",
+            title: "<div class='widget-header widget-header-small' style='padding-left: 21px;'>" + to_user_name + "<button type='button' class='dots_iconz1' onclick='chat_dropDowns();'><span class='dotsA1'></span><span class='dotsA1'></span><span class='dotsA1'></span></button><div class='chat_dropdown_modal' style='display:none;'><ul class='chatdropdwn_lists'><li><button type='button' id= 'del' class = 'title_anch' data-to = '" + to_user_id + "' data-from = '" + from_user_id + "' onclick = 'delete_msg(this)'>Delete</button></li><li><a href='http://35.232.100.164/faq/faq.html' class = 'title_anch' target='_blank' >FAQ</a></li></ul></div><button type='button' class='max_chatBox' onclick='maxim_chatBox();'><i class='fa fa-expand' aria-hidden='true'></i></button></div>",
             close: function(event, ui) {
                 var str = "user_dialog_" + to_user_id + "_" + from_user_id;
 
@@ -159,12 +160,37 @@ function chat_dropDowns() {
     // alert("hi....");    
     // $('.chat_dropdown_modal').html(modal_content);
     $('.chat_dropdown_modal').fadeToggle();
-
-$('.chat_dropdown_modal').on('mouseout', function(){
-    $(this).hide();
-});
+    $('.chatdropdwn_lists').mouseleave(function() {
+        $('.chat_dropdown_modal').fadeOut();
+    });
 }
 
+function maxim_chatBox() {
+    // alert("hi....");
+    // $('.ui-widget.ui-widget-content').removeAttr("style");
+    // $('.ui-widget.ui-widget-content').css({
+    //     'width': '',
+    //     'top': '',
+    //     'right': '',
+    //     'bottom': '',
+    //     'left': ''
+    // });
+    // $('.ui-widget.ui-widget-content').each(function() {
+    //     this.style.setProperty('width', '', 'important');
+    // });
+    $('.ui-widget.ui-widget-content').toggleClass("expndChat");
+    // if ($('.ui-widget.ui-widget-content').hasClass("expndChat")) {
+    //     $('.ui-widget.ui-widget-content').style.setProperty('width', '80%', 'important');
+    // }
+    // $('.ui-widget.ui-widget-content').hasClass("expndChat").each(function() {
+    //     this.style.setProperty('width', '80%', 'important');
+    // });
+    // $('.ui-widget.ui-widget-content').each(function() {
+    //     this.style.setProperty('width', '80%', 'important');
+    // });
+
+
+}
 
 function make_chat_dialog_box1(to_user_id, to_user_name, from_user_id = '', user_role = "") {
 
@@ -193,21 +219,21 @@ $(document).on('click', '.view_chat', function() {
     var from_role = $(this).attr('data-role');
     var to_user_name = $(this).data('tousername');
     var from_user_id = $(this).data('fromuserid');
-   
-  if (!$('[aria-describedby="user_dialog_' + to_user_id + '_' + from_user_id + '"]').is(":visible")) {
-    make_chat_dialog_box1(to_user_id, to_user_name, from_user_id, from_role);
-    $("#user_dialog_" + to_user_id + "_" + from_user_id).dialog({
-        width: 400,
-        close: function(event, ui) {
-              $("#user_dialog_" + to_user_id + "_" + from_user_id).dialog("close");
+
+    if (!$('[aria-describedby="user_dialog_' + to_user_id + '_' + from_user_id + '"]').is(":visible")) {
+        make_chat_dialog_box1(to_user_id, to_user_name, from_user_id, from_role);
+        $("#user_dialog_" + to_user_id + "_" + from_user_id).dialog({
+            width: 400,
+            close: function(event, ui) {
+                $("#user_dialog_" + to_user_id + "_" + from_user_id).dialog("close");
                 $("#user_dialog_" + to_user_id + "_" + from_user_id).dialog("destroy");
                 $("#user_dialog_" + to_user_id + "_" + from_user_id).hide();
-        }
+            }
 
-    });
+        });
 
-    $('#user_dialog_' + to_user_id + "_" + from_user_id).dialog('open');
-}
+        $('#user_dialog_' + to_user_id + "_" + from_user_id).dialog('open');
+    }
 });
 
 function check_box_open() {
@@ -469,7 +495,8 @@ function fetch_user_chat_history(to_user_id, from_user_id) {
 
 }
 
-var inapropiateWord = ['Fuck','Fuck you','Shit','Piss off','Dick head','Crikey','Rubbish','Shag','Wanker','Fuck off','Bugger off','jerk','Asshole','Son of a bitch','Bastard','Bitch','Damn','Taking the piss','Twat','Root','Get Stuffed','Scoundrel','Piece of shit','Piece of crap','Bullshit','Cunt','Bollocks','Bugger','Bloody Hell','Choad','Bugger me','Prick','Ass','Arse','Balls','Crap','Shit face','Motherfucker'];
+var inapropiateWord = ['Fuck', 'Fuck you', 'Shit', 'Piss off', 'Dick head', 'Crikey', 'Rubbish', 'Shag', 'Wanker', 'Fuck off', 'Bugger off', 'jerk', 'Asshole', 'Son of a bitch', 'Bastard', 'Bitch', 'Damn', 'Taking the piss', 'Twat', 'Root', 'Get Stuffed', 'Scoundrel', 'Piece of shit', 'Piece of crap', 'Bullshit', 'Cunt', 'Bollocks', 'Bugger', 'Bloody Hell', 'Choad', 'Bugger me', 'Prick', 'Ass', 'Arse', 'Balls', 'Crap', 'Shit face', 'Motherfucker'];
+
 function insertData(to_user_id, from_user_id, msg = '') {
 
     if (msg == '') {
@@ -484,26 +511,25 @@ function insertData(to_user_id, from_user_id, msg = '') {
     } else {
         chat_message = msg;
     }
-//console.log('okkk=='+chat_message);
+    //console.log('okkk=='+chat_message);
     if (chat_message == '')
         return (false);
 
-chat_message = chat_message.replace(/(<([^>]+)>)/ig,"");
-var lwrMyValue = chat_message.toLowerCase();
-var lwrMyArr = inapropiateWord.map(function(ele) { return ele.toLowerCase(); });
-console.log( "msg="+lwrMyValue+'inapp=='+lwrMyArr );
-if($.inArray(lwrMyValue, lwrMyArr) !== -1)
-{
-alert('Use of abusive language is not permissible');
- return (false);
-}
-	
-		var element = $('#chat_message_' + to_user_id + "_" + from_user_id).emojioneArea();
-            element[0].emojioneArea.setText('');
-            $('#msg').html('');
-            $('#selectFile').val('');
-            var dataId = $('#selectFile').attr("data-id");
-            $('#file_' + dataId).val('');
+    chat_message = chat_message.replace(/(<([^>]+)>)/ig, "");
+    var lwrMyValue = chat_message.toLowerCase();
+    var lwrMyArr = inapropiateWord.map(function(ele) { return ele.toLowerCase(); });
+    console.log("msg=" + lwrMyValue + 'inapp==' + lwrMyArr);
+    if ($.inArray(lwrMyValue, lwrMyArr) !== -1) {
+        alert('Use of abusive language is not permissible');
+        return (false);
+    }
+
+    var element = $('#chat_message_' + to_user_id + "_" + from_user_id).emojioneArea();
+    element[0].emojioneArea.setText('');
+    $('#msg').html('');
+    $('#selectFile').val('');
+    var dataId = $('#selectFile').attr("data-id");
+    $('#file_' + dataId).val('');
 
     $.ajax({
         url: "/wp-admin/admin-ajax.php",
@@ -517,17 +543,17 @@ alert('Use of abusive language is not permissible');
         },
 
         success: function(data) {
-           // var element = $('#chat_message_' + to_user_id + "_" + from_user_id).emojioneArea();
-           // element[0].emojioneArea.setText('');
+            // var element = $('#chat_message_' + to_user_id + "_" + from_user_id).emojioneArea();
+            // element[0].emojioneArea.setText('');
             //$('#chat_history_'+to_user_id).html(data);
             update_chat_history_data_last();
-         //   $('#msg').html('');
-         //   $('#selectFile').val('');
-         //   var dataId = $('#selectFile').attr("data-id");
-        //   $('#file_' + dataId).val('');
+            //   $('#msg').html('');
+            //   $('#selectFile').val('');
+            //   var dataId = $('#selectFile').attr("data-id");
+            //   $('#file_' + dataId).val('');
 
 
-            console.log( data );
+            console.log(data);
         }
     })
 

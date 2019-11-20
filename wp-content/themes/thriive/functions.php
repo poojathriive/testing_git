@@ -499,14 +499,16 @@ $therapist_countrycde = get_user_meta($therapist_id,'countryCode');
 $therapist_mobile = get_user_meta($seeker_id,'mobile');
 	$therapist_countrycde = get_user_meta($seeker_id,'countryCode');
  $s_mobile = '91'.$therapist_countrycde[0].$therapist_mobile[0];
-$message = "Hi ".$s_name." , you have started a online chat with ".$t_name." on thriive.in view your online chat chat link.";
-$t_message= "Hi ".$t_name." , Online chat is initiated with you by ".$s_name." View Your Online chat (give a chat link here)";
+
+//$message = "Hi ".$s_name." , you have started a online chat with ".$t_name." on thriive.in view your online chat chat link.";
+$t_message = "We have connected you with ".$t_name." who is a Verified Therapist . This conversation is completely private and confidential";
+//$t_message= "Hi ".$t_name." , Online chat is initiated with you by ".$s_name." View Your Online chat (give a chat link here)";
 $message = "Hi ".$t_name.", ".$s_name." sent a message. view and reply from chat link thanks.";
 // sending therapist email
 $to = $t_email;
-$to = 'ramakant@rabbitdigital.in';
+$to = 'productmanager@thriive.in';
 $body = body_from_user_to_therapist_reply($s_name,$t_name);
-$body = 'check mail';
+//$body = 'check mail';
 $subject = "Thriive email";
 $headers = "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
@@ -536,12 +538,13 @@ $therapist_countrycde = get_user_meta($therapist_id,'countryCode');
 $therapist_mobile = get_user_meta($seeker_id,'mobile');
 	$therapist_countrycde = get_user_meta($seeker_id,'countryCode');
  $s_mobile = '91'.$therapist_countrycde[0].$therapist_mobile[0];
-$message = "Hi ".$s_name." , you have started a online chat with ".$t_name." on thriive.in view your online chat chat link.";
+$message = "We have connected you with ".$t_name." who is a Verified Therapist . This conversation is completely private and confidential";
+//$message = "Hi ".$s_name." , you have started a online chat with ".$t_name." on thriive.in view your online chat chat link.";
 $t_message= "Hi ".$t_name." , Online chat is initiated with you by ".$s_name." View Your Online chat (give a chat link here)";
 $to = $t_name;
-$to = 'ramakant@rabbitdigital.in';
+$to = 'productmanager@thriive.in';
 $body = body_from_user_to_therapist();
-$body = 'check mail';
+//$body = 'check mail';
 $subject = "Thriive email";
 $headers = "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
@@ -585,9 +588,9 @@ $therapist_mobile = get_user_meta($seeker_id,'mobile');
 $message = "Hi ".$s_name.", ".$t_name." sent a message. view and reply from chat link thanks.";
 //$t_message= "Hi ".$t_name." , Online chat is initiated with you by ".$s_name." View Your Online chat (give a chat link here)";
 $to = $t_name;
-$to = 'ramakant@rabbitdigital.in';
+$to = 'productmanager@thriive.in';
 $body = body_from_therapist_to_user();
-$body = 'check mail';
+//$body = 'check mail';
 $subject = "Thriive email";
 $headers = "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
@@ -965,25 +968,25 @@ else if($_POST['therapist'] != '')
 {
 $from_user_id = $_POST['therapist'];
 if($from_date == '' && $to_date == '')
-$query = " SELECT * FROM chat_message_details  WHERE (from_user_id = '".$from_user_id."'  OR to_user_id = '".$from_user_id."') ORDER BY chat_message_id ASC ";
+$query = " SELECT * FROM chat_message_details  WHERE (from_user_id = '".$from_user_id."'  OR to_user_id = '".$from_user_id."') ORDER BY chat_time DESC ";
 else
-$query = " SELECT * FROM chat_message_details  WHERE (from_user_id = '".$from_user_id."'  OR to_user_id = '".$from_user_id."') and (chat_time >= '".$from_date."'  AND chat_time <= '".$to_date."')  ORDER BY chat_message_id ASC ";
+$query = " SELECT * FROM chat_message_details  WHERE (from_user_id = '".$from_user_id."'  OR to_user_id = '".$from_user_id."') and (chat_time >= '".$from_date."'  AND chat_time <= '".$to_date."')  ORDER BY chat_time DESC ";
 }
-else if($_POST['therapist'] != '')
+else if($_POST['user'] != '')
 {
 $from_user_id = $_POST['user'];
 if($from_date == '' && $to_date == '')
-$query = " SELECT * FROM chat_message_details  WHERE (from_user_id = '".$from_user_id."'  OR to_user_id = '".$from_user_id."')  ORDER BY chat_message_id ASC ";
+$query = " SELECT * FROM chat_message_details  WHERE (from_user_id = '".$from_user_id."'  OR to_user_id = '".$from_user_id."')  ORDER BY chat_time DESC ";
 else
-$query = " SELECT * FROM chat_message_details  WHERE (from_user_id = '".$from_user_id."'  OR to_user_id = '".$from_user_id."') and (chat_time >= '".$from_date."'  AND chat_time <= '".$to_date."')  ORDER BY chat_message_id ASC ";
+$query = " SELECT * FROM chat_message_details  WHERE (from_user_id = '".$from_user_id."'  OR to_user_id = '".$from_user_id."') and (chat_time >= '".$from_date."'  AND chat_time <= '".$to_date."')  ORDER BY chat_time DESC ";
 
 }
 else 
 {
 if($from_date == '' && $to_date == '')
-$query = " SELECT * FROM chat_message_details ORDER BY chat_message_id ASC ";
+$query = " SELECT * FROM chat_message_details ORDER BY chat_time DESC ";
 else
-$query = " SELECT * FROM chat_message_details  WHERE (chat_time >= '".$from_date."'  AND chat_time <= '".$to_date."')  ORDER BY chat_message_id ASC ";
+$query = " SELECT * FROM chat_message_details  WHERE (chat_time >= '".$from_date."'  AND chat_time <= '".$to_date."')  ORDER BY chat_time DESC ";
 
 }
 
@@ -1067,7 +1070,7 @@ $arr1 = array();
 $arr2 = array();
 $arr = array();
 $html = '<div class="container">
-		<div class="row"><div class="col-lg-12 col-md 12 col-sm-12 col-12"><h4>Total Therapists</h4><table class="table table-bordered"><thead><tr><th>Name</th><th>Last Login</th><th>Chat with Customers</th></tr></thead><tbody>';
+		<div class="row"><div class="col-lg-12 col-md 12 col-sm-12 col-12"><h4>Total Therapists</h4><table class="table table-bordered"><thead><tr><th>Name</th><th>Last Login</th><th>Chat with Customers</th><th>Customer Count</th></tr></thead><tbody>';
 if($from_date == '' && $to_date == '')
 $query = "SELECT to_user_id FROM chat_message_details group by to_user_id ";
 else
@@ -1093,7 +1096,7 @@ $arr1[]= '<a href="#" data-to = "'.$row->to_user_id .'" data-from = "'.$row1->fr
 
 }
 $str_from = implode(',',$arr1);
-$html .= '<tr><td>'.$name.'</td><td>'.$last_login.'</td><td>'.$str_from.'</td></tr>';
+$html .= '<tr><td>'.$name.'</td><td>'.$last_login.'</td><td>'.$str_from.'</td><td>'.count($arr1).'</td></tr>';
 }
 
 }
@@ -1119,7 +1122,7 @@ $arr1 = array();
 $arr2 = array();
 $arr = array();
 $html = '<div class="container">
-		<div class="row"><div class="col-lg-12 col-md 12 col-sm-12 col-12"><h4>Total Customer</h4><table class="table table-bordered"><thead><tr><th>Name</th><th>Last Login</th><th>Chat with Therapist</th></tr></thead><tbody>';
+		<div class="row"><div class="col-lg-12 col-md 12 col-sm-12 col-12"><h4>Total Customer</h4><table class="table table-bordered"><thead><tr><th>Name</th><th>Last Login</th><th>Chat with Therapist</th><th>Therapist Count</th></tr></thead><tbody>';
 if($from_date == '' && $to_date == '')
 $query = "SELECT from_user_id FROM chat_message_details  group by from_user_id ";
 else
@@ -1145,7 +1148,7 @@ $arr1[]= '<a href="#" data-to = "'.$row->from_user_id.'" data-from = "'.$row1->t
 
 }
 $str_from = implode(',',$arr1);
-$html .= '<tr><td>'.$name.'</td><td>'.$last_login.'</td><td>'.$str_from.'</td></tr>';
+$html .= '<tr><td>'.$name.'</td><td>'.$last_login.'</td><td>'.$str_from.'</td><td>'.count($arr1).'</td></tr>';
 }
 
 }
@@ -1175,33 +1178,54 @@ header("Content-Type: application/octet-stream");
 header("Content-Disposition: attachment; filename=\"report.csv\";" );
 header("Content-Transfer-Encoding: binary");
 	$csv_output = '';
-$csv_output = "Message From,Message To,Message,Date & Time";
-$csv_output .= "\n";	
+	
 $from_date = $_POST['bday3'];
 $to_date = $_POST['bday4'];
+$from_date = $_POST['from_date'];
+$to_date = $_POST['to_date'];
 if($_POST['therapist'] != '' && $_POST['user'] != '' )
 {
 $from_user_id = $_POST['user'];
 $to_user_id = $_POST['therapist'];
-  $query = " SELECT * FROM chat_message_details  WHERE ((from_user_id = '".$from_user_id."'  AND to_user_id = '".$to_user_id."')  OR (from_user_id = '".$to_user_id."'  AND to_user_id = '".$from_user_id."')) ORDER BY chat_time DESC";
+if($from_date == '' && $to_date == '')
+$query = " SELECT * FROM chat_message_details  WHERE ((from_user_id = '".$from_user_id."'  AND to_user_id = '".$to_user_id."')  OR (from_user_id = '".$to_user_id."'  AND to_user_id = '".$from_user_id."')) ORDER BY chat_time DESC";
+else
+  $query = " SELECT * FROM chat_message_details  WHERE ((from_user_id = '".$from_user_id."'  AND to_user_id = '".$to_user_id."')  OR (from_user_id = '".$to_user_id."'  AND to_user_id = '".$from_user_id."')) and (chat_time >= '".$from_date."'  AND chat_time <= '".$to_date."') ORDER BY chat_time DESC";
 
 }
 else if($_POST['therapist'] != '')
 {
 $from_user_id = $_POST['therapist'];
-$query = " SELECT * FROM chat_message_details  WHERE (from_user_id = '".$from_user_id."'  OR to_user_id = '".$from_user_id."') and (chat_time >= '".$from_date."'  AND chat_time <= '".$to_date."')  ORDER BY chat_message_id ASC ";
-}
+if($from_date == '' && $to_date == '')
+$query = " SELECT * FROM chat_message_details  WHERE (from_user_id = '".$from_user_id."'  OR to_user_id = '".$from_user_id."') ORDER BY chat_time DESC ";
 else
+$query = " SELECT * FROM chat_message_details  WHERE (from_user_id = '".$from_user_id."'  OR to_user_id = '".$from_user_id."') and (chat_time >= '".$from_date."'  AND chat_time <= '".$to_date."')  ORDER BY chat_time DESC ";
+}
+else if($_POST['user'] != '')
 {
 $from_user_id = $_POST['user'];
-$query = " SELECT * FROM chat_message_details  WHERE (from_user_id = '".$from_user_id."'  OR to_user_id = '".$from_user_id."') and (chat_time >= '".$from_date."'  AND chat_time <= '".$to_date."')  ORDER BY chat_message_id ASC ";
+if($from_date == '' && $to_date == '')
+$query = " SELECT * FROM chat_message_details  WHERE (from_user_id = '".$from_user_id."'  OR to_user_id = '".$from_user_id."')  ORDER BY chat_time DESC ";
+else
+$query = " SELECT * FROM chat_message_details  WHERE (from_user_id = '".$from_user_id."'  OR to_user_id = '".$from_user_id."') and (chat_time >= '".$from_date."'  AND chat_time <= '".$to_date."')  ORDER BY chat_time DESC ";
+
+}
+else 
+{
+if($from_date == '' && $to_date == '')
+$query = " SELECT * FROM chat_message_details ORDER BY chat_time DESC ";
+else
+$query = " SELECT * FROM chat_message_details  WHERE (chat_time >= '".$from_date."'  AND chat_time <= '".$to_date."')  ORDER BY chat_time DESC ";
 
 }
 
    
 	$result = $wpdb->get_results($query);
 	//print_r($result);
-
+if(count($result) > 0)
+{
+$csv_output = "Message From,Message To,Message,Date & Time";
+$csv_output .= "\n";
  foreach($result as $row)
  {
 		
@@ -1233,8 +1257,9 @@ $user_name_from = $arr[0];
   $csv_output .= $user_name.",".$user_name_from.",".$chat_message.",".trim(format_date($row->chat_time));
 	 $csv_output .= "\n";
 }
- 
 echo $csv_output;
+ }
+
 exit();
 }
 }
@@ -1422,11 +1447,12 @@ $html = '<div class="container">
 						<input type="date" name="bday4" id="bday4" max="3000-12-31" min="1000-01-01" class="form-control datepick_input2">
 					</div>
 					<div class="buttonsz_group">
+<input type = "hidden" name="action" value="export">
 						<button  type= "button" onclick="fetchuserchat()" class="exprt_btn">Show Chat</button>
 						<button type= "submit" class="exprt_btn" >Export As CSV</button>
 					</div>
 				</div>
-				<input type = "hidden" name="action" value="export">
+				
 				<span id= "chat_message_span"></span>
 			</div>
 		</div>
@@ -1457,11 +1483,14 @@ header("Content-Type: application/octet-stream");
 header("Content-Disposition: attachment; filename=\"report.csv\";" );
 header("Content-Transfer-Encoding: binary");
 	$csv_output = '';
-$csv_output = "To,From,Message,Date & Time";
-$csv_output .= "\n";
+
  $query = " SELECT * FROM chat_message_details  WHERE (from_user_id = '".$session_id."'  or to_user_id = '".$session_id."') and (delete_status = 0)  ORDER BY chat_time ASC";
 	
 	$result = $wpdb->get_results($query);
+if(count($result) > 0)
+{
+$csv_output = "To,From,Message,Date & Time";
+$csv_output .= "\n";
  foreach($result as $row)
  {
 	 if($row->is_file == 'yes')
@@ -1491,7 +1520,7 @@ $tname = $arr1[0];
  }
 	
 echo $csv_output;
-
+}
 
 //echo $csv;
 exit;
@@ -1521,13 +1550,15 @@ header("Content-Type: application/octet-stream");
 header("Content-Disposition: attachment; filename=\"report.csv\";" );
 header("Content-Transfer-Encoding: binary");
 	$csv_output = '';
-$csv_output = "To,From,Message,Date & Time";
-$csv_output .= "\n";
+
 
    $query = " SELECT * FROM chat_message_details  WHERE ((from_user_id = '".$session_id."'  AND to_user_id = '".$to_user."')  OR (from_user_id = '".$to_user."'  AND to_user_id = '".$session_id."')) and (delete_status = 0)  ORDER BY chat_message_id ASC ";
 
 	$result = $wpdb->get_results($query);
-
+if(count($result) > 0)
+{
+$csv_output = "To,From,Message,Date & Time";
+$csv_output .= "\n";
  foreach($result as $row)
  {
 	 if($row->is_file == 'yes')
@@ -1557,7 +1588,7 @@ $tname = $arr1[0];
  }
 	
 echo $csv_output;
-
+}
 
 //echo $csv;
 exit;

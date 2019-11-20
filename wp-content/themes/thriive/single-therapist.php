@@ -186,7 +186,7 @@ $current_user = wp_get_current_user();
 $output .= '</div>';
 		
 		?> 
-				<div class="">
+				<div class="chat_bottomBlk">
 					<?php
 					if(wp_is_mobile()){
 						 ?>
