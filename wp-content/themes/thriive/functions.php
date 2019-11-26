@@ -808,7 +808,7 @@ function therapist_chat_history(){
 
 	$result = $wpdb->get_results($query);
 	
-	$output = '<table class="table table-bordered table_blk1"><tr> <td widht="30%">Customer</td><td widht="30%">Last Conversation (Date&Time)</td><td width="40%">Action</td></tr>';
+	$output = '<table class="table table-bordered table_blk1 desk_tablevw"><tr> <td widht="30%">Customer</td><td widht="30%">Last Conversation (Date&Time)</td><td width="40%">Action</td></tr>';
 	 foreach($result as $row)
  {
 	 $from_user_id = $row->from_user_id;
@@ -842,6 +842,73 @@ $last_coversation = last_login($user_id);
 </td></tr>';
 	 }
 $output .= '</table>';
+	
+	return($output);
+}
+
+add_action( 'init' , 'therapist_chat_history_mobile' );
+function therapist_chat_history_mobile(){
+	$current_user = wp_get_current_user();
+	$session_id = $current_user->ID;
+	global $wpdb;
+     $query = " SELECT from_user_id FROM chat_message_details  WHERE (to_user_id   = '".$session_id."' and delete_status = 0) group by from_user_id ";
+
+	$result = $wpdb->get_results($query);
+	
+	$output = '<section class="mobi_tableview">
+	<div class="container">
+		<div class="row">
+			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+				<table class="table">';
+	 foreach($result as $row)
+ {
+	 $from_user_id = $row->from_user_id;
+	 $therepist_data = get_userdata( $from_user_id);
+	
+		 $t_name = $therepist_data->display_name;
+	 $chat_message = $row->chat_message;
+		 	$arr = get_user_meta($from_user_id, 'first_name');
+		$name = $arr[0];
+if($name == '')
+{
+$arr = get_user_meta($from_user_id, 'nickname');
+$name = $arr[0];
+}
+ if(is_user_online($from_user_id))
+{
+   $to_status = 1;
+ }
+ else
+ {
+	  $to_status = 0;
+ }
+	$user_id = $from_user_id;  // Get current user Id
+
+$anchor = site_url()."/therapist-chat-history/?to_user=".$user_id;
+$last_coversation = last_login($user_id);
+ $output .= '<thead class="thead-light">
+ <tr>
+	 <th colspan="2">'.$name.'</th>
+ </tr>
+</thead>
+<tbody>
+						<tr>
+							<td>Last Conversation (Date&Time)</td>
+							<td>'.$last_coversation.'</td>
+						</tr>
+						<tr>
+							<td>Action</td>
+							<td class="btns_group" id="start_chat_button_">
+							<button type="button" class="btn btn-info btn_link1 view_chat btn btn-primary btn-big btn-transparent connect_with_btn_listing" data-fromuserid = "'.$session_id.'" data-touserid="'.$from_user_id.'" data-tousername="'.$name.'"  data-role="subscriber">View Chat</button>
+							<a href = "'.$anchor.'" target = "_blank" class="anch_link1" javascript= "void()">Export</a></td>
+						</tr>
+					</tbody>';
+	 }
+$output .= '</table>				
+</div>
+</div>
+</div>
+</section>';
 	
 	return($output);
 }

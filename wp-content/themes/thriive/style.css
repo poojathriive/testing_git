@@ -6652,8 +6652,15 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 	    .mobi_tableview {
 	        display: block;
 	    }
-	    .mobi_tableview .table {
+	    .mobi_tableview .table tbody {
 	        margin: 0 0 20px 0;
+	        display: inline-block;
+	    }
+	    .mobi_tableview .table tbody tr td {
+	        border: 1px solid #dee2e6;
+	    }
+	    .desk_tablevw {
+	        display: none;
 	    }
 	}
 	/* media queries ends here */
