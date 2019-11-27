@@ -93,7 +93,7 @@ $(document).off().on('click', '.start_chat', function() {
             autoOpen: false,
             modal: true,
             titleIsHtml: true,
-            title: "<div class='widget-header widget-header-small' style='padding-left: 21px;'>" + to_user_name + "<button type='button' class='dots_iconz1' onclick='chat_dropDowns();'><span class='dotsA1'></span><span class='dotsA1'></span><span class='dotsA1'></span></button><div class='chat_dropdown_modal' style='display:none;'><ul class='chatdropdwn_lists'><li><button type='button' id= 'del' class = 'title_anch' data-to = '" + to_user_id + "' data-from = '" + from_user_id + "' onclick = 'delete_msg(this)'>Delete</button></li><li><a href='http://35.232.100.164/faq/faq.html' class = 'title_anch' target='_blank' >FAQ</a></li></ul></div><button type='button' class='max_chatBox' onclick='maxim_chatBox();'><i class='fa fa-expand' aria-hidden='true'></i></button></div>",
+            title: "<div class='widget-header widget-header-small' style='padding-left: 21px;'>" + to_user_name + "<button type='button' class='dots_iconz1' onclick='chat_dropDowns();'><span class='dotsA1'></span><span class='dotsA1'></span><span class='dotsA1'></span></button><div class='chat_dropdown_modal' style='display:none;'><ul class='chatdropdwn_lists'><li><button type='button' id= 'del' data-reload = '1' class = 'title_anch' data-to_user = '" + to_user_id + "' data-from_user = '" + from_user_id + "' onclick = 'delete_msggrp(this)'>Delete</button></li><li><a href='http://35.232.100.164/faq/faq.html' class = 'title_anch' target='_blank' >FAQ</a></li></ul></div><button type='button' class='min_chatBox' onclick='minim_chatBox();'><i class='fa fa-window-minimize' aria-hidden='true'></i></button><button type='button' class='max_chatBox' onclick='maxim_chatBox();'><i class='fa fa-expand' aria-hidden='true'></i></button></div>",
             close: function(event, ui) {
                 var str = "user_dialog_" + to_user_id + "_" + from_user_id;
 
@@ -158,27 +158,27 @@ $('.ui-dialog-titlebar-close').click(function() {
 
 function chat_dropDowns() {
     // alert("hi....");    
-    // $('.chat_dropdown_modal').html(modal_content);
-    $('.chat_dropdown_modal').fadeToggle();
+    $('.chat_dropdown_modal').fadeIn();    
     $('.chatdropdwn_lists').mouseleave(function() {
         $('.chat_dropdown_modal').fadeOut();
     });
+
+    // $('.chatdropdwn_lists').on('mouseenter touchstart', function(){ 
+    //     $('.chat_dropdown_modal').fadeIn();   
+    // });
+    
+    // $('.chatdropdwn_lists').on('mouseleave touchend', function(){
+    //     $('.chat_dropdown_modal').fadeOut();
+    // });
+  
 }
 
-function maxim_chatBox() {
+function minim_chatBox() {
     // alert("hi....");
-    // $('.ui-widget.ui-widget-content').removeAttr("style");
-    // $('.ui-widget.ui-widget-content').css({
-    //     'width': '',
-    //     'top': '',
-    //     'right': '',
-    //     'bottom': '',
-    //     'left': ''
-    // });
-    // $('.ui-widget.ui-widget-content').each(function() {
-    //     this.style.setProperty('width', '', 'important');
-    // });
-    $('.ui-widget.ui-widget-content').toggleClass("expndChat");
+    // $("body").addClass("shadow_bgBox");
+    $('.ui-widget.ui-widget-content').removeClass("expndChat");
+    $('.ui-widget.ui-widget-content').toggleClass("minimChat");
+   
     // if ($('.ui-widget.ui-widget-content').hasClass("expndChat")) {
     //     $('.ui-widget.ui-widget-content').style.setProperty('width', '80%', 'important');
     // }
@@ -189,9 +189,24 @@ function maxim_chatBox() {
     //     this.style.setProperty('width', '80%', 'important');
     // });
 
+}
+function maxim_chatBox() {
+    // alert("hi....");
+    // $("body").addClass("shadow_bgBox");
+    $('.ui-widget.ui-widget-content').removeClass("minimChat");
+    $('.ui-widget.ui-widget-content').toggleClass("expndChat");
+   
+    // if ($('.ui-widget.ui-widget-content').hasClass("expndChat")) {
+    //     $('.ui-widget.ui-widget-content').style.setProperty('width', '80%', 'important');
+    // }
+    // $('.ui-widget.ui-widget-content').hasClass("expndChat").each(function() {
+    //     this.style.setProperty('width', '80%', 'important');
+    // });
+    // $('.ui-widget.ui-widget-content').each(function() {
+    //     this.style.setProperty('width', '80%', 'important');
+    // });
 
 }
-
 function make_chat_dialog_box1(to_user_id, to_user_name, from_user_id = '', user_role = "") {
 
     var dailogbox_id = 'user_dialog_' + to_user_id;
@@ -266,7 +281,7 @@ function check_box_open() {
                     autoOpen: false,
                     modal: true,
                     titleIsHtml: true,
-                    title: "<div class='widget-header widget-header-small' style='padding-left: 21px;'>" + to_user_name + "<button type='button' class='dots_iconz1' onclick='chat_dropDowns();'><span class='dotsA1'></span><span class='dotsA1'></span><span class='dotsA1'></span></button><div class='chat_dropdown_modal' style='display:none;'><ul class='chatdropdwn_lists'><li><button type='button' id= 'del' class = 'title_anch' data-to = '" + to_user_id + "' data-from = '" + from_user_id + "' onclick = 'delete_msg(this)'>Delete</button></li><li><a href='http://35.232.100.164/faq/faq.html' class = 'title_anch' target='_blank' >FAQ</a></li></ul></div></div>",
+                    title: "<div class='widget-header widget-header-small' style='padding-left: 21px;'>" + to_user_name + "<button type='button' class='dots_iconz1' onclick='chat_dropDowns();'><span class='dotsA1'></span><span class='dotsA1'></span><span class='dotsA1'></span></button><div class='chat_dropdown_modal' style='display:none;'><ul class='chatdropdwn_lists'><li><button type='button' id= 'del'  data-reload = '1' class = 'title_anch' data-to_user = '" + to_user_id + "' data-from_user = '" + from_user_id + "' onclick = 'delete_msggrp(this)'>Delete</button></li><li><a href='http://35.232.100.164/faq/faq.html' class = 'title_anch' target='_blank' >FAQ</a></li></ul></div></div>",
                     close: function(event, ui) {
                         var str = "user_dialog_" + to_user_id + "_" + from_user_id;
 
@@ -487,7 +502,7 @@ function fetch_user_chat_history(to_user_id, from_user_id) {
         },
         success: function(data) {
             //Do something with the result from server
-            $('#chat_history_' + to_user_id + "_" + from_user_id).append(data);
+            $('#chat_history_' + to_user_id + "_" + from_user_id).html(data);
             $(".chat_history").stop().animate({ scrollTop: $(".chat_history")[0].scrollHeight + 400 }, 1000);
             //console.log( data );
         }
@@ -731,7 +746,18 @@ function delete_msggrp(e) {
             },
             success: function(data) {
                 console.log(data);
-                location.reload(true);
+
+var reload = $(e).attr('data-reload');
+
+if(reload != '1')
+{
+ location.reload(true);
+}
+else
+{
+ update_chat_history_data();
+console.log(reload);
+}
 
 
             }

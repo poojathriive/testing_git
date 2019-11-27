@@ -17,7 +17,7 @@ $_SESSION['chat_page'] = $_SERVER["HTTP_REFERER"];
 		else
 		{
 			
-			wp_redirect(site_url().'my-account-page/');
+			wp_redirect(site_url().'/my-account-page/');
 		}
 		exit();
 	}

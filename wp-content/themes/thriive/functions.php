@@ -152,11 +152,13 @@ function fetch_user_chat_history(){
 $flag = 0;
 	$to_user_id = $_POST['to_user_id'];
 	$from_user_id = $_POST['from_user_id'];
-      $query = " SELECT * FROM chat_message_details  WHERE ((from_user_id = ".$from_user_id."  AND to_user_id = ".$to_user_id.") OR (from_user_id = ".$to_user_id." AND to_user_id = ".$from_user_id.")) and (delete_status = 0)  ORDER BY chat_message_id ASC ";
+       $query = " SELECT * FROM chat_message_details  WHERE ((from_user_id = ".$from_user_id."  AND to_user_id = ".$to_user_id.") OR (from_user_id = ".$to_user_id." AND to_user_id = ".$from_user_id.")) and (delete_status = 0)  ORDER BY chat_message_id ASC ";
 	$result = $wpdb->get_results($query);
 	//print_r($result);
 $therepist_data = get_userdata( $to_user_id);
 	$t_name = get_user_name($to_user_id);
+if(count($result)> 0 )
+{
  $output = '<ul class="list-unstyled">';
  foreach($result as $row)
  {
@@ -206,7 +208,7 @@ if($row->from_user_id == $from_user_id)
 
    $user_name = '<b class="text-success">You</b>';
  $output .= ' <li class="user_stats_lhs"  style="border-bottom:1px dotted #ccc;align:right">';
-$output .= '<input type="checkbox" name = "msgid" value="'.$row->chat_message_id.'" style="opacity:1;position:relative;margin-right: 6px;float:left" class="checkSingle">';
+//$output .= '<input type="checkbox" name = "msgid" value="'.$row->chat_message_id.'" style="opacity:1;position:relative;margin-right: 6px;float:left" class="checkSingle">';
 	 $output .= '<div class="chat_content">
 		 <div class= "chat_text">
 		 	'.$image_holder.'
@@ -256,6 +258,11 @@ if($role == 'subscriber')
  $result = $wpdb->query($query);	
 }
 echo $output;
+}
+else
+{
+echo "";
+}
    wp_die(); // ajax call must die to avoid trailing 0 in your response
 }
 
@@ -337,7 +344,7 @@ $image_holder = '<p>'.$chat_message.'</p>';
 
    $user_name = '<b class="text-success">You</b>';
  $output .= ' <li class="user_stats_lhs"  style="border-bottom:1px dotted #ccc;align:right">';
-$output .= '<input type="checkbox" name = "msgid" value="'.$row->chat_message_id.'" style="opacity:1;position:relative;margin-right: 6px;float:left" class="checkSingle">';
+//$output .= '<input type="checkbox" name = "msgid" value="'.$row->chat_message_id.'" style="opacity:1;position:relative;margin-right: 6px;float:left" class="checkSingle">';
 	 $output .= '<div class="chat_content">
 		 <div class= "chat_text">
 '.$image_holder.'
@@ -487,7 +494,7 @@ if($hours <= 2)
 {
 $s_data = get_userdata($seeker_id);
  $s_email = $s_data->data->user_email;
-$s_name = $s_data->data->user_nicename;
+ $s_name = $s_data->data->user_nicename;
 $username = get_user_name($seeker_id);
 $therepistname = get_user_name($therapist_id);
 $t_data = get_userdata($therapist_id);
@@ -501,15 +508,16 @@ $therapist_mobile = get_user_meta($seeker_id,'mobile');
  $s_mobile = '91'.$therapist_countrycde[0].$therapist_mobile[0];
 
 //$message = "Hi ".$s_name." , you have started a online chat with ".$t_name." on thriive.in view your online chat chat link.";
-$t_message = "We have connected you with ".$t_name." who is a Verified Therapist . This conversation is completely private and confidential";
+$t_message = "We have connected you with ".$therepistname." who is a Verified Therapist . This conversation is completely private and confidential";
 //$t_message= "Hi ".$t_name." , Online chat is initiated with you by ".$s_name." View Your Online chat (give a chat link here)";
-$message = "Hi ".$t_name.", ".$s_name." sent a message. view and reply from chat link thanks.";
+$message = "Hi ".$therepistname.", ".$username." sent a message. view and reply from chat link thanks.";
 // sending therapist email
 $to = $t_email;
 $to = 'productmanager@thriive.in';
-$body = body_from_user_to_therapist_reply($s_name,$t_name);
+$to = 'ramakant2you@gmail.com';
+$body = body_from_user_to_therapist_reply($username,$therepistname);
 //$body = 'check mail';
-$subject = "Thriive email";
+$subject = $username. " answered your question";
 $headers = "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 $headers .= 'From: admin@thriive.in' . "\r\n";
@@ -543,9 +551,10 @@ $message = "We have connected you with ".$t_name." who is a Verified Therapist .
 $t_message= "Hi ".$t_name." , Online chat is initiated with you by ".$s_name." View Your Online chat (give a chat link here)";
 $to = $t_name;
 $to = 'productmanager@thriive.in';
-$body = body_from_user_to_therapist();
+$to = 'ramakant@rabbitdigital.in';
+$body = body_from_user_to_therapist($username,$therepistname);
 //$body = 'check mail';
-$subject = "Thriive email";
+$subject = 'Online chat initiated on <a href="http://35.232.100.164" target="_blank">thriive.in</a>';
 $headers = "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 $headers .= 'From: <admin@thriive.in>' . "\r\n";
@@ -589,9 +598,10 @@ $message = "Hi ".$s_name.", ".$t_name." sent a message. view and reply from chat
 //$t_message= "Hi ".$t_name." , Online chat is initiated with you by ".$s_name." View Your Online chat (give a chat link here)";
 $to = $t_name;
 $to = 'productmanager@thriive.in';
-$body = body_from_therapist_to_user();
+$to = 'ramakant@rabbitdigital.in';
+$body = body_from_therapist_to_user($username,$therepistname);
 //$body = 'check mail';
-$subject = "Thriive email";
+$subject = $therepistname. " answered your question";
 $headers = "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 $headers .= 'From: <admin@thriive.in>' . "\r\n";
@@ -728,15 +738,18 @@ function delete_message_group(){
 	$ids = $_POST['ids'];
 $from_user = $_POST['from_user'];
 $to_user = $_POST['to_user'];
-  $query = " SELECT chat_message_id FROM chat_message_details  WHERE ((from_user_id = '".$from_user."'  AND to_user_id = '".$to_user."')  OR (from_user_id = '".$to_user."'  AND to_user_id = '".$from_user."')) and (delete_status = 0)  ORDER BY chat_message_id ASC ";	
+   $query = " SELECT chat_message_id FROM chat_message_details  WHERE ((from_user_id = '".$from_user."'  AND to_user_id = '".$to_user."')  OR (from_user_id = '".$to_user."'  AND to_user_id = '".$from_user."')) and (delete_status = 0)  ORDER BY chat_message_id ASC ";	
 
 $result = $wpdb->get_results($query); 
+if(count($result) > 0)
+{
 foreach($result as $row)
  {
 $id = $row->chat_message_id;
 	  $query = "UPDATE chat_message_details  SET delete_status = '1'  WHERE chat_message_id = '".$id."'";
 $result = $wpdb->query($query);	
 	}
+}
   wp_die(); // ajax call must die to avoid trailing 0 in your response
 }
 
@@ -1003,6 +1016,10 @@ if($user_name1 == '')
 $arr = get_user_meta($userId, 'nickname');
 $user_name1 = $arr[0];
 }
+if (strpos($user_name1, '@') !== false) 
+{
+$user_name1 = strtok($user_name1,'@');
+}
 return($user_name1);
 }
 
@@ -1028,7 +1045,7 @@ $to_user_id = $_POST['therapist'];
 if($from_date == '' && $to_date == '')
 $query = " SELECT * FROM chat_message_details  WHERE ((from_user_id = '".$from_user_id."'  AND to_user_id = '".$to_user_id."')  OR (from_user_id = '".$to_user_id."'  AND to_user_id = '".$from_user_id."')) ORDER BY chat_time DESC";
 else
-  $query = " SELECT * FROM chat_message_details  WHERE ((from_user_id = '".$from_user_id."'  AND to_user_id = '".$to_user_id."')  OR (from_user_id = '".$to_user_id."'  AND to_user_id = '".$from_user_id."')) and (chat_time >= '".$from_date."'  AND chat_time <= '".$to_date."') ORDER BY chat_time DESC";
+  $query = " SELECT * FROM chat_message_details  WHERE ((from_user_id = '".$from_user_id."'  AND to_user_id = '".$to_user_id."')  OR (from_user_id = '".$to_user_id."'  AND to_user_id = '".$from_user_id."')) and (chat_time >= '".$from_date." 00:00:00'  AND chat_time <= '".$to_date." 23:59:59') ORDER BY chat_time DESC";
 
 }
 else if($_POST['therapist'] != '')
@@ -1037,7 +1054,7 @@ $from_user_id = $_POST['therapist'];
 if($from_date == '' && $to_date == '')
 $query = " SELECT * FROM chat_message_details  WHERE (from_user_id = '".$from_user_id."'  OR to_user_id = '".$from_user_id."') ORDER BY chat_time DESC ";
 else
-$query = " SELECT * FROM chat_message_details  WHERE (from_user_id = '".$from_user_id."'  OR to_user_id = '".$from_user_id."') and (chat_time >= '".$from_date."'  AND chat_time <= '".$to_date."')  ORDER BY chat_time DESC ";
+$query = " SELECT * FROM chat_message_details  WHERE (from_user_id = '".$from_user_id."'  OR to_user_id = '".$from_user_id."') and (chat_time >= '".$from_date." 00:00:00'  AND chat_time <= '".$to_date." 23:59:59')  ORDER BY chat_time DESC ";
 }
 else if($_POST['user'] != '')
 {
@@ -1045,7 +1062,7 @@ $from_user_id = $_POST['user'];
 if($from_date == '' && $to_date == '')
 $query = " SELECT * FROM chat_message_details  WHERE (from_user_id = '".$from_user_id."'  OR to_user_id = '".$from_user_id."')  ORDER BY chat_time DESC ";
 else
-$query = " SELECT * FROM chat_message_details  WHERE (from_user_id = '".$from_user_id."'  OR to_user_id = '".$from_user_id."') and (chat_time >= '".$from_date."'  AND chat_time <= '".$to_date."')  ORDER BY chat_time DESC ";
+$query = " SELECT * FROM chat_message_details  WHERE (from_user_id = '".$from_user_id."'  OR to_user_id = '".$from_user_id."') and (chat_time >= '".$from_date." 00:00:00'  AND chat_time <= '".$to_date." 23:59:59')  ORDER BY chat_time DESC ";
 
 }
 else 
@@ -1053,7 +1070,7 @@ else
 if($from_date == '' && $to_date == '')
 $query = " SELECT * FROM chat_message_details ORDER BY chat_time DESC ";
 else
-$query = " SELECT * FROM chat_message_details  WHERE (chat_time >= '".$from_date."'  AND chat_time <= '".$to_date."')  ORDER BY chat_time DESC ";
+$query = " SELECT * FROM chat_message_details  WHERE (chat_time >= '".$from_date." 00:00:00'  AND chat_time <= '".$to_date." 23:59:59')  ORDER BY chat_time DESC ";
 
 }
 
@@ -1137,11 +1154,11 @@ $arr1 = array();
 $arr2 = array();
 $arr = array();
 $html = '<div class="container">
-		<div class="row"><div class="col-lg-12 col-md 12 col-sm-12 col-12"><h4>Total Therapists</h4><table class="table table-bordered"><thead><tr><th>Name</th><th>Last Login</th><th>Chat with Customers</th><th>Customer Count</th></tr></thead><tbody>';
+		<div class="row"><div class="col-lg-12 col-md 12 col-sm-12 col-12"><h4>Total Therapists</h4><table class="table table-bordered"><thead><tr><th>Name</th><th>Last Login</th><th>Chat with Customers</th></tr></thead><tbody>';
 if($from_date == '' && $to_date == '')
 $query = "SELECT to_user_id FROM chat_message_details group by to_user_id ";
 else
-$query = "SELECT to_user_id FROM chat_message_details  where (chat_time >= '".$from_date."'  AND chat_time <= '".$to_date."') group by to_user_id ";
+$query = "SELECT to_user_id FROM chat_message_details  where (chat_time >= '".$from_date." 00:00:00'  AND chat_time <= '".$to_date." 23:59:59') group by to_user_id ";
  	$result = $wpdb->get_results($query);
 foreach($result as $row)
 {
@@ -1152,7 +1169,7 @@ if(!(in_array("subscriber",$roles_to ) ))
 if($from_date == '' && $to_date == '')
  $query1 = "SELECT from_user_id FROM chat_message_details where to_user_id = ".$row->to_user_id." group by from_user_id";
 else
-$query1 = "SELECT from_user_id FROM chat_message_details  where (chat_time >= '".$from_date."'  AND chat_time <= '".$to_date."') and to_user_id = ".$row->to_user_id." group by from_user_id";
+$query1 = "SELECT from_user_id FROM chat_message_details  where (chat_time >= '".$from_date." 00:00:00'  AND chat_time <= '".$to_date." 23:59:59') and to_user_id = ".$row->to_user_id." group by from_user_id";
  	$result1 = $wpdb->get_results($query1);
 $last_login = last_login($row->to_user_id);
 foreach($result1 as $row1)
@@ -1163,7 +1180,7 @@ $arr1[]= '<a href="#" data-to = "'.$row->to_user_id .'" data-from = "'.$row1->fr
 
 }
 $str_from = implode(',',$arr1);
-$html .= '<tr><td>'.$name.'</td><td>'.$last_login.'</td><td>'.$str_from.'</td><td>'.count($arr1).'</td></tr>';
+$html .= '<tr><td>'.$name.'</td><td>'.$last_login.'</td><td>'.$str_from.' ('.count($arr1).')</td></tr>';
 }
 
 }
@@ -1189,11 +1206,11 @@ $arr1 = array();
 $arr2 = array();
 $arr = array();
 $html = '<div class="container">
-		<div class="row"><div class="col-lg-12 col-md 12 col-sm-12 col-12"><h4>Total Customer</h4><table class="table table-bordered"><thead><tr><th>Name</th><th>Last Login</th><th>Chat with Therapist</th><th>Therapist Count</th></tr></thead><tbody>';
+		<div class="row"><div class="col-lg-12 col-md 12 col-sm-12 col-12"><h4>Total Customer</h4><table class="table table-bordered"><thead><tr><th>Name</th><th>Last Login</th><th>Chat with Therapist</th></tr></thead><tbody>';
 if($from_date == '' && $to_date == '')
 $query = "SELECT from_user_id FROM chat_message_details  group by from_user_id ";
 else
-$query = "SELECT from_user_id FROM chat_message_details  where (chat_time >= '".$from_date."'  AND chat_time <= '".$to_date."') group by from_user_id ";
+$query = "SELECT from_user_id FROM chat_message_details  where (chat_time >= '".$from_date." 00:00:00'  AND chat_time <= '".$to_date." 23:59:59') group by from_user_id ";
  	$result = $wpdb->get_results($query);
 foreach($result as $row)
 {
@@ -1205,7 +1222,7 @@ if((in_array("subscriber",$roles_to ) ))
 if($from_date == '' && $to_date == '')
 $query1 = "SELECT to_user_id FROM chat_message_details  where from_user_id = ".$row->from_user_id." group by to_user_id";
 else
-$query1 = "SELECT to_user_id FROM chat_message_details  where (chat_time >= '".$from_date."'  AND chat_time <= '".$to_date."') and from_user_id = ".$row->from_user_id." group by to_user_id";
+$query1 = "SELECT to_user_id FROM chat_message_details  where (chat_time >= '".$from_date." 00:00:00'  AND chat_time <= '".$to_date." 23:59:59') and from_user_id = ".$row->from_user_id." group by to_user_id";
  	$result1 = $wpdb->get_results($query1);
 foreach($result1 as $row1)
 {
@@ -1215,7 +1232,7 @@ $arr1[]= '<a href="#" data-to = "'.$row->from_user_id.'" data-from = "'.$row1->t
 
 }
 $str_from = implode(',',$arr1);
-$html .= '<tr><td>'.$name.'</td><td>'.$last_login.'</td><td>'.$str_from.'</td><td>'.count($arr1).'</td></tr>';
+$html .= '<tr><td>'.$name.'</td><td>'.$last_login.'</td><td>'.$str_from.' ('.count($arr1).')</td></tr>';
 }
 
 }
@@ -1257,7 +1274,7 @@ $to_user_id = $_POST['therapist'];
 if($from_date == '' && $to_date == '')
 $query = " SELECT * FROM chat_message_details  WHERE ((from_user_id = '".$from_user_id."'  AND to_user_id = '".$to_user_id."')  OR (from_user_id = '".$to_user_id."'  AND to_user_id = '".$from_user_id."')) ORDER BY chat_time DESC";
 else
-  $query = " SELECT * FROM chat_message_details  WHERE ((from_user_id = '".$from_user_id."'  AND to_user_id = '".$to_user_id."')  OR (from_user_id = '".$to_user_id."'  AND to_user_id = '".$from_user_id."')) and (chat_time >= '".$from_date."'  AND chat_time <= '".$to_date."') ORDER BY chat_time DESC";
+  $query = " SELECT * FROM chat_message_details  WHERE ((from_user_id = '".$from_user_id."'  AND to_user_id = '".$to_user_id."')  OR (from_user_id = '".$to_user_id."'  AND to_user_id = '".$from_user_id."')) and (chat_time >= '".$from_date." 00:00:00'  AND chat_time <= '".$to_date." 23:59:59') ORDER BY chat_time DESC";
 
 }
 else if($_POST['therapist'] != '')
@@ -1266,7 +1283,7 @@ $from_user_id = $_POST['therapist'];
 if($from_date == '' && $to_date == '')
 $query = " SELECT * FROM chat_message_details  WHERE (from_user_id = '".$from_user_id."'  OR to_user_id = '".$from_user_id."') ORDER BY chat_time DESC ";
 else
-$query = " SELECT * FROM chat_message_details  WHERE (from_user_id = '".$from_user_id."'  OR to_user_id = '".$from_user_id."') and (chat_time >= '".$from_date."'  AND chat_time <= '".$to_date."')  ORDER BY chat_time DESC ";
+$query = " SELECT * FROM chat_message_details  WHERE (from_user_id = '".$from_user_id."'  OR to_user_id = '".$from_user_id."') and (chat_time >= '".$from_date." 00:00:00'  AND chat_time <= '".$to_date." 23:59:59')  ORDER BY chat_time DESC ";
 }
 else if($_POST['user'] != '')
 {
@@ -1274,7 +1291,7 @@ $from_user_id = $_POST['user'];
 if($from_date == '' && $to_date == '')
 $query = " SELECT * FROM chat_message_details  WHERE (from_user_id = '".$from_user_id."'  OR to_user_id = '".$from_user_id."')  ORDER BY chat_time DESC ";
 else
-$query = " SELECT * FROM chat_message_details  WHERE (from_user_id = '".$from_user_id."'  OR to_user_id = '".$from_user_id."') and (chat_time >= '".$from_date."'  AND chat_time <= '".$to_date."')  ORDER BY chat_time DESC ";
+$query = " SELECT * FROM chat_message_details  WHERE (from_user_id = '".$from_user_id."'  OR to_user_id = '".$from_user_id."') and (chat_time >= '".$from_date." 00:00:00'  AND chat_time <= '".$to_date." 23:59:59')  ORDER BY chat_time DESC ";
 
 }
 else 
@@ -1282,11 +1299,11 @@ else
 if($from_date == '' && $to_date == '')
 $query = " SELECT * FROM chat_message_details ORDER BY chat_time DESC ";
 else
-$query = " SELECT * FROM chat_message_details  WHERE (chat_time >= '".$from_date."'  AND chat_time <= '".$to_date."')  ORDER BY chat_time DESC ";
+$query = " SELECT * FROM chat_message_details  WHERE (chat_time >= '".$from_date." 00:00:00'  AND chat_time <= '".$to_date." 23:59:59')  ORDER BY chat_time DESC ";
 
 }
 
-   
+
 	$result = $wpdb->get_results($query);
 	//print_r($result);
 if(count($result) > 0)
@@ -1345,7 +1362,7 @@ $to_date = $_POST['bday2'];
 if($from_date == '' && $to_date == '')
  $query = "SELECT * FROM chat_message_details ";
 else
-$query = "SELECT * FROM chat_message_details  WHERE (chat_time >= '".$from_date."'  AND chat_time <= '".$to_date."') ";
+$query = "SELECT * FROM chat_message_details  WHERE (chat_time >= '".$from_date." 00:00:00'  AND chat_time <= '".$to_date." 23:59:59') ";
  	$result = $wpdb->get_results($query);
 $count = count($result);
 $arr1 = array();
@@ -1354,7 +1371,8 @@ $arr = array();
 if($from_date == '' && $to_date == '')
 $query = "SELECT to_user_id FROM chat_message_details  group by to_user_id ";
 else
-$query = "SELECT to_user_id FROM chat_message_details  where (chat_time >= '".$from_date."'  AND chat_time <= '".$to_date."') group by to_user_id ";
+ $query = "SELECT to_user_id FROM chat_message_details  where (chat_time >= '".$from_date." 00:00:00'  AND chat_time <= '".$to_date." 23:59:59') group by to_user_id ";
+
  	$result = $wpdb->get_results($query);
 foreach($result as $row)
 {
@@ -1367,7 +1385,7 @@ $therapist++;
 if($from_date == '' && $to_date == '')
 $query = "SELECT from_user_id FROM chat_message_details group by from_user_id ";
 else
-$query = "SELECT from_user_id FROM chat_message_details  where (chat_time >= '".$from_date."'  AND chat_time <= '".$to_date."') group by from_user_id ";
+ $query = "SELECT from_user_id FROM chat_message_details  where (chat_time >= '".$from_date." 00:00:00'  AND chat_time <= '".$to_date." 23:59:59') group by from_user_id ";
  	$result = $wpdb->get_results($query);
 foreach($result as $row)
 {
@@ -1375,9 +1393,10 @@ foreach($result as $row)
 $roles_from = get_user_meta($row->from_user_id,'role');
 if((in_array("subscriber",$roles_from ) ) )
 {
-$seekers++;
+ $seekers++;
 }
 }
+;
 $html = '<div class="container">
 		<div class="row">
 			<div class="col-lg-12 col-md 12 col-sm-12 col-12">
@@ -1669,14 +1688,14 @@ $body = '<!DOCTYPE html><html lang="en"><head>  <meta name="viewport" content="w
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>Thriive | Emailer</title><link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet"></head><body style="width: 100%; background-color: #fff;color:#000;font-family:"Open Sans", sans-serif !important;font-size: 14px;  line-height: 20px; margin: 0;padding: 0;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%; ">
     <table border="0" cellpadding="0" cellspacing="0" class="tab-holder" style="background-color: #fff;width: 600px; height: 100%;font-family:"Open Sans", sans-serif !important;margin:0px auto;padding:0;border:1px solid #e4e4e4;"><tr><td align="center" class="header_section" style="width: 100%;height: 100%;margin:0px auto;padding: 20px 30px;background: #fff;">
-                <a href="http://35.232.100.164" target="_blank"><img src="images/thriive_logo.png" style="width: 30%;" alt="">             </a></td></tr><tr><td class="content_03" style="width: 100%;height:auto;padding: 30px 40px;background: #fff;vertical-align: top;"><p style="float: left;margin: 0 0 5px 0;font-size: 12px;line-height: 18px;"><strong style="text-transform: capitalize;">Subject Line :</strong> Online chat initiated on <a href="http://35.232.100.164" arget="_blank">thriive.in</a> <br><br>Hi <strong style="text-transform: capitalize;">'.$s_name.',</strong><br><br>You have started a Online chat with <strong style="text-transform: capitalize;">"'.$t_name.'"</strong> <br><br>'.$t_name.' will review and respond to your query within 6 hours.<br>(expect a little delay in responses for messages sent between 9:00 pm to 9:00 am) <br><br>View Your Online Chat <a href="http://35.232.100.164" target="_blank">(Give a Chat link here)</a><br><br> Kindly call us at + if you have any query.<br><br><br><br><strong style="text-transform: capitalize;">Keep Thriiving :)</strong><br>         <strong style="text-transform: capitalize;">Team Thriive Art and Soul</strong></p></td> </tr><tr>
-                <img src="images/footer-bg-top.png" style="width: 100%;vertical-align: bottom;" alt=""></td> </tr>
+                <a href="http://35.232.100.164" target="_blank"><img src="http://35.232.100.164/wp-content/themes/thriive/assets/images/logo-new.png" style="width: 25%;" alt=""> </a></td></tr><tr><td class="content_03" style="width: 100%;height:auto;padding: 30px 40px;background: #fff;vertical-align: top;"><p style="float: left;margin: 0 0 5px 0;font-size: 12px;line-height: 18px;"><strong style="text-transform: capitalize;">Subject Line :</strong> Online chat initiated on <a href="http://35.232.100.164" arget="_blank">thriive.in</a> <br><br>Hi <strong style="text-transform: capitalize;">'.$s_name.',</strong><br><br>You have started a Online chat with <strong style="text-transform: capitalize;">"'.$t_name.'"</strong> <br><br>'.$t_name.' will review and respond to your query within 6 hours.<br>(expect a little delay in responses for messages sent between 9:00 pm to 9:00 am) <br><br>View Your Online Chat <a href="http://35.232.100.164" target="_blank">(Give a Chat link here)</a><br><br> Kindly call us at + if you have any query.<br><br><br><br><strong style="text-transform: capitalize;">Keep Thriiving :)</strong><br>         <strong style="text-transform: capitalize;">Team Thriive Art and Soul</strong></p></td> </tr><tr>
+                <img src="http://35.232.100.164/wp-content/themes/thriive/assets/images/footer-bg-top.png" style="width: 100%;vertical-align: bottom;" alt=""></td> </tr>
         <tr> <td class="footer_section" style=" width: 100%;height: 100%;margin:0px auto;padding: 10px 40px;background: #4f0475;">
-                <h4 style="font-family: "Barlow", sans-serif;font-size: 24px;line-height:30px;margin: 0;color: #ffb813;	text-transform: uppercase; text-align: center;">thriive social</h4><p style="color: #fff; text-align: center;">&copy; 1997 - 2019 THRIIVE ART &amp; SOUL LLP. All Rights Reserved.</p></td></tr></table></body></html>';
+                <h4 style="font-size: 24px;line-height:30px;margin: 0;color: #ffb813;	text-transform: uppercase; text-align: center;">thriive social</h4><p style="color: #fff; text-align: center;">&copy; 1997 - 2019 THRIIVE ART &amp; SOUL LLP. All Rights Reserved.</p></td></tr></table></body></html>';
 return($body);
 }
 add_action( 'init' , 'body_from_user_to_therapist');
-function body_from_user_to_therapist($s_user,$t_name)
+function body_from_user_to_therapist($s_name,$t_name)
 {
 $body = '<!DOCTYPE html>
 <html lang="en">
@@ -1685,64 +1704,20 @@ $body = '<!DOCTYPE html>
     <meta name="viewport" content="width=device-width" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>Thriive | Emailer</title>
-
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet">
-
-
 </head>
-
-<body class="" style="width: 100%;
-  background-color: #fff;
-  color:#000;
-  font-family:"Open Sans", sans-serif !important;
-  font-size: 14px;
-  line-height: 20px;
-  margin: 0;
-  padding: 0;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%; ">
-    <table border="0" cellpadding="0" cellspacing="0" class="tab-holder" style="background-color: #fff;
-	width: 600px; 
-	height: 100%;
-	font-family:"Open Sans", sans-serif !important;
-	margin:0px auto;
-	padding:0;
-	border:1px solid #e4e4e4;">
-        <tr>
-            <td align="center" class="header_section" style="width: 100%; 
-			height: 100%;
-			margin:0px auto;
-			padding: 20px 30px;
-			background: #fff;">
-                <a href="http://35.232.100.164" target="_blank">
-                    <img src="images/thriive_logo.png" style="width: 30%;" alt="">
-                </a>
-            </td>
-        </tr>
-        <tr>
-            <td class="content_03" style="width: 100%;
-			height:auto;
-			padding: 30px 40px;
-			background: #fff;
-			vertical-align: top;">
-                <p style="float: left;
-				margin: 0 0 5px 0;
-				font-size: 12px;
-				line-height: 18px;">
-                    <strong style="text-transform: capitalize;">Subject Line :</strong> Online chat initiated on <a href="http://35.232.100.164" target="_blank">thriive.in</a> <br><br>Hi <strong style="text-transform: capitalize;">Therapist name,</strong>                    <br><br>Online chat is initiated with you by <strong style="text-transform: capitalize;">"User name"</strong>
-                    <br><br>View Your Online Chat <a href="http://35.232.100.164" target="_blank">(Give a Chat link here)</a><br><br><br><br><strong style="text-transform: capitalize;">Keep Thriiving :)</strong><br>
+<body class="" style="width: 100%;background-color: #fff;color:#000;font-family:"Open Sans", sans-serif !important;font-size: 14px;line-height: 20px;margin: 0;padding: 0;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%; ">
+    <table border="0" cellpadding="0" cellspacing="0" class="tab-holder" style="background-color: #fff;width: 600px;height: 100%;font-family:"Open Sans",sans-serif !important;margin:0px auto;padding:0;border:1px solid #e4e4e4;"><tr><td align="center" class="header_section" style="width: 100%; height: 100%;margin:0px auto;padding: 20px 30px;background: #fff;"><a href="http://35.232.100.164" target="_blank"><img src="http://35.232.100.164/wp-content/themes/thriive/assets/images/logo-new.png" style="width: 25%;" alt=""></a></td></tr><tr>
+            <td class="content_03" style="width: 100%;height:auto;padding: 30px 40px;background: #fff;vertical-align: top;">
+                <p style="float: left;margin: 0 0 5px 0;font-size: 12px;line-height: 18px;">
+                   Hi <strong style="text-transform: capitalize;">'.$t_name.',</strong><br><br>Online chat is initiated with you by <strong style="text-transform: capitalize;">'.$s_name.'</strong>
+                    <br><br><a href="http://35.232.100.164/login" target="_blank">View Your Online Chat</a><br><br><br><br><strong style="text-transform: capitalize;">Keep Thriiving :)</strong><br>
                     <strong style="text-transform: capitalize;">Team Thriive Art and Soul</strong>
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <img src="images/footer-bg-top.png" style="width: 100%;vertical-align: bottom;" alt="">
-            </td>
-        </tr>
-        <tr>
+                </p></td></tr><tr><td>
+                <img src="http://35.232.100.164/wp-content/themes/thriive/assets/images/footer-bg-top.png" style="width: 100%;vertical-align: bottom;" alt="">
+            </td></tr><tr>
             <td class="footer_section" style=" width: 100%;	height: 100%;margin:0px auto;padding: 10px 40px;background: #4f0475;">
-                <h4 style="font-family: "Barlow", sans-serif;font-size: 24px;line-height:30px;margin: 0;color: #ffb813;	text-transform: uppercase; text-align: center;">thriive social</h4>
+                <h4 style="font-size: 24px;line-height:30px;margin: 0;color: #ffb813;text-transform: uppercase; text-align: center;">thriive social</h4>
                 <p style="color: #fff; text-align: center;">&copy; 1997 - 2019 THRIIVE ART &amp; SOUL LLP. All Rights Reserved.</p>
             </td>
         </tr>
@@ -1755,8 +1730,8 @@ $body = '<!DOCTYPE html>
 
 return($body);
 }
-add_action( 'init' , 'body_from_therapist_to_user');
-function body_from_user_to_therapist_reply($s_user,$t_name)
+add_action( 'init','body_from_user_to_therapist_reply');
+function body_from_user_to_therapist_reply($s_name,$t_name)
 {
 $body = '<!DOCTYPE html>
 <html lang="en">
@@ -1766,58 +1741,25 @@ $body = '<!DOCTYPE html>
     <title>Thriive | Emailer</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet">
 </head>
-<body class="" style="width: 100%;
-  background-color: #fff;
-  color:#000;
-  font-family:"Open Sans", sans-serif !important;
-  font-size: 14px;
-  line-height: 20px;
-  margin: 0;
-  padding: 0;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%; ">
-    <table border="0" cellpadding="0" cellspacing="0" class="tab-holder" style="background-color: #fff;
-	width: 600px; 
-	height: 100%;
-	font-family:"Open Sans", sans-serif !important;
-	margin:0px auto;
-	padding:0;
-	border:1px solid #e4e4e4;">
-        <tr>
-            <td align="center" class="header_section" style="width: 100%; 
-			height: 100%;
-			margin:0px auto;
-			padding: 20px 30px;
-			background: #fff;">
+<body class="" style="width: 100%;background-color: #fff;color:#000;font-family:"Open Sans", sans-serif !important;font-size: 14px;line-height: 20px;margin:0;padding: 0;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%; "><table border="0" cellpadding="0" cellspacing="0" class="tab-holder"style="background-color: #fff;width: 600px;height: 100%;font-family:"Open Sans", sans-serif !important;margin:0px auto;padding:0;border:1px solid #e4e4e4;"><tr>
+            <td align="center" class="header_section" style="width: 100%;height: 100%;margin:0px auto;padding: 20px 30px;background: #fff;">
                 <a href="http://35.232.100.164" target="_blank">
-                    <img src="images/thriive_logo.png" style="width: 30%;" alt="">
-                </a>
-            </td>
-        </tr>
-        <tr>
-            <td class="content_03" style="width: 100%;
-			height:auto;
-			padding: 30px 40px;
-			background: #fff;
-			vertical-align: top;">
-                <p style="float: left;
-				margin: 0 0 5px 0;
-				font-size: 12px;
-				line-height: 18px;">
-                    <strong style="text-transform: capitalize;">Subject Line :</strong> <strong style="text-transform: capitalize;">"'.$s_name.'"</strong> answered your question<br><br>Hi <strong style="text-transform: capitalize;">'.$t_name.',</strong><br><br>Great
-                    news! Your question has been answered by <strong style="text-transform: capitalize;">"'.$s_name.'"</strong>
-                    <br><br>View Your Online Chat <a href="http://35.232.100.164" target="_blank">(Give a Chat link here)</a><br><br><br><br><strong style="text-transform: capitalize;">Keep Thriiving :)</strong><br> <strong style="text-transform: capitalize;">Team Thriive Art and Soul</strong>
+                    <img src="http://35.232.100.164/wp-content/themes/thriive/assets/images/logo-new.png" style="width: 25%;" alt="">
+                </a></td></tr><tr><td class="content_03" style="width: 100%;height:auto;padding: 30px 40px;background: #fff;vertical-align: top;"><p style="float: left;margin: 0 0 5px 0;font-size: 12px;line-height: 18px;">
+                    Hi <strong style="text-transform: capitalize;">'.$t_name.',</strong><br><br>Great
+                    news! Your question has been answered by <strong style="text-transform: capitalize;">'.$s_name.'</strong>
+                    <br><br><a href="http://35.232.100.164/login" target="_blank">View Your Online Chat </a><br><br><br><br><strong style="text-transform: capitalize;">Keep Thriiving :)</strong><br> <strong style="text-transform: capitalize;">Team Thriive Art and Soul</strong>
                 </p>
             </td>
         </tr>
         <tr>
             <td>
-                <img src="images/footer-bg-top.png" style="width: 100%;vertical-align: bottom;" alt="">
+                <img src="http://35.232.100.164/wp-content/themes/thriive/assets/images/footer-bg-top.png" style="width: 100%;vertical-align: bottom;" alt="">
             </td>
         </tr>
         <tr>
             <td class="footer_section" style=" width: 100%;	height: 100%;margin:0px auto;padding: 10px 40px;background: #4f0475;">
-                <h4 style="font-family:"Barlow", sans-serif;font-size: 24px;line-height:30px;margin: 0;color: #ffb813;	text-transform: uppercase; text-align: center;">thriive social</h4>
+                <h4 style="font-size: 24px;line-height:30px;margin: 0;color: #ffb813;	text-transform: uppercase; text-align: center;">thriive social</h4>
                 <p style="color: #fff; text-align: center;">&copy; 1997 - 2019 THRIIVE ART &amp; SOUL LLP. All Rights Reserved.</p>
             </td>
         </tr>
@@ -1828,7 +1770,7 @@ $body = '<!DOCTYPE html>
 return($body);
 }
 add_action( 'init' , 'body_from_therapist_to_therapist');
-function body_from_therapist_to_user_reply($s_user,$t_name)
+function body_from_therapist_to_user_reply($s_name,$t_name)
 {
 $body = '<!DOCTYPE html>
 <html lang="en">
@@ -1838,58 +1780,18 @@ $body = '<!DOCTYPE html>
     <title>Thriive | Emailer</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet">
 </head>
-<body class="" style="width: 100%;
-  background-color: #fff;
-  color:#000;
-  font-family:"Open Sans", sans-serif !important;
-  font-size: 14px;
-  line-height: 20px;
-  margin: 0;
-  padding: 0;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%; ">
-    <table border="0" cellpadding="0" cellspacing="0" class="tab-holder" style="background-color: #fff;
-	width: 600px; 
-	height: 100%;
-	font-family:"Open Sans", sans-serif !important;
-	margin:0px auto;
-	padding:0;
-	border:1px solid #e4e4e4;">
-        <tr>
-            <td align="center" class="header_section" style="width: 100%; 
-			height: 100%;
-			margin:0px auto;
-			padding: 20px 30px;
-			background: #fff;">
-                <a href="http://35.232.100.164" target="_blank">
-                    <img src="images/thriive_logo.png" style="width: 30%;" alt="">
-                </a>
-            </td>
-        </tr>
-        <tr>
-            <td class="content_03" style="width: 100%;
-			height:auto;
-			padding: 30px 40px;
-			background: #fff;
-			vertical-align: top;">
-                <p style="float: left;
-				margin: 0 0 5px 0;
-				font-size: 12px;
-				line-height: 18px;">
-                    <strong style="text-transform: capitalize;">Subject Line :</strong> <strong style="text-transform: capitalize;">"Therapist name"</strong> answered your question <br><br>Hi <strong style="text-transform: capitalize;">User name,</strong>                    <br><br>Great news! Your question has been answered by <strong style="text-transform: capitalize;">"Therapist name"</strong> <br><br>View Your Online Chat <a href="http://35.232.100.164" target="_blank">(Give a Chat link here)</a><br><br><br><br>
+<body class="" style="width: 100%;background-color: #fff;color:#000;font-family:"Open Sans", sans-serif !important;font-size: 14px;line-height: 20px;margin: 0;padding: 0;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%; ">
+    <table border="0" cellpadding="0" cellspacing="0" class="tab-holder" style="background-color: #fff;width: 600px;height: 100%;font-family:"Open Sans",sans-serif !important;margin:0px auto;padding:0;border:1px solid #e4e4e4;">
+        <tr><td align="center" class="header_section" style="width: 100%;height: 100%;margin:0px auto;padding: 20px 30px;background: #fff;"><a href="http://35.232.100.164" target="_blank"><img src="http://35.232.100.164/wp-content/themes/thriive/assets/images/logo-new.png" style="width: 25%;" alt=""></a></td>
+        </tr><tr><td class="content_03" style="width: 100%;height:auto;padding: 30px 40px;background: #fff;vertical-align: top;">
+                <p style="float: left;margin: 0 0 5px 0;font-size: 12px;line-height: 18px;">
+                    Hi <strong style="text-transform: capitalize;">'.$s_name.',</strong><br><br>Great news! Your question has been answered by <strong style="text-transform: capitalize;">'.$t_name.'</strong> <br><br> <a href="http://35.232.100.164/login" target="_blank">View Your Online Chat</a><br><br><br><br>
                     <strong style="text-transform: capitalize;">Keep Thriiving :)</strong><br>
                     <strong style="text-transform: capitalize;">Team Thriive Art and Soul</strong>
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <img src="images/footer-bg-top.png" style="width: 100%;vertical-align: bottom;" alt="">
-            </td>
-        </tr>
-        <tr>
+                </p></td></tr><tr><td>
+                <img src="http://35.232.100.164/wp-content/themes/thriive/assets/images/footer-bg-top.png" style="width: 100%;vertical-align: bottom;" alt=""></td></tr><tr>
             <td class="footer_section" style=" width: 100%;	height: 100%;margin:0px auto;padding: 10px 40px;background: #4f0475;">
-                <h4 style="font-family:"Barlow", sans-serif;font-size: 24px;line-height:30px;margin: 0;color: #ffb813;	text-transform: uppercase; text-align: center;">thriive social</h4>
+                <h4 style="font-size: 24px;line-height:30px;margin: 0;color: #ffb813;	text-transform: uppercase; text-align: center;">thriive social</h4>
                 <p style="color: #fff; text-align: center;">&copy; 1997 - 2019 THRIIVE ART &amp; SOUL LLP. All Rights Reserved.</p>
             </td>
         </tr>

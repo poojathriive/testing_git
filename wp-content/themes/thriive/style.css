@@ -1624,7 +1624,8 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 	@media screen and (max-width: 600px) {
 	    footer.footer-wrapper {
 	        font-size: 12px;
-	        margin-top: 85px;
+			margin-top: 85px;
+			padding-bottom: 60px;
 	    }
 	}
 	
@@ -5500,7 +5501,7 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 	.ui-draggable .ui-dialog-titlebar {
 	    background: #4f0475;
 	    color: #fff;
-	    padding: 12px 0;
+	    padding: 6px 0;
 	}
 	
 	.ui-button .ui-icon {
@@ -5516,7 +5517,8 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 	.chat_history {
 	    width: 100%;
 	    height: 300px;
-	    border: 0 !important;
+		border: 0 !important;	
+		padding: 5px 16px !important;
 	    margin-bottom: 10px !important;
 	    overflow-x: hidden;
 	    /* overflow-y: scroll;
@@ -5896,7 +5898,13 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 	}
 	
 	.ui-dialog .ui-dialog-content .form-group:last-child {
-	    margin-bottom: 0;
+		margin-bottom: 0;
+		/* padding: 10px 10px !important; */
+		padding: 0px !important;
+	}
+
+	.ui-dialog .ui-dialog-content{
+		padding: 10px 10px !important;
 	}
 	
 	#commentform #submit {
@@ -6425,8 +6433,8 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 	
 	.dots_iconz1 {
 	    position: absolute;
-	    top: 10px;
-	    right: 60px;
+	    top: 5px;
+	    right: 90px;
 	    background: none;
 	    border: 0;
 	    outline: none;
@@ -6443,8 +6451,8 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 	}
 	
 	.dotsA1 {
-	    width: 5px;
-	    height: 5px;
+	    width: 4px;
+	    height: 4px;
 	    background: #fff;
 	    display: table;
 	    margin: 0 auto 3px;
@@ -6461,8 +6469,8 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 	    /* overflow: auto;
 	    overflow-x: hidden; */
 	    position: absolute;
-	    top: 50px;
-	    right: 70px;
+	    top: 40px;
+	    right: 100px;
 	    z-index: 5500;
 	    background: #fff;
 	    padding: 0;
@@ -6515,10 +6523,30 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 	.strt_txt {
 	    float: left;
 	}
-	
+	.min_chatBox {
+	    position: absolute;
+	    top: 5px;
+	    right: 64px;
+	    background: none;
+	    border: 0;
+	    outline: none;
+	    box-shadow: none;
+	    padding: 5px;
+	    width: 32px;
+	    height: 32px;
+	}	
+	.min_chatBox:hover,
+	.min_chatBox:focus {
+	    outline: none;
+	    opacity: 0.8;
+	}	
+	.min_chatBox i {
+	    margin: 0;
+	}
+
 	.max_chatBox {
 	    position: absolute;
-	    top: 10px;
+	    top: 5px;
 	    right: 33px;
 	    background: none;
 	    border: 0;
@@ -6538,15 +6566,40 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 	.max_chatBox i {
 	    margin: 0;
 	}
-	
+	.ui-widget.ui-widget-content.minimChat {
+		height: 42px !important;
+    	top: auto !important;
+		box-shadow: 0px 5px 15px 0px #777;
+	}
+	.ui-widget.ui-widget-content.minimChat .chat_history {
+		height: 300px !important;
+	}
 	.ui-widget.ui-widget-content.expndChat {
-	    width: 80% !important;
-	    top: 20% !important;
+		width: 80% !important;
+		height: 500px !important;
+	    top: 10% !important;
 	    left: 10% !important;
 	    right: auto !important;
-	    bottom: auto !important;
+		bottom: auto !important;
+		box-shadow: 0px 5px 15px 0px #777;
 	}
-	
+	.ui-widget.ui-widget-content.expndChat .chat_history {
+		height: 300px !important;
+	}
+	.shadow_bgBox {
+		content: "";
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top:0;
+		left:0;
+		z-index: 2000;
+		background: rgba(0, 0, 0, 0.6);
+
+	}
+	.emoji_textareaBox {
+		margin-bottom: 6px;
+	}
 	.mobi_tableview {
 	    display: none;
 	}
@@ -6596,7 +6649,7 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 	    }
 	    .chat_history {
 	        /* height: 50vh !important; */
-	        height: 100vh !important;
+			height: 100vh !important;			
 	        margin: 0 !important;
 	        padding-bottom: 30vh !important;
 	    }
@@ -6661,7 +6714,19 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 	    }
 	    .desk_tablevw {
 	        display: none;
-	    }
+		}
+		.min_chatBox {
+			display: none;
+		}
+		.max_chatBox {
+			display: none;
+		}
+		.dots_iconz1{
+			right: 30px;
+		}
+		.chat_dropdown_modal{
+			right: 44px;
+		}
 	}
 	/* media queries ends here */
 	/* new styles ends here */
