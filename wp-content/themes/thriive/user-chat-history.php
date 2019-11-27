@@ -14,7 +14,13 @@
 			<h3 class="w-100">My Online Consultation</h3>
 		</div>
 			<div class="row section col-sm-4 col-12 mx-auto" id= "chat_data">
-	 <?php   echo user_chat_history(); ?>
+	 <?php   echo user_chat_history(); 
+	  echo user_chat_history_mobile(); 
+	 
+	 
+	 ?>
+	
+	
 
 <div class="fieldje field-3">
 <p>
@@ -37,6 +43,8 @@ export_csv_single($to_user);
 				 </div>
 		</div>
 	
+
+
 </section>
 
 <script>
