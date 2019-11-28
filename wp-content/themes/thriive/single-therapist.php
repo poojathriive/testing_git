@@ -182,18 +182,18 @@ $current_user = wp_get_current_user();
  }
 	$url = get_the_post_thumbnail_url( get_the_id(), 'post-thumbnai' );		  
  $output .= '<div id="start_chat_button_'.$therapist_id.'">
-<button type="button" class="btn btn-info btn-xs start_chat " data-img ="'.$url.'" data-fromuserid = "'.$seeker_id.'" data-touserid="'.$therapist_id.'" data-tousername="'.$name.'" data-from_status = "'.$from_status.'" data-to_status = "'.$to_status.'" data-mobile="'.$therapist_countrycde[0].$therapist_mobile[0].'" data-msg="'.$msg.'" data-email="'.$therapist_email.'"  data-role="'.$role1.'"><i class="fa fa-envelope" aria-hidden="true"></i>Start Chat</button></div>';
+<button type="button" class="btn btn-info btn-xs start_chat chat_whtbg" data-img ="'.$url.'" data-fromuserid = "'.$seeker_id.'" data-touserid="'.$therapist_id.'" data-tousername="'.$name.'" data-from_status = "'.$from_status.'" data-to_status = "'.$to_status.'" data-mobile="'.$therapist_countrycde[0].$therapist_mobile[0].'" data-msg="'.$msg.'" data-email="'.$therapist_email.'"  data-role="'.$role1.'"><i class="fa fa-comments-o" aria-hidden="true"></i>Start Chat</button></div>';
 $output .= '</div>';
 		
 		?> 
 				<div class="chat_bottomBlk">
 					<?php
-					if(wp_is_mobile()){
+					//if(wp_is_mobile()){
 						 ?>
 						<a href="" id="call_now_<?php echo get_the_id(); ?>" class="btn btn-primary btn-big call_now_link"><i class="fa fa-phone" aria-hidden="true"></i> Call Now</a>				
-						<a href="" id="consult_online_<?php echo get_the_id(); ?>" class="btn btn-primary btn-big btn-transparent consult_online_link"><i class="fa fa-envelope" aria-hidden="true"></i> Consult Online </a>
+						<!-- <a href="" id="consult_online_<?php //echo get_the_id(); ?>" class="btn btn-primary btn-big btn-transparent consult_online_link"><i class="fa fa-envelope" aria-hidden="true"></i> Consult Online </a> -->
 						<?php
-					}else{
+					//}else{
 						?>
 							<?php 	   if($role1 == 'subscriber' || $role1 =="")
 echo $output;
@@ -201,7 +201,7 @@ echo $output;
 ?> 
 
 						<?php
-					}
+					//}
 					?>
 				</div>
 				<?php 
