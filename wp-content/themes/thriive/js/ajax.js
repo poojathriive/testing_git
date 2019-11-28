@@ -169,21 +169,18 @@ $('.ui-dialog-titlebar-close').click(function() {
 
 });
 
+$(document).mouseup(function (e) { 
+    if ($(e.target).closest(".chat_dropdown_modal").length === 0) { 
+        $(".chat_dropdown_modal").hide(); 
+    } 
+}); 
+
 function chat_dropDowns() {
     // alert("hi....");    
     $('.chat_dropdown_modal').fadeIn();    
     $('.chatdropdwn_lists').mouseleave(function() {
         $('.chat_dropdown_modal').fadeOut();
-    });
-
-    // $('.chatdropdwn_lists').on('mouseenter touchstart', function(){ 
-    //     $('.chat_dropdown_modal').fadeIn();   
-    // });
-    
-    // $('.chatdropdwn_lists').on('mouseleave touchend', function(){
-    //     $('.chat_dropdown_modal').fadeOut();
-    // });
-  
+    });    
 }
 
 function minim_chatBox() {
@@ -850,3 +847,4 @@ function upload(f) {
 //         // $("#del").hide();
 //     });
 // });
+

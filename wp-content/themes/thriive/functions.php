@@ -514,7 +514,7 @@ $message = "Hi ".$therepistname.", ".$username." sent a message. view and reply 
 // sending therapist email
 $to = $t_email;
 $to = 'productmanager@thriive.in';
-$to = 'ramakant2you@gmail.com';
+//$to = 'ramakant2you@gmail.com';
 $body = body_from_user_to_therapist_reply($username,$therepistname);
 //$body = 'check mail';
 $subject = $username. " answered your question";
@@ -551,7 +551,7 @@ $message = "We have connected you with ".$t_name." who is a Verified Therapist .
 $t_message= "Hi ".$t_name." , Online chat is initiated with you by ".$s_name." View Your Online chat (give a chat link here)";
 $to = $t_name;
 $to = 'productmanager@thriive.in';
-$to = 'ramakant@rabbitdigital.in';
+//$to = 'ramakant@rabbitdigital.in';
 $body = body_from_user_to_therapist($username,$therepistname);
 //$body = 'check mail';
 $subject = 'Online chat initiated on <a href="http://35.232.100.164" target="_blank">thriive.in</a>';
@@ -598,7 +598,7 @@ $message = "Hi ".$s_name.", ".$t_name." sent a message. view and reply from chat
 //$t_message= "Hi ".$t_name." , Online chat is initiated with you by ".$s_name." View Your Online chat (give a chat link here)";
 $to = $t_name;
 $to = 'productmanager@thriive.in';
-$to = 'ramakant@rabbitdigital.in';
+//$to = 'ramakant@rabbitdigital.in';
 $body = body_from_therapist_to_user($username,$therepistname);
 //$body = 'check mail';
 $subject = $therepistname. " answered your question";
