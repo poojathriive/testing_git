@@ -6716,6 +6716,10 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 	.mobi_tableview {
 	    display: none;
 	}
+	.emojionearea .emojionearea-picker.emojionearea-picker-position-top {
+		right: auto;
+		left: 0;
+	}
 	/* media queries starts here */
 	
 	@media all and (max-width:767px) {
@@ -6847,6 +6851,24 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 			right: 44px;
 		}
 	}
+	@media all and (min-width:768px) and (max-width:991px) {
+		.online_headTxt {
+			position: absolute;
+			right: 15px;
+			top: 5px;
+		}
+		.offline_headTxt{
+			position: absolute;
+			right: 15px;
+			top: 5px;
+		}
+		.ui-widget.ui-widget-content.expndChat .chat_history {
+			height: 340px !important;
+		}
+		.ui-widget.ui-widget-content.expndChat .emoji_textareaBox {
+			width: 90%;
+		}
+	}
 	@media all and (min-width:1900px) and (max-width:2400px) {
 		.ui-widget.ui-widget-content.expndChat {
 			width: 80% !important;
@@ -6860,18 +6882,41 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 		.ui-widget.ui-widget-content.expndChat .chat_history {
 			height: 600px !important;
 		}
-		.emojionearea, .emojionearea.form-control {
+		.ui-widget.ui-widget-content.expndChat .emojionearea, 
+		.ui-widget.ui-widget-content.expndChat .emojionearea.form-control {
 			height: 80px;
 			padding-left: 64px;
 		}
-		.emojionearea .emojionearea-button>div {
+		.ui-widget.ui-widget-content.expndChat .emojionearea .emojionearea-button>div {
 			display: block;
 			width: 52px;
 			height: 52px;
 		}
-		.emojionearea .emojionearea-button>div, .emojionearea .emojionearea-picker .emojionearea-wrapper:after {
+		.ui-widget.ui-widget-content.expndChat .emojionearea .emojionearea-button>div, 
+		.ui-widget.ui-widget-content.expndChat .emojionearea .emojionearea-picker .emojionearea-wrapper:after {
 			background-size: 100% auto;
 			background-position: 0 -52px !important;
+		}
+		.ui-widget.ui-widget-content.expndChat .file_txtlabel{
+			top: 15px;
+    		left: -64px;
+		}
+		.ui-widget.ui-widget-content.expndChat .upload_iconn{
+			width: 42px;
+		}
+		.ui-widget.ui-widget-content.expndChat .send_chat{
+			width: 72px;
+    		height: 72px;
+		}
+		.ui-widget.ui-widget-content.expndChat .send_chat .fa-paper-plane{
+			font-size: 32px;
+			line-height: 32px;
+		}
+		.ui-widget.ui-widget-content.expndChat .emoji_textareaBox textarea{
+			display: flex;
+			justify-content: flex-start;
+			align-items: center;
+			align-content: center;
 		}
 	}
 	/* media queries ends here */
