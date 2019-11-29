@@ -213,7 +213,7 @@ if($row->from_user_id == $from_user_id)
 		 <div class= "chat_text">
 		 	'.$image_holder.'
 			<div class="chat_time">
-			'.format_date($row->chat_time).'
+			'.format_date1($row->chat_time).'
 			</div>
 		 </div>
 		<div class="chat_details">			
@@ -234,7 +234,7 @@ if($row->from_user_id == $from_user_id)
 		 <div class= "chat_text">
 			'.$image_holder.'
 		 <div class="chat_time">
-		'.format_date($row->chat_time).'
+		'.format_date1($row->chat_time).'
 		</div>
 		 </div>
 		<div class="chat_details">			
@@ -260,7 +260,7 @@ if($role == 'subscriber')
  $first_msg = "We have connected you with ".$t_name." . This conversation is completely private and confidential.";
 }
 
-$output = $output.'<div class="chat_details"><h4 class="chat-infotopTxt">'.$first_msg.'</h4></div>';
+$output = '<div class="chat_details"><h4 class="chat-infotopTxt">'.$first_msg.'</h4></div>'.$output;
 echo $output;
 }
 else
@@ -273,7 +273,7 @@ if($role == 'subscriber')
 	{
 		$first_msg = "We have connected you with ".$t_name." . This conversation is completely private and confidential.";
 }
-echo "<div class="chat_details"><h4 class="chat-infotopTxt">'.$first_msg.'</h4></div>";
+echo '<div class="chat_details"><h4 class="chat-infotopTxt">'.$first_msg.'</h4></div>';
 }
    wp_die(); // ajax call must die to avoid trailing 0 in your response
 }
@@ -361,7 +361,7 @@ $image_holder = '<p>'.$chat_message.'</p>';
 		 <div class= "chat_text">
 '.$image_holder.'
 		 <div class="chat_time">
-		'.format_date($row->chat_time).'
+		'.format_date1($row->chat_time).'
 		</div>
 		 </div>
 		<div class="chat_details">			
@@ -381,7 +381,7 @@ $image_holder = '<p>'.$chat_message.'</p>';
 		 <div class= "chat_text">
 		'.$image_holder.'
 		 <div class="chat_time">
-		'.format_date($row->chat_time).'
+		'.format_date1($row->chat_time).'
 		</div>
 		 </div>
 		<div class="chat_details">			
@@ -1109,6 +1109,13 @@ add_action( 'init' , 'date_format' );
 function format_date($date)
 {
 $format_date_time = date('d M, Y h:i:s A', strtotime($date));
+return($format_date_time);
+}
+
+add_action( 'init' , 'format_date1' );
+function format_date1($date)
+{
+$format_date_time = date('d M h:i A', strtotime($date));
 return($format_date_time);
 }
 

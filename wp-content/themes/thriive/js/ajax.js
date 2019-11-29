@@ -558,6 +558,7 @@ function insertData(to_user_id, from_user_id, msg = '') {
     var element = $('#chat_message_' + to_user_id + "_" + from_user_id).emojioneArea();
     element[0].emojioneArea.setText('');
     $('#msg').html('');
+ $('#msg').css("display", "block");
     $('#selectFile').val('');
   $('#text_msg').css("display", "none");  
     var dataId = $('#selectFile').attr("data-id");
@@ -575,6 +576,7 @@ function insertData(to_user_id, from_user_id, msg = '') {
         },
 
         success: function(data) {
+$('#msg').css("display", "none");
             // var element = $('#chat_message_' + to_user_id + "_" + from_user_id).emojioneArea();
             // element[0].emojioneArea.setText('');
             //$('#chat_history_'+to_user_id).html(data);

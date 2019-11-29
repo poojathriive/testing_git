@@ -24,7 +24,7 @@ if($extension == 'docs' || $extension == 'doc' || $extension == 'docx')
 // }
  else if($extension == 'jpg' || $extension == 'jpeg' || $extension == 'png')
  {
- 	echo '<img src="'.$location.'" height="100" width="100" />&'.$location;
+ 	echo '<img src="/'.$location.'" height="100" width="100" />&'.$location;
  }
 else
 {
