@@ -5474,9 +5474,14 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 	}
 	
 	.start_chat {
-	    border: 1px solid #4f0475;
-	    background: #4f0475;
-	    color: #fff;
+		border: 1px solid #4f0475;
+		background: #4f0475;
+		color: #fff;
+		border-radius: 10px;
+		-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+		-ms-border-radius: 10px;
+		-o-border-radius: 10px;
 	}
 	
 	.start_chat:hover,
@@ -5506,7 +5511,7 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 	}
 	
 	.ui-draggable .ui-dialog-titlebar {
-		background: #a880ba;
+		background: #4f0475;
 		color: #fff;
 		padding: 6px 0;
 		border: 0;

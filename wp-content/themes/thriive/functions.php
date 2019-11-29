@@ -162,7 +162,7 @@ if(count($result)> 0 )
  $output = '<ul class="list-unstyled">';
  foreach($result as $row)
  {
-		  
+	$flag = 0;	  
 	 $chat_message = $row->chat_message;
 	  $location = $row->chat_message;
 	 
@@ -195,14 +195,16 @@ $flag = 1;
 		 
 	 }
   $user_name = '';
+ 
 if($flag == 1)
 {
-$image_holder = $chat_message.'<p></p>';
+$image_holder = $chat_message;
 }
 else
 {
 $image_holder = '<p>'.$chat_message.'</p>';
 }
+
 if($row->from_user_id == $from_user_id)
   {
 
@@ -311,6 +313,7 @@ $t_name = get_user_name($to_user_id);
  foreach($result as $row)
  {
 		  
+	$flag = 0;
 	 $chat_message = $row->chat_message;
 	  $location = $row->chat_message;
 	 
@@ -343,9 +346,10 @@ $flag = 1;
 		 
 	 }
   $user_name = '';
+  
 if($flag == 1)
 {
-$image_holder = $chat_message.'<p></p>';
+$image_holder = $chat_message;
 }
 else
 {
