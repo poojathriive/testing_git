@@ -3,12 +3,8 @@ function make_chat_dialog_box(to_user_id, to_user_name, from_user_id = '', user_
     var dailogbox_id = 'user_dialog_' + to_user_id;
     var modal_content = '<div id="user_dialog_' + to_user_id + '_' + from_user_id + '" class="user_dialog" title="You have chat with ' + to_user_name + '">';
 
- if (user_role == 'subscriber') {
-        var first_msg = "We have connected you with "+to_user_name+" who is a verified Therapist. This conversation is completely private and confidential."; 
-    } else {
-        var first_msg = "We have connected you with "+to_user_name+". This conversation is completely private and confidential."; 
-    }
-    modal_content += '<div class="chat_details"><h4 class="chat-infotopTxt">' + first_msg + '</h4></div><div style="height:200px; border:1px solid #ccc; overflow-y: scroll; margin-bottom:24px; padding:16px;" class="chat_history" data-touserid="' + to_user_id + '" id="chat_history_' + to_user_id + '_' + from_user_id + '">';
+
+    modal_content += '<div style="height:200px; border:1px solid #ccc; overflow-y: scroll; margin-bottom:24px; padding:16px;" class="chat_history" data-touserid="' + to_user_id + '" id="chat_history_' + to_user_id + '_' + from_user_id + '">';
     var str = fetch_user_chat_history(to_user_id, from_user_id);
 
     if (typeof obj !== "undefined") {
@@ -563,6 +559,7 @@ function insertData(to_user_id, from_user_id, msg = '') {
     element[0].emojioneArea.setText('');
     $('#msg').html('');
     $('#selectFile').val('');
+  $('#text_msg').css("display", "none");  
     var dataId = $('#selectFile').attr("data-id");
     $('#file_' + dataId).val('');
 
@@ -822,10 +819,11 @@ function upload(f) {
            
            
             if (arr[1].trim() != 'text') { 
-                $('#msg').css("display", "block");                           
-                $('#msg').html(arr[0]);                
+                $('#msg').css("display", "none");                           
+               // $('#msg').html(arr[0]);    
+				$('#text_msg').html(arr[0]);                
                 // $('#text_msg').html('');
-                $('#text_msg').css("display", "none");  
+                $('#text_msg').css("display", "block");  
                 $('#file_' + $(f).attr("data-id")).val(arr[1]);
             } else {                
                 // $('#msg').html('');

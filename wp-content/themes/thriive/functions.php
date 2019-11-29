@@ -251,17 +251,29 @@ if($role == 'subscriber')
 	{
 		$query = " UPDATE chat_message_details  SET user_status = '1'  WHERE (from_user_id = '".$from_user_id."'  AND to_user_id = '".$to_user_id."')  OR (from_user_id = '".$to_user_id."'  AND to_user_id = '".$from_user_id."')   AND user_status = '0' ";
  $result = $wpdb->query($query);
+  $first_msg = "We have connected you with ".$t_name." who is a verified Therapist. This conversation is completely private and confidential.";
 }
 	else
 	{
 		 $query = " UPDATE chat_message_details  SET terepist_status = '1'  WHERE (from_user_id = '".$from_user_id."'  AND to_user_id = '".$to_user_id."')  OR (from_user_id = '".$to_user_id."'  AND to_user_id = '".$from_user_id."')   AND terepist_status = '0' ";
  $result = $wpdb->query($query);	
+ $first_msg = "We have connected you with ".$t_name." . This conversation is completely private and confidential.";
 }
+
+$output = $output.'<div class="chat_details"><h4 class="chat-infotopTxt">'.$first_msg.'</h4></div>';
 echo $output;
 }
 else
 {
-echo "";
+if($role == 'subscriber')
+	{
+		 $first_msg = "We have connected you with ".$t_name." who is a verified Therapist. This conversation is completely private and confidential.";
+}
+	else
+	{
+		$first_msg = "We have connected you with ".$t_name." . This conversation is completely private and confidential.";
+}
+echo "<div class="chat_details"><h4 class="chat-infotopTxt">'.$first_msg.'</h4></div>";
 }
    wp_die(); // ajax call must die to avoid trailing 0 in your response
 }
@@ -480,6 +492,7 @@ if($role == '')
 $role =  $current_user->roles[0]; 
 $therapist_id = $_POST['to_user_id'];
 $seeker_id = $_POST['from_user_id'];
+$chat_link = "http://35.232.100.164/login";
 	if($role == 'subscriber')
 	{
 $sql_str = "SELECT * FROM chat_message_details  WHERE from_user_id = '".$from_user_id."' or to_user_id = '".$to_user_id."' ORDER BY chat_time DESC limit 1";
@@ -510,7 +523,7 @@ $therapist_mobile = get_user_meta($seeker_id,'mobile');
 //$message = "Hi ".$s_name." , you have started a online chat with ".$t_name." on thriive.in view your online chat chat link.";
 $t_message = "We have connected you with ".$therepistname." who is a Verified Therapist . This conversation is completely private and confidential";
 //$t_message= "Hi ".$t_name." , Online chat is initiated with you by ".$s_name." View Your Online chat (give a chat link here)";
-$message = "Hi ".$therepistname.", ".$username." sent a message. view and reply from chat link thanks.";
+$message = "Hi ".$therepistname.", ".$username." sent a message. view and reply from ".$chat_link." thanks.";
 // sending therapist email
 $to = $t_email;
 $to = 'productmanager@thriive.in';
@@ -548,7 +561,8 @@ $therapist_mobile = get_user_meta($seeker_id,'mobile');
  $s_mobile = '91'.$therapist_countrycde[0].$therapist_mobile[0];
 $message = "We have connected you with ".$t_name." who is a Verified Therapist . This conversation is completely private and confidential";
 //$message = "Hi ".$s_name." , you have started a online chat with ".$t_name." on thriive.in view your online chat chat link.";
-$t_message= "Hi ".$t_name." , Online chat is initiated with you by ".$s_name." View Your Online chat (give a chat link here)";
+$t_message= "Hi ".$t_name." , you have started a online chat with  ".$s_name."  on thriive.in. view your online chat ".$chat_link.".";
+
 $to = $t_name;
 $to = 'productmanager@thriive.in';
 //$to = 'ramakant@rabbitdigital.in';
@@ -594,7 +608,7 @@ $therapist_countrycde = get_user_meta($therapist_id,'countryCode');
 $therapist_mobile = get_user_meta($seeker_id,'mobile');
 	$therapist_countrycde = get_user_meta($seeker_id,'countryCode');
  $s_mobile = '91'.$therapist_countrycde[0].$therapist_mobile[0];
-$message = "Hi ".$s_name.", ".$t_name." sent a message. view and reply from chat link thanks.";
+$message = "Hi ".$s_name.", ".$t_name." sent a message. view and reply from ".$chat_link." thanks.";
 //$t_message= "Hi ".$t_name." , Online chat is initiated with you by ".$s_name." View Your Online chat (give a chat link here)";
 $to = $t_name;
 $to = 'productmanager@thriive.in';
