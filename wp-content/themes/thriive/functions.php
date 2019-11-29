@@ -501,7 +501,7 @@ $chat_link = "http://35.232.100.164/login";
 	{
 $sql_str = "SELECT * FROM chat_message_details  WHERE from_user_id = '".$from_user_id."' or to_user_id = '".$to_user_id."' ORDER BY chat_time DESC limit 1";
 $result3 = $wpdb->get_results($sql_str);
-if(count($result3) > 0)
+if(count($result3) > 1)
 	{
 $chat_time = date('Y-m-d H:i:s',strtotime($results3[0]->chat_time));
 $curr_time = date('Y-m-d H:i:s');
@@ -567,12 +567,12 @@ $message = "We have connected you with ".$t_name." who is a Verified Therapist .
 //$message = "Hi ".$s_name." , you have started a online chat with ".$t_name." on thriive.in view your online chat chat link.";
 $t_message= "Hi ".$t_name." , you have started a online chat with  ".$s_name."  on thriive.in. view your online chat ".$chat_link.".";
 
-$to = $t_name;
+$to = $t_email;
 $to = 'productmanager@thriive.in';
 //$to = 'ramakant@rabbitdigital.in';
 $body = body_from_user_to_therapist($username,$therepistname);
 //$body = 'check mail';
-$subject = 'Online chat initiated on <a href="http://35.232.100.164" target="_blank">thriive.in</a>';
+$subject = 'Online chat initiated on thriive.in';
 $headers = "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 $headers .= 'From: <admin@thriive.in>' . "\r\n";
@@ -580,6 +580,22 @@ if(mail($to,$subject,$body,$headers))
 echo "sent";
 else
 echo "not sent";
+// send user to user
+
+$to = $s_email;
+$to = 'productmanager@thriive.in';
+//$to = 'ramakant@rabbitdigital.in';
+$body = body_from_user_to_user($username,$therepistname);
+//$body = 'check mail';
+$subject = 'Online chat initiated on thriive.in';
+$headers = "MIME-Version: 1.0" . "\r\n";
+$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+$headers .= 'From: <admin@thriive.in>' . "\r\n";
+if(mail($to,$subject,$body,$headers))
+echo "sent";
+else
+echo "not sent";
+
 //sendMSG($t_mobile,$t_message);
 sendMSG($s_mobile,$message);
 }
@@ -614,10 +630,10 @@ $therapist_mobile = get_user_meta($seeker_id,'mobile');
  $s_mobile = '91'.$therapist_countrycde[0].$therapist_mobile[0];
 $message = "Hi ".$s_name.", ".$t_name." sent a message. view and reply from ".$chat_link." thanks.";
 //$t_message= "Hi ".$t_name." , Online chat is initiated with you by ".$s_name." View Your Online chat (give a chat link here)";
-$to = $t_name;
+$to = $s_email;
 $to = 'productmanager@thriive.in';
 //$to = 'ramakant@rabbitdigital.in';
-$body = body_from_therapist_to_user($username,$therepistname);
+$body = body_from_therapist_to_user_reply($username,$therepistname);
 //$body = 'check mail';
 $subject = $therepistname. " answered your question";
 $headers = "MIME-Version: 1.0" . "\r\n";
@@ -1775,13 +1791,13 @@ exit;
 }
 
 add_action( 'init' , 'body_from_user_to_user');
-function body_from_user_to_user($s_user,$t_name)
+function body_from_user_to_user($s_name,$t_name)
 {
 $body = '<!DOCTYPE html><html lang="en"><head>  <meta name="viewport" content="width=device-width" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>Thriive | Emailer</title><link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet"></head><body style="width: 100%; background-color: #fff;color:#000;font-family:"Open Sans", sans-serif !important;font-size: 14px;  line-height: 20px; margin: 0;padding: 0;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%; ">
     <table border="0" cellpadding="0" cellspacing="0" class="tab-holder" style="background-color: #fff;width: 600px; height: 100%;font-family:"Open Sans", sans-serif !important;margin:0px auto;padding:0;border:1px solid #e4e4e4;"><tr><td align="center" class="header_section" style="width: 100%;height: 100%;margin:0px auto;padding: 20px 30px;background: #fff;">
-                <a href="http://35.232.100.164" target="_blank"><img src="http://35.232.100.164/wp-content/themes/thriive/assets/images/logo-new.png" style="width: 25%;" alt=""> </a></td></tr><tr><td class="content_03" style="width: 100%;height:auto;padding: 30px 40px;background: #fff;vertical-align: top;"><p style="float: left;margin: 0 0 5px 0;font-size: 12px;line-height: 18px;"><strong style="text-transform: capitalize;">Subject Line :</strong> Online chat initiated on <a href="http://35.232.100.164" arget="_blank">thriive.in</a> <br><br>Hi <strong style="text-transform: capitalize;">'.$s_name.',</strong><br><br>You have started a Online chat with <strong style="text-transform: capitalize;">"'.$t_name.'"</strong> <br><br>'.$t_name.' will review and respond to your query within 6 hours.<br>(expect a little delay in responses for messages sent between 9:00 pm to 9:00 am) <br><br>View Your Online Chat <a href="http://35.232.100.164" target="_blank">(Give a Chat link here)</a><br><br> Kindly call us at + if you have any query.<br><br><br><br><strong style="text-transform: capitalize;">Keep Thriiving :)</strong><br>         <strong style="text-transform: capitalize;">Team Thriive Art and Soul</strong></p></td> </tr><tr>
+                <a href="http://35.232.100.164" target="_blank"><img src="http://35.232.100.164/wp-content/themes/thriive/assets/images/logo-new.png" style="width: 25%;" alt=""> </a></td></tr><tr><td class="content_03" style="width: 100%;height:auto;padding: 30px 40px;background: #fff;vertical-align: top;"><p style="float: left;margin: 0 0 5px 0;font-size: 12px;line-height: 18px;"><strong style="text-transform: capitalize;">Subject Line :</strong> Online chat initiated on <a href="http://35.232.100.164" arget="_blank">thriive.in</a> <br><br>Hi <strong style="text-transform: capitalize;">'.$s_name.',</strong><br><br>You have started a Online chat with <strong style="text-transform: capitalize;">"'.$t_name.'"</strong> <br><br>'.$t_name.' will review and respond to your query within 6 hours.<br>(expect a little delay in responses for messages sent between 9:00 pm to 9:00 am) <br><br><a href="http://35.232.100.164/login" target="_blank">View Your Online Chat </a><br><br> Kindly call us at + if you have any query.<br><br><br><br><strong style="text-transform: capitalize;">Keep Thriiving :)</strong><br><strong style="text-transform: capitalize;">Team Thriive Art and Soul</strong></p></td> </tr><tr>
                 <img src="http://35.232.100.164/wp-content/themes/thriive/assets/images/footer-bg-top.png" style="width: 100%;vertical-align: bottom;" alt=""></td> </tr>
         <tr> <td class="footer_section" style=" width: 100%;height: 100%;margin:0px auto;padding: 10px 40px;background: #4f0475;">
                 <h4 style="font-size: 24px;line-height:30px;margin: 0;color: #ffb813;	text-transform: uppercase; text-align: center;">thriive social</h4><p style="color: #fff; text-align: center;">&copy; 1997 - 2019 THRIIVE ART &amp; SOUL LLP. All Rights Reserved.</p></td></tr></table></body></html>';
@@ -1862,7 +1878,7 @@ $body = '<!DOCTYPE html>
 </html>';
 return($body);
 }
-add_action( 'init' , 'body_from_therapist_to_therapist');
+add_action( 'init' , 'body_from_therapist_to_user_reply');
 function body_from_therapist_to_user_reply($s_name,$t_name)
 {
 $body = '<!DOCTYPE html>

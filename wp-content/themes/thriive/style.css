@@ -5696,11 +5696,13 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 	}
 	
 	.chat_history ul li.user_stats_rhs .chat_text p {
-	    color: #4f0475;
+		color: #4f0475;
+		margin-bottom: 5px;
 	}
 	
 	.chat_history ul li.user_stats_lhs .chat_text p {
-	    color: #000;
+		color: #000;
+		margin-bottom: 5px;
 	}
 	/* .chat_history ul li.user_stats_lhs .chat_text p,
 	.chat_history ul li.user_stats_rhs .chat_text p {
