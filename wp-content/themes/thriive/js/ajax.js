@@ -8,7 +8,7 @@ function make_chat_dialog_box(to_user_id, to_user_name, from_user_id = '', user_
     } else {
         var first_msg = "We have connected you with "+to_user_name+". This conversation is completely private and confidential."; 
     }
-    modal_content += '<div class="chat_details"><h4 style="font-size:.5em">' + first_msg + '</h4></div><div style="height:200px; border:1px solid #ccc; overflow-y: scroll; margin-bottom:24px; padding:16px;" class="chat_history" data-touserid="' + to_user_id + '" id="chat_history_' + to_user_id + '_' + from_user_id + '">';
+    modal_content += '<div class="chat_details"><h4 class="chat-infotopTxt">' + first_msg + '</h4></div><div style="height:200px; border:1px solid #ccc; overflow-y: scroll; margin-bottom:24px; padding:16px;" class="chat_history" data-touserid="' + to_user_id + '" id="chat_history_' + to_user_id + '_' + from_user_id + '">';
     var str = fetch_user_chat_history(to_user_id, from_user_id);
 
     if (typeof obj !== "undefined") {
@@ -26,6 +26,7 @@ function make_chat_dialog_box(to_user_id, to_user_name, from_user_id = '', user_
        // modal_content += '<button type="button" data-toid="' + to_user_id + '" id= "complete" style="float:left" onclick="closeModal(' + to_user_id + ',' + from_user_id + ')" >Complete</button>';
     }
 
+    // modal_content += '<a href="http://35.232.100.164/faq/faq.html" target="_blank" class="anch_linkz"><button type="button" id= "faq" style="float:left">FAQ</button></a></span>';
 
     modal_content += '<label for="file-1" class="file_txtlabel"><img src="http://35.232.100.164/wp-content/themes/thriive/assets/images/attachment_icon1.png" class="upload_iconn" alt="upload Icon"><input type="file" id="selectFile" class="inputFile_box" data-id="' + to_user_id + '_' + from_user_id + '" style="float:left" onchange= "upload(this)" /></label><span id="msg" style="color:red;display:none;" class="filetype_pic"></span>';
     modal_content += '<button type="button" name="send_chat"  class="btn btn-info send_chat"  onclick="insertData(' + to_user_id + ',' + from_user_id + ');"><i class="fa fa-paper-plane" aria-hidden="true"></i></button><span id= "text_msg" class = "filetype_text" style="display:none;"></span></div></div></div>';
@@ -92,11 +93,11 @@ $(document).off().on('click', '.start_chat', function() {
     if (!$('[aria-describedby="user_dialog_' + to_user_id + '_' + from_user_id + '"]').is(":visible")) {
 if(from_role == 'subscriber')
 {
-	var titleStr = "<div class='widget-header widget-header-small' style='padding-left: 21px;'>" + to_user_name + "<button type='button' class='dots_iconz1' onclick='chat_dropDowns();'><span class='dotsA1'></span><span class='dotsA1'></span><span class='dotsA1'></span></button><div class='chat_dropdown_modal' style='display:none;'><ul class='chatdropdwn_lists'><li><button type='button' id= 'del' data-reload = '1' class = 'title_anch' data-to_user = '" + to_user_id + "' data-from_user = '" + from_user_id + "' onclick = 'delete_msggrp(this)'>Delete</button></li><li><a href='http://35.232.100.164/faq' class = 'title_anch' target='_blank' >FAQ</a></li></ul></div><button type='button' class='min_chatBox' onclick='minim_chatBox();'><img src='http://35.232.100.164/wp-content/themes/thriive/assets/images/minim_icon.png' alt='' /></button><button type='button' class='max_chatBox' onclick='maxim_chatBox();'><i class='fa fa-expand' aria-hidden='true'></i></button></div>";
+	var titleStr = "<div class='widget-header widget-header-small' style='padding-left: 21px;'>" + to_user_name + "<button type='button' class='dots_iconz1' onclick='chat_dropDowns();'><span class='dotsA1'></span><span class='dotsA1'></span><span class='dotsA1'></span></button><div class='chat_dropdown_modal' style='display:none;'><ul class='chatdropdwn_lists'><li><button type='button' id= 'del' data-reload = '1' class = 'title_anch' data-to_user = '" + to_user_id + "' data-from_user = '" + from_user_id + "' onclick = 'delete_msggrp(this)'>Delete</button></li><li><a href='http://35.232.100.164/faq/faq.html' class = 'title_anch' target='_blank' >FAQ</a></li></ul></div><button type='button' class='min_chatBox' onclick='minim_chatBox();'><img src='http://35.232.100.164/wp-content/themes/thriive/assets/images/minim_icon.png' alt='' /></button><button type='button' class='max_chatBox' onclick='maxim_chatBox();'><i class='fa fa-expand' aria-hidden='true'></i></button></div>";
 }
 		else
 		{
-				var titleStr = "<div class='widget-header widget-header-small' style='padding-left: 21px;'>" + to_user_name + "<button type='button' class='dots_iconz1' onclick='chat_dropDowns();'><span class='dotsA1'></span><span class='dotsA1'></span><span class='dotsA1'></span></button><div class='chat_dropdown_modal' style='display:none;'><ul class='chatdropdwn_lists'><li><button type='button' id= 'del' data-reload = '1' class = 'title_anch' data-to_user = '" + to_user_id + "' data-from_user = '" + from_user_id + "' onclick = 'delete_msggrp(this)'>Delete</button></li><li><a href='http://35.232.100.164/faq' class = 'title_anch' target='_blank' >FAQ</a></li><li><button type='button' data-toid='" + to_user_id + "' id='complete' class = 'title_anch' style='float:left' onclick='closeModal(" + to_user_id + ',' + from_user_id + ")' >Complete</button></li></ul></div><button type='button' class='min_chatBox' onclick='minim_chatBox();'><img src='http://35.232.100.164/wp-content/themes/thriive/assets/images/minim_icon.png' alt='' /></button><button type='button' class='max_chatBox' onclick='maxim_chatBox();'><i class='fa fa-expand' aria-hidden='true'></i></button></div>";
+				var titleStr = "<div class='widget-header widget-header-small' style='padding-left: 21px;'>" + to_user_name + "<button type='button' class='dots_iconz1' onclick='chat_dropDowns();'><span class='dotsA1'></span><span class='dotsA1'></span><span class='dotsA1'></span></button><div class='chat_dropdown_modal' style='display:none;'><ul class='chatdropdwn_lists'><li><button type='button' id= 'del' data-reload = '1' class = 'title_anch' data-to_user = '" + to_user_id + "' data-from_user = '" + from_user_id + "' onclick = 'delete_msggrp(this)'>Delete</button></li><li><a href='http://35.232.100.164/faq/faq.html' class = 'title_anch' target='_blank' >FAQ</a></li><li><button type='button' data-toid='" + to_user_id + "' id='complete' class = 'title_anch' style='float:left' onclick='closeModal(" + to_user_id + ',' + from_user_id + ")' >Complete</button></li></ul></div><button type='button' class='min_chatBox' onclick='minim_chatBox();'><img src='http://35.232.100.164/wp-content/themes/thriive/assets/images/minim_icon.png' alt='' /></button><button type='button' class='max_chatBox' onclick='maxim_chatBox();'><i class='fa fa-expand' aria-hidden='true'></i></button></div>";
 		}
         make_chat_dialog_box(to_user_id, to_user_name, from_user_id, from_role, img);
 
@@ -287,11 +288,11 @@ function check_box_open() {
             if (!$('[aria-describedby="user_dialog_' + to_user_id + '_' + from_user_id + '"]').is(":visible") && data.trim() != 'null') {
 if(from_role == 'subscriber')
 {
-	var titleStr = "<div class='widget-header widget-header-small' style='padding-left: 21px;'>" + to_user_name + "<button type='button' class='dots_iconz1' onclick='chat_dropDowns();'><span class='dotsA1'></span><span class='dotsA1'></span><span class='dotsA1'></span></button><div class='chat_dropdown_modal' style='display:none;'><ul class='chatdropdwn_lists'><li><button type='button' id= 'del' data-reload = '1' class = 'title_anch' data-to_user = '" + to_user_id + "' data-from_user = '" + from_user_id + "' onclick = 'delete_msggrp(this)'>Delete</button></li><li><a href='http://35.232.100.164/faq' class = 'title_anch' target='_blank' >FAQ</a></li></ul></div><button type='button' class='min_chatBox' onclick='minim_chatBox();'><img src='http://35.232.100.164/wp-content/themes/thriive/assets/images/minim_icon.png' alt='' /></button><button type='button' class='max_chatBox' onclick='maxim_chatBox();'><i class='fa fa-expand' aria-hidden='true'></i></button></div>";
+	var titleStr = "<div class='widget-header widget-header-small' style='padding-left: 21px;'>" + to_user_name + "<button type='button' class='dots_iconz1' onclick='chat_dropDowns();'><span class='dotsA1'></span><span class='dotsA1'></span><span class='dotsA1'></span></button><div class='chat_dropdown_modal' style='display:none;'><ul class='chatdropdwn_lists'><li><button type='button' id= 'del' data-reload = '1' class = 'title_anch' data-to_user = '" + to_user_id + "' data-from_user = '" + from_user_id + "' onclick = 'delete_msggrp(this)'>Delete</button></li><li><a href='http://35.232.100.164/faq/faq.html' class = 'title_anch' target='_blank' >FAQ</a></li></ul></div><button type='button' class='min_chatBox' onclick='minim_chatBox();'><img src='http://35.232.100.164/wp-content/themes/thriive/assets/images/minim_icon.png' alt='' /></button><button type='button' class='max_chatBox' onclick='maxim_chatBox();'><i class='fa fa-expand' aria-hidden='true'></i></button></div>";
 }
 		else
 		{
-				var titleStr = "<div class='widget-header widget-header-small' style='padding-left: 21px;'>" + to_user_name + "<button type='button' class='dots_iconz1' onclick='chat_dropDowns();'><span class='dotsA1'></span><span class='dotsA1'></span><span class='dotsA1'></span></button><div class='chat_dropdown_modal' style='display:none;'><ul class='chatdropdwn_lists'><li><button type='button' id= 'del' data-reload = '1' class = 'title_anch' data-to_user = '" + to_user_id + "' data-from_user = '" + from_user_id + "' onclick = 'delete_msggrp(this)'>Delete</button></li><li><a href='http://35.232.100.164/faq' class = 'title_anch' target='_blank' >FAQ</a></li><li><button type='button' data-toid='" + to_user_id + "' id='complete' class = 'title_anch' style='float:left' onclick='closeModal(" + to_user_id + ',' + from_user_id + ")' >Complete</button></li></ul></div><button type='button' class='min_chatBox' onclick='minim_chatBox();'><img src='http://35.232.100.164/wp-content/themes/thriive/assets/images/minim_icon.png' alt='' /></button><button type='button' class='max_chatBox' onclick='maxim_chatBox();'><i class='fa fa-expand' aria-hidden='true'></i></button></div>";
+				var titleStr = "<div class='widget-header widget-header-small' style='padding-left: 21px;'>" + to_user_name + "<button type='button' class='dots_iconz1' onclick='chat_dropDowns();'><span class='dotsA1'></span><span class='dotsA1'></span><span class='dotsA1'></span></button><div class='chat_dropdown_modal' style='display:none;'><ul class='chatdropdwn_lists'><li><button type='button' id= 'del' data-reload = '1' class = 'title_anch' data-to_user = '" + to_user_id + "' data-from_user = '" + from_user_id + "' onclick = 'delete_msggrp(this)'>Delete</button></li><li><a href='http://35.232.100.164/faq/faq.html' class = 'title_anch' target='_blank' >FAQ</a></li><li><button type='button' data-toid='" + to_user_id + "' id='complete' class = 'title_anch' style='float:left' onclick='closeModal(" + to_user_id + ',' + from_user_id + ")' >Complete</button></li></ul></div><button type='button' class='min_chatBox' onclick='minim_chatBox();'><img src='http://35.232.100.164/wp-content/themes/thriive/assets/images/minim_icon.png' alt='' /></button><button type='button' class='max_chatBox' onclick='maxim_chatBox();'><i class='fa fa-expand' aria-hidden='true'></i></button></div>";
 		}
                 console.log(data);
                 make_chat_dialog_box(to_user_id, to_user_name, from_user_id, from_role);
@@ -560,8 +561,7 @@ function insertData(to_user_id, from_user_id, msg = '') {
 
     var element = $('#chat_message_' + to_user_id + "_" + from_user_id).emojioneArea();
     element[0].emojioneArea.setText('');
-    $('#msg').html(''); 
-$('#text_msg').html('');
+    $('#msg').html('');
     $('#selectFile').val('');
     var dataId = $('#selectFile').attr("data-id");
     $('#file_' + dataId).val('');
@@ -822,11 +822,10 @@ function upload(f) {
            
            
             if (arr[1].trim() != 'text') { 
-                $('#msg').css("display", "none");                           
-                //$('#msg').html(arr[0]);   
- $('#text_msg').html(arr[0]);               
+                $('#msg').css("display", "block");                           
+                $('#msg').html(arr[0]);                
                 // $('#text_msg').html('');
-                $('#text_msg').css("display", "block");  
+                $('#text_msg').css("display", "none");  
                 $('#file_' + $(f).attr("data-id")).val(arr[1]);
             } else {                
                 // $('#msg').html('');

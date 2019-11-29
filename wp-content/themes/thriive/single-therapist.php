@@ -52,7 +52,7 @@ $therapist_id =  $postUser[0]->ID;
 			
 			<div class="d-flex col-12 col-sm-12 mt-20 wrapper-listing section-wrapper-listing p-0 flex-wrap therapiest-detail-header">
 				<div class=" d-flex flex-wrap col-12 p-0">
-				<div class="col-5 col-sm-6 col-lg-4 wrapper-listing-post ">
+				<div class="col-5 col-sm-6 col-lg-5 wrapper-listing-post ">
 					<div class="healer-circle mt-3">
 						<div class="inner-healer-circle">
 							<a href="<?php echo get_permalink(); ?>">
@@ -69,7 +69,7 @@ $therapist_id =  $postUser[0]->ID;
 						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon-mark.png" class="verify-img" alt="">
 					</div>
 				</div>
-				<div class="col-7 col-sm-6 col-lg-8 txt-wrap ">
+				<div class="col-7 col-sm-6 col-lg-7 txt-wrap ">
 					<h1 class=""><a href="<?php echo get_permalink(); ?>"><?php echo get_the_title(); ?></a></h1>
 					<p class="m-0 localtion-wrapper"><?php echo get_field('therapist_title'); ?></p>
 					<?php if(!empty(get_field('avg_rating'))) { ?>
@@ -182,7 +182,7 @@ $current_user = wp_get_current_user();
  }
 	$url = get_the_post_thumbnail_url( get_the_id(), 'post-thumbnai' );		  
  $output .= '<div id="start_chat_button_'.$therapist_id.'">
-<button type="button" class="btn btn-info btn-xs start_chat chat_whtbg" data-img ="'.$url.'" data-fromuserid = "'.$seeker_id.'" data-touserid="'.$therapist_id.'" data-tousername="'.$name.'" data-from_status = "'.$from_status.'" data-to_status = "'.$to_status.'" data-mobile="'.$therapist_countrycde[0].$therapist_mobile[0].'" data-msg="'.$msg.'" data-email="'.$therapist_email.'"  data-role="'.$role1.'"><i class="fa fa-comments-o" aria-hidden="true"></i>Start Chat</button></div>';
+<button type="button" class="btn btn-info btn-xs start_chat btn btn-primary btn-big btn-transparent connect_with_btn_listing" data-img ="'.$url.'" data-fromuserid = "'.$seeker_id.'" data-touserid="'.$therapist_id.'" data-tousername="'.$name.'" data-from_status = "'.$from_status.'" data-to_status = "'.$to_status.'" data-mobile="'.$therapist_countrycde[0].$therapist_mobile[0].'" data-msg="'.$msg.'" data-email="'.$therapist_email.'"  data-role="'.$role1.'"><i class="fa fa-comments-o" aria-hidden="true"></i>Start Chat</button></div>';
 $output .= '</div>';
 		
 		?> 

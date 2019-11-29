@@ -166,7 +166,7 @@ echo $output;
 				<?php
 			}else{
 				?>
-					<a href="" id="consult_online_<?php echo get_the_id(); ?>" data-type="1" class="btn btn-primary btn-big consult_online_link"><i class="fa fa-phone" aria-hidden="true"></i> Call Now</a>
+					<a href="" id="consult_online_<?php echo get_the_id(); ?>" data-type="1" class="btn btn-primary btn-big call_now_link"><i class="fa fa-phone" aria-hidden="true"></i> Call Now</a>
 					<!-- <a href="" id="consult_online_desktop<?php //echo get_the_id(); ?>" class="btn btn-primary btn-big btn-transparent connect_with_btn_listing" data-id="<?php echo get_the_id(); ?>"><i class="fa fa-envelope" aria-hidden="true"></i> Consult Online </a> -->
 <?php 	   if($role1 == 'subscriber' || $role1 =="")
 echo $output;

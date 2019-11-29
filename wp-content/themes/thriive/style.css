@@ -6284,12 +6284,24 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 	    background: none;
 	    color: #4f0475;
 	}
-	
+	.call_now_link{
+		border: 1px solid #4f0475;
+	    background: none;
+	    color: #4f0475;
+	}
+	.call_now_link:hover{
+		border: 1px solid #4f0475;
+	    background: #4f0475;
+	    color: #fff;
+	}
 	.datepick_lists li {
 	    float: left;
 	    margin-left: 10px;
 	}
-	
+	.chat-infotopTxt{
+		font-size: 12px;
+    	line-height: 14px;
+	}
 	.datepick_input {
 	    width: 100%;
 	    float: right;
@@ -6720,6 +6732,88 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 		right: auto;
 		left: 0;
 	}
+	/* faq style starts here */
+	.faq_headtxt{
+		width: 100%;
+		height: auto;
+		text-align: center;
+		padding: 0;
+		margin:0 0 20px 0;
+		color: #4f0475;
+		font-family: 'Merienda', cursive;
+		font-size: 24px;
+		line-height: 30px;
+    	font-weight: 600;
+	}
+	.menu-menu-above-banner-container #main_above_banner li a{
+		color: #4d4d4f;
+	}
+	.menu-menu-above-banner-container #main_above_banner li a:hover {
+		color: #4f0475;
+		text-decoration: none;
+	}
+	.sec03_tabsWing {
+		padding: 40px 0;
+	}
+	
+	.sec03_tabsWing #accordianId .card-header {
+		background: #fffeff;
+	}
+	
+	.sec03_tabsWing #accordianId .card-body {
+		background: #e9f0ff;
+	}
+	
+	.card-header h5 {
+		margin: 0;
+		font-size: 18px;
+		line-height: 24px;
+	}
+	
+	.card-header::after {
+		font-family: "FontAwesome";
+		font-weight: 900;
+		content: "\f107";
+		float: right;
+		color: grey;
+		position: absolute;
+		right: 20px;
+		top: 12px;
+	}
+	
+	.card-header.collapsed::after {
+		font-family: "FontAwesome";
+		font-weight: 900;
+		content: "\f106";
+		position: absolute;
+		right: 20px;
+		top: 12px;
+	}
+	
+	.cont_related ol>li {
+		margin: 0 0 15px 0;
+		padding: 0 0 0 10px;
+		text-indent: -2em;
+		list-style-type: none;
+		counter-increment: item;
+	}
+	
+	.cont_related ol>li:before {
+		display: inline-block;
+		width: 1.5em;
+		padding-right: 0.5em;
+		font-weight: bold;
+		text-align: right;
+		content: counter(item) ".";
+	}
+	.cont_related ul {
+		padding-left: 40px;
+	}
+	.cont_related p {
+		padding-left: 20px;
+	}
+	/* faq style ends here */
+
 	/* media queries starts here */
 	
 	@media all and (max-width:767px) {
