@@ -39,9 +39,8 @@
 
 <section class="dashboard-head">
 	<div class="container therapist-dashboard-container">
-		<div class="row section ">
-			<div class="col-12 col-sm-7 d-flex wrapper-listing mx-auto">
-			<div class="col-sm-6 col-lg-4 wrapper-listing-post ">						
+		<div class="row">
+			<div class="col-lg-4 col-md-4 col-sm-12 col-12 wrapper-listing-post">						
 				<div class="healer-circle mt-3">
 					<div class="inner-healer-circle">
 						<?php  echo wp_get_attachment_image($userPost->profile_picture);?>
@@ -49,32 +48,43 @@
 					<img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/icon-mark.png" class="verify-img" alt="">
 				</div>					
 			</div>
-			<div class="col-sm-6 col-lg-8 txt-wrap">
+			<div class="col-lg-7 col-md-8 col-sm-12 col-12 txt-wrap">
 				<h3 class=""><?php echo $current_user->first_name.' '.$current_user->last_name;?></h3>
 				<p><?php echo get_field("therapist_title",$userPost->ID); ?></p>
 				<p class="localtion-wrapper"><?php echo $userPost->about;?></p>
-				<p>
-					<a href="<?php echo get_permalink(274); ?>?edit-step=1" style="text-decoration:underline">Edit Profile</a>
-					<a style="text-decoration:underline;cursor: pointer;" class="col" data-toggle="modal" data-target="#delete_user_popup">Delete Profile</a>
-				</p>
-				<a href="" class="create_badge" data-toggle="modal" data-target="#show_badge">VIEW BADGE</a>
-				<a class="btn secondary-btn" href="<?php echo site_url().'/therapist-chat-history/'?>">VIEW CHAT</a>
-							<a class="btn secondary-btn" href="<?php echo site_url().'/seeker-my-account-edit/?download_report=yes'?>">EXPORT CHAT</a>
+
+					<div class="my-event-btn">
+						<a class="btn secondary-btn btn_box1" href="<?php echo get_permalink(274); ?>?edit-step=1">
+							<img src="http://35.232.100.164/wp-content/themes/thriive/assets/images/editprofile_icon.png" class="iconz1" alt="">
+							<span class="icon_txt1">EDIT PROFILE</span>
+						</a>
+						<a class="btn secondary-btn btn_box1" data-toggle="modal" data-target="#delete_user_popup">
+							<img src="http://35.232.100.164/wp-content/themes/thriive/assets/images/delete_icon.png" class="iconz1" alt="">
+							<span class="icon_txt1">DELETE PROFILE</span>
+						</a>
+						<a class="btn secondary-btn btn_box1 create_badge" data-toggle="modal" data-target="#show_badge">
+							<img src="http://35.232.100.164/wp-content/themes/thriive/assets/images/chat_icon.png" class="iconz1" alt="">
+							<span class="icon_txt1">VIEW BADGE</span>
+						</a>
+						<a class="btn secondary-btn btn_box1" href="<?php echo site_url().'/therapist-chat-history/'?>">
+							<img src="http://35.232.100.164/wp-content/themes/thriive/assets/images/newchat_icon.png" class="iconz1" alt="">
+							<span class="icon_txt1">VIEW CHAT</span>
+						</a>
+						<a class="btn secondary-btn btn_box1" href="<?php echo site_url().'/seeker-my-account-edit/?download_report=yes'?>">
+							<img src="http://35.232.100.164/wp-content/themes/thriive/assets/images/chat_icon.png" class="iconz1" alt="">
+							<span class="icon_txt1">EXPORT CHAT</span>
+						</a>
+					</div>
+				
 				<?php if(isset($_GET['download_report']))
-{
-	export_csv();
-}
-?>
+					{
+						export_csv();
+					}
+				?>
 				
 				
 			</div>
-			
-	
-		
-</div>
 		</div>
-		
-		
 		
 		<div class="row section">	
 			<div class="col-12 col-sm-7 d-flex mx-auto p-0 therpist-dashboard-btn-wrapper">
@@ -82,11 +92,11 @@
 				$badge_image = get_field('badge_image', $userPost->ID);
 				//if ($badge_image) {
 				    ?>
-<!--
+					<!--
 				    <div class="col text-center">
 				        <a href="" download="badge_image.png" class="btn btn-primary btn-dashboard badge-btn" download>BADGE</a>
 				    </div>
--->	
+					-->	
 				<?php //} ?>
 				<div class="col  text-center">
 					<a href="/change-password/" class="btn btn-primary btn-dashboard">CHANGE PASSWORD</a>
@@ -111,7 +121,7 @@
 		<div class="m-4 divider"></div>		
 		
 	
-</div>
+		</div>
 		<div class="row section">
 			
 			<div class="col-12 col-sm-7 d-flex mx-auto count-wrapper">
@@ -124,7 +134,7 @@
 				
 		//print_r($therapist_details);
 				$result = fetch_user_subscriber();
-				$output = '<table class="table table-bordered table-striped"><tr> <th widht="30%">User Name</th><td widht="20%">Last Conversation (Date&Time)</td><th width="10%">Action</th></tr>';
+				$output = '<table class="table table-bordered table-striped desk_tablevw"><tr> <th widht="30%">User Name</th><td widht="20%">Last Conversation (Date&Time)</td><th width="10%">Action</th></tr>';
 				
 				foreach($result as $row)
 				{
@@ -165,6 +175,52 @@
 				}
 				$output .= '</table>';
 echo $output;
+
+// mobile view starts here
+$output2 = '<section class="mobi_tableview">
+<div class="container">
+	<div class="row">
+		<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12"><table class="table">';
+				
+				foreach($result as $row)
+				{
+				$therapist_details = get_userdata($row->from_user_id);
+				$therapist_email = $therapist_details->data->user_email;
+			$current_user = wp_get_current_user();
+		     $seeker_email = $current_user->user_email;
+		 $seeker_name = $current_user->display_name;
+					$last_coversation = last_login_chat($row->from_user_id,$row->to_user_id);
+		//echo $current_user->role;
+		$msg = $seeker_name ." was trying to contact,when you were offline" ;
+		 $seeker_id = $current_user->ID;
+		if($seeker_id != '')
+			$from_status = 1;
+		else
+		$from_status = 0;	
+		$therapist_id = $therapist_details->ID;
+ if(is_user_online($therapist_id))
+{
+   $to_status = 1;
+ }
+ else
+ {
+	  $to_status = 0;
+ }
+		?>
+				<input type="hidden" name = "mobile_<?php echo $therapist_id ?>" id="mobile_<?php echo $therapist_id ?>" value="<?php echo $therapist_mobile[0]; ?>" />
+		<input type="hidden" name = "countrycode_<?php echo $therapist_id ?>" id="countrycode_<?php echo $therapist_id ?>" value="<?php echo $therapist_countrycde[0]; ?>" />
+		<input type="hidden" name = "msg<?php echo $therapist_id ?>" id="msg_<?php echo $therapist_id ?>" value="<?php echo $msg ?>" />	
+		
+				<?php 
+		$therapist_mobile = get_user_meta($therapist_id,'mobile');
+			$therapist_countrycde = get_user_meta($therapist_id,'countryCode');	
+					 $output2 .= '<tbody><tr><th widht="30%">User Name</th><td>'.$therapist_details->data->display_name.'</td></tr> <tr><th widht="20%">Last Conversation (Date&Time)</th><td>'.$last_coversation.'</td></tr> <tr><th width="10%">Action</th><td id="start_chat_button_'.$therapist_id.'"><button type="button" class="btn btn-info btn-xs start_chat" data-fromuserid = "'.$seeker_id.'" data-touserid="'.$therapist_id.'" data-tousername="'.$therapist_details->data->display_name.'" data-from_status = "'.$from_status.'" data-to_status = "'.$to_status.'" data-role ="'.$current_user->role.'" data-mobile="'.$therapist_countrycde[0].$therapist_mobile[0].'" data-msg="'.$msg.'" data-email="'.$therapist_email.'" >Start Chat</button></td></tr></tbody>';
+					
+				}
+				$output2 .= '</table></div></div></div></section>';
+
+				echo $output2;
+// mobile view ends here
 			
 		?>
 				</div>
@@ -172,7 +228,7 @@ echo $output;
 			
 			<div class="col-12 col-sm-7 d-flex mx-auto count-wrapper">
 				<div class="col text-center">
-					<p class="count-highlight">
+					<p class="count-highlight count_txtHighliter">
 						<?php 
 							$totalContactedSeeker = explode(",",$current_user->contacted_seeker_id);
 							if($totalContactedSeeker)
@@ -186,11 +242,11 @@ echo $output;
 							} 
 						?>
 					</p>
-					<h3>Seekers Who Contacted</h3>
+					<h3 class="seek_txt">Seekers Who Contacted</h3>
 				</div>
 				
 				<div class="col text-center">
-					<p class="count-highlight">
+					<p class="count-highlight count_txtHighliter">
 						<?php
 							$currentPost = get_post_meta($current_user->post_id);
 							$current_count = $currentPost['page_visit'][0];
@@ -204,7 +260,7 @@ echo $output;
 							} 
 						?>
 					</p>
-					<h3>Seekers Who Showed Interest</h3>
+					<h3 class="seek_txt">Seekers Who Showed Interest</h3>
 				</div>
 			</div>
 		</div>
@@ -241,16 +297,15 @@ echo $output;
 			$transaction = get_post($current_user->transaction);
 			$valid_till = get_field("end_date",$current_user->transaction);
 		?>
-		<div class="row section dashboard-package">
-			<div class="col-12 col-sm-7 d-flex mx-auto p-0">
-				<div class="col-3 col-sm-2">
-					<div class="package-wrapper">
-						<img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images//package3.png" alt="">
-					</div>
+		<div class="row dashboard-package">
+			<div class="col-lg-4 col-md-4 col-sm-3 col-12">
+				<div class="package-wrapper">
+					<img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images//package3.png" class="img-fluid mobi_picDashbrd" alt="">
 				</div>
-				<div class="col-8 col-sm-8">
-					<h6><?php echo $package->post_title;?> package </h6>
-					<div class="package-price">
+			</div>
+			<div class="col-lg-8 col-md-8 col-sm-9 col-12">
+				<h6 class="mobi_headtxt"><?php echo $package->post_title;?> package </h6>
+				<div class="package-price mobi-pckgCont">
 						<span class="package-price">INR <?php echo $package->package_charges;?>/-</span>
 						<p class="mt-1">
 							<?php
@@ -261,16 +316,16 @@ echo $output;
 							?>
 						</p>
 					</div>
-				</div>
 			</div>
 			<div class="col-12 p-0 col-sm-7 mt-4 d-flex mx-auto ">
 				<?php if($package->post_title != 'Fire'){ ?>
-				<div class="col">
-					 <button type="button" class="btn btn-primary" onclick="location.href='<?php echo get_permalink(406) . "/?action=upgrade-package"; ?>';">UPGRADE</button>
+				<div class="col-6">
+					 <button type="button" class="btn btn-primary btnMobi" onclick="location.href='<?php echo get_permalink(406) . "/?action=upgrade-package"; ?>';">UPGRADE</button>
 				</div>
 				<?php } ?>
 				
-				<div class="col"><a href="<?php echo site_url(); ?>/package-details/" class="btn btn-primary" target="_blank">KNOW MORE</a>
+				<div class="col-6">
+					<a href="<?php echo site_url(); ?>/package-details/" class="btn btn-primary btnMobi" target="_blank">KNOW MORE</a>
 				</div>
 				
 				<div class="col">
@@ -280,7 +335,7 @@ echo $output;
 							$codeD = $current_user->user_email.$current_user->ID . time();  
 							$code = sha1( $codeD );
 							$renewal_url = get_permalink(274) . "/?package=renew&token=" . $code . "&token_id=" . $current_user->ID . "&token_for=" . $current_user->user_email;
-							?> <a href="<?php echo get_permalink(406) . "/?action=renew-package"; ?>"><button type="button" class="btn btn-primary">RENEW</button></a> <?php
+							?> <a href="<?php echo get_permalink(406) . "/?action=renew-package"; ?>"><button type="button" class="btn btn-primary btnMobi">RENEW</button></a> <?php
 						}
 					?>
 				</div>

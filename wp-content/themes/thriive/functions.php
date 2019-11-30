@@ -21,6 +21,9 @@
  //SMS gateway url
 define("SMS_URL","http://ems-api.startenterprise.com:8080/bulksms/bulksms?"."username=THRIIVEOTP&password=SkaeXmPn&type=0&dlr=1&source=THRIIV&");
 
+//define("SMS_URL","http://sms6.rmlconnect.net:8080/bulksms/bulksms?"."username=THRIIVEGLOBAL&password=y371H2Hv&type=0&dlr=1&source=THRIIV&");
+
+
 
 //pay u details
 if($_SERVER['SERVER_NAME'] == 'localhost' || $_SERVER['SERVER_NAME'] == 'thriive.noesis.tech' || $_SERVER['SERVER_NAME'] == 'thriive-staging.noesis.tech')
@@ -497,7 +500,7 @@ $role =  $current_user->roles[0];
 $therapist_id = $_POST['to_user_id'];
 $seeker_id = $_POST['from_user_id'];
 $chat_link = "http://35.232.100.164/login";
-
+$SMS_URL = 'http://sms6.rmlconnect.net:8080/bulksms/bulksms?username=THRIIVEGLOBAL&password=y371H2Hv&type=0&dlr=1&source=THRIIV&';
 	if($role == 'subscriber')
 	{
 $sql_str = "SELECT * FROM chat_message_details  WHERE from_user_id = '".$from_user_id."' or to_user_id = '".$to_user_id."' ORDER BY chat_time DESC limit 1";
@@ -543,13 +546,26 @@ if(mail($to,$subject,$body,$headers))
 echo "sent";
 else
 echo "not sent";
-sendMSG($t_mobile,$message);
-
+//sendMSG($t_mobile,$message);
+$mobile_number = intval($t_mobile);
+$mobile_number = '9873476520';
+	$msg = $message;
+	 echo $url = $SMS_URL."destination=".$mobile_number."&message=".urlencode($msg);
+	if($result = file_get_contents($url))
+	{
+		echo  generateJSON('success','Message sent successfully.','');
+	}
+	else
+	{
+		echo generateJSON('error','Message not sent successfully.','');	
+	}
+	
 //sendMSG($s_mobile,$message);
 }
 }
-else 
-{
+else  if(count($result3) == 1)
+	{
+
 $s_data = get_userdata($seeker_id);
  $s_email = $s_data->data->user_email;
 $s_name = $s_data->data->user_nicename;
@@ -564,7 +580,7 @@ $therapist_countrycde = get_user_meta($therapist_id,'countryCode');
 $therapist_mobile = get_user_meta($seeker_id,'mobile');
 	$therapist_countrycde = get_user_meta($seeker_id,'countryCode');
  $s_mobile = '91'.$therapist_countrycde[0].$therapist_mobile[0];
-$message = "We have connected you with ".$t_name." who is a Verified Therapist . This conversation is completely private and confidential";
+$message = "We have connected you with ".$therepistname." who is a Verified Therapist . This conversation is completely private and confidential";
 //$message = "Hi ".$s_name." , you have started a online chat with ".$t_name." on thriive.in view your online chat chat link.";
 $t_message= "Hi ".$t_name." , you have started a online chat with  ".$s_name."  on thriive.in. view your online chat ".$chat_link.".";
 
@@ -596,18 +612,33 @@ if(mail($to,$subject,$body,$headers))
 echo "sent";
 else
 echo "not sent";
-
+$mobile_number = intval($t_mobile);
+//$mobile_number = '9873476520';
+	$msg = $message;
+	  $url = $SMS_URL."destination=".$mobile_number."&message=".urlencode($msg);
+	if($result = file_get_contents($url))
+	{
+	  echo generateJSON('success','Message sent successfully.',$result);
+	}
+	else
+	{
+      echo generateJSON('error','Message not sent successfully.',$result);	
+	}
 //sendMSG($t_mobile,$t_message);
-sendMSG($s_mobile,$message);
+//sendMSG($s_mobile,$message);
 }
 }
 else
 {
+$sql_str = "SELECT * FROM chat_message_details  WHERE from_user_id = '".$from_user_id."' or to_user_id = '".$to_user_id."' ORDER BY chat_time DESC limit 1";
+$result3 = $wpdb->get_results($sql_str);
+
+
 $seeker_id = $_POST['to_user_id'];
 $therapist_id = $_POST['from_user_id'];
 $sql_str = "SELECT * FROM chat_message_details  WHERE from_user_id = '".$from_user_id."' or to_user_id = '".$to_user_id."' ORDER BY chat_time DESC limit 1";
 $result3 = $wpdb->get_results($sql_str);
-if(count($result3) > 0)
+if(count($result3) > 1)
 	{
 $chat_time = date('Y-m-d H:i:s',strtotime($results3[0]->chat_time));
 $curr_time = date('Y-m-d H:i:s');
@@ -644,9 +675,53 @@ if(mail($to,$subject,$body,$headers))
 echo "sent";
 else
 echo "not sent";
-sendMSG($s_mobile,$message);
+//sendMSG($s_mobile,$message);
 //sendMSG($s_mobile,$message);
 }
+}
+else if(count($result3) == 1)
+	{
+$s_data = get_userdata($seeker_id);
+ $s_email = $s_data->data->user_email;
+$s_name = $s_data->data->user_nicename;
+$username = get_user_name($seeker_id);
+$therepistname = get_user_name($therapist_id);
+$t_data = get_userdata($therapist_id);
+$t_email = $t_data->data->user_email;
+$t_name = $t_data->data->user_nicename;
+$therapist_mobile = get_user_meta($therapist_id,'mobile');
+$therapist_countrycde = get_user_meta($therapist_id,'countryCode');
+ $t_mobile = '91'.$therapist_countrycde[0].$therapist_mobile[0];
+$therapist_mobile = get_user_meta($seeker_id,'mobile');
+	$therapist_countrycde = get_user_meta($seeker_id,'countryCode');
+ $s_mobile = '91'.$therapist_mobile[0];
+$message = "Hi ".$username.", ".$therepistname." sent a message. view and reply from ".$chat_link." thanks.";
+//$t_message= "Hi ".$t_name." , Online chat is initiated with you by ".$s_name." View Your Online chat (give a chat link here)";
+$to = $s_email;
+$to = 'productmanager@thriive.in';
+//$to = 'ramakant2you@gmail.com';
+$body = body_from_therapist_to_user_reply($username,$therepistname);
+//$body = 'check mail';
+$subject = $therepistname. " answered your question";
+$headers = "MIME-Version: 1.0" . "\r\n";
+$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+$headers .= 'From: <admin@thriive.in>' . "\r\n";
+if(mail($to,$subject,$body,$headers))
+echo "sent";
+else
+echo "not sent";
+$mobile_number = intval($t_mobile);
+//$mobile_number = '9873476520';
+	$msg = $message;
+	$url = $SMS_URL."destination=".$mobile_number."&message=".urlencode($msg);
+	if($result = file_get_contents($url))
+	{
+	  echo generateJSON('success','Message sent successfully.',$result);
+	}
+	else
+	{
+      echo generateJSON('error','Message not sent successfully.',$result);	
+	}
 }
 }
 
@@ -662,7 +737,7 @@ $current_user = wp_get_current_user();
 	{
 		$mobile = $therapist_countrycde[0].$therapist_mobile[0];
 		$message = $name[0] ." is online now";
-	sendMSG($mobile,$message); 
+	//sendMSG($mobile,$message); 
 		$query = "UPDATE notification_details SET reply_status = 3 WHERE from_user_id = '".$seeker_id."'";
  $result = $wpdb->query($query);
  }

@@ -1,4 +1,18 @@
 <?php
+
+
+
+// if($result = file_get_contents('http://sms6.rmlconnect.net:8080/bulksms/bulksms?username=THRIIVEGLOBAL&password=y371H2Hv&type=0&dlr=1&source=THRIIV&message=We+have+connected+you+with+abhayt999yahoo-com+who+is+a+Verified+Therapist+.+This+conversation+is+completely+private+and+confidential&destination=919873476520'))
+	// {
+// echo "====".$result;
+		// echo  generateJSON('success','Message sent successfully.','');
+	// }
+	// else
+	// {
+		// echo generateJSON('error','Message not sent successfully.','');	
+	// }
+
+// die;
 if($_FILES['file']['name'] != ''){
     $test = explode('.', $_FILES['file']['name']);
     $extension = end($test);    

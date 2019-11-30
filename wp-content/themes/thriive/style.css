@@ -5469,11 +5469,7 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 	/*# sourceMappingURL=style.css.map */
 	/* new styles starts here */
 	
-	.consult_btnGrp {
-	    margin: 20px 0;
-	}
-	
-	.start_chat {
+	.purpleBtnBg {
 		border: 1px solid #4f0475;
 		background: #4f0475;
 		color: #fff;
@@ -5484,12 +5480,60 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 		-o-border-radius: 10px;
 	}
 	
+	.purpleBtnBg:hover,
+	.purpleBtnBg:focus,
+	.purpleBtnBg:active {
+	    border: 1px solid #4f0475 !important;
+	    background: none !important;
+		color: #4f0475 !important;
+		box-shadow: none;
+		outline:none;
+	}
+
+	.whiteBtnBg {
+		border: 1px solid #4f0475;
+		background: #fff;
+		color: #4f0475;
+		border-radius: 10px;
+		-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+		-ms-border-radius: 10px;
+		-o-border-radius: 10px;
+	}
+	
+	.whiteBtnBg:hover,
+	.whiteBtnBg:focus,
+	.whiteBtnBg:active {
+	    border: 1px solid #4f0475 !important;
+	    background: #4f0475 !important;		
+		color: #fff !important;
+		box-shadow: none;
+		outline:none;
+	}
+
+	.consult_btnGrp {
+	    margin: 20px 0;
+	}
+	
+	.start_chat {
+		border: 1px solid #4f0475;
+		background: #fff;
+		color: #4f0475;
+		border-radius: 10px;
+		-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+		-ms-border-radius: 10px;
+		-o-border-radius: 10px;
+	}
+	
 	.start_chat:hover,
 	.start_chat:focus,
 	.start_chat:active {
-	    border: 1px solid #4f0475;
-	    background: none;
-	    color: #4f0475;
+	    border: 1px solid #4f0475 !important;
+		background: #4f0475 !important;		
+		color: #fff !important;
+		box-shadow: none;
+		outline:none;
 	}
 	
 	.ui-widget.ui-widget-content {
@@ -5891,9 +5935,11 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 	button#complete:hover,
 	button#complete:focus,
 	button#complete:active {
-	    border: 1px solid #4f0475;
-	    background: none;
-	    color: #4f0475;
+	    border: 1px solid #4f0475 !important;
+	    background: none !important;
+		color: #4f0475 !important;
+		box-shadow: none;
+		outline:none;
 	}
 	
 	input#selectFile {
@@ -5915,9 +5961,11 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 	.send_chat:hover,
 	.send_chat:focus,
 	.send_chat:active {
-	    border: 1px solid #4f0475;
-	    background: none;
-	    color: #4f0475;
+	    border: 1px solid #4f0475 !important;
+	    background: none !important;
+		color: #4f0475 !important;
+		box-shadow: none;
+		outline:none;
 	}
 	
 	.title_anch {
@@ -5934,6 +5982,8 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 	}
 	
 	.title_anch:hover {
+		text-decoration: none;
+		box-shadow: none;
 	    outline: none;
 	    background: #4f0475 !important;
 	    color: #fff !important;
@@ -5967,9 +6017,11 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 	#commentform #submit:hover,
 	#commentform #submit:focus,
 	#commentform #submit:active {
-	    border: 1px solid #4f0475;
-	    background: none;
-	    color: #4f0475;
+	    border: 1px solid #4f0475 !important;
+	    background: none !important;
+		color: #4f0475 !important;
+		box-shadow: none;
+	    outline: none;
 	}
 	
 	.online_headTxt {
@@ -6035,9 +6087,11 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 	.start_chat2:hover,
 	.start_chat2:focus,
 	.start_chat2:active {
-	    border: 1px solid #4f0475;
-	    background: #4f0475;
-	    color: #fff;
+	    border: 1px solid #4f0475 !important;
+	    background: #4f0475 !important;
+		color: #fff !important;
+		box-shadow: none;
+	    outline: none;
 	}
 	
 	.btn_link1 {
@@ -6286,20 +6340,24 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 	    color: #fff;
 	}
 	
-	.exprt_btn:hover {
+	.exprt_btn:hover, 
+	.exprt_btn:focus,
+	.exprt_btn:active {
 	    border: 1px solid #4f0475;
 	    background: none;
 	    color: #4f0475;
 	}
 	.call_now_link{
-		border: 1px solid #4f0475;
-	    background: none;
-	    color: #4f0475;
-	}
-	.call_now_link:hover{
-		border: 1px solid #4f0475;
-	    background: #4f0475;
+		border: 1px solid #4f0475;	    
+		background: #4f0475;
 	    color: #fff;
+	}
+	.call_now_link:hover,
+	.call_now_link:focus,
+	.call_now_link:active{
+		border: 1px solid #4f0475 !important;
+	    background: #fff !important;
+		color: #4f0475 !important;
 	}
 	.datepick_lists li {
 	    float: left;
@@ -6821,6 +6879,28 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 	}
 	/* faq style ends here */
 
+	.mobi_picDashbrd{
+		width: 20%;
+		margin: 0 auto 20px;
+		float: right;
+	}
+	.count_txtHighliter{
+		border: 5px solid#e2d9e8;
+		border-radius: 50%;
+		width: 82px;
+		height: 82px;
+		margin: 0 auto 10px;
+		padding: 5px;
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		align-items: center;
+		font-size: 20px;
+		line-height: 24px;
+		font-weight: 600;
+		background:#4f0475;
+		color:#fff;
+	}
 	/* media queries starts here */
 	
 	@media all and (max-width:767px) {
@@ -6869,14 +6949,14 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 	        /* height: 50vh !important; */
 			height: 100vh !important;			
 	        margin: 0 !important;
-	        padding-bottom: 30vh !important;
+	        padding-bottom: 15vh !important;
 	    }
 	    .emoji_chat_box {
 	        width: 100%;
 	        position: fixed;
 	        bottom: 0;
 	        left: 0;
-	        padding: 15px;
+	        padding: 10px;
 	        background: #fff;
 	        z-index: 5000;
 	    }
@@ -6929,13 +7009,61 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 		}
 		.mobi_tableview .table th{
 			border-left: 1px solid #dee2e6;
+			padding: 10px 6px;
+			font-size: 14px;
+			line-height: 16px;
+		}
+		.mobi_tableview .table td{
+			padding: 10px 6px;
+			font-size: 14px;
+			line-height: 16px;
+		}
+		.mobi_tableview .table .start_chat {
+			width: auto;
+			font-size: 14px;
+			line-height: 18px;
 		}
 		.mobi_tableview .table tr:last-child th{
 			border-bottom: 1px solid #dee2e6;
 		}
 	    .mobi_tableview .table tbody tr td {
 	        border: 1px solid #dee2e6;
-	    }
+		}
+		.seek_txt{
+			font-size: 16px;
+			line-height: 18px;
+		}
+		.count_txtHighliter{
+			border: 5px solid#e2d9e8;
+			border-radius: 50%;
+			width: 82px;
+			height: 82px;
+			margin: 0 auto 10px;
+			padding: 5px;
+			display: flex;
+			justify-content: center;
+			align-content: center;
+			align-items: center;
+			font-size: 20px;
+			line-height: 24px;
+			font-weight: 600;
+			background:#4f0475;
+			color:#fff;
+		}
+		.mobi_picDashbrd{
+			width: 20%;
+			margin: 0 auto 20px;
+			display: block;
+		}
+		.mobi_headtxt{
+			text-align: center;
+		}
+		.mobi-pckgCont{
+			text-align: center;
+		}
+		.btnMobi{
+			width: 100%;
+		}
 	    .desk_tablevw {
 	        display: none;
 		}
