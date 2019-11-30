@@ -548,7 +548,7 @@ else
 echo "not sent";
 //sendMSG($t_mobile,$message);
 $mobile_number = intval($t_mobile);
-$mobile_number = '9873476520';
+//$mobile_number = '9873476520';
 	$msg = $message;
 	 echo $url = $SMS_URL."destination=".$mobile_number."&message=".urlencode($msg);
 	if($result = file_get_contents($url))
@@ -580,14 +580,15 @@ $therapist_countrycde = get_user_meta($therapist_id,'countryCode');
 $therapist_mobile = get_user_meta($seeker_id,'mobile');
 	$therapist_countrycde = get_user_meta($seeker_id,'countryCode');
  $s_mobile = '91'.$therapist_countrycde[0].$therapist_mobile[0];
-$message = "We have connected you with ".$therepistname." who is a Verified Therapist . This conversation is completely private and confidential";
+
 //$message = "Hi ".$s_name." , you have started a online chat with ".$t_name." on thriive.in view your online chat chat link.";
 $t_message= "Hi ".$t_name." , you have started a online chat with  ".$s_name."  on thriive.in. view your online chat ".$chat_link.".";
-
+$message = "Hi ".$username." , you have started a online chat with  ".$therepistname."  on thriive.in. view your online chat ".$chat_link.".";
 $to = $t_email;
 $to = 'productmanager@thriive.in';
 //$to = 'ramakant@rabbitdigital.in';
 $body = body_from_user_to_therapist($username,$therepistname);
+
 //$body = 'check mail';
 $subject = 'Online chat initiated on thriive.in';
 $headers = "MIME-Version: 1.0" . "\r\n";
